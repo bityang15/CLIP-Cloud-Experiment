@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "dataset": "dtd",
+  "method": "tcpt",
+  "seed": 2,
+  "run_id": "outputs/B/dtd/tcpt/seed2/attempt01",
+  "recipe_sha256": "5b5a3c339289de8bccce7892d8051a7f174c75908a69eee0a1f4556cf16ae772",
+  "implementation_sha256": "718d569f14cf5ec7dba56feaeb473cf7a78df29a48d0fceaba2221395a7816f1",
+  "started_at": "2026-11-10T17:21:39.896782+08:00",
+  "finished_at": "2026-11-10T17:23:03.139011+08:00",
+  "prediction_exports": 3,
+  "checkpoint_reload_passed": true,
+  "cross_process_probe_exact": true
+}

@@ -1,0 +1,207 @@
+{
+  "method": "tcpt",
+  "seed": 2,
+  "initialization_seconds": 5.569297613576055,
+  "parameter_sha256": "cf253c1a3e5e288b4e003eee1cc4f2474888f2bc3cd48ef7fbef128a150d2000",
+  "rng_sha256": "395147c55047a4ce09e20e06c316ae0c333a2ad7851c29264c8058c50d9a04a8",
+  "trainable_parameters": [
+    {
+      "name": "prompt_learner.ctx",
+      "count": 1024,
+      "dtype": "torch.float16"
+    },
+    {
+      "name": "prompt_learner.proj.weight",
+      "count": 393216,
+      "dtype": "torch.float16"
+    },
+    {
+      "name": "prompt_learner.proj.bias",
+      "count": 768,
+      "dtype": "torch.float16"
+    },
+    {
+      "name": "prompt_learner.compound_prompts_text.0",
+      "count": 1024,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompts_text.1",
+      "count": 1024,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompts_text.2",
+      "count": 1024,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompts_text.3",
+      "count": 1024,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompts_text.4",
+      "count": 1024,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompts_text.5",
+      "count": 1024,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompts_text.6",
+      "count": 1024,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompts_text.7",
+      "count": 1024,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.0.weight",
+      "count": 393216,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.0.bias",
+      "count": 768,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.1.weight",
+      "count": 393216,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.1.bias",
+      "count": 768,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.2.weight",
+      "count": 393216,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.2.bias",
+      "count": 768,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.3.weight",
+      "count": 393216,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.3.bias",
+      "count": 768,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.4.weight",
+      "count": 393216,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.4.bias",
+      "count": 768,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.5.weight",
+      "count": 393216,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.5.bias",
+      "count": 768,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.6.weight",
+      "count": 393216,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.6.bias",
+      "count": 768,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.7.weight",
+      "count": 393216,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.7.bias",
+      "count": 768,
+      "dtype": "torch.float32"
+    }
+  ],
+  "trainable_count": 3555072,
+  "config_sha256": "c787c46933c4bef74928147649d0aeef60cf5b65b5f0211e8d9b48d31a450bce",
+  "tcpt_reference": {
+    "template": "a photo of a {}, a type of flower.",
+    "classnames": [
+      "pink primrose",
+      "hard-leaved pocket orchid",
+      "canterbury bells",
+      "sweet pea",
+      "english marigold",
+      "tiger lily",
+      "moon orchid",
+      "bird of paradise",
+      "monkshood",
+      "globe thistle",
+      "snapdragon",
+      "colt's foot",
+      "king protea",
+      "spear thistle",
+      "yellow iris",
+      "globe-flower",
+      "purple coneflower",
+      "peruvian lily",
+      "balloon flower",
+      "giant white arum lily",
+      "fire lily",
+      "pincushion flower",
+      "fritillary",
+      "red ginger",
+      "grape hyacinth",
+      "corn poppy",
+      "prince of wales feathers",
+      "stemless gentian",
+      "artichoke",
+      "sweet william",
+      "carnation",
+      "garden phlox",
+      "love in the mist",
+      "mexican aster",
+      "alpine sea holly",
+      "ruby-lipped cattleya",
+      "cape flower",
+      "great masterwort",
+      "siam tulip",
+      "lenten rose",
+      "barbeton daisy",
+      "daffodil",
+      "sword lily",
+      "poinsettia",
+      "bolero deep blue",
+      "wallflower",
+      "marigold",
+      "buttercup",
+      "oxeye daisy",
+      "common dandelion",
+      "petunia"
+    ],
+    "feature_sha256": "84427e85b76ed4c234a9bb47bad10bb03704f627a334a834d6995c9866165cf3",
+    "seconds": 2.538036987185478,
+    "precision": "float32",
+    "evaluation_mode": true,
+    "requires_grad": false
+  }
+}

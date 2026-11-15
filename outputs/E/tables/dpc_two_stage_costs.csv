@@ -1,0 +1,7 @@
+﻿dataset,seed,first_stage_run_id,second_stage_run_id,first_stage_training_seconds,second_stage_training_seconds,total_training_seconds,total_initialization_seconds,second_stage_peak_memory_gib
+dtd,1,outputs/E/dtd/coop/seed1/attempt01,outputs/E/dtd/dpc/seed1/attempt01,188.11862230300903,234.39317440986633,422.51179671287537,10.515629968605936,0.8738770484924316
+dtd,2,outputs/E/dtd/coop/seed2/attempt01,outputs/E/dtd/dpc/seed2/attempt01,221.98903346061707,229.29778456687927,451.28681802749634,10.66223845537752,0.8744378089904785
+dtd,3,outputs/E/dtd/coop/seed3/attempt01,outputs/E/dtd/dpc/seed3/attempt01,215.18811130523682,224.13622999191284,439.32434129714966,10.788888923823833,0.8730607032775879
+oxford_flowers,1,outputs/E/oxford_flowers/coop/seed1/attempt01,outputs/E/oxford_flowers/dpc/seed1/attempt01,288.1650619506836,598.1657862663269,886.3308482170105,10.932329249568284,1.3136672973632812
+oxford_flowers,2,outputs/E/oxford_flowers/coop/seed2/attempt01,outputs/E/oxford_flowers/dpc/seed2/attempt01,304.388546705246,595.9371423721313,900.3256890773773,10.674587049521506,1.3142681121826172
+oxford_flowers,3,outputs/E/oxford_flowers/coop/seed3/attempt01,outputs/E/oxford_flowers/dpc/seed3/attempt01,308.4671471118927,604.9847235679626,913.4518706798553,10.757707506418228,1.314234733581543

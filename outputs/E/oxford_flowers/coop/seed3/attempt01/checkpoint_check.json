@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "exact_logit_match": true,
+  "max_logit_difference": 0.0,
+  "samples": 100,
+  "checkpoint_type": "final_epoch"
+}

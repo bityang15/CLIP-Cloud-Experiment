@@ -1,0 +1,4408 @@
+{
+  "created_at": "2026-11-10T21:03:28.109899+08:00",
+  "formal_checkpoints": 12,
+  "prediction_exports": 36,
+  "reused_B_runs": 18,
+  "files": {
+    "code/DPC_expE/Dassl.pytorch/DATASETS.md": {
+      "size": 7577,
+      "sha256": "1bba273b8640730c296b91eb60a2f3973dd030030613aa53e231791bb06747c4",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/LICENSE": {
+      "size": 1064,
+      "sha256": "92bcf1e961ce7ac07ef07243ff34bb8f228a8e180207b88f0455fd68c248e2e3",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/README.md": {
+      "size": 19008,
+      "sha256": "bbbf3073463e20a23a9b4111530229a8c3099a52666fbe8ce42f88a89efd20a9",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/[DPC]README.md": {
+      "size": 146,
+      "sha256": "53fa34a2a2b5df50b1cdd73ad4293470d05b35cae10c35744522314cf0c1d13c",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/README.md": {
+      "size": 331,
+      "sha256": "99c51c767f0abbf9dd38cac4122625964c0d49cc6e3ddda300a47f027c77b59b",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/datasets/da/cifar_stl.yaml": {
+      "size": 111,
+      "sha256": "9526631742b7c06355ae19e475853ffc18275232b3dc790e937be8d0deea27ee",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/datasets/da/digit5.yaml": {
+      "size": 186,
+      "sha256": "6e4e1ec916f2ce91982553aa3d85fdcde30e1db4a4f3037f99f18cb1bae3d598",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/datasets/da/domainnet.yaml": {
+      "size": 162,
+      "sha256": "26c5a615c41106645675e3f8b31fd221097cb157c12dfa0a44a3b631b5c17df1",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/datasets/da/mini_domainnet.yaml": {
+      "size": 163,
+      "sha256": "ea59136a7bedf6eae9ab60bad4e788e2fd6107e5d135bc7bc31f44514594c2d2",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/datasets/da/office31.yaml": {
+      "size": 225,
+      "sha256": "eea7464a073aa128d7745cce59d2aab0f3107c3ce8254b9084a50c994dedb4e1",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/datasets/da/office_home.yaml": {
+      "size": 56,
+      "sha256": "6cdfee88cbd0c949856b860d425ac7b591a8d034d7fe9358db5c0cf6a08d555e",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/datasets/da/visda17.yaml": {
+      "size": 185,
+      "sha256": "316b8f7710ff3d12613dfebfd16a09fa0803a2a785a741564c1f03f7b4c384ea",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/datasets/dg/camelyon17.yaml": {
+      "size": 123,
+      "sha256": "13f32ca011d13ed78f87249a7330d6b69c2be593491c439df01ea78f2f935180",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/datasets/dg/cifar100_c.yaml": {
+      "size": 260,
+      "sha256": "10c4cea42c7a3571c776f7c5df7d7587e4597ff12c9cacf2ec6b273bd9f8fc45",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/datasets/dg/cifar10_c.yaml": {
+      "size": 259,
+      "sha256": "edbdc088a3d9b1460eeaa48fc502dd7d65ba3a5492ac633464ae5cadcfcdf9e9",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/datasets/dg/digit_single.yaml": {
+      "size": 190,
+      "sha256": "b7b1c62e21e27fa76acf0383d909ab31e7a2b01079ce2e759a1350df1222ad7c",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/datasets/dg/digits_dg.yaml": {
+      "size": 184,
+      "sha256": "756c6cbd36baed44e51acb396ca6a9d9c5e162c81e051afa7557d92dd26c09ea",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/datasets/dg/fmow.yaml": {
+      "size": 117,
+      "sha256": "9d8ab68b84d9bbeec37415c4f1180e22202fd2438f893ff5642fd819652b9408",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/datasets/dg/iwildcam.yaml": {
+      "size": 121,
+      "sha256": "6bb8203cf35abb0620820b427bc68607eea0dc6047d53e21a302c5727d4d3a42",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/datasets/dg/office_home_dg.yaml": {
+      "size": 185,
+      "sha256": "09fac1e1520aedec8bad5c81e42760be6ccaa99dff5bb0dcfc3d4356b819fe71",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/datasets/dg/pacs.yaml": {
+      "size": 177,
+      "sha256": "747ee6be6925346b238deaf5c8d6e0863a58ecacb93a0dcf4a91d55b340ea35c",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/datasets/dg/vlcs.yaml": {
+      "size": 177,
+      "sha256": "fe6c4c191371876ccae5c2d4aaad4be9040ede8fa73fa757e8ad10c4eb220042",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/datasets/ssl/cifar10.yaml": {
+      "size": 255,
+      "sha256": "ab9e6c62d124fb49dee9e1c33180bc604a7b5fe447e761accc8530a040d41450",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/datasets/ssl/cifar100.yaml": {
+      "size": 275,
+      "sha256": "b4642da49ff28cc31eacd53c3f983854075ab524f737d8c093377896d462ef73",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/datasets/ssl/stl10.yaml": {
+      "size": 249,
+      "sha256": "7823047f1e76daa4af9678efe8498a609aba53a6f3cb53bd5e4b2bc8b41d084c",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/datasets/ssl/svhn.yaml": {
+      "size": 255,
+      "sha256": "bf1af6b84d04f74379944d51db42107449057e6307790119ff122a9201ab6a53",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/trainers/da/cdac/digit5.yaml": {
+      "size": 309,
+      "sha256": "5739f5e2a78314b6d7ce8c448adae6a5512314e353a2efc85a28425a840ab20b",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/trainers/da/cdac/domainnet.yaml": {
+      "size": 312,
+      "sha256": "e328b0f12dc31d4ce7da556a2530bc5c441db96814bdaa434e57853cb498c1fc",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/trainers/da/cdac/mini_domainnet.yaml": {
+      "size": 340,
+      "sha256": "1a4d77f97f1ac08d87a369b39f905ead47f84a77748b39fea00aec8df47fd83c",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/trainers/da/dael/digit5.yaml": {
+      "size": 318,
+      "sha256": "087c5d2fd0f3ce31c71a1f50386d248f743e24b964993102b94d929b5073e88f",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/trainers/da/dael/domainnet.yaml": {
+      "size": 324,
+      "sha256": "43f946bae21c31d7ca7f927f6da20c825b373b9b9cd886961f7b2c38785632de",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/trainers/da/dael/mini_domainnet.yaml": {
+      "size": 327,
+      "sha256": "2076786839144997a3356bb65d1c253792ab05a2eb460bcccabca6e852d7bdf3",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/trainers/da/m3sda/digit5.yaml": {
+      "size": 247,
+      "sha256": "fef9b4f6415612a5445f8bf0a3457681def02db5e648d3e995f9f8aff47da0d4",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/trainers/da/m3sda/domainnet.yaml": {
+      "size": 228,
+      "sha256": "4155ff468b95d2ea5f11404efca00e85843dda9f7d4edf66c60dd426487ed31e",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/trainers/da/m3sda/mini_domainnet.yaml": {
+      "size": 231,
+      "sha256": "7dc11ae739dcf891dc5a41131a28df999e7b1e1a69121d41d055eef8e6a2eb53",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/trainers/da/source_only/digit5.yaml": {
+      "size": 161,
+      "sha256": "f21974a213c36e0d63740e36c0f34244411ccc90c193a7e91bdbffc735a03630",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/trainers/da/source_only/mini_domainnet.yaml": {
+      "size": 145,
+      "sha256": "dce7a0a6d055dfcc1d7ba6583dccf4590480e5734355e5872730f522f8b78f2f",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/trainers/da/source_only/office31.yaml": {
+      "size": 135,
+      "sha256": "a6b1ebd7bb7fc38964ccc05d1f363a7244e361064c42b32d1cef36ebb45867fa",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/trainers/da/source_only/visda17.yaml": {
+      "size": 183,
+      "sha256": "6939bf15fb3352b974aa46a64facac2b66a06e8c295e75d45d852dfb6f19d330",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/trainers/dg/daeldg/digits_dg.yaml": {
+      "size": 244,
+      "sha256": "9b0c7f249cb3d3cb3d323a55a8cf08ea669fc863d2f357ec5938e8d9a6fe19c6",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/trainers/dg/daeldg/office_home_dg.yaml": {
+      "size": 277,
+      "sha256": "4a09360cfe5f424aecbab740b58c19476e5986920f1338b2902f97f85c1a5345",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/trainers/dg/daeldg/pacs.yaml": {
+      "size": 277,
+      "sha256": "4a09360cfe5f424aecbab740b58c19476e5986920f1338b2902f97f85c1a5345",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/trainers/dg/ddaig/digits_dg.yaml": {
+      "size": 258,
+      "sha256": "5066d65f3d0f7598dec92531abb4fba1d1971ff9958185459267de2bf91035c7",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/trainers/dg/ddaig/office_home_dg.yaml": {
+      "size": 272,
+      "sha256": "b1f68950578f3df5afc3732b3658f65bc3c4313d91e86120dda676c331e9b06f",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/trainers/dg/ddaig/pacs.yaml": {
+      "size": 272,
+      "sha256": "b1f68950578f3df5afc3732b3658f65bc3c4313d91e86120dda676c331e9b06f",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/trainers/dg/vanilla/digits_dg.yaml": {
+      "size": 178,
+      "sha256": "922df85968504075be54081a94a3ff0d57b66c6849cceda3bd12f8679f4c6634",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/trainers/dg/vanilla/mini_domainnet.yaml": {
+      "size": 145,
+      "sha256": "dce7a0a6d055dfcc1d7ba6583dccf4590480e5734355e5872730f522f8b78f2f",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/trainers/dg/vanilla/office_home_dg.yaml": {
+      "size": 144,
+      "sha256": "d59e4f54aa5c5cb7ed21aa79ad2d2ccbe186077c3191bbd207e320292b5d65a5",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/trainers/dg/vanilla/pacs.yaml": {
+      "size": 144,
+      "sha256": "d59e4f54aa5c5cb7ed21aa79ad2d2ccbe186077c3191bbd207e320292b5d65a5",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/configs/trainers/ssl/fixmatch/cifar10.yaml": {
+      "size": 373,
+      "sha256": "6267d8d88945e03f14ebb7ab0340a6d35e397cf1fbcac6659ca60968d79e6591",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/__init__.py": {
+      "size": 443,
+      "sha256": "971cf9ec3e61350687d6e570314d7fb3c0157e94fbdb99bb4cfb3238a4ab3a13",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/config/__init__.py": {
+      "size": 487,
+      "sha256": "ddbdb024c2567011b3c719374daacc8540f88cc897b2f26294e8cb0a2a687141",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/config/defaults.py": {
+      "size": 9718,
+      "sha256": "d1e846ca24c643d262277c3f9fa2a9e78cca40555f83a31dfdbd358b6e3bab70",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/__init__.py": {
+      "size": 54,
+      "sha256": "a9db83252d7644cfbf8274de1f59780e3baf1b04c8709e1ae0d96b8e0807f4b7",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/data_manager.py": {
+      "size": 8111,
+      "sha256": "a58ca28d8a5c20ee30753aa893fd9eceabbcf275a9894a09297f0ad871356ff7",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/datasets/__init__.py": {
+      "size": 180,
+      "sha256": "f451f85d8162af5b0e94eef0108c39d2f6da24129070d88955fd15d6c72cc2bb",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/datasets/base_dataset.py": {
+      "size": 6669,
+      "sha256": "aeaf26e85720286a920a0a95c905db7e1ac8cb6c785cb4789c2f13ec47dace65",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/datasets/build.py": {
+      "size": 368,
+      "sha256": "ae96d1e216926ebdac6f8569e281972bf17bafdd311eb0791d1626a9b078a3b9",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/datasets/da/__init__.py": {
+      "size": 229,
+      "sha256": "36047cec8f245ddcb1646e9367b6fef221334d8afcb2cd6505c8190dc52322e5",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/datasets/da/cifarstl.py": {
+      "size": 2309,
+      "sha256": "10a26727f2c8a801571abf14ba95d180409e0b5c17f4a954e68f4b7e5831a143",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/datasets/da/digit5.py": {
+      "size": 4109,
+      "sha256": "e885d5b624f3d396b95957d493ffe76f1fc33f08589ad41bf58b1ec602b1a62a",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/datasets/da/domainnet.py": {
+      "size": 2304,
+      "sha256": "011db8795b246f3c3db0e6b99afe546cf41ef4076c8556a6aea7f8c2ffc58219",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/datasets/da/mini_domainnet.py": {
+      "size": 1978,
+      "sha256": "935c9a4ec893dde9198550cd9f5b38bdf6c8aa636838d24f67f5e35da24a0d67",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/datasets/da/office31.py": {
+      "size": 1952,
+      "sha256": "703c56009852384c0c061d2c9e68fa0fbf280563b23764842d394ebc7994880a",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/datasets/da/office_home.py": {
+      "size": 2013,
+      "sha256": "69a02a045b56209878754132e3ca310d3f8703d9ebbd31c10f93c304ce665965",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/datasets/da/visda17.py": {
+      "size": 1765,
+      "sha256": "5874affa39ef911073b9727817af75b37e3caab84d1a3f930e13c71e3b0d70ee",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/datasets/dg/__init__.py": {
+      "size": 219,
+      "sha256": "1f78e98ce94af2c8e8b768cad51232a701b2983026744e91af54051e4296d93b",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/datasets/dg/cifar_c.py": {
+      "size": 3248,
+      "sha256": "58b23e1011fdcb8056e95b56a99e3edc151918abf508957f8470c23b3a1f6f37",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/datasets/dg/digit_single.py": {
+      "size": 4315,
+      "sha256": "069cca5ebb9f12d607edef2f26bcacb1c613a2a50bdffffff26e4aac55c54d7a",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/datasets/dg/digits_dg.py": {
+      "size": 3220,
+      "sha256": "26f4fef79c4630f6441c4986bbd8084c34182bd6db5879f910c8fe050cdd1c5d",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/datasets/dg/office_home_dg.py": {
+      "size": 1564,
+      "sha256": "5237d18f1b5121091352add3cad65c2fe044540b78586abafeea69d1703ab44d",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/datasets/dg/pacs.py": {
+      "size": 3174,
+      "sha256": "a7cc0f10c720098f8a3b29379a6d38801fe294f4d06f43fb1b453fbcbdc94b1d",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/datasets/dg/vlcs.py": {
+      "size": 1895,
+      "sha256": "fba407f76aa656741d041717508d06ec2e738eea3245f446be8641a71e173b6b",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/datasets/dg/wilds/__init__.py": {
+      "size": 89,
+      "sha256": "6b3d97244748ec9ef278f5d6f617b4fcc24d380feda828a080a9b9dd879b2af4",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/datasets/dg/wilds/camelyon17.py": {
+      "size": 718,
+      "sha256": "1989d5879f64ac1be0110bc12acac7660648cd6fc9c4fd1f06555de97bd630c2",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/datasets/dg/wilds/fmow.py": {
+      "size": 2230,
+      "sha256": "3bf9e5e0c3a18b9b3179cb5f9e9d2013172894a66599457a3398f467274edddb",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/datasets/dg/wilds/iwildcam.py": {
+      "size": 854,
+      "sha256": "9e3a85ce859dc16bd2bda07e31d631f65ee241f9f674a3d5af15bb83fa84deb5",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/datasets/dg/wilds/wilds_base.py": {
+      "size": 3545,
+      "sha256": "0f1c3e7f6430107cee97f0a922fa220d533a6f5f3547d7232830035f8a00f3a7",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/datasets/ssl/__init__.py": {
+      "size": 85,
+      "sha256": "ee91948848387da87970181695025a7d3a29d15caa7f3f1c58a83ef86e9a8c30",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/datasets/ssl/cifar.py": {
+      "size": 3252,
+      "sha256": "191e2f957608182e065e884f28e801e32fa66c9e79aabe6ab9845427ee54e27f",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/datasets/ssl/stl10.py": {
+      "size": 2712,
+      "sha256": "b8f2f2bbf678f6b527bfc5018d91994409bf9b244f973a69c457fd3cced6b437",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/datasets/ssl/svhn.py": {
+      "size": 361,
+      "sha256": "bd6ff6baad826e8fe43d14d77dc8180dd6fb5d7f254eba0d3aa44a4badbf3465",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/samplers.py": {
+      "size": 6660,
+      "sha256": "06bd592ca2e52b59d5f68bcbb5a987e81f7d3959ea638e5dae2211583326f269",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/transforms/__init__.py": {
+      "size": 61,
+      "sha256": "a0ffe5c9cedb2804e3fc3389a4e20b5b041b467ae0d3c28bd426aee48ecf0aa4",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/transforms/autoaugment.py": {
+      "size": 11840,
+      "sha256": "0ecbff1244396c8a944139a98cdf677c6dea0fd254565c9a047c7a72707963b4",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/transforms/randaugment.py": {
+      "size": 8715,
+      "sha256": "d98e106911803e39522f6efb35a8c1f83fa37c895328a1e094edbf39359dd1ce",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/data/transforms/transforms.py": {
+      "size": 10611,
+      "sha256": "8f1e30dad741aca3aeffab7155a59ea257757fb4625bf7e5e48537e293fa435e",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/engine/__init__.py": {
+      "size": 215,
+      "sha256": "91eb87dab342bfdecae552699606c677f1c7f991f4dc473f688585ab1767b4e2",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/engine/build.py": {
+      "size": 633,
+      "sha256": "7b445c440f9ebb365304703066913676ebec7e35c268be38110275fcd57ec49b",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/engine/da/__init__.py": {
+      "size": 239,
+      "sha256": "bb84267cd2281ae66abc34450648e5e7c49a8e2f3e4aac1809ddaa0a8bd9fa00",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/engine/da/adabn.py": {
+      "size": 986,
+      "sha256": "b17318ee97a4ac378b9018d47fd5e54743bd9d435f859b75514c7c6f59c4e981",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/engine/da/adda.py": {
+      "size": 2847,
+      "sha256": "5963ea37980c6b0902dbb24bae88f6575b0badc53db24dc86b0bf612e5fb2c63",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/engine/da/cdac.py": {
+      "size": 9273,
+      "sha256": "3240a9c1403409ab6fe2586211192544c89a648dcc6e753bb8497185c21a11ef",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/engine/da/dael.py": {
+      "size": 7522,
+      "sha256": "bcc653aaaf46176c118ae36a03e4b48979e4c649fecca9be22b52db0eb7de62c",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/engine/da/dann.py": {
+      "size": 2661,
+      "sha256": "82086da7c577cc9455879c21a420a30f07bfd6dc312456d53614afbd5cc68c59",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/engine/da/m3sda.py": {
+      "size": 6194,
+      "sha256": "6ac6e245501170d28917a7d856c084cc5f50a9900243770f5f7516681b0c6363",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/engine/da/mcd.py": {
+      "size": 3593,
+      "sha256": "9e5e07b634c8ae8186b97f33b536b6386679b668a48ccba4dd947683f81194da",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/engine/da/mme.py": {
+      "size": 2693,
+      "sha256": "cc0cd3e39d70e541eec4e32f87d58fe29e30cfa9ef2efc73028448f3b8d0a3c4",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/engine/da/se.py": {
+      "size": 2504,
+      "sha256": "d6fdda904c99ad2472844c0807d18b4936d68da94ce7a7767fc58388f810a4f4",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/engine/da/source_only.py": {
+      "size": 996,
+      "sha256": "2b79b8ca5e464a1532caa58c9640a1110a5e23dd4d79aca36848996376a88dfc",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/engine/dg/__init__.py": {
+      "size": 148,
+      "sha256": "ed5355cae2794f7beb4fc26a274bc80e90b56557eae01d3cc399627479ca2ea1",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/engine/dg/crossgrad.py": {
+      "size": 2924,
+      "sha256": "55771ce981fd8bb12629fe52a9a39e30d96d588552ce2558c90eec6f6e83f712",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/engine/dg/daeldg.py": {
+      "size": 5555,
+      "sha256": "d5390bbdcd8d1a61223ec8cb20e146d189ab506f74b41bc4c0ff839764d76309",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/engine/dg/ddaig.py": {
+      "size": 3709,
+      "sha256": "d6a1b07732b705db91fef2b578e24d7922c40d5a5dbd7df962ccb5d8a663560f",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/engine/dg/domain_mix.py": {
+      "size": 2735,
+      "sha256": "3b3956e6c91237040f3d8f4d4f17ce0ca590bb5a0f4ee7d78404b0856315e3cf",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/engine/dg/vanilla.py": {
+      "size": 946,
+      "sha256": "f385c1282136c9779eda53a0a1c102449f81f0446218bd96c456a170a18e813f",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/engine/ssl/__init__.py": {
+      "size": 165,
+      "sha256": "015d3582a1b0cd68c17a73d1480865fe0248135454d5e21bcb0cd6d374a73fc1",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/engine/ssl/entmin.py": {
+      "size": 1162,
+      "sha256": "3d142862eb432afe0653766d35e450c7825223fdc47b6619c647cd834c474691",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/engine/ssl/fixmatch.py": {
+      "size": 4063,
+      "sha256": "4cf65f35847958bc465a2e365c0a81e9f59b685de6f025afcd762effab8a755b",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/engine/ssl/mean_teacher.py": {
+      "size": 1769,
+      "sha256": "cd6885f3d05e80195af44feef29dd8cadb629285604fc8ba5e6eeaebd3666bdd",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/engine/ssl/mixmatch.py": {
+      "size": 3119,
+      "sha256": "9a114aff2e5847ac6e68fcdb4cee7d9b956a481a8720dc495015d726a8ac2328",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/engine/ssl/sup_baseline.py": {
+      "size": 930,
+      "sha256": "e05224c352f8eda45d6402c9e13fd056ce1f759493154b98376107b159221b8f",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/engine/trainer.py": {
+      "size": 21279,
+      "sha256": "3c354c543863db37f5e519605489647711c4aba8c5af8c138ba3509a5284ecf6",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/evaluation/__init__.py": {
+      "size": 123,
+      "sha256": "877d8f5762fa50d3c2394c5c0752e8e3fd78c65fa1f5b0acc9de36c0e7fa3642",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/evaluation/build.py": {
+      "size": 410,
+      "sha256": "b0030da809990b5a42b1b4c0fd6eda564ed17f856ac04d83d7dd93fb512e4aed",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/evaluation/evaluator.py": {
+      "size": 3773,
+      "sha256": "55905a1397fd0cfe61ad1e3d697bb1283d74b259ad7b3e54f4ce2f35845d0aa1",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/metrics/__init__.py": {
+      "size": 138,
+      "sha256": "aab20acedce5d9e1b370a28b3dc43c4a320685b996c3a79304900c0c80f27385",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/metrics/accuracy.py": {
+      "size": 972,
+      "sha256": "1826ef2dde1ed20c1674ef40d5d6f5a5475faae7eeea9da3aff8190bfb450441",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/metrics/distance.py": {
+      "size": 2247,
+      "sha256": "0b53c3e95ab9c02d7eaf6c780311c1cfd8a64e5017ab762c77e832b9cc2a3371",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/__init__.py": {
+      "size": 163,
+      "sha256": "9135c4492d32016444082a31714529ff392800ef4f2313042cf803b8b304ea0f",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/backbone/__init__.py": {
+      "size": 1051,
+      "sha256": "a6fca6d2b4aa44c2c35ed47cba5f5f3c47314ea4c8f07288c05f95530ed98282",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/backbone/alexnet.py": {
+      "size": 1908,
+      "sha256": "54095dd19ac913092fb51b7171892ec1c99040a6631411eacc9ce196bfd176ab",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/backbone/backbone.py": {
+      "size": 336,
+      "sha256": "800fd64f3ebc3d37f3721b4f62dfdaf1e8472bdd036c0dff8255bfb2fe4611d9",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/backbone/build.py": {
+      "size": 358,
+      "sha256": "ecc84da802b2326dfabb27dbe8007635c24d63bedace334524ad821a576247d7",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/backbone/cnn_digit5_m3sda.py": {
+      "size": 1819,
+      "sha256": "ce7dd5fa49c90b6da47473ab2d0de47d96e51c1ab14ca8ab874bf6129ab67c2a",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/backbone/cnn_digitsdg.py": {
+      "size": 1630,
+      "sha256": "b553ab390fc907f79616a1c88ff9c5bca08458a0c333fffa2a04ce07283e9fb7",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/backbone/cnn_digitsingle.py": {
+      "size": 1265,
+      "sha256": "39d6ae34c7459115861bfd2672e0b957d332a414d4c4e1f9266e8674d62a8ca4",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/backbone/efficientnet/__init__.py": {
+      "size": 370,
+      "sha256": "98e9d7b401d60c93dc60d1f3df8f03eb73616e592b8e9e3404429f9ad6011d00",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/backbone/efficientnet/model.py": {
+      "size": 13021,
+      "sha256": "fdb021b462b74b457d4d01dd74924ea61d8402a112c79544358278ca438f48cf",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/backbone/efficientnet/utils.py": {
+      "size": 15997,
+      "sha256": "6afe3dc185afaba007139533699b3f9e4f32413935d255ad169f2000c9c10664",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/backbone/preact_resnet18.py": {
+      "size": 4014,
+      "sha256": "3a51de5794915f04dd737e26c61df3168477b6083141eeff574321408bc2e892",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/backbone/resnet.py": {
+      "size": 14661,
+      "sha256": "57007e21cd26e2961b1707942d4224f23aed34d5e67b0b89499bfeb08e0172af",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/backbone/resnet_dynamic.py": {
+      "size": 22591,
+      "sha256": "93713b225707365e90e9497096cee7ef095fcd86dac8b2b31f6c7081c082a06f",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/backbone/vgg.py": {
+      "size": 3934,
+      "sha256": "c81278a47eaac1921589b9560893df8ad08df0989894a7d21814cc9ff4f2e0df",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/backbone/wide_resnet.py": {
+      "size": 4403,
+      "sha256": "cfa281849d9938a551e2032fadc02510ce7f64a929cc8b0e950bc1cc8d1587dd",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/head/__init__.py": {
+      "size": 81,
+      "sha256": "90db749ad572ffe67ab499f1cd05348ab51f8ba7080e1491dc6c91661095ad64",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/head/build.py": {
+      "size": 326,
+      "sha256": "d569803004150db4ae01aee23aa02a3f1d55aa3fc2fea2ea0ff6d86dd9fd6259",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/head/mlp.py": {
+      "size": 1202,
+      "sha256": "8914f18629ba2e51b0b5a6b701cedfb90a8285901cf534d81fe252c040c203e9",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/network/__init__.py": {
+      "size": 164,
+      "sha256": "8d0bfc958c4d5d2d3c737badd0e801b94173887b75b7f2a580cde0b8d0dffdd3",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/network/build.py": {
+      "size": 346,
+      "sha256": "7260aacd16bb4b9f04dd928c892783f6f24f1180b40cd177ca0ac8ea8b5a517c",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/network/ddaig_fcn.py": {
+      "size": 9613,
+      "sha256": "bb04c6719301cca7833b8096499a969d15d5c44740b1ddb8038deb9693a48b18",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/ops/__init__.py": {
+      "size": 692,
+      "sha256": "15e84588c09fcd3e6d9decc2e0983644284e675216703ad3cfa55abecef8ea4e",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/ops/attention.py": {
+      "size": 904,
+      "sha256": "fefd9eedcb4a65cfbfd3a3cc764ea67c9f4cf22818ff89f7c241e35e961833db",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/ops/conv.py": {
+      "size": 3021,
+      "sha256": "753d90364239bbd557f4336932f34484e3e04bca45cb3a6f286b1a19808ff524",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/ops/cross_entropy.py": {
+      "size": 1033,
+      "sha256": "dffbe6ecad5030450f000f123f7666f6a85eb28e020e68e19fb1c8f923005ee6",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/ops/dsbn.py": {
+      "size": 1159,
+      "sha256": "b27d26c24610689fbf24e9ad9628b8d3485546922d1d6599f974d1ee39173bee",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/ops/efdmix.py": {
+      "size": 3159,
+      "sha256": "fd686d6cd420abf230f665ef185c33c11a5ba544b01b837c6c8bb5cce8ebe2cb",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/ops/mixstyle.py": {
+      "size": 3170,
+      "sha256": "56279a46bfa28bf490face795ee446d06348179b1790f2910e8682dbd9980e5c",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/ops/mixup.py": {
+      "size": 774,
+      "sha256": "0910aa17958c481220ab759c5bb7594008da4f5f6fb870e16655154d4edcf2c7",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/ops/mmd.py": {
+      "size": 3082,
+      "sha256": "8a1631f9f61966cdbdd6f76ebb6edde15e6ca19de660f7ac0c4e98b19f8045e8",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/ops/optimal_transport.py": {
+      "size": 4663,
+      "sha256": "9a5e3fe1c45dce603319e8744b8b1a643b07691688e82d8ad937de40420f032c",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/ops/reverse_grad.py": {
+      "size": 845,
+      "sha256": "91cc7a68fb7117a3d726708f685861cd7997a41bb018a0a6d98c6cecaf060d87",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/ops/sequential2.py": {
+      "size": 427,
+      "sha256": "7446ad88522611a0fb097eeda352fb54035e17c72b98b44e4697785c94fe767a",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/ops/transnorm.py": {
+      "size": 4669,
+      "sha256": "a1ae7f72e3bdfa956c57c79c4ba3d229940d1cd825819f9481033200712f7d2c",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/modeling/ops/utils.py": {
+      "size": 2034,
+      "sha256": "1d12c731451d762ff1cdb47084d6b29f802facd81166b5a74a49112047667766",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/optim/__init__.py": {
+      "size": 84,
+      "sha256": "3f83afa74e14d5eec9ad10b510ffc955d8ce54f2fcd8a45f479eb0cd5372c474",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/optim/lr_scheduler.py": {
+      "size": 4164,
+      "sha256": "2e55a69398a73e29fba413076b7c486cb261d8bc495f0f03cc538c23dd8f9bf0",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/optim/optimizer.py": {
+      "size": 4130,
+      "sha256": "c5c411a0e1a001afa9646587811ecea36772e86e8162e97826285ee60b5dd8a4",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/optim/radam.py": {
+      "size": 11648,
+      "sha256": "b7197851cabe700ce024453a9602dcb498538a4c13d6e55b03cbdf6bbd9af0d4",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/utils/__init__.py": {
+      "size": 115,
+      "sha256": "011968995da796bf0e1aae8c4f36c4e4f1c1762fe22a5b22f82c6a1fcb5e4f4a",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/utils/logger.py": {
+      "size": 1703,
+      "sha256": "982b4acdbcd25e3bf5d8454f7dafb75b329140b92f81bac9f9c2fb94357f37c7",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/utils/meters.py": {
+      "size": 2162,
+      "sha256": "d41b318ed0a109d59be3f344533e6121059dbb87143782b32e2ef20dec2aa5a9",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/utils/registry.py": {
+      "size": 1709,
+      "sha256": "531c83ee95fd3b80f0f375291e9423262f8f7b2d055567a70e2b25d1d632bb2f",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/utils/tools.py": {
+      "size": 4365,
+      "sha256": "684431d32016e998ad3d628e561cf2500c8d69572278d04efd81844683fe644f",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl/utils/torchtools.py": {
+      "size": 10227,
+      "sha256": "8e65ddd145950121ff3e9427d414d801c0c15aaf50b2612cd41069c53b2cd8c9",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl.egg-info/PKG-INFO": {
+      "size": 19628,
+      "sha256": "e8197d1de9a52d795c0b3968387e691abf1d26866dd0d863c4f73bfdf9b63d0e",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl.egg-info/SOURCES.txt": {
+      "size": 3765,
+      "sha256": "ba7fb44812d9049e6e697abfc8a50f5ce67cbd8ea59ddf3530f65d0e9e979380",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl.egg-info/dependency_links.txt": {
+      "size": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl.egg-info/requires.txt": {
+      "size": 127,
+      "sha256": "ac382438ac8c0051d57fc9f0462785fc1dc63f0edae356745cb530110be0132d",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/dassl.egg-info/top_level.txt": {
+      "size": 6,
+      "sha256": "d2f18423a2b6d888ff622993ba600f4c2d2d4d018fa01f6eef0002c4302b2065",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/datasets/da/cifar_stl.py": {
+      "size": 2383,
+      "sha256": "37396215117830bd926167424cb4b65c9bc8aee611e25d5a27397b75a311fb09",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/datasets/da/digit5.py": {
+      "size": 3771,
+      "sha256": "d436de678095c5bbe6e6689db8669bd526a0a5bdc989894fbc603f283fc5e807",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/datasets/da/visda17.sh": {
+      "size": 801,
+      "sha256": "893ee9dcd7d8b7e78fc9f76d8c88e1c5087bc8e019323fae14602e1b39c14a48",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/datasets/dg/cifar_c.py": {
+      "size": 2165,
+      "sha256": "6a3399afc470606e11f1d152febe5002051ae4748bd0522427153c24bd2e7439",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/datasets/ssl/cifar10_cifar100_svhn.py": {
+      "size": 1528,
+      "sha256": "eccc2022fc0b5715a6a05b5c02433c9a46ea1039b11e265239ea2285755310cd",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/datasets/ssl/stl10.py": {
+      "size": 1171,
+      "sha256": "b7d4dc96cf527eebf90ef3171c49227dc96d08cd057b77f66a3bf7496609424a",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/linter.sh": {
+      "size": 150,
+      "sha256": "f718e059e9c57dd1b7cd3f4b261af8babffa750ee3c6a8416fe562620ec041cb",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/requirements.txt": {
+      "size": 127,
+      "sha256": "ac382438ac8c0051d57fc9f0462785fc1dc63f0edae356745cb530110be0132d",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/setup.py": {
+      "size": 1237,
+      "sha256": "77b327e2d5d4ab77798f2bc6588162c5621c51690e5dab20768a69788f6a8dc2",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/tools/parse_test_res.py": {
+      "size": 4655,
+      "sha256": "c94a1c8b9ed7908ca44ea9f4ad9e909bccba52943c58bb5faebf2dc1f51a620e",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/tools/replace_text.py": {
+      "size": 1957,
+      "sha256": "ded96adcdaa59d30b161903fbdffefc062b10b25c6ea56badd409ab5c3784546",
+      "checkpoint": false
+    },
+    "code/DPC_expE/Dassl.pytorch/tools/train.py": {
+      "size": 4844,
+      "sha256": "112d936e057118ec82aba852e3968096560afd8f63aa390249e48e6fb600876e",
+      "checkpoint": false
+    },
+    "code/DPC_expE/LICENSE": {
+      "size": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "checkpoint": false
+    },
+    "code/DPC_expE/LICENSE_DePT": {
+      "size": 18093,
+      "sha256": "640d90f6ee401241ff62834d0d1b33f83049e99b8bfdfa04ed1b0a1635dde3e7",
+      "checkpoint": false
+    },
+    "code/DPC_expE/README.md": {
+      "size": 10245,
+      "sha256": "db34c7af57999e1c9e72ccede37936151e0a8da4f05bce186652293dc5eefa1b",
+      "checkpoint": false
+    },
+    "code/DPC_expE/clip/bpe_simple_vocab_16e6.txt.gz": {
+      "size": 1356917,
+      "sha256": "924691ac288e54409236115652ad4aa250f48203de50a9e4722a6ecd48d6804a",
+      "checkpoint": false
+    },
+    "code/DPC_expE/clip/clip.py": {
+      "size": 8553,
+      "sha256": "855ab36f3c1039d9b9fac1a47c217114d3269c65ddf9c7d304112a01a4210f60",
+      "checkpoint": false
+    },
+    "code/DPC_expE/clip/model.py": {
+      "size": 31391,
+      "sha256": "4c2b9ee0bda517717cf82750d26b2ad965f0f92440942042c5533c2d64bafb49",
+      "checkpoint": false
+    },
+    "code/DPC_expE/clip/simple_tokenizer.py": {
+      "size": 4632,
+      "sha256": "d1b09f10ed3d1e2c343619cb98cbfacb92363dd8607526a43aa7fe2d60d15bad",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/datasets/caltech101.yaml": {
+      "size": 30,
+      "sha256": "1b788ea9a7752c610858ab8dc9f5458447c556038f55d3f19c82d7d651190f23",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/datasets/dtd.yaml": {
+      "size": 39,
+      "sha256": "5c68a9cfd2a18ebf780136a2f4a3bda0c86c17b69782acd84c98e9d53de54074",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/datasets/eurosat.yaml": {
+      "size": 27,
+      "sha256": "0eccbd77c6932575cc3e112d062cdc46eb4f8f01733ee959b64bcc4198d1a65a",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/datasets/fgvc_aircraft.yaml": {
+      "size": 32,
+      "sha256": "e8de7dee200453254296083419ffd8e71ec389465d698ba333389404bb02323a",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/datasets/food101.yaml": {
+      "size": 27,
+      "sha256": "7b892667618fcffb23af75fe67167e763600d28cf47f444a55c20e02af9cd7de",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/datasets/imagenet.yaml": {
+      "size": 28,
+      "sha256": "5d3eba6165e791c5855649a328cd1c3c318fcda7d69c8d61384d5ee781d09bf2",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/datasets/imagenet_a.yaml": {
+      "size": 29,
+      "sha256": "4b6f11ad8de9e2754db37d0abd8b5c8c502acf1a0879b0bac2062012b56d352b",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/datasets/imagenet_r.yaml": {
+      "size": 29,
+      "sha256": "6e2d272e3eb45477ccc6869a3dcb2da6d75dc979d148c4f4a762c318310e181d",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/datasets/imagenet_sketch.yaml": {
+      "size": 34,
+      "sha256": "89c2d82f54c264b54c5603c18c7ba71d07772de81911f5771fe642a1f192d40e",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/datasets/imagenetv2.yaml": {
+      "size": 30,
+      "sha256": "2eac7c97b73e902cce131d2624fc2d33181b6539766066f21417f7e3f5af8433",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/datasets/oxford_flowers.yaml": {
+      "size": 32,
+      "sha256": "90c8f4798551181bb98456223da2a15392d78c29216f1ad43b67cd48665292b7",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/datasets/oxford_pets.yaml": {
+      "size": 29,
+      "sha256": "e6d57b9ee4b1041d6c4424e6384154ffd82e9898412d3b3ca16450de11612b4c",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/datasets/stanford_cars.yaml": {
+      "size": 32,
+      "sha256": "379ff3ba677c059f8effa1d5bd96de3afe26cfe5287362a62b632dfdbd827722",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/datasets/sun397.yaml": {
+      "size": 26,
+      "sha256": "0e337d4f6748c1f5a9b907f7175f74710232dc33cb4d6ae33396d973f44e0908",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/datasets/ucf101.yaml": {
+      "size": 26,
+      "sha256": "bd4d1e5e443808b9b5f6b21997a0f1db3d358adf07aa357da4366d260b2dd085",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/CoCoOp/vit_b16_c16_ep10_batch1.yaml": {
+      "size": 581,
+      "sha256": "fc587f8a30683be3d1fde7ad0e1e94de8d99203496baed091422b13d4b617a16",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/CoCoOp/vit_b16_c4_ep10_batch1.yaml": {
+      "size": 580,
+      "sha256": "f20b54f98693eb5d0b067a35eb4a895646a62a91649f8ecf4573b6673db0687e",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/CoCoOp/vit_b16_c4_ep10_batch1_ctxv1.yaml": {
+      "size": 592,
+      "sha256": "8a7835cb648925f1124b82137703bd0cceeb5534b950fc8ae27a8184a9f390ca",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/CoCoOp/vit_b16_c8_ep10_batch1.yaml": {
+      "size": 580,
+      "sha256": "8dc15bfaf1c438f68584be0c44b8c0ed4606e645ee9ab67fa57ca6893979e917",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/CoOp/rn101.yaml": {
+      "size": 511,
+      "sha256": "7f9581c225c9a729e51faeca2a4e6ff92a10bc44369a582131e5f1aee1294fc6",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/CoOp/rn101_ep50.yaml": {
+      "size": 510,
+      "sha256": "3e5681171ae9b40517706a6cd2a2f5c4350dd6cad06e7407fa7e383af6efcc74",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/CoOp/rn50.yaml": {
+      "size": 510,
+      "sha256": "412da17b951863bda7984881e8752fe0ba4d1c3a44a213a1e29f10cbeef7a227",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/CoOp/rn50_ctxv1.yaml": {
+      "size": 558,
+      "sha256": "b2467698dc449ceb51d658150bb68ff97f35ca912e14bc48d2adfecda9c279db",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/CoOp/rn50_ep100.yaml": {
+      "size": 511,
+      "sha256": "d3b5ee7bca607240ce2a794ba30d3171d6fadfed2f43e4d9852585f882ebfd9b",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/CoOp/rn50_ep50.yaml": {
+      "size": 509,
+      "sha256": "e30d4e2624b58cbcb0d4affd56f97065662edd9e21cc2616a424a8c16b2af026",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/CoOp/rn50_ep50_ctxv1.yaml": {
+      "size": 556,
+      "sha256": "3f1f0955f1f6e18f3fa861d1988d09ef436a30238750e82590af773f816afd85",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/CoOp/rn50_val.yaml": {
+      "size": 344,
+      "sha256": "a5244fb29f7ab4d002aff5b11daa3b86f999d8140a419af4f0b26b060115d3d5",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/CoOp/vit_b16.yaml": {
+      "size": 515,
+      "sha256": "814cd38180fb73b509a3dd56d40e53c91d05de7b5cf087e836ba22d580cb51a4",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/CoOp/vit_b16_bs4_ep10_lr35.yaml": {
+      "size": 513,
+      "sha256": "7596c5e866471e63f3e8ae9fbc577f7a8dffec10d6293583eea38d5d0839464d",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/CoOp/vit_b16_bs8_ep10_lr35.yaml": {
+      "size": 513,
+      "sha256": "5a35b637e263a9b976b5cd1539dc4a78d1303702fe0833adce8b2637c3f6d48b",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/CoOp/vit_b16_ep100.yaml": {
+      "size": 514,
+      "sha256": "f67910fdcca7f8fb7366bf29e5017e26bb6be67d98303a4c9f33bff9b14e760c",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/CoOp/vit_b16_ep10_lr35.yaml": {
+      "size": 514,
+      "sha256": "ce9abc4354ab5cdde5b653842e7c702d96ea7c4be21a9e8af2144be88a20b9c8",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/CoOp/vit_b16_ep20_lr35.yaml": {
+      "size": 514,
+      "sha256": "13847c1314b97317209d2efb46cccbba5bc253f4b75e531a63983ddb753ae4c0",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/CoOp/vit_b16_ep50.yaml": {
+      "size": 513,
+      "sha256": "7092bc03dea03f08fb31ceaf798a28bab143ee18c464558d7e03dd112f0cd56f",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/CoOp/vit_b32.yaml": {
+      "size": 514,
+      "sha256": "e600d2c983c945864bbf2eb374ce3d898588092206a791079d3916b16e40cbb1",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/CoOp/vit_b32_ep50.yaml": {
+      "size": 513,
+      "sha256": "8948f3c8810a758d6858147b652773c035c019ad71d421a8a8fd984e517a3bfd",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/IVLP/vit_b16_c2_ep20_batch8_4+4ctx.yaml": {
+      "size": 707,
+      "sha256": "5caebe78f260baddf1d4f0f5891f0e2d6dd936fccb95dcc57b04209560c2060a",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/MaPLe/vit_b16_c2_ep20_batch32_2ctx.yaml": {
+      "size": 614,
+      "sha256": "68b9ecf86d2711978e016b8912e914e8996e18802cfca024cf77edac80f4a580",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/MaPLe/vit_b16_c2_ep20_batch8_2ctx.yaml": {
+      "size": 613,
+      "sha256": "a7bfa5f156c2f6072e1361b0f3018b5fed8939eeae773df52175d36b1ac7d383",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/MaPLe/vit_b16_c2_ep5_batch4_2ctx.yaml": {
+      "size": 663,
+      "sha256": "b4ce2043a0980f6f64a880639cc88b16aefb1419b446ea48c29bfbae0fadc3c8",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/MaPLe/vit_b16_c2_ep5_batch4_2ctx_cross_datasets.yaml": {
+      "size": 611,
+      "sha256": "08ff7346edd15a23443850090534c5f3185c69d669d69788db3d53f6d284d8a2",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/PromptKD/vit_b16_c2_ep10_batch32_4+4ctx.yaml": {
+      "size": 871,
+      "sha256": "0ddbeb37038c01c057f639e2697b1fb602867e6307f7637c88cd101b83f4ee30",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/PromptKD/vit_b16_c2_ep20_batch16_4+4ctx.yaml": {
+      "size": 870,
+      "sha256": "a54b47d09022eea759b9c9d0d32e87356d76a149c55753c8de4e3e6db982bf92",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/PromptKD/vit_b16_c2_ep20_batch32_4+4ctx.yaml": {
+      "size": 870,
+      "sha256": "db896eefc57ac7404512e42217b1f239e28036767894f58950f5b6b2860b5d36",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/PromptKD/vit_b16_c2_ep20_batch4_4+4ctx.yaml": {
+      "size": 869,
+      "sha256": "e14e0e74cb9865e554c472a38f335205cd90278d1097b8b8cae435ff953cb068",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/PromptKD/vit_b16_c2_ep20_batch8_4+4ctx.yaml": {
+      "size": 869,
+      "sha256": "2f987d3ae0db1e9b4b1ba48fc0327e0b3974863a9a824db82ada513c0f1443c0",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/PromptKD/vit_b16_c2_ep20_batch8_4+4ctx_cross_datasets.yaml": {
+      "size": 871,
+      "sha256": "de4cfb1cf688d80691f95c60317cff6908656c48a0a0946a6535a85357fb8d46",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/PromptKD/vit_b16_c2_ep5_batch32_4+4ctx_cross_datasets.yaml": {
+      "size": 872,
+      "sha256": "c5b1e2fdb8523187923a5f49ac62bb3866866d41804016ada2a803e5fafadedf",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/PromptSRC/vit_b16_c2_ep20_batch16_4+4ctx.yaml": {
+      "size": 816,
+      "sha256": "b8588c20c6e4268d475f7e95dcd0583c841440446ec2740f2805858b63ece7ac",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/PromptSRC/vit_b16_c2_ep20_batch32_4+4ctx.yaml": {
+      "size": 816,
+      "sha256": "8c686ea595a168e11b4d0d884c7bf6c89101f83c4627303bd3c1cb2639320c48",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/PromptSRC/vit_b16_c2_ep20_batch4_4+4ctx.yaml": {
+      "size": 815,
+      "sha256": "074a9a704978ef2194a74f06a01cc5508df991a450abd55def74040d88e55163",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/PromptSRC/vit_b16_c2_ep20_batch4_4+4ctx_cross_datasets.yaml": {
+      "size": 814,
+      "sha256": "674fb6939cdc2e6884c358ec8ca8afc69382b915a96b9af8ada751dc6c14a6e6",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/PromptSRC/vit_b16_c2_ep20_batch8_4+4ctx.yaml": {
+      "size": 815,
+      "sha256": "8053f5c915ac36ace7625f7c300be122623c10dee2c1c013e9a682e36f98468c",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/PromptSRC/vit_b16_c2_ep50_batch4_4+4ctx_few_shot.yaml": {
+      "size": 1086,
+      "sha256": "ff780d5767930f51ee132e570a38318890da094aecc9a6babe5e830f62dcb879",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/PromptSRC/vit_b16_c2_ep5_batch32_4+4ctx_cross_datasets.yaml": {
+      "size": 813,
+      "sha256": "641837f5611e47e8a201ed681057930b437b0bfccbba9c1cb0811b2c6d4ab666",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/PromptSRC/vit_l14_c2_ep20_batch8_4+4ctx.yaml": {
+      "size": 814,
+      "sha256": "a5f29d7b8666214ab8f5080744e3402da0c60bf2bcae3933c918ed2a8efbf835",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/SPLE/CoOp/readme.md": {
+      "size": 47,
+      "sha256": "db6e7892f200b5e50339722c6a76088d1005eaa1f9051665bb73a7c5df630dee",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/SPLE/CoOp/vit_b16_ep10_bs2top2.yaml": {
+      "size": 896,
+      "sha256": "87fa1938afb6385cde81dee6ce19d79c0bbdf2c3329d760677275332db6dc4c4",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/SPLE/CoOp/vit_b16_ep10_lr35.yaml": {
+      "size": 897,
+      "sha256": "efe8d8387eabb3b08f26c77b8f793f843a54f508eb7afd9c6d8a79aae87a7c51",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/SPLE/CoOp/vit_b16_ep20.yaml": {
+      "size": 896,
+      "sha256": "29ee4a760adcdcfe17241a8127ce614aebb6c52a2f935f6323625894c75dc434",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/SPLE/CoOp/vit_b16_ep20_bs16top2.yaml": {
+      "size": 897,
+      "sha256": "a57cca6c74da86b295786a73334345365a018b823da52a1539404db05602e095",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/SPLE/CoOp/vit_b16_ep20_bs8top4.yaml": {
+      "size": 896,
+      "sha256": "2071115766f55f100892eb2e9495e222f69659b7f89203fdabf4db89dd219f65",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/SPLE/PromptKD/vit_b16_c2_ep10_batch4_4+4ctx.yaml": {
+      "size": 1267,
+      "sha256": "fc07ec9d74795b31abbb00636baf507b6d916bce8189031a79d9c41b62d7131a",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/SPLE/PromptKD/vit_b16_c2_ep10_batch4_4+4ctx_lr26_cross_datasets.yaml": {
+      "size": 1217,
+      "sha256": "ba711b902508fa960c9cb18009b703105c90792228c14316c9e5775aa21be184",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/SPLE/PromptKD/vit_b16_c2_ep20_batch2_top2_4+4ctx.yaml": {
+      "size": 1266,
+      "sha256": "80cffa1ad6988f0ec14fc942afc945043fb6bc586417cc8904a2966ad56e72b6",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/SPLE/PromptKD/vit_b16_c2_ep20_batch2_top8_4+4ctx.yaml": {
+      "size": 1266,
+      "sha256": "1f84d6bd4704dd5c68f23f86393e30723d6bb498bfd31e9a2ca6b6e430be729d",
+      "checkpoint": false
+    },
+    "code/DPC_expE/configs/trainers/SPLE/PromptKD/vit_b16_c2_ep20_batch4_4+4ctx.yaml": {
+      "size": 1266,
+      "sha256": "3a3097a7686ca134f763e9b3785f560c6b9bda969dfc5fa5070b76ceae89883c",
+      "checkpoint": false
+    },
+    "code/DPC_expE/datasets/__init__.py": {
+      "size": 39,
+      "sha256": "9088691d16f001d9d1f4d099003e8dea4e91580fe99cc36dfa13b39e5d3f2a6c",
+      "checkpoint": false
+    },
+    "code/DPC_expE/datasets/caltech101.py": {
+      "size": 4034,
+      "sha256": "b8afc143b5d3e346504ef417fd622839848c14acbb23ec754fd5314d3e653b8f",
+      "checkpoint": false
+    },
+    "code/DPC_expE/datasets/dtd.py": {
+      "size": 3939,
+      "sha256": "e38afe03f9c3a858f7335f53659aa9ae7f15c029f2dec6b0c7a9ab48856f808b",
+      "checkpoint": false
+    },
+    "code/DPC_expE/datasets/eurosat.py": {
+      "size": 4577,
+      "sha256": "c06ae4b98701169016db06586894046212c391736ae4237004fb3ee0a11fba6d",
+      "checkpoint": false
+    },
+    "code/DPC_expE/datasets/fgvc_aircraft.py": {
+      "size": 4482,
+      "sha256": "d75db67424dae342a7625838c93464c41c1fcb8a80fda6851d3d5fdbef13079e",
+      "checkpoint": false
+    },
+    "code/DPC_expE/datasets/food101.py": {
+      "size": 3798,
+      "sha256": "7c972c02ecd75cc1123508ed16577fcc8695480b9a9f502328bba4e8df32a7bc",
+      "checkpoint": false
+    },
+    "code/DPC_expE/datasets/imagenet.py": {
+      "size": 5519,
+      "sha256": "33746f5d20255a60073cea86e9ff4c53b76e72d2c18c28fd0e5c916f0c90eebd",
+      "checkpoint": false
+    },
+    "code/DPC_expE/datasets/imagenet_a.py": {
+      "size": 1439,
+      "sha256": "7bbf7bbb73a8984a5f4092ed197d56bc82f711b59cc26171ef467f3405c506ad",
+      "checkpoint": false
+    },
+    "code/DPC_expE/datasets/imagenet_r.py": {
+      "size": 1435,
+      "sha256": "4d5832a539744cf617e828f6d2ccadb6d99a646df3ac169ce5462d5e4a3ec326",
+      "checkpoint": false
+    },
+    "code/DPC_expE/datasets/imagenet_sketch.py": {
+      "size": 1331,
+      "sha256": "b4046da735585a0cbf80e7bff96fcaf4cfcef8c0cbd7bca38781ddf87c5b6095",
+      "checkpoint": false
+    },
+    "code/DPC_expE/datasets/imagenetv2.py": {
+      "size": 1416,
+      "sha256": "e93f655f21edc0b106261d10cbcac10957c49095edf55625acd12eae5a5dd6df",
+      "checkpoint": false
+    },
+    "code/DPC_expE/datasets/oxford_flowers.py": {
+      "size": 3763,
+      "sha256": "968019602c45131c86a185ae53068c547a29a85b29d6befc486b13a73b5acb33",
+      "checkpoint": false
+    },
+    "code/DPC_expE/datasets/oxford_pets.py": {
+      "size": 8311,
+      "sha256": "92e25407e04c290e98ab9a38ebe9ff87a01fb69d0a8b03961e0948aaa1a8b5f1",
+      "checkpoint": false
+    },
+    "code/DPC_expE/datasets/stanford_cars.py": {
+      "size": 4926,
+      "sha256": "035b6f85924243befbdfa1027729107b781ba30e94349f726b3e837b42a616ac",
+      "checkpoint": false
+    },
+    "code/DPC_expE/datasets/sun397.py": {
+      "size": 5005,
+      "sha256": "f9e0289b4a3daaad4bffc9581240b28c0b9048415ff59e0c1aa22ed2bda9eb11",
+      "checkpoint": false
+    },
+    "code/DPC_expE/datasets/ucf101.py": {
+      "size": 5145,
+      "sha256": "5f394837f30296b2cda031a73b0d571351510cd43ac48bb11f7ad130f6043f46",
+      "checkpoint": false
+    },
+    "code/DPC_expE/docs/DATASETS.md": {
+      "size": 9510,
+      "sha256": "b180433d8313acea511821a0210d5b2c9f3ded543b585c6b44e8ffc9a1114bd8",
+      "checkpoint": false
+    },
+    "code/DPC_expE/docs/DPC_Experiments_1.png": {
+      "size": 261209,
+      "sha256": "f7a88bd18ffd8ac4cc96d15387ecb3a920904cbd7e961f800e23df5cce11776b",
+      "checkpoint": false
+    },
+    "code/DPC_expE/docs/DPC_Experiments_2.png": {
+      "size": 16882,
+      "sha256": "eba93ea4d3c878b792bffeb57394dc2db6e3a69cbe9f359a46453f5b07facfd1",
+      "checkpoint": false
+    },
+    "code/DPC_expE/docs/DPC_Framework.png": {
+      "size": 200369,
+      "sha256": "95b844468203b4b38477a61808df4ad975ec7251fa9a466cee4f969f8fbb5162",
+      "checkpoint": false
+    },
+    "code/DPC_expE/docs/DPC_Poster.png": {
+      "size": 1655106,
+      "sha256": "9a97aaa69bb933778bdf18db9ee4b83287b9ea730a6bdcb429c66688ef86965d",
+      "checkpoint": false
+    },
+    "code/DPC_expE/docs/INSTALL.md": {
+      "size": 1490,
+      "sha256": "294c8f6a6c52aebcb9c30c55d8c1a8e3d73b262dfd4fd929fba36d0283106beb",
+      "checkpoint": false
+    },
+    "code/DPC_expE/docs/README.md": {
+      "size": 79,
+      "sha256": "00cdc40431064639463c5493e090927e6f9573a73bb4fcd95203020b49fdcc77",
+      "checkpoint": false
+    },
+    "code/DPC_expE/experiment_e.py": {
+      "size": 3974,
+      "sha256": "721cdb6013a739f0f78109bdb89f79938f755e9578c5eaf4ee5fc8d02f47ed07",
+      "checkpoint": false
+    },
+    "code/DPC_expE/interpret_prompts/clip_words.csv": {
+      "size": 763671,
+      "sha256": "bc99b5caac2b502bdb778fa0a52e13249781800c57addb87fc471ba7a42d3524",
+      "checkpoint": false
+    },
+    "code/DPC_expE/interpret_prompts/interpret_prompt.py": {
+      "size": 2600,
+      "sha256": "0c6951d9938db9f6442cd4b5003cd1f64ada2faccb6063c82c2d1ddca0fa5697",
+      "checkpoint": false
+    },
+    "code/DPC_expE/lpclip/README.md": {
+      "size": 495,
+      "sha256": "13565696ee3ceac2a5bda51e35199af879f74ec348ac1e58dec4ef13df9f8fb3",
+      "checkpoint": false
+    },
+    "code/DPC_expE/lpclip/feat_extractor.py": {
+      "size": 6080,
+      "sha256": "e2ea3cb4924eb53a90170d3ebd83a54b8b3f85c8f226dfb0fb5300f2e0e1bbf4",
+      "checkpoint": false
+    },
+    "code/DPC_expE/lpclip/feat_extractor.sh": {
+      "size": 566,
+      "sha256": "2d4a8a446486a050c125cb94a875baa53d884d91b32aaee0e0c9bb1c8ac954dc",
+      "checkpoint": false
+    },
+    "code/DPC_expE/lpclip/linear_probe.py": {
+      "size": 5870,
+      "sha256": "0bbedba2adf7cce66626f3e9b4b4702e61b7af43632c49eecf965e4f2e6a2e82",
+      "checkpoint": false
+    },
+    "code/DPC_expE/lpclip/linear_probe.sh": {
+      "size": 183,
+      "sha256": "6379ddb581c945252db428281c5628f6e3e5e9fe179384bbecc4347d3233599a",
+      "checkpoint": false
+    },
+    "code/DPC_expE/preflight_e.py": {
+      "size": 5712,
+      "sha256": "ea0e205b2876c2ac42ef01e498c76d6934c855e40f0bdac068aaaa33ac6c1030",
+      "checkpoint": false
+    },
+    "code/DPC_expE/requirements.txt": {
+      "size": 22,
+      "sha256": "3d368206a406c8e6e9d745b91f613ff6bfa3c6e24cd23709963a7ccaa466feac",
+      "checkpoint": false
+    },
+    "code/DPC_expE/run_matrix_e.py": {
+      "size": 8103,
+      "sha256": "def101d3d0c6aedbe9ffac77301dd7585c237f3c9e75032ef46c3eaca5c89c0e",
+      "checkpoint": false
+    },
+    "code/DPC_expE/scripts/cocoop/base2new_test.sh": {
+      "size": 1318,
+      "sha256": "801ea3315eb1434d88e294bd5c4fded841282183eb78a16ac009a945bed79c8b",
+      "checkpoint": false
+    },
+    "code/DPC_expE/scripts/cocoop/base2new_train.sh": {
+      "size": 1045,
+      "sha256": "5485e6659a55c516fbd3373724715d7d0437bec96abdd5bd1a7bc31f913e258f",
+      "checkpoint": false
+    },
+    "code/DPC_expE/scripts/cocoop/xd_test.sh": {
+      "size": 726,
+      "sha256": "48504e16217ba87bfd41c37001a5cb7e0f3c6051e65f85a36f8b6163b5e1e984",
+      "checkpoint": false
+    },
+    "code/DPC_expE/scripts/cocoop/xd_train.sh": {
+      "size": 690,
+      "sha256": "453112c3edd932762dcec8c4bd76cf1df1e288cfb615e03ee71118cf320d0d3f",
+      "checkpoint": false
+    },
+    "code/DPC_expE/scripts/coop/eval.sh": {
+      "size": 750,
+      "sha256": "f223fdd4a813d7ab3ffed09d83edb8ebce65bc24aaa7e4ecd3907b945807e890",
+      "checkpoint": false
+    },
+    "code/DPC_expE/scripts/coop/main.sh": {
+      "size": 1001,
+      "sha256": "03eff130335447692b92a3d9b73955eb1f496b893e342ee09b503a2d2801a826",
+      "checkpoint": false
+    },
+    "code/DPC_expE/scripts/independent-vlp/base2new_test_ivlp.sh": {
+      "size": 1317,
+      "sha256": "72a590b3095e39f57e26b274b628431b16d341d236dd97f183cbf18a54cab01a",
+      "checkpoint": false
+    },
+    "code/DPC_expE/scripts/independent-vlp/base2new_train_ivlp.sh": {
+      "size": 989,
+      "sha256": "73d1b46687414cb458460cf075e356375fff7d81b49a58145e4454027393fc1d",
+      "checkpoint": false
+    },
+    "code/DPC_expE/scripts/independent-vlp/reproduce_ivlp.sh": {
+      "size": 1473,
+      "sha256": "901cb4353868afa6fc260230c09a2fc27359b2be75f9b2393921e3c70ab3a669",
+      "checkpoint": false
+    },
+    "code/DPC_expE/scripts/maple/base2new_test_maple.sh": {
+      "size": 1369,
+      "sha256": "71b13f05acd0b497cdbdf9227aa144611c92dc11fa689a027530daedc0fc19a9",
+      "checkpoint": false
+    },
+    "code/DPC_expE/scripts/maple/base2new_train_maple.sh": {
+      "size": 1042,
+      "sha256": "ae11269416fd4eaa3f792d61cab27fb50bbee10e38a1899ced49c10b9c85334c",
+      "checkpoint": false
+    },
+    "code/DPC_expE/scripts/maple/reproduce_maple.sh": {
+      "size": 1473,
+      "sha256": "63d84cd6f454091d2c3c8a6313f54b0cf7bb330a3192dad4528be0d336fabc8e",
+      "checkpoint": false
+    },
+    "code/DPC_expE/scripts/maple/reproduce_maple_xd.sh": {
+      "size": 879,
+      "sha256": "6c3916fa1b1a4a109fba61965a3286649d9454888878d16c0337eed988d8d141",
+      "checkpoint": false
+    },
+    "code/DPC_expE/scripts/maple/xd_test_maple.sh": {
+      "size": 736,
+      "sha256": "e14e73d8fb3b1f137ac2809a8ff5daba39f4090decf8999cb0cebb7a406fdcbc",
+      "checkpoint": false
+    },
+    "code/DPC_expE/scripts/maple/xd_train_maple.sh": {
+      "size": 627,
+      "sha256": "2afaacc1aaf84f9173c30ed357dcf42fd86270989ccc9315b5212801cbb4230f",
+      "checkpoint": false
+    },
+    "code/DPC_expE/scripts/promptkd/base2new_train.sh": {
+      "size": 915,
+      "sha256": "1bb62a074d1277c96656cfaa25a239e2acfab07b785e9b672d7ff25706ca0409",
+      "checkpoint": false
+    },
+    "code/DPC_expE/scripts/promptkd/xd_train.sh": {
+      "size": 774,
+      "sha256": "a4eec5fe4659e21d59bfb63ac635c68cf1d71e4ddf8effa7cc86e737be95dfab",
+      "checkpoint": false
+    },
+    "code/DPC_expE/scripts/promptsrc/base2new_test.sh": {
+      "size": 1312,
+      "sha256": "a3d5534dcda8632dfc36d38ad87d1d71e4e19d6181918cc92b809771df57082a",
+      "checkpoint": false
+    },
+    "code/DPC_expE/scripts/promptsrc/base2new_train.sh": {
+      "size": 985,
+      "sha256": "c096e5565899d926309e8efaee4f2833ca9903b095d7cbfa43aa06b50232fcb0",
+      "checkpoint": false
+    },
+    "code/DPC_expE/scripts/promptsrc/few_shot.sh": {
+      "size": 684,
+      "sha256": "6c0169e033ae814c9379ba71e8b834eefd098ae25d7ba4f4ab5f096814c690f1",
+      "checkpoint": false
+    },
+    "code/DPC_expE/scripts/promptsrc/reproduce_base2novel_setting.sh": {
+      "size": 1468,
+      "sha256": "391846607da10e95f694fe6c02ce0457760a622f8520141dc66903ef0e6638fb",
+      "checkpoint": false
+    },
+    "code/DPC_expE/scripts/promptsrc/reproduce_few_shot.sh": {
+      "size": 863,
+      "sha256": "57785835a7154b789ad0fb27537f995599c0c2d814c9ada3409075657207658d",
+      "checkpoint": false
+    },
+    "code/DPC_expE/scripts/promptsrc/reproduce_xd.sh": {
+      "size": 876,
+      "sha256": "74b48f365fa4b2f9d7eab7aeab1777ffc627efaa1d9668aa1dde9dccbe411b7a",
+      "checkpoint": false
+    },
+    "code/DPC_expE/scripts/promptsrc/xd_test.sh": {
+      "size": 733,
+      "sha256": "b19e8a2896811de707f6b82568ea3a66a6620f2a1dadfb5e188ed110a93e638f",
+      "checkpoint": false
+    },
+    "code/DPC_expE/scripts/promptsrc/xd_train.sh": {
+      "size": 623,
+      "sha256": "8901eafe3e080bf95f702997492ecda31229385e039bf3896fb25395525f544f",
+      "checkpoint": false
+    },
+    "code/DPC_expE/scripts/zsclip/zeroshot.sh": {
+      "size": 365,
+      "sha256": "d860c579115412ab7cbe43dc6a502e18f196b652cb067fac85fba57677a0b01e",
+      "checkpoint": false
+    },
+    "code/DPC_expE/teacher_model/README.md": {
+      "size": 565,
+      "sha256": "9bfdb4f652b5e7c492deea0db4c54ff95ec7b38793ffe3d5196ec8b8f857e9c0",
+      "checkpoint": false
+    },
+    "code/DPC_expE/train.py": {
+      "size": 10838,
+      "sha256": "207c20925339c1cb2bb8d15b9a3f2ec4c2568698a29e05731fd78378066c0081",
+      "checkpoint": false
+    },
+    "code/DPC_expE/trainers/__init__.py": {
+      "size": 31,
+      "sha256": "dc4929cd8016ec88ac0648511b80db13d9623a3f574f81f5543c877a91c36c3a",
+      "checkpoint": false
+    },
+    "code/DPC_expE/trainers/base.py": {
+      "size": 2093,
+      "sha256": "c10796dfe64146d582ecf8c22e01d8b5b384ffffbaed8cc040747fae23e78ce0",
+      "checkpoint": false
+    },
+    "code/DPC_expE/trainers/cocoop.py": {
+      "size": 11614,
+      "sha256": "67d5401bb955959b57a51ff0dae4ce5d6cd035d0a65ec62a03e9fa637bb76688",
+      "checkpoint": false
+    },
+    "code/DPC_expE/trainers/coop.py": {
+      "size": 12531,
+      "sha256": "719da8c11c4c332e2f4d9d6550d0b057fac19804cbfb91d93071b16de157354b",
+      "checkpoint": false
+    },
+    "code/DPC_expE/trainers/coop_stats.py": {
+      "size": 696,
+      "sha256": "2c15ecc474a2f9747e3221dd3a12c1c5b767d32b61c16733c0669eba9af379be",
+      "checkpoint": false
+    },
+    "code/DPC_expE/trainers/independentVL.py": {
+      "size": 11386,
+      "sha256": "74642ea02ff90a1f6b24f39e43d5c65a28f0d25973e9c511c3655c58eb931e57",
+      "checkpoint": false
+    },
+    "code/DPC_expE/trainers/optim.py": {
+      "size": 4420,
+      "sha256": "a9a20b10cbb87ed0eb89f36b046a3440d7f8978d0c0b00af0c7f5d2273113809",
+      "checkpoint": false
+    },
+    "code/DPC_expE/trainers/promptkd.py": {
+      "size": 20877,
+      "sha256": "effed10ac0348981629e9f71f0513781f9e7a040df67977bd442a1c91b113374",
+      "checkpoint": false
+    },
+    "code/DPC_expE/trainers/promptkd_infer.py": {
+      "size": 3303,
+      "sha256": "3282a306464a0f29df541b58b57f6ff9c46d37707601cd14b7f679e624985f91",
+      "checkpoint": false
+    },
+    "code/DPC_expE/trainers/promptsrc.py": {
+      "size": 18024,
+      "sha256": "3b07b19b158a7941cb1a8dc31f6cf7592ab19f462e43f28fa0a2829b2d6c3098",
+      "checkpoint": false
+    },
+    "code/DPC_expE/trainers/sple_coop.py": {
+      "size": 35176,
+      "sha256": "2ff19359330f989c63845a5293bab0b33a296049fabede2cf176e85d46d6613a",
+      "checkpoint": false
+    },
+    "code/DPC_expE/trainers/sple_promptkd.py": {
+      "size": 58593,
+      "sha256": "dcf1407f0e98758211f5d9f3f001c1f6de72339c9cb38da9054d07951e6e5134",
+      "checkpoint": false
+    },
+    "code/DPC_expE/trainers/zsclip.py": {
+      "size": 3620,
+      "sha256": "39534496e3300c600c0f2c6795fbfbe3a8678c198b866bfbd4ee76dc2db62e6e",
+      "checkpoint": false
+    },
+    "code/PromptSRC_expB/experiment.py": {
+      "size": 15174,
+      "sha256": "f45f7746efc6c23e2b5d1adcaac4468eb03edde26a7730ce10c953ee68fd7897",
+      "checkpoint": false
+    },
+    "code/PromptSRC_expB/experiment_metrics.py": {
+      "size": 2924,
+      "sha256": "9f1e4498aae2fb696dbd0e7e507cc03977f4217c23db0caa98918290ca96e822",
+      "checkpoint": false
+    },
+    "code/PromptSRC_expB/run_matrix.py": {
+      "size": 11698,
+      "sha256": "c1d37af1b08460ed755a27a5107d0c42b4a36e1a1ebc46dd61145d8ce6fd0459",
+      "checkpoint": false
+    },
+    "datasets/SPLE_Database/dtd_seed1.json": {
+      "size": 17307,
+      "sha256": "00893fead22995908789dadf5f70caee85811ff2cacff19c8bcfcb11a82b4407",
+      "checkpoint": false
+    },
+    "datasets/SPLE_Database/dtd_seed2.json": {
+      "size": 17307,
+      "sha256": "52bbb0cfd24cf015c1c48412d6548525fd84580fc7b68794b07c560014e87d2e",
+      "checkpoint": false
+    },
+    "datasets/SPLE_Database/dtd_seed3.json": {
+      "size": 17307,
+      "sha256": "236bb2e747131f94a3cad22b689ed915fed81a1dea2a4892e627e5d2f53e1f3f",
+      "checkpoint": false
+    },
+    "datasets/SPLE_Database/official/SPLE_DTD.json": {
+      "size": 207961,
+      "sha256": "a2134be39964abc4cc214fdcbf7662cf4472099f5f17b28137b2e164749dafb8",
+      "checkpoint": false
+    },
+    "datasets/SPLE_Database/official/SPLE_OxfordFlowers.json": {
+      "size": 255593,
+      "sha256": "a13131eed6d1c8850522edf9833bed3f1cdef5e1de3c2efea092da6bb7cb1f19",
+      "checkpoint": false
+    },
+    "datasets/SPLE_Database/oxford_flowers_seed1.json": {
+      "size": 29263,
+      "sha256": "3d4bf2448c508688cd57d35be91121a62d025ff06743d5d212cbb536642b73c8",
+      "checkpoint": false
+    },
+    "datasets/SPLE_Database/oxford_flowers_seed2.json": {
+      "size": 29263,
+      "sha256": "2e7880c36e3cdf96fb6f1c204184c71c99e0d71446a84be263ac5b841f8ef2a0",
+      "checkpoint": false
+    },
+    "datasets/SPLE_Database/oxford_flowers_seed3.json": {
+      "size": 29263,
+      "sha256": "da9232a981be86879262b2ea9c97c4b81ba596f2c47b7ab0e0c5115a2be5a777",
+      "checkpoint": false
+    },
+    "downloads/SPLE_database.rar": {
+      "size": 5342205,
+      "sha256": "98043c32eb8520f73a2cccecf6f1a10aaefdcca43491f4e41f1323acb768a384",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/checkpoint_check.json": {
+      "size": 134,
+      "sha256": "2420f6c74fbbe1d8de3dd7bfb87afde596861ab8f4a20e4385305b440fcfffec",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/config.yaml": {
+      "size": 4616,
+      "sha256": "093f21a6fcb5e4679215ada5ad6f14647adb7af5669f8bb83eb62665a6a943e9",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/console.command.json": {
+      "size": 658,
+      "sha256": "64d2b6e810269aee11390d2cc4552c97a589b357c72d192b8375db4d8ff74459",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/console.log": {
+      "size": 368298,
+      "sha256": "d80cafd7b98852b8a07eb787b27e76baed51c6dbff920fcf75f5b3ea78baf45e",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/epochs.jsonl": {
+      "size": 19857,
+      "sha256": "a07936ffefb2109a7871583b7cb707d994980c0965b209a6948f6b5b88ee640f",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/eval_test_base/config.yaml": {
+      "size": 4711,
+      "sha256": "4f47d23c3c334375d3f42116f02c96344f2c5a111475b9cf66fbb5f5a2d50f57",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/eval_test_base/console.command.json": {
+      "size": 929,
+      "sha256": "7a221455ab48f9dd480ff962e92e78cf53584a1e2c218b1f4c059998fe7df685",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/eval_test_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/eval_test_base/console.log": {
+      "size": 8589,
+      "sha256": "5e348ed8079b4e2f03c64937fe8049c0dc8417b793ebe7802421ccd819e07c46",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/eval_test_base/initialization.json": {
+      "size": 531,
+      "sha256": "06abd20d39f6e47d87358fa9556a51d3edcc9a4f6d21059d67dcd151eec98967",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/eval_test_base/log.txt": {
+      "size": 7339,
+      "sha256": "c7d98738df6e26851c94486c54b2825bd2bf216808c17b1bdaf2c222728d7e7d",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/eval_test_new/config.yaml": {
+      "size": 4708,
+      "sha256": "5809083cf5a01b795841a07cb30217a9f8ab819f415c4d907b90b28322d48cc1",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/eval_test_new/console.command.json": {
+      "size": 926,
+      "sha256": "95dbed58450fcdf422c659ab010d98b335cc3335d4e6428eecf94f7737eeb4bf",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/eval_test_new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/eval_test_new/console.log": {
+      "size": 8635,
+      "sha256": "09cad843e27a45b05355134de739f3450d1aadad06f5c320e2ea4cf712c8b74e",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/eval_test_new/initialization.json": {
+      "size": 531,
+      "sha256": "4f072b07f8d1a1915ba3551c562172e0a6ce2c16dacc8e76a36ce50492af42cb",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/eval_test_new/log.txt": {
+      "size": 7385,
+      "sha256": "814b94de4ee816b7d8e7c1e017608eeffa599c9e953a517bd2f219f3bc148e99",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/eval_val_base/config.yaml": {
+      "size": 4708,
+      "sha256": "025734d8f0dfe7b30b7cec2fae068a814721813ff45174b1b2557f1647c2a69f",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/eval_val_base/console.command.json": {
+      "size": 926,
+      "sha256": "1b509709a7fa493fe80e63b993cadc75bc24b60aea22dc791f357107ab78e03a",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/eval_val_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/eval_val_base/console.log": {
+      "size": 8530,
+      "sha256": "66658340657eb3e46a06a6fce6437d4771a64c927623d4c477e762a4c52e9461",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/eval_val_base/initialization.json": {
+      "size": 530,
+      "sha256": "85465cc37e81802b5aa7df57090dac19a4b4c4e981e7d66bee0d82571783d6e2",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/eval_val_base/log.txt": {
+      "size": 7280,
+      "sha256": "82ccb9683ec8c8153bfaf7b471a6422ce6b4d5af3028edd19fa4547975f84bd6",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/initialization.json": {
+      "size": 529,
+      "sha256": "bf51729b2dd401b81c09dea71fc41836cc872dd36e1384bd7dd327f5e188b568",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/log.txt": {
+      "size": 367048,
+      "sha256": "d8df615028b62dd0d3cb891c77a7387e463803a7dbf06a4be72b3b83fb6ea755",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/predictions/test_base/metadata.json": {
+      "size": 2233,
+      "sha256": "59d3ee8a85477bf8cd8b2d2354d909cdc1fe819fcf81edd4084898e2e254e11e",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/predictions/test_base/predictions.npz": {
+      "size": 45778,
+      "sha256": "bbb80fb7bdc426c48464ec91c2488e9d2ee511a09e92276fd8c0d6abb935113a",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/predictions/test_new/metadata.json": {
+      "size": 2271,
+      "sha256": "70d4ef08eed966bb91fac2f8804bc579a47c65b01c452cea44a512b531820494",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/predictions/test_new/predictions.npz": {
+      "size": 42314,
+      "sha256": "8d49c975f080acd85db41c89092f5c9f756947591949c9bbdaa2ee2f532d7132",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/predictions/val_base/metadata.json": {
+      "size": 2182,
+      "sha256": "1bd2720ec4d07359debeea1b2109be4a1bcefdc5d574ff34326ccb7875b5e31e",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/predictions/val_base/predictions.npz": {
+      "size": 6748,
+      "sha256": "7004d720d262cb4f0637df9cc787e21fe5179d172c24145df31b1023af8de3d0",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/prompt_learner/checkpoint": {
+      "size": 18,
+      "sha256": "f640768b324094a6797f54bd639357308b1fd1a80117d5ff944ee73e354d8fd2",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/prompt_learner/model.pth.tar-200": {
+      "size": 1548956,
+      "sha256": "10bd6505b24bc63390f48607d959d0fd9ba69903712302f85bcb874bfb260aab",
+      "checkpoint": true
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/reload_probe.npz": {
+      "size": 6071,
+      "sha256": "e32371f2435d32163025f3a38ad48013915517a77b1d6fd36fb99c451f6a8d82",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/run_status.json": {
+      "size": 422,
+      "sha256": "10fe69e7774a4e2929bc91ea194b773cc4268fedb9b2d287879306c1de8be5cd",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/temperature.json": {
+      "size": 23374,
+      "sha256": "d2475bc51037cb6085a96f56903b6bf6bafee1ad08b91753dd26bf495e52719e",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/tensorboard/events.out.tfevents.1794311059.autodl-container-4f41468bb9-58d83b0c.75695.0": {
+      "size": 345298,
+      "sha256": "f53671a88d5707b207aa6965ba1539bef80163ebb902ae1df25a8ced063297d8",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/training_resources.json": {
+      "size": 405,
+      "sha256": "a0607e0f14469c9a3a84c74205297e4ed865b6fc1a97919c41105d8a4a6a9496",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed1/attempt01/updates.jsonl": {
+      "size": 3718823,
+      "sha256": "c2c76957895d0678a4929f28f3eef4d55a597fb73e4cac551d16def3f91ab777",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/checkpoint_check.json": {
+      "size": 134,
+      "sha256": "2420f6c74fbbe1d8de3dd7bfb87afde596861ab8f4a20e4385305b440fcfffec",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/config.yaml": {
+      "size": 4616,
+      "sha256": "68fd7270ec3d0961a6ce9489c8c4838acc54ce5d44117dcd5ddacccb9c273676",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/console.command.json": {
+      "size": 658,
+      "sha256": "064d1ac4d1f10ee78d81bbba708cdb2200c2fc255b4dc3201dc2fd4a0cc67986",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/console.log": {
+      "size": 368432,
+      "sha256": "eb1a6cb8d88d50ea6634deade1ce6dc77879d420b047abb74702ec5bbed7cf76",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/epochs.jsonl": {
+      "size": 19836,
+      "sha256": "e2b6db14705f962803f443ceb51bc500c4f95cdab7eecdf05a97b9a1dfea9253",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/eval_test_base/config.yaml": {
+      "size": 4711,
+      "sha256": "2887d14a5863880c600cae3f11217a4236579552de032aa34de2cbe781f39044",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/eval_test_base/console.command.json": {
+      "size": 929,
+      "sha256": "2d0b4b1eac611e020bc49bf461a1f52ff599ecdb74ac0cca30144e14b79948b9",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/eval_test_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/eval_test_base/console.log": {
+      "size": 8619,
+      "sha256": "aa8fc3d744a074e8bc672acac25b50514d0d096121a074df08b960e3a529160b",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/eval_test_base/initialization.json": {
+      "size": 530,
+      "sha256": "00d3ec960e89e7d9d6a0fe182b847cfe8f35a83b141eba326b13d2e79242d737",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/eval_test_base/log.txt": {
+      "size": 7369,
+      "sha256": "7246f77312ee23c4efe1d9edb4ee8d4a15dd696f2929cf07b22bb751509902b8",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/eval_test_new/config.yaml": {
+      "size": 4708,
+      "sha256": "1e59470a4819564f22e24b5038ad7a11ab93aa9f31904914063a77ed8294a49c",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/eval_test_new/console.command.json": {
+      "size": 926,
+      "sha256": "835261b48e178d5e8284bb981c9dfcc4c7b50443bb04268ecb71d0e0f2a9a7f2",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/eval_test_new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/eval_test_new/console.log": {
+      "size": 8585,
+      "sha256": "91324c2bb3854fb9f21d67fe85aeeac8fa929cfd7d97bf5fae0ad7efdcdb5d78",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/eval_test_new/initialization.json": {
+      "size": 530,
+      "sha256": "e7273ec39801bf884490c10747c56f71797683dcf3fa769a0dc1103d2ca9d91d",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/eval_test_new/log.txt": {
+      "size": 7335,
+      "sha256": "f84c3d1a30c2d4359781dd188510534942e68ba6cfb39b4402f42bbf5173fa2a",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/eval_val_base/config.yaml": {
+      "size": 4708,
+      "sha256": "791e21679b2b0f0144d37568f5d01912b2a1ac0f5e0cd0fcf88a7825ca4b9acd",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/eval_val_base/console.command.json": {
+      "size": 926,
+      "sha256": "b2523f59fa65d460c4bb669a0227e49e9a51bfdffc1bccbcb4c989db1194b4c3",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/eval_val_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/eval_val_base/console.log": {
+      "size": 8542,
+      "sha256": "80703abb9635afad1670cacc2cfd5455bd7870ca9786806b8abcfbc082941f3f",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/eval_val_base/initialization.json": {
+      "size": 531,
+      "sha256": "f42b2506c761c783b35a74e3cfd656854682d9fe481fa14e93d2cd7ff88b3243",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/eval_val_base/log.txt": {
+      "size": 7292,
+      "sha256": "2eb9e78d151aded50cc6d538053d9353fa6245dbea53d16e01a3fdcef44a009c",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/initialization.json": {
+      "size": 530,
+      "sha256": "74791e7ec6b43cc50eb95966edff8f9754aa0748c590e9976206535b7e074db2",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/log.txt": {
+      "size": 367182,
+      "sha256": "68da066dd4ee74db2850cf47a27391c5d7631ee7466d0a5afefc0474210faca2",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/predictions/test_base/metadata.json": {
+      "size": 2261,
+      "sha256": "759c3cdf5fed858974e53f69448e450abc14bb22fca03a00635d10c8f5d7023c",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/predictions/test_base/predictions.npz": {
+      "size": 45926,
+      "sha256": "f1ba2fe3d1c0c1ede5d9390beaf8025e3faa95334658ccddd6df5eaa5d413775",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/predictions/test_new/metadata.json": {
+      "size": 2222,
+      "sha256": "1d679471d794669879ad1b79aa5d6117bf21f5f14dae918a1b6713b4cb154475",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/predictions/test_new/predictions.npz": {
+      "size": 42621,
+      "sha256": "8da8884fe58c62abb539fba32bcc09fd2f2b881d5a246b18d1c907233825e16b",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/predictions/val_base/metadata.json": {
+      "size": 2181,
+      "sha256": "2975a4b48101622c9c44f3601a6a9458ba6a22694f6fcc25f9481b44bf45fd98",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/predictions/val_base/predictions.npz": {
+      "size": 6766,
+      "sha256": "af750dac9168006af31d625a0e909a58f4ab14ed56bae8493001d7591dfc9b7a",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/prompt_learner/checkpoint": {
+      "size": 18,
+      "sha256": "f640768b324094a6797f54bd639357308b1fd1a80117d5ff944ee73e354d8fd2",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/prompt_learner/model.pth.tar-200": {
+      "size": 1548892,
+      "sha256": "b83d2a709f17217df572fe4406da11c476d51dd3185f0bc7e59b4d984736e1b0",
+      "checkpoint": true
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/reload_probe.npz": {
+      "size": 6089,
+      "sha256": "d254a7a3814007f2a9d9512735fcd750b36db64918ac03438de094ac0b029394",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/run_status.json": {
+      "size": 422,
+      "sha256": "8be5bbc551075a9a892b012407608a2cbd714e93c4c591d5e953b2d7b9f8e54a",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/temperature.json": {
+      "size": 23361,
+      "sha256": "7cf61ecf81f7a06fcf28d92bccaf7e641d5c7e8bdccd8e8025389b4a99904bd1",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/tensorboard/events.out.tfevents.1794312686.autodl-container-4f41468bb9-58d83b0c.96645.0": {
+      "size": 345298,
+      "sha256": "fb937315ae583bddb2a8bf29c53f550dba6e1b3a41006ec97d7fcaa384b213b8",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/training_resources.json": {
+      "size": 405,
+      "sha256": "9cdfd978456abd587eb413872416f773d0be24a9da18bf9acf70d676e5e96c76",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed2/attempt01/updates.jsonl": {
+      "size": 3719376,
+      "sha256": "e2568610fa718e2fa1d9ee74d5a37b32a9bb10cec49f8e9d720885849ced2a5e",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/checkpoint_check.json": {
+      "size": 134,
+      "sha256": "2420f6c74fbbe1d8de3dd7bfb87afde596861ab8f4a20e4385305b440fcfffec",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/config.yaml": {
+      "size": 4616,
+      "sha256": "7af6689cdd3730c8180693042bd31e2dfad37e43a68c32ac7124ee759fbd1312",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/console.command.json": {
+      "size": 658,
+      "sha256": "858c9dc0c9af891d47003a8e73479b4b769fc5f79cbbe2630a9b76c067eb83b6",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/console.log": {
+      "size": 368353,
+      "sha256": "bc502297143dd39d70c4920c1237ffd28c8e1ed6dd05a9529c00cda8aad7dfdb",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/epochs.jsonl": {
+      "size": 19861,
+      "sha256": "7827b27239f58b97f792cb91798463d73c1b849c9ba7a1dacfa9004af246b466",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/eval_test_base/config.yaml": {
+      "size": 4711,
+      "sha256": "6b7d72f85c9552b5189671ac9937856aed9aaf88c3f2be673e77484c4ab8483e",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/eval_test_base/console.command.json": {
+      "size": 929,
+      "sha256": "e4b54f4612dd811e07ffc12eeed0a79394601237e5421e6db16f292309cda6f4",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/eval_test_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/eval_test_base/console.log": {
+      "size": 8623,
+      "sha256": "3142364b89441b60750e93ecab7d569db68adb2f37a21beb61631fffc857f42f",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/eval_test_base/initialization.json": {
+      "size": 531,
+      "sha256": "dc2e756b4bff7aa61f292e09e37359c982d91494ffeff262bd784a91b79cde97",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/eval_test_base/log.txt": {
+      "size": 7373,
+      "sha256": "e610483302ad13607adcb651ffccc89cf785b1eaaa44d289cf3b2ed448fc89be",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/eval_test_new/config.yaml": {
+      "size": 4708,
+      "sha256": "61c2b51b4c3d972d8f9703f56f89a5248008ea81c61e18d1293b671c6ebc01d4",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/eval_test_new/console.command.json": {
+      "size": 926,
+      "sha256": "975714d63066b9245b944777c74bfcfed95490cdb1391051dfbea59e505431fc",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/eval_test_new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/eval_test_new/console.log": {
+      "size": 8630,
+      "sha256": "c78858289d56ddd6f713a9283fcf73e3d0b81073a2dd6781995aa1e81fad60c5",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/eval_test_new/initialization.json": {
+      "size": 531,
+      "sha256": "e419f59cd3b23af6131b18ccd378c5220e9c1cec47fb70832eed1d3deb03097e",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/eval_test_new/log.txt": {
+      "size": 7380,
+      "sha256": "df1ea30a5be52f3abbf0d32b1c7a5a2ca59b47f28e15c92b49407705be8d92fb",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/eval_val_base/config.yaml": {
+      "size": 4708,
+      "sha256": "cb39860955a14ebc678658e5138be08bfd92e3cd11b8c9bc145faf302aca2389",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/eval_val_base/console.command.json": {
+      "size": 926,
+      "sha256": "e14d6e61d04d8a881c92d786add717e9bea6f1d07c81f0ddd9cc60631b6efb34",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/eval_val_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/eval_val_base/console.log": {
+      "size": 8513,
+      "sha256": "9d8f31fb6a5b0d99382eecbcb8c313bc05ebd3f5ce556762b71e601827877a22",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/eval_val_base/initialization.json": {
+      "size": 531,
+      "sha256": "d57f723a663831ecfdab27077e6eae8fe17b7f73cd990eefa1f080023b681e0a",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/eval_val_base/log.txt": {
+      "size": 7263,
+      "sha256": "995383efcb4e698afa95e8ad4cdd0cef64b7c1f70710fc302831a00ae271a92f",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/initialization.json": {
+      "size": 530,
+      "sha256": "0a43f429bb44700685123d775d7767e11be04bd86797f21e5b86474dc1e97285",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/log.txt": {
+      "size": 367103,
+      "sha256": "a97a0de17b1e94c49ea6bc11f377d7425db696e820819796f372fcc20fa22790",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/predictions/test_base/metadata.json": {
+      "size": 2266,
+      "sha256": "bba8e6ee24339d99843a717247f07ef9e061ed9df279a1edd50fbde4cd6ded0c",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/predictions/test_base/predictions.npz": {
+      "size": 45487,
+      "sha256": "6efb075ef5649cc258a16f0d4fbef2a6aa190b7e12568c18c1e719b70350c0da",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/predictions/test_new/metadata.json": {
+      "size": 2265,
+      "sha256": "391f2cc729fce6bb403203744d112d5caae715ffed3448232ac24684007354ab",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/predictions/test_new/predictions.npz": {
+      "size": 42201,
+      "sha256": "50880752b7cf8608a5805ffcb799c5c4ad6d94d0a30b01ea80f9c43d5966ca08",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/predictions/val_base/metadata.json": {
+      "size": 2165,
+      "sha256": "294cde8d97fdc8fe055075b7a4bf9bc3127ebe271592030649b0a573bc61fc66",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/predictions/val_base/predictions.npz": {
+      "size": 6770,
+      "sha256": "db9f43bcc4a1894b269a634423c18c566643fa8284981dc057ec303036281846",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/prompt_learner/checkpoint": {
+      "size": 18,
+      "sha256": "f640768b324094a6797f54bd639357308b1fd1a80117d5ff944ee73e354d8fd2",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/prompt_learner/model.pth.tar-200": {
+      "size": 1548892,
+      "sha256": "231598d25017462173dd85dba5662b7563a585be7420e7cecb2e657b12ce7b93",
+      "checkpoint": true
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/reload_probe.npz": {
+      "size": 6093,
+      "sha256": "6e3bd35416b032e3abfe11f24ff455b4457eab05feaf440c1b6e41c98fce448b",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/run_status.json": {
+      "size": 422,
+      "sha256": "7e2c615744809b28b482319f9dcd54a93a4f8830ecfe6890357a412032fc582c",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/temperature.json": {
+      "size": 23421,
+      "sha256": "3fde7d744095588e7619f6bdb0be537c708d44cebada83b72588c481ae1fc16d",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/tensorboard/events.out.tfevents.1794314242.autodl-container-4f41468bb9-58d83b0c.117495.0": {
+      "size": 345298,
+      "sha256": "58c247ec2cb1fa9e13b3f5e45a21547ef78bd3d478bb3aa9ed9ab74ec438c4fa",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/training_resources.json": {
+      "size": 406,
+      "sha256": "58c06ba4c688b0e6a44e5facea02b331798e927786b16e075c68ce7fc8fe62f6",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/coop/seed3/attempt01/updates.jsonl": {
+      "size": 3719022,
+      "sha256": "5aca1d54d3596a141960dca38776ab862f4d54ae514b9d37da73e18273a6363f",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/checkpoint_check.json": {
+      "size": 134,
+      "sha256": "2420f6c74fbbe1d8de3dd7bfb87afde596861ab8f4a20e4385305b440fcfffec",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/config.yaml": {
+      "size": 4579,
+      "sha256": "f90bc0920c6e74a5bb32bf96865ac5fd6874b9cd1aa91cfed9a46d6fb4f43cb1",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/console.command.json": {
+      "size": 971,
+      "sha256": "776cae84b8460f5cf41d248eda0dd6e545f95e921a9d832041d237f9c311d8dd",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/console.log": {
+      "size": 13421,
+      "sha256": "f7058214f500e8615ff5308ace37ac222dbc82e03302c82598af240f0b873ab2",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/epochs.jsonl": {
+      "size": 1971,
+      "sha256": "b98f8455e4fa8978e6a2d3ab52928f4540fbf3335c6345dbb1e505a82df88008",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/eval_test_base/config.yaml": {
+      "size": 4673,
+      "sha256": "c016d3597d4b0b485801c115c11fa69dcc7df61ad9f6cfe0f0264bf5c37b0f7d",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/eval_test_base/console.command.json": {
+      "size": 1239,
+      "sha256": "0edc7f2a9e53267073e714c292926a3d28dcc32aa0c3a58f225668191824758c",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/eval_test_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/eval_test_base/console.log": {
+      "size": 11910,
+      "sha256": "6e2ce378cf0c00d3fe6fcb669db809bb725c6ba4a8f363e35be472d3bd98f730",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/eval_test_base/initialization.json": {
+      "size": 529,
+      "sha256": "73a6bb6a4cb2d37b43a0c6f08a61e5bd3c01e9e0d49ce1b7ba9d3ce910def6c7",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/eval_test_base/log.txt": {
+      "size": 9644,
+      "sha256": "59600dce4c3c32c554d82f3b8e2199ece497bdb1f3c7f4a1009bc03b89c47617",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/eval_test_new/config.yaml": {
+      "size": 4670,
+      "sha256": "5982a6abe42c07fc8802fde328bc868127d7accea7509410d9aa8c8664cd4d35",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/eval_test_new/console.command.json": {
+      "size": 1236,
+      "sha256": "fe289b8133f9d30a26b6b7707c8a435025617283b2e1ece066f42ad56f339ede",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/eval_test_new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/eval_test_new/console.log": {
+      "size": 11926,
+      "sha256": "c709fd49bbb890e9e03291b3a0c9df56b92372a5e631370cc967f5807938e8a0",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/eval_test_new/initialization.json": {
+      "size": 529,
+      "sha256": "32bb6057a9bf0867eb9fe8ec3efdf507f8012db749e59376078c2c1c3a975a0f",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/eval_test_new/log.txt": {
+      "size": 9660,
+      "sha256": "c45002b3da405f8de0d87ba51bce98ca8c3a0b84c37271d4e33254f6a86fe4a0",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/eval_val_base/config.yaml": {
+      "size": 4670,
+      "sha256": "c049bb457645e55e2f174b378319f21d5dcce27afaabf2033aedc9988d910779",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/eval_val_base/console.command.json": {
+      "size": 1236,
+      "sha256": "14470140e78f4eff885724b02d53da3124aefb72696532f0fd43e8eaa709497f",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/eval_val_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/eval_val_base/console.log": {
+      "size": 11807,
+      "sha256": "b4b8b1169e5eaa6d0dc59dddc09aa4ed9f86666b0c8b8138f69aa785299cf4bd",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/eval_val_base/initialization.json": {
+      "size": 528,
+      "sha256": "9c2aeafb0cbb6cfcf400d6d72ae7e71e1a205fc2c23ee78187a9d3353bf5322c",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/eval_val_base/log.txt": {
+      "size": 9541,
+      "sha256": "0de6a281a1ba581f23a6c430bb4ec79177089bd96a7a1646c1efc3e16b519db6",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/initialization.json": {
+      "size": 529,
+      "sha256": "7a8ccf2a896c36bc4799ee2d92ad2b0ca495274810e03db3f6026324fd91eebe",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/log.txt": {
+      "size": 11155,
+      "sha256": "d4d203b78387f8ab24b71579a383e252d28d10e9708b65948663fc4ea43dc27f",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/negative_sampling.jsonl": {
+      "size": 1825239,
+      "sha256": "dc51ac91c60cfcd77acb178bef0f7347c760fda0c84274c2c02df92e19691851",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/predictions/test_base/metadata.json": {
+      "size": 2254,
+      "sha256": "c4a60bca345346bfd9331c6c7016c40e336ecb220ed815bceeae2700f14f785e",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/predictions/test_base/predictions.npz": {
+      "size": 45790,
+      "sha256": "86596d02bd97de2e0dacfdf7ada1501a5d4f2880267a7e6b065c77d59149c833",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/predictions/test_new/metadata.json": {
+      "size": 2265,
+      "sha256": "ef18398bca7e62110321f23bf43240f4390af9e9b7358f4fe1d322c148c95490",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/predictions/test_new/predictions.npz": {
+      "size": 42314,
+      "sha256": "8d49c975f080acd85db41c89092f5c9f756947591949c9bbdaa2ee2f532d7132",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/predictions/val_base/metadata.json": {
+      "size": 2161,
+      "sha256": "4998975a7a5762af98d2552819b548b65671c8f418c520769e591789271ce7a7",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/predictions/val_base/predictions.npz": {
+      "size": 6751,
+      "sha256": "e4b462dea6541b003481ca1e5399d6340f379c98c7237b5daab82025d34e9680",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/prompt_learner/checkpoint": {
+      "size": 17,
+      "sha256": "39b52e1fe4e3b14f97e01b66f780e0cf0ab5005ccbde5121115a139f1ab250db",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/prompt_learner/model.pth.tar-20": {
+      "size": 250803258,
+      "sha256": "520482ef7b7af4cb931df19619901ead5e2e92c32ba8b5ae3f6cf8917d7baee6",
+      "checkpoint": true
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/reload_probe.npz": {
+      "size": 6074,
+      "sha256": "7770d35a61582cc0e47c9a31188e8ef861f26ccf1d22b29ef0cb1ed37128bdc2",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/run_status.json": {
+      "size": 468,
+      "sha256": "43fee1f6b19a800489abee885498a96741a494609894891ed7f87912c50d55ad",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/temperature.json": {
+      "size": 23379,
+      "sha256": "6726350f2df94ffb9bacecd4a2f644965029d9ecbfdc16f73c4258a689b94653",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/tensorboard/events.out.tfevents.1794311288.autodl-container-4f41468bb9-58d83b0c.85075.0": {
+      "size": 184148,
+      "sha256": "895dee896fc8766366792cb57ec18ac99d8b8651e89fbcc28222fa1488980d41",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/training_resources.json": {
+      "size": 404,
+      "sha256": "7594335eeb33ab0b6c94fb20de1303e0b78ac70418b8a201f4c537d7354bb46f",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed1/attempt01/updates.jsonl": {
+      "size": 615800,
+      "sha256": "b4621e250d3a52f9419a65234d8eb18b1b4fba7f730f81cdc11479f6b43f973e",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/checkpoint_check.json": {
+      "size": 134,
+      "sha256": "2420f6c74fbbe1d8de3dd7bfb87afde596861ab8f4a20e4385305b440fcfffec",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/config.yaml": {
+      "size": 4579,
+      "sha256": "8e2b90650083560229f5d42882a2c1f5a5ca996aea54dcb1a55bc35cd84a2f3d",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/console.command.json": {
+      "size": 971,
+      "sha256": "03d9698e113187ce075f60f4b7255687e5233125dae1613703f5c62373e26b3b",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/console.log": {
+      "size": 13421,
+      "sha256": "ef270e01570be729f8893d4f4c03d018c1b57227f946438cd9cbf3e16988ca74",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/epochs.jsonl": {
+      "size": 1968,
+      "sha256": "8c32afc510aae7cc73d5e07509d5598e73513445595154d2a4de8420fae099f3",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/eval_test_base/config.yaml": {
+      "size": 4673,
+      "sha256": "966b7fab66f5060cd73ce71825cf92316fe540a6b84d1e3ec2e3d8838c8abc4c",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/eval_test_base/console.command.json": {
+      "size": 1239,
+      "sha256": "12fb72d2f8ba07f15cf5a158cbc900dcd414a78ca188ff57e3cd2a757a668c56",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/eval_test_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/eval_test_base/console.log": {
+      "size": 11868,
+      "sha256": "d64de32b054a7d20e8d3a56f99c5fdf4a4f691a219b664a4edc1acb3727e824b",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/eval_test_base/initialization.json": {
+      "size": 529,
+      "sha256": "65bf27e58d6f9e52213ce866a782c1cd87f11f5085052b0acc8fb3ba283be063",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/eval_test_base/log.txt": {
+      "size": 9602,
+      "sha256": "ef4dbadf11d96cd57597889177f7cf644dc3327c907c99070bfdc19dfc89b032",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/eval_test_new/config.yaml": {
+      "size": 4670,
+      "sha256": "5cfab9feace115fcde329b88eb4124891fbe4c9500d222bec7f94c1435778d35",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/eval_test_new/console.command.json": {
+      "size": 1236,
+      "sha256": "706c967ed6cfc6f5c1fdd424728f495b08abb829ce4d3b9767a102ef2b76651f",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/eval_test_new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/eval_test_new/console.log": {
+      "size": 11876,
+      "sha256": "6cba5f55d8fe57c731c92ec502034f025ec2aa73da5b1680054668f0687f1af9",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/eval_test_new/initialization.json": {
+      "size": 529,
+      "sha256": "681d5f798f2a05f71736a68eafc4cb3129ed1ccc5b12c1a2a77c63c73ec6577c",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/eval_test_new/log.txt": {
+      "size": 9610,
+      "sha256": "229b45fda17a3bbdb959c4ddea35ef36b945579ae6e530edba8e23916b373696",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/eval_val_base/config.yaml": {
+      "size": 4670,
+      "sha256": "5ea16d572588d7df370ac89a9f6f19510f29bf77f64178f99c7a7a354ae8d946",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/eval_val_base/console.command.json": {
+      "size": 1236,
+      "sha256": "c7876a651eba2039e5c2e6c0fed34167739691023d9347415415d9e7f27d3577",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/eval_val_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/eval_val_base/console.log": {
+      "size": 11865,
+      "sha256": "474e995ba469cea03a706186ea38f6ca1fa1f4687f210f3665053f257a97e506",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/eval_val_base/initialization.json": {
+      "size": 529,
+      "sha256": "ce9bd9e8ccf7b568484524680d03fa82d1adae2a00a51047f0abfc819b2e7a0f",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/eval_val_base/log.txt": {
+      "size": 9599,
+      "sha256": "f5111d4aa0d61e8639bb1658e6ffef0fcba3df05ee4b0b6ca8c8b805311996e5",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/initialization.json": {
+      "size": 529,
+      "sha256": "b98d512886ba7113a0ddfebb078d8441d1e2af9704b389db66520c83752b38c0",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/log.txt": {
+      "size": 11155,
+      "sha256": "faf000f34b7e4555e381db312759f7ae59867e16170c8abdc7cf73e577f6bf2a",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/negative_sampling.jsonl": {
+      "size": 1829734,
+      "sha256": "8ae07fda2039914105d4367f1a89392f9448dfb05e769bf842bb90248e1e3166",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/predictions/test_base/metadata.json": {
+      "size": 2212,
+      "sha256": "dc06346acd0a5341aabef7ab6b3a7109765c2a51f216b39db1be3a6a16ddeefb",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/predictions/test_base/predictions.npz": {
+      "size": 46416,
+      "sha256": "a732237eeb176f48551d063e9ab86281376141771b2daefc1f8be5f82fa21afa",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/predictions/test_new/metadata.json": {
+      "size": 2216,
+      "sha256": "55b8bb9108da2f1e8cc335e114ddd2a79c23980936cb5e6486f49b5888288f1e",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/predictions/test_new/predictions.npz": {
+      "size": 42621,
+      "sha256": "8da8884fe58c62abb539fba32bcc09fd2f2b881d5a246b18d1c907233825e16b",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/predictions/val_base/metadata.json": {
+      "size": 2219,
+      "sha256": "649be2a1d9f72d8a6002cf6d3e2e82e05847593b9c3f11d4c55afac42137dfd2",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/predictions/val_base/predictions.npz": {
+      "size": 6843,
+      "sha256": "a2d2397dc5a226e89b89f6e33a16ba14064eca3f6b940473c4076fed1f7e0731",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/prompt_learner/checkpoint": {
+      "size": 17,
+      "sha256": "39b52e1fe4e3b14f97e01b66f780e0cf0ab5005ccbde5121115a139f1ab250db",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/prompt_learner/model.pth.tar-20": {
+      "size": 250803258,
+      "sha256": "79b04231e4b40f0516624b1ade83c3ebb20620e6ef792353a7c0278798c31dc3",
+      "checkpoint": true
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/reload_probe.npz": {
+      "size": 6166,
+      "sha256": "619d47bd0fefcb4b95f4b6c93cd5393108940373e5c43fbebe62018a8fc5198a",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/run_status.json": {
+      "size": 468,
+      "sha256": "8d806cb09479b0cb0dfedfe3a51544ed2f10a54520ff4577d67287d862fc7cf4",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/temperature.json": {
+      "size": 23319,
+      "sha256": "d396c4203a4b3951cab06c30b29739393f3e64c0a1dbf44df726c1a4cabaa4cd",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/tensorboard/events.out.tfevents.1794312950.autodl-container-4f41468bb9-58d83b0c.106037.0": {
+      "size": 184148,
+      "sha256": "57915db6c7241cb18269d1b45d833549c38de669d4eaae55e1fa125bdd864e38",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/training_resources.json": {
+      "size": 405,
+      "sha256": "a5090d15a7d81a7a2935b2cbb02d9e4293ac688a2f4dc9d8660b183b95d57077",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed2/attempt01/updates.jsonl": {
+      "size": 616211,
+      "sha256": "b187e2d1758f71856a420988afcedd263a3852aabc565d52ac60cda41ace6aa2",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/checkpoint_check.json": {
+      "size": 134,
+      "sha256": "2420f6c74fbbe1d8de3dd7bfb87afde596861ab8f4a20e4385305b440fcfffec",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/config.yaml": {
+      "size": 4579,
+      "sha256": "1cbf76e7b3bc50aa82f7056df989558c470c9907adbed679a2c8c42ed13c7c95",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/console.command.json": {
+      "size": 971,
+      "sha256": "5efcfca9e5f02ac445aebf48761a3081ff0dcaa07bb0ff3b7901657ff530397c",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/console.log": {
+      "size": 13421,
+      "sha256": "3715eace355b82d3301c91c6032cd0ae9f2cfe10fc387c4df4f93c3f268d5748",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/epochs.jsonl": {
+      "size": 1967,
+      "sha256": "d3aa8c71cdcd4d498371891e25c20da9182c09c51e04671cbb8b660573212933",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/eval_test_base/config.yaml": {
+      "size": 4673,
+      "sha256": "30b9fcf8644b675d2aca8f6d96fe645f5e21b514f306407eb8d22ea0fd7123f1",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/eval_test_base/console.command.json": {
+      "size": 1239,
+      "sha256": "f62c45c971e9b52a44729cfbdf5a75a25ff2013245667359ff2becc1a4d7c68a",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/eval_test_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/eval_test_base/console.log": {
+      "size": 11914,
+      "sha256": "c30d61a14bedf5e33f159cede4e1aebdc2c37c70050d41c65386812beec372a8",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/eval_test_base/initialization.json": {
+      "size": 529,
+      "sha256": "03af8772b6daa3b53d624cde675ae17bcbd8eddcc53e5f86b2c377c35775260b",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/eval_test_base/log.txt": {
+      "size": 9648,
+      "sha256": "a3fb4572ac1bdbc5e714e6096fc2bc65328379746a7e9b8f926d9a8670071a23",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/eval_test_new/config.yaml": {
+      "size": 4670,
+      "sha256": "672569d6b1a28c365ddf9cf5034d08b540e7080618358ce14ddc83cc50ff2803",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/eval_test_new/console.command.json": {
+      "size": 1236,
+      "sha256": "92eb126b319ddec6f065e4df115c7c1f7b871c3a29ebe6ec19724de0944f6896",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/eval_test_new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/eval_test_new/console.log": {
+      "size": 11921,
+      "sha256": "9a71d96d71c07c8ffdae7dbe9f5d69dddbc8ca5b870bf4fd674378e19bd4ba1a",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/eval_test_new/initialization.json": {
+      "size": 529,
+      "sha256": "2a940020dbfcd0d3311f6ad8490aef4e4246c62ebf8f000a2cd66ec8f3940aa6",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/eval_test_new/log.txt": {
+      "size": 9655,
+      "sha256": "ac9c5ea1e66efd01a9f7bf297c0c9d34df37c4f66ad8806032adeb69f66c19ff",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/eval_val_base/config.yaml": {
+      "size": 4670,
+      "sha256": "5d8df49fb97a9ef2fc0fc9b4647e8297e03d273188adff1883451e09f944214e",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/eval_val_base/console.command.json": {
+      "size": 1236,
+      "sha256": "1a9cacf181c4efe1b7cea879c61fefc5cc6984d539a753cf3b299a6e3d79712a",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/eval_val_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/eval_val_base/console.log": {
+      "size": 11809,
+      "sha256": "0e3b6e23adc0fef7cd39d389904c60a95396465096fd650490d39af4f5c9bbf9",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/eval_val_base/initialization.json": {
+      "size": 529,
+      "sha256": "db47b3e0693b28dd0fe92b0dca426cab6ff816fe4d526efdf68038681b4b705c",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/eval_val_base/log.txt": {
+      "size": 9543,
+      "sha256": "18c22735e93f57486eb24bd44276efdb98c7cda958c97933093f4c67f38800c8",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/initialization.json": {
+      "size": 529,
+      "sha256": "1b15df809890ce87e01d4f3376522c5bd10e7b561add99f2f7f7186c55b343c8",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/log.txt": {
+      "size": 11155,
+      "sha256": "21cb892e602f45267ea19cd218ad6d753261288ffe7bca09cce70baa8e2484a6",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/negative_sampling.jsonl": {
+      "size": 1826097,
+      "sha256": "d22d26a7af82fa5b02057359086c5ed0032f1c378dcf19ce60575da064fdcf1a",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/predictions/test_base/metadata.json": {
+      "size": 2258,
+      "sha256": "f4ad354b83d34807caedc103ff1ab33e2e2619e6570a78091f23c3c775941670",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/predictions/test_base/predictions.npz": {
+      "size": 45071,
+      "sha256": "d18a4d97accb1733ffbb858d9b25690b958c4cf26bf75664e28ed99343258cf1",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/predictions/test_new/metadata.json": {
+      "size": 2259,
+      "sha256": "2db9cc923737d1b91db4b9aa4c8e0e7130fcb171a51f9bdcf6e5d59a453225c3",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/predictions/test_new/predictions.npz": {
+      "size": 42201,
+      "sha256": "50880752b7cf8608a5805ffcb799c5c4ad6d94d0a30b01ea80f9c43d5966ca08",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/predictions/val_base/metadata.json": {
+      "size": 2151,
+      "sha256": "775d58a58368c87c54e18c7989a659d5291c64a86a81edfc874e64cc040b7c9c",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/predictions/val_base/predictions.npz": {
+      "size": 6682,
+      "sha256": "64fb6a6e1b7d66c5913ce5a07b271e4480d4d36297014a83353af32344c1a19c",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/prompt_learner/checkpoint": {
+      "size": 17,
+      "sha256": "39b52e1fe4e3b14f97e01b66f780e0cf0ab5005ccbde5121115a139f1ab250db",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/prompt_learner/model.pth.tar-20": {
+      "size": 250803258,
+      "sha256": "105867cc318504ea945275d889aa842dd3acc2553ad40ac4b189ebc1addf0450",
+      "checkpoint": true
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/reload_probe.npz": {
+      "size": 6005,
+      "sha256": "a225e9a1165554cd60a8f7d7ac26975d8d3a38b6fe5f6b41f389078169ae81f6",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/run_status.json": {
+      "size": 468,
+      "sha256": "e9ab5fcc83eb16441804f54c5dc3e89f0cbaf5d2b378b85bfbef1b139cce3797",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/temperature.json": {
+      "size": 23411,
+      "sha256": "bd107c0bd2024f10f885fe699f63570b4c53b62b4c49de59f1767bb19f1f3f13",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/tensorboard/events.out.tfevents.1794314499.autodl-container-4f41468bb9-58d83b0c.126884.0": {
+      "size": 184148,
+      "sha256": "a6d58345cba9d01af83c67b42eec6a53e0f130d14af1f8c2d1a14a3ee28c2c32",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/training_resources.json": {
+      "size": 404,
+      "sha256": "add3cc4cfc32f4d8013b2effcfa561d95e6c1ba69fdbc2644c150d24c10a14fd",
+      "checkpoint": false
+    },
+    "outputs/E/dtd/dpc/seed3/attempt01/updates.jsonl": {
+      "size": 616157,
+      "sha256": "126cca5f80fd5be6480672ed6bf945146aae0b9fe4e576343c0879620fa525d7",
+      "checkpoint": false
+    },
+    "outputs/E/figures/main_comparison/new_calibration_raw_vs_temperature.pdf": {
+      "size": 16265,
+      "sha256": "9cd3b59b4abc4c34ad0fc24e7f5b8063fed510a5e5defa3a29201e522e432eb3",
+      "checkpoint": false
+    },
+    "outputs/E/figures/main_comparison/new_calibration_raw_vs_temperature.png": {
+      "size": 108849,
+      "sha256": "988cfa90d01679f479feb7364e773bb41520f14607f0f98eea29341c2a225deb",
+      "checkpoint": false
+    },
+    "outputs/E/figures/main_comparison/recognition_base_new_h.pdf": {
+      "size": 16258,
+      "sha256": "d5b60e8ebc6c4f02f7ced416de0fc35260fd452b8775bec339616a1b2c3f4939",
+      "checkpoint": false
+    },
+    "outputs/E/figures/main_comparison/recognition_base_new_h.png": {
+      "size": 116248,
+      "sha256": "68c9306a02e3437dab9c02ab14d6baf03154b4a9c5c76b62e8a90e75da0713ea",
+      "checkpoint": false
+    },
+    "outputs/E/figures/main_comparison/reliability_seed1_raw.pdf": {
+      "size": 27367,
+      "sha256": "d7493cb43895c69098dbf7913facf37aaa2f8fe896695a4d29d0bdad5d9f0340",
+      "checkpoint": false
+    },
+    "outputs/E/figures/main_comparison/reliability_seed1_raw.png": {
+      "size": 317884,
+      "sha256": "83ddd5914b82e75d6441aacdf450e14cb416d46452cd1d5548776c522c2622cc",
+      "checkpoint": false
+    },
+    "outputs/E/figures/main_comparison/reliability_seed1_temperature.pdf": {
+      "size": 27784,
+      "sha256": "bf2014d33baecdede76fb6babf876bf76b1d31d1f01a17f1649cd8fec9491876",
+      "checkpoint": false
+    },
+    "outputs/E/figures/main_comparison/reliability_seed1_temperature.png": {
+      "size": 330961,
+      "sha256": "97c0a7ce29718df3da683ba76a5343060baa04b02d5e4049c4d7f9a7b10e29c8",
+      "checkpoint": false
+    },
+    "outputs/E/figures/new_calibration_raw_vs_temperature.pdf": {
+      "size": 15154,
+      "sha256": "96431199697de170f62f6d7718a841985c539b1b6cb868751dbdc4c751de972b",
+      "checkpoint": false
+    },
+    "outputs/E/figures/new_calibration_raw_vs_temperature.png": {
+      "size": 95645,
+      "sha256": "693e2559577f58b64acd19340ba6e69f9af4c32682b8c2dc1c5b6d4bb7a6a6e4",
+      "checkpoint": false
+    },
+    "outputs/E/figures/recognition_base_new_h.pdf": {
+      "size": 15046,
+      "sha256": "5cad6e04395c75fe6fe7ac9df4c2c84bbb3d062b05bce3f48f8578779fe91eb0",
+      "checkpoint": false
+    },
+    "outputs/E/figures/recognition_base_new_h.png": {
+      "size": 97439,
+      "sha256": "240b043155942150b20c83a0b15a594aa6026e1d538a4fe46133cc83645a0f02",
+      "checkpoint": false
+    },
+    "outputs/E/figures/reliability_seed1_raw.pdf": {
+      "size": 22326,
+      "sha256": "9dd207e506941717389f087aaccf327f64ff67bf18608af4b4975940eddadde1",
+      "checkpoint": false
+    },
+    "outputs/E/figures/reliability_seed1_raw.png": {
+      "size": 258065,
+      "sha256": "fea3111b65e89af6c0229d007499f3181bd7ddbf0150033aff8c1b08c4ec5129",
+      "checkpoint": false
+    },
+    "outputs/E/figures/reliability_seed1_temperature.pdf": {
+      "size": 23130,
+      "sha256": "06771b6598a0b5d1af8220822256a457b50af3bfecabfde42d8083bf7d36e9e9",
+      "checkpoint": false
+    },
+    "outputs/E/figures/reliability_seed1_temperature.png": {
+      "size": 285209,
+      "sha256": "7abeceaddc245fcc3e4a74ec147b4b7a75e516720dc6432878010faa0ef8000c",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/checkpoint_check.json": {
+      "size": 135,
+      "sha256": "e54d71643afacab4b13e84273d1a43fe2fb3ba58db24733dbc3a60caa7b6f8ac",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/config.yaml": {
+      "size": 4621,
+      "sha256": "5f7faf01b9e16cc3c96d5b4ddc19c84241a5499317040bed9fad28eae28bba43",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/console.command.json": {
+      "size": 680,
+      "sha256": "c1d7fba11276335d959de19e7bf7cce8c2e6462f59981b34978af2394c20600f",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/console.log": {
+      "size": 764647,
+      "sha256": "fcd95cac5e2ce166ff4ede0156afc052fa8982c2046b36de450ff2dc96105c39",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/epochs.jsonl": {
+      "size": 19649,
+      "sha256": "b4b3c38efceff37819eb599a81038df8a53e11b11bf6db8ee149eb4fff56c72e",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/eval_test_base/config.yaml": {
+      "size": 4727,
+      "sha256": "84b9a6e4d73e77526937a8054d7ca4515ab8052cb6b2cf8fd1dd7af19f6579cb",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/eval_test_base/console.command.json": {
+      "size": 973,
+      "sha256": "5b761d3a5599253e79db24ecfd16bf1d80ad8808473b88e23b17999da7c12acc",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/eval_test_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/eval_test_base/console.log": {
+      "size": 8612,
+      "sha256": "f354fb18dde2a39663447777907b9748affcb32b0a58c726b0baa952a9e1e350",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/eval_test_base/initialization.json": {
+      "size": 531,
+      "sha256": "5ad9d44d1d89a00bd3ffecafafbeb9e260db83148e2ffb6fa82d0efddbe418c9",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/eval_test_base/log.txt": {
+      "size": 7362,
+      "sha256": "678629d78b1478799de57fdd8d385be78957e3ac3bb1210369153c03bf6be7ec",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/eval_test_new/config.yaml": {
+      "size": 4724,
+      "sha256": "dc22c324f33469eda39fc3f0c5944c96b3701f713edbd02cdb531eadaf4a7bcd",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/eval_test_new/console.command.json": {
+      "size": 970,
+      "sha256": "8c6b44685d9462abd2ac43b94dbb06d45b297506989ce38a42a85f3544e84919",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/eval_test_new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/eval_test_new/console.log": {
+      "size": 8705,
+      "sha256": "53305f6f74d80f80a68c716c3271e4f4443f804f22e4450b48d6068e5d0195b8",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/eval_test_new/initialization.json": {
+      "size": 530,
+      "sha256": "ac97b0bcf50b7acaa3b8a0926adf876cd0216ccace49e5c0864b718a81e1d65c",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/eval_test_new/log.txt": {
+      "size": 7455,
+      "sha256": "d19a625cea3d47de103b75e95c9ca102d417361e73f37c30c04b402500dcadd6",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/eval_val_base/config.yaml": {
+      "size": 4724,
+      "sha256": "9c7b157d92be55c257239e8bb592536288c33942227d1e838b4d10007924e266",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/eval_val_base/console.command.json": {
+      "size": 970,
+      "sha256": "c05a7b7b7ad4ee27a77bc0c21538157e8c2458d94440a8a30a573d745e752e3f",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/eval_val_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/eval_val_base/console.log": {
+      "size": 8552,
+      "sha256": "f88434701bb7bee0657b31eadb8e9e758a8013ec5045879884f88c2aeac83c20",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/eval_val_base/initialization.json": {
+      "size": 531,
+      "sha256": "847722add581d72665f1a30cc9c2a07b0626deda76001428afb49d6fa283aee2",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/eval_val_base/log.txt": {
+      "size": 7302,
+      "sha256": "624b7cac62c749af15a48cfdbad747f7df4cf299bce344a05e70f2cc65cc1d15",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/initialization.json": {
+      "size": 531,
+      "sha256": "8d11151fda3a00d2e04acb19abd01d82551289478ba8c2c77ff01447d43bbd47",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/log.txt": {
+      "size": 763397,
+      "sha256": "2e5f8f370d2886f2e339daadc5f00921176b6383ec3a0a68514287cf43f8b27c",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/predictions/test_base/metadata.json": {
+      "size": 2915,
+      "sha256": "e087af9e77edf7f3145bd7f03c120e23b74647b61a22d0cbc190f5a91c652c19",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/predictions/test_base/predictions.npz": {
+      "size": 111050,
+      "sha256": "2f7bce7c21e85e0d469ef50312efbf99d177739386db3b7f6ff0bf168bf34c33",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/predictions/test_new/metadata.json": {
+      "size": 2903,
+      "sha256": "0134dcc01e94a5fe1cd44a2537baa8b23a307f3fd2ee410fe98706550dbdede5",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/predictions/test_new/predictions.npz": {
+      "size": 144727,
+      "sha256": "535102878291fe30f73cf656770853425b7f1fbe6f700a2dafcf9e77dee04328",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/predictions/val_base/metadata.json": {
+      "size": 2867,
+      "sha256": "3ac65bd6949bdeef6003cade7050f7866f749f94993b0dbfd224a94715339791",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/predictions/val_base/predictions.npz": {
+      "size": 23642,
+      "sha256": "fadcde4446b93889766262c2003bbcb4a23b0d7882a15e724a1a07870d652c2e",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/prompt_learner/checkpoint": {
+      "size": 18,
+      "sha256": "f640768b324094a6797f54bd639357308b1fd1a80117d5ff944ee73e354d8fd2",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/prompt_learner/model.pth.tar-200": {
+      "size": 3236124,
+      "sha256": "74c6e57b28ee9b788eb5d2c8dd1e3b06a3a6a2373bbd2aa33f8433c5e6594a1a",
+      "checkpoint": true
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/reload_probe.npz": {
+      "size": 11408,
+      "sha256": "42bc0259debffa960e1c1d406b1f841247d8365e8009227e9ffb1c0d05031a17",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/run_status.json": {
+      "size": 444,
+      "sha256": "f5bc5307f0d873189bb56178d33c0c466654286fb261c5aeed03f891e3320d36",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/temperature.json": {
+      "size": 23480,
+      "sha256": "122813f0c22eb79c1cfc3e3fc322bef437b28c1e2fb001f224868d681d4058f0",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/tensorboard/events.out.tfevents.1794311694.autodl-container-4f41468bb9-58d83b0c.86087.0": {
+      "size": 719698,
+      "sha256": "0a100314d9d53be44b4d880131cd1d06b797607f538cc0f0c4400c3ab68fec29",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/training_resources.json": {
+      "size": 404,
+      "sha256": "f9f4c539cc5483ace027464d181c9def6a44a5540668d6dce99b015e4b91a550",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed1/attempt01/updates.jsonl": {
+      "size": 7503037,
+      "sha256": "0d890b853dbacf24ee7c60b8dc40d664f2b64ff89e5f7322bb184eec88ac9fcd",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/checkpoint_check.json": {
+      "size": 135,
+      "sha256": "e54d71643afacab4b13e84273d1a43fe2fb3ba58db24733dbc3a60caa7b6f8ac",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/config.yaml": {
+      "size": 4621,
+      "sha256": "48623e2c17784a12fb5cfdcf685eb31e2391111ffbe48662124fed3d98f14ae0",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/console.command.json": {
+      "size": 680,
+      "sha256": "c119c9ad0d1ba5b496f04fc0bc0c171130de409e78734d1bc833e1af789fb2c7",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/console.log": {
+      "size": 764952,
+      "sha256": "533abe2e22fda6ef08fc071602e610941becaeccc6099eb5d817f88bde093749",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/epochs.jsonl": {
+      "size": 19642,
+      "sha256": "942ce29c673c0962db628aac311a4f3daf6f143478ec2dfaf61f1aff6df4c7e9",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/eval_test_base/config.yaml": {
+      "size": 4727,
+      "sha256": "19069555130cec0f32b14c8fdd933eb49f6f76aa1dcdba728fa1a6fc72f6963f",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/eval_test_base/console.command.json": {
+      "size": 973,
+      "sha256": "ff3a6d35549689b06a5b1e9afa2820b1c4f1a77532f3ea5b5f2013467c0cdb22",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/eval_test_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/eval_test_base/console.log": {
+      "size": 8630,
+      "sha256": "51331de18f57b0a1f3db3e8afb04da2f234cc098a5f3437e73918af4b3d681ba",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/eval_test_base/initialization.json": {
+      "size": 530,
+      "sha256": "2e255be4a06cddf9a8f299e80aff4b6c3d0b09593948060db2a060c560157105",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/eval_test_base/log.txt": {
+      "size": 7380,
+      "sha256": "4d363c035cba388b7f85ca0bcca3a09164a39edae20e9d2ec148b18806a40de4",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/eval_test_new/config.yaml": {
+      "size": 4724,
+      "sha256": "c111f6172ab9a0e537aa4386fb4b73a66baa55434a76b3f1fa26bb6857e16756",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/eval_test_new/console.command.json": {
+      "size": 970,
+      "sha256": "27edac4cd8d0b6bf565c2bc566ab2331f3782441c9b11780e53c7b9779164780",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/eval_test_new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/eval_test_new/console.log": {
+      "size": 8705,
+      "sha256": "a101bc2a4ebf0b4f4b85e22cd5368a676fb01340c67111749d97c43048ae00fa",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/eval_test_new/initialization.json": {
+      "size": 530,
+      "sha256": "06d841b0c497c370f5b36fea98f396e08a9d610e918ec04d62266b2a3b1d1caf",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/eval_test_new/log.txt": {
+      "size": 7455,
+      "sha256": "d5654c0273a939e6f3bdb9237a05a0bee6447a01a778bbea18f0d049ad276190",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/eval_val_base/config.yaml": {
+      "size": 4724,
+      "sha256": "e36fbf1731e437af0dc6fb1002129793781c4c202bab096df0d3aa4da1d6177e",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/eval_val_base/console.command.json": {
+      "size": 970,
+      "sha256": "4a52b944f66fa8e7c54719b58c44301c13ceeff9d49b5da4c3b205d721da41e4",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/eval_val_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/eval_val_base/console.log": {
+      "size": 8525,
+      "sha256": "7eeb4786229b5ad1c9dc3135f3f26bac2ad18bfc41b201787cbeb0cbc44ec302",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/eval_val_base/initialization.json": {
+      "size": 530,
+      "sha256": "4834d00b01a797612d4f5a07ba0cb814f35d24fd671f6486da81305bf86445d9",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/eval_val_base/log.txt": {
+      "size": 7275,
+      "sha256": "dd0072868f36b8bc2e97cf6d452eb46ddf91754754c282816bfa096f256bb6ae",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/initialization.json": {
+      "size": 531,
+      "sha256": "ac1cef8703a7c60470ce08e59f87b75ba7ac0b9dfc51460cb228150a99f6189b",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/log.txt": {
+      "size": 763702,
+      "sha256": "c7d805501fb5d6471d93045134826dbaa4d76a94b57b5bd1689ddd4f529cafeb",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/predictions/test_base/metadata.json": {
+      "size": 2935,
+      "sha256": "e30fc7d63b9ceb7126860d2799cce99cefff0c5c4331eeaff7b9aa2a522bcdb2",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/predictions/test_base/predictions.npz": {
+      "size": 110746,
+      "sha256": "45bd7ffffe7bc9d0cf0e1f42c3caf4ac586170b0fe90ba3cd084a221f4eed5bf",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/predictions/test_new/metadata.json": {
+      "size": 2904,
+      "sha256": "ecb72b2eabfec1ee2f35699e3e61597db116863485bbf031b30388c80385b007",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/predictions/test_new/predictions.npz": {
+      "size": 144009,
+      "sha256": "6ebe8f05c698aa68bd53caf81e37c7e90aa465c92c9a5f8d91e817d2e6188f71",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/predictions/val_base/metadata.json": {
+      "size": 2839,
+      "sha256": "253ff6150171edca90208d0197d736838cfab5981dd5e8fe27e5b6bae8c87699",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/predictions/val_base/predictions.npz": {
+      "size": 23529,
+      "sha256": "853e8db57a3bc4737a5bf845ff7d1a5e288b889a1143070258ea8f18dbb1f77c",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/prompt_learner/checkpoint": {
+      "size": 18,
+      "sha256": "f640768b324094a6797f54bd639357308b1fd1a80117d5ff944ee73e354d8fd2",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/prompt_learner/model.pth.tar-200": {
+      "size": 3236124,
+      "sha256": "769c738f0f050461699c71561c7ab7601eca7db39c008327ce50ac0f19ed8b27",
+      "checkpoint": true
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/reload_probe.npz": {
+      "size": 11345,
+      "sha256": "a1ca91cf974dd4932a5d4e266d64a4d28b167b2f28d20ddba5365d5bbefbc526",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/run_status.json": {
+      "size": 444,
+      "sha256": "363673751b642f3378eb42323cfc6643c5edff94cfef8f52c51f244af8eca6ec",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/temperature.json": {
+      "size": 23615,
+      "sha256": "48a924bd631efe594e90e1e01c80c2c5fa58fb63651caae376bf5f50f6302e78",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/tensorboard/events.out.tfevents.1794313236.autodl-container-4f41468bb9-58d83b0c.106948.0": {
+      "size": 719698,
+      "sha256": "23f6c17265f2dfbf6616ca78a6ecd75abe91fc19858f15b5cb5704886f7d233e",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/training_resources.json": {
+      "size": 403,
+      "sha256": "a5d93f566c3c6bb06c8eafc006f956ad617cec5b3523d316bca47ec14779c17a",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed2/attempt01/updates.jsonl": {
+      "size": 7504006,
+      "sha256": "f045e38f2ab10a612b60917f01cb620d13a016a8a347cdb282bbd55f3a2b90c1",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/checkpoint_check.json": {
+      "size": 135,
+      "sha256": "e54d71643afacab4b13e84273d1a43fe2fb3ba58db24733dbc3a60caa7b6f8ac",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/config.yaml": {
+      "size": 4621,
+      "sha256": "c9677a5e719e13174645a605c4838238dc44e53b15f14f93d5efe6c0b917ba51",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/console.command.json": {
+      "size": 680,
+      "sha256": "65ba8eadb8fcf9af34b733e1d190a5821267e4bfc0fa2796a1ca4ec9513063a3",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/console.log": {
+      "size": 764727,
+      "sha256": "7daa96eeebe96132308caf218a556d1fc0921d5e581bb84551d17f15fa15c9a7",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/epochs.jsonl": {
+      "size": 19642,
+      "sha256": "96f13f75ccce0773a878822fd5156a8f3256239ecce8dc6e53f1c067ef090675",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/eval_test_base/config.yaml": {
+      "size": 4727,
+      "sha256": "39491ffc5eee3ee5a8a778ab758bc801e2e497cefc41f28906b81ed47cb0d750",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/eval_test_base/console.command.json": {
+      "size": 973,
+      "sha256": "743c89985bcc2d57e4b9a541bf4079a951cd8a393a4b409555bd0212f127a624",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/eval_test_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/eval_test_base/console.log": {
+      "size": 8642,
+      "sha256": "b43f4bb863fceefbf0dbc923b192c2ef6da57881a067a8c15686417bc36063df",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/eval_test_base/initialization.json": {
+      "size": 530,
+      "sha256": "58ac492dfd8ea7a2c6125ab1dade89307ed5ecf4942aa179a5a5feb7cc530688",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/eval_test_base/log.txt": {
+      "size": 7392,
+      "sha256": "a597f3435f4ccee61ef2d54a3e51bc9729fac17d47b662bdbb3bd939b3e0f4d4",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/eval_test_new/config.yaml": {
+      "size": 4724,
+      "sha256": "a63e68f7f2116d67981f61de80f741e1f604ce2e5c22aca4e4b147c057bf1a66",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/eval_test_new/console.command.json": {
+      "size": 970,
+      "sha256": "cb8bcbd973fdf710e4f6c4216f74d53c5fa32eeef976fa26cd513eae8c400d9a",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/eval_test_new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/eval_test_new/console.log": {
+      "size": 8704,
+      "sha256": "78d70f6e3be4d46c12086e49a6031bb1f39c2213dbb1556f23ff22053e0c3f9e",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/eval_test_new/initialization.json": {
+      "size": 531,
+      "sha256": "da86a4255742f6bb0d47ad76c40fe039b672026798cf6282d040b41192a04983",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/eval_test_new/log.txt": {
+      "size": 7454,
+      "sha256": "76b0bfb0397914db50208ea78f960b047f9b6a760d3a77c4c55a6b89b0a24829",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/eval_val_base/config.yaml": {
+      "size": 4724,
+      "sha256": "b77cd2db776e5be678fe3cd375499fb2a83d7afde3d9aa518a6e9263a68a2a80",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/eval_val_base/console.command.json": {
+      "size": 970,
+      "sha256": "31d60d7e6c6df1d03aca1dd2323da158155088e6e13cae6fb83c1e2e8ee3d247",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/eval_val_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/eval_val_base/console.log": {
+      "size": 8551,
+      "sha256": "46a689a5dd13b23c5457611748bc331addc08d5df16d8f713efaeea68094db14",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/eval_val_base/initialization.json": {
+      "size": 531,
+      "sha256": "31120f5c2cbed3b3a86ea5ad4d86d988d8e4c6b22989652d373d734034f511f6",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/eval_val_base/log.txt": {
+      "size": 7301,
+      "sha256": "64044f88548a4093be240487e954821cd0c8d5a6844558913fab59cc2902abeb",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/initialization.json": {
+      "size": 530,
+      "sha256": "7a7ed6a12b5c104f8c91bf871a677004d0779ae39bb4d533dd7452d1d4812272",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/log.txt": {
+      "size": 763477,
+      "sha256": "fb0256457b4b192d156423fbb4d85ca0ad37f34527fc6c1cc7c91a6445f9eefc",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/predictions/test_base/metadata.json": {
+      "size": 2947,
+      "sha256": "f225c3e576dd2545c180fac2f1aadf5228983667ada782346b941cc599a3b7cd",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/predictions/test_base/predictions.npz": {
+      "size": 111240,
+      "sha256": "2f2b67eec81980962c95484db8d2e4bbd593b8202c70aaabb7cc24d3dc8c9d3d",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/predictions/test_new/metadata.json": {
+      "size": 2902,
+      "sha256": "03a7e4773937c8b767c828fafdd5431a8b0b4b3c69f2cda52ebde0c8398c277c",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/predictions/test_new/predictions.npz": {
+      "size": 145130,
+      "sha256": "2fbb99ca17fabc83659c42e4b0fff361a217283021e73784d7a8999e7c03ec32",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/predictions/val_base/metadata.json": {
+      "size": 2864,
+      "sha256": "9577ae086130b97c9958edd8218537f728690add9262a7179dc70807bb725241",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/predictions/val_base/predictions.npz": {
+      "size": 23611,
+      "sha256": "0eb6c5cc5bfc0703903cda98be6b64f3786fb9f6518669f8cb96a4fb7a7380c7",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/prompt_learner/checkpoint": {
+      "size": 18,
+      "sha256": "f640768b324094a6797f54bd639357308b1fd1a80117d5ff944ee73e354d8fd2",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/prompt_learner/model.pth.tar-200": {
+      "size": 3236124,
+      "sha256": "0c24c5947cae94ea454a51f84aab58e7871a32693cbc2fe73688f1c00b5b6d5a",
+      "checkpoint": true
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/reload_probe.npz": {
+      "size": 11388,
+      "sha256": "651cb13083ddf458722c5706732d75cca698200768c5d5b83604fc2e5c317aa1",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/run_status.json": {
+      "size": 444,
+      "sha256": "e459524c60adaafbce3416a1b3ebf2bd4cd5413730ce09513fc2e3418987459b",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/temperature.json": {
+      "size": 23551,
+      "sha256": "8432f3a651ba739fb4a54ecbfe9b612cc00984745192eae0e12c1701c45e96a8",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/tensorboard/events.out.tfevents.1794314780.autodl-container-4f41468bb9-58d83b0c.127787.0": {
+      "size": 719698,
+      "sha256": "cf2ad06aa7c7f08026aefd37d07c91f45f53893e516b396c0153dff516040a5f",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/training_resources.json": {
+      "size": 403,
+      "sha256": "3d999f64dafd2bad83883cfdff82d5b51c95c00422857786a64a89ae75b1b66d",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/coop/seed3/attempt01/updates.jsonl": {
+      "size": 7503435,
+      "sha256": "1ea2102c84907ee713f1b7ace989706cc48952120ba6beba1e1adcbca34cfc98",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/checkpoint_check.json": {
+      "size": 135,
+      "sha256": "e54d71643afacab4b13e84273d1a43fe2fb3ba58db24733dbc3a60caa7b6f8ac",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/config.yaml": {
+      "size": 4606,
+      "sha256": "535e2ae5e73432c503e5ffd7804f1820526ac98fd3419312dc1cf312fa105421",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/console.command.json": {
+      "size": 1015,
+      "sha256": "c08a442926febdd4d972a052c19c1ef775f7d7ee35e7674e684a7c86f05ec6f3",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/console.log": {
+      "size": 20408,
+      "sha256": "b034a2fd7ecd4c3debadeb4bc8951fe5bfec7eb56153b47440b502f0ca6c0110",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/epochs.jsonl": {
+      "size": 1968,
+      "sha256": "9fbcab5f07a6570ce4554cd3df0aeba6d2566715a00e65704dd28c47a61136db",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/eval_test_base/config.yaml": {
+      "size": 4711,
+      "sha256": "2649e04be566697883a5df9b207c3879a33fe07d1cec71b3f83a25b2f94b8506",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/eval_test_base/console.command.json": {
+      "size": 1305,
+      "sha256": "1d123f2e5333e26cd848d4cd16dc2220a90a13cf8225b8b988c6bca5b9c12f87",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/eval_test_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/eval_test_base/console.log": {
+      "size": 11981,
+      "sha256": "946c1ce8529139715cd9dec9eb6bd55d771466e4d31502c193cdb0bc18c96405",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/eval_test_base/initialization.json": {
+      "size": 529,
+      "sha256": "05eb2f544095187f4038fd12c84122c0cc943a0bab3d591e37a9b8f4d0d06c0e",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/eval_test_base/log.txt": {
+      "size": 9715,
+      "sha256": "330e8b2ad9ee2e54d0766fdaa4eba76f8051de5b0ed270ab8c009db17b329a25",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/eval_test_new/config.yaml": {
+      "size": 4708,
+      "sha256": "4b55531545c6ee92b197b2731e1584f1310f45df215fccfb0344f14872a2e0e9",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/eval_test_new/console.command.json": {
+      "size": 1302,
+      "sha256": "c87243b1f3d19690333f44b6395173f987db081444ec7d1743dcc4fdd34fad07",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/eval_test_new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/eval_test_new/console.log": {
+      "size": 12046,
+      "sha256": "b22d1cc55a521efecb8909fb4123206cd16d35d806c1ddc16f3a06927294f599",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/eval_test_new/initialization.json": {
+      "size": 530,
+      "sha256": "cfbc607120f1e38e82dff2816e8ecbddd105f6d5f2345de1f7777886a2c8a17a",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/eval_test_new/log.txt": {
+      "size": 9780,
+      "sha256": "4a850691f6e5877962dc0f96fc955dbb807c8edac610ce31331cdd6cbfb6ce62",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/eval_val_base/config.yaml": {
+      "size": 4708,
+      "sha256": "1f3125f0e9f7813d94500ad5bddbb561e11d937e96ca50dcbf691196eda212d7",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/eval_val_base/console.command.json": {
+      "size": 1302,
+      "sha256": "868a2c7534159581115e3a4b6849dd9abd5f25b5ff780d9369832edc295fb23a",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/eval_val_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/eval_val_base/console.log": {
+      "size": 11909,
+      "sha256": "a7b425128274c5e9fb70bc5946ab16211980a99cadd69a3fc794bb7a096d4c6a",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/eval_val_base/initialization.json": {
+      "size": 528,
+      "sha256": "32d70faa45d38f8ef7f392ecf4e1e6935b9801a35b477a7975125a4bd0727b86",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/eval_val_base/log.txt": {
+      "size": 9643,
+      "sha256": "f9847dcfa9b3d538d14f1c7c73c29b010680767fe8236549fb73eeb0d520f3d1",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/initialization.json": {
+      "size": 529,
+      "sha256": "85ca0c6d5c58b15e181bb744e942af5b50db6d0b1694f01bcbbfcd558cf618b2",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/log.txt": {
+      "size": 18142,
+      "sha256": "cdd90e96b82e90f4d91a3df7eec65aebf51e5563b7936d09763e576e7aa488d2",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/negative_sampling.jsonl": {
+      "size": 4541188,
+      "sha256": "b402efcba511bb7d00795348b7fbfb2e52e97f82f9e9c05979b3f12a7e03db89",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/predictions/test_base/metadata.json": {
+      "size": 2939,
+      "sha256": "ca78861168c54981cd73b57ec1c123e5302dccd1bc25479a9add9504103efd14",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/predictions/test_base/predictions.npz": {
+      "size": 112060,
+      "sha256": "0cc1768fe5dfdec8e19392c83f896a9557b833870e938e081c5ffbf5f9c0961d",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/predictions/test_new/metadata.json": {
+      "size": 2898,
+      "sha256": "067a9785d771bca97ffe17f2b032fef09d4145009f8401dd8bc5b7227cf257a1",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/predictions/test_new/predictions.npz": {
+      "size": 144727,
+      "sha256": "535102878291fe30f73cf656770853425b7f1fbe6f700a2dafcf9e77dee04328",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/predictions/val_base/metadata.json": {
+      "size": 2876,
+      "sha256": "9334a6ee6b4cf2875ccd82368d4d0a7c19a4944b57ecdb55f4cfe2cf08d02edd",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/predictions/val_base/predictions.npz": {
+      "size": 23893,
+      "sha256": "9fd8fd4766ef3f8510b2ebb132e2d1835bb1238aa4753951fd0eca2bc37a4857",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/prompt_learner/checkpoint": {
+      "size": 17,
+      "sha256": "39b52e1fe4e3b14f97e01b66f780e0cf0ab5005ccbde5121115a139f1ab250db",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/prompt_learner/model.pth.tar-20": {
+      "size": 252490554,
+      "sha256": "584f342ccefe566de825e9a54732943f9e38cb78405a68b6bd6fb2f356f5720b",
+      "checkpoint": true
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/reload_probe.npz": {
+      "size": 11555,
+      "sha256": "cf14a8a92f2460634318e7030d1319b20cd31e539ba4446324fbe16071d29358",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/run_status.json": {
+      "size": 490,
+      "sha256": "a816d993d1e498f8a84ee8d55993e8fb2922c7d415a2c59d31a691a89f67ba42",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/temperature.json": {
+      "size": 23507,
+      "sha256": "fe0312b9389f540a8607325d73838878bd8c37232b846cb40b2c10e0ea645e8d",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/tensorboard/events.out.tfevents.1794312025.autodl-container-4f41468bb9-58d83b0c.95521.0": {
+      "size": 391508,
+      "sha256": "bdb06b9b28b1723652a76033b166f3169c17c3ebc67e28d9c2db2a0bf6a3d78f",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/training_resources.json": {
+      "size": 403,
+      "sha256": "0742e3efad8054d10b0465f5943dfc622a2640bfb54035da34997fd10c3dcc58",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed1/attempt01/updates.jsonl": {
+      "size": 1287722,
+      "sha256": "fbe48bdb7a23d0463b422452dd7a3d5fffd421fa4613672500b5e15956e88126",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/checkpoint_check.json": {
+      "size": 135,
+      "sha256": "e54d71643afacab4b13e84273d1a43fe2fb3ba58db24733dbc3a60caa7b6f8ac",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/config.yaml": {
+      "size": 4606,
+      "sha256": "2569fdbd63d8b7402d322294784b0027b55f43a04bceb99bce03eac827793232",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/console.command.json": {
+      "size": 1015,
+      "sha256": "aac2dcb056a670811dc91bcea0a7f8aca27f648c4a50b06245ed466832edff14",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/console.log": {
+      "size": 20408,
+      "sha256": "16a5bc1b9bd42518985b36b232c7ac268c5cf9f4515d440bf76c8601c313aa45",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/epochs.jsonl": {
+      "size": 1978,
+      "sha256": "1d411422bd2f5a5910ba0f5aa111771afd986c75206cfb5e06d6b5fa5bb41b0e",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/eval_test_base/config.yaml": {
+      "size": 4711,
+      "sha256": "c178678ce2044affbfddceb29dddf508d10dd8f860c3559c4cc4862c9677c150",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/eval_test_base/console.command.json": {
+      "size": 1305,
+      "sha256": "e575eab5e7364f53dc720a216eed3978993b32a681600d99c533f0e6188740e1",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/eval_test_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/eval_test_base/console.log": {
+      "size": 11997,
+      "sha256": "ef62c3296f9e534c173983d2e4f30f6622f5597adc02096ad580d582735e697c",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/eval_test_base/initialization.json": {
+      "size": 529,
+      "sha256": "f167f41aad5f20255e52edcbfcd70a3e844a29354737a0dcbb593e9aae91cb6c",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/eval_test_base/log.txt": {
+      "size": 9731,
+      "sha256": "e64eb6a14509734a8c15ac6b39a0e2ec3207730366c07ddd902241e5010bf259",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/eval_test_new/config.yaml": {
+      "size": 4708,
+      "sha256": "b572247dcd2ef8229221443371720be57b9dcb72d09684c9589408f010781794",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/eval_test_new/console.command.json": {
+      "size": 1302,
+      "sha256": "d7ad256fbbff81c9bf55fad9baf305d1616e0de1165a97b0d113d08317adcc40",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/eval_test_new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/eval_test_new/console.log": {
+      "size": 12046,
+      "sha256": "f05399ff5b17b3c3c388599ef8f0fd77e4c8896180f711e9f7955c819255d2cd",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/eval_test_new/initialization.json": {
+      "size": 529,
+      "sha256": "9f05e83804e7cc8670c767460f3fa26ff11bd53d1c4f735f3c0df6aaf4280a74",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/eval_test_new/log.txt": {
+      "size": 9780,
+      "sha256": "7a763fe6e5fd0f633932aac30d3a7a209adc4ae48363a45c943868ace90d7bac",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/eval_val_base/config.yaml": {
+      "size": 4708,
+      "sha256": "38defd952420c86bf13ce16c7850f0746586acec93ac42df6c37971089e869e4",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/eval_val_base/console.command.json": {
+      "size": 1302,
+      "sha256": "47654f62dfd64257f73a0dcfe84c5443952b958b595a06f84228a13e229b56c2",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/eval_val_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/eval_val_base/console.log": {
+      "size": 11864,
+      "sha256": "f047e1ce703fd5e2bae23279749465ecef5614b4b9f3fe0454b2b3f135924c91",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/eval_val_base/initialization.json": {
+      "size": 529,
+      "sha256": "8d0f8a302efa4d1133dda8664ba72eb225d30bc071c564f43daa7abc75a26d50",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/eval_val_base/log.txt": {
+      "size": 9598,
+      "sha256": "93916337f4917bf69112890114df9ddbf13861196f48989eece476fbf6ff6e39",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/initialization.json": {
+      "size": 529,
+      "sha256": "b96928285c1e223bcb64550bb21313577c8df7f57861276f00cc905aaa25dd4d",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/log.txt": {
+      "size": 18142,
+      "sha256": "62d0807bf4dec8132a440fe703c5838270a9cbd49e1d6c9ac10548be303f0a83",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/negative_sampling.jsonl": {
+      "size": 4559428,
+      "sha256": "8ee0d6cbb200250a468c098fb6d8ad7c917469497a130b5a890fc4cb4ceea819",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/predictions/test_base/metadata.json": {
+      "size": 2953,
+      "sha256": "955b498263cefef26095f3072b2c35a22e9e041c702c68c3c57864d1196915b1",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/predictions/test_base/predictions.npz": {
+      "size": 111450,
+      "sha256": "40c9789a818eed38188da2f13b47b056fbcc3bcc0532d382bb2510955066c7af",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/predictions/test_new/metadata.json": {
+      "size": 2899,
+      "sha256": "63f586cfbb1c1b145a50baffefd5a5281b78fdf9803374a061eddd885d847f2a",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/predictions/test_new/predictions.npz": {
+      "size": 144009,
+      "sha256": "6ebe8f05c698aa68bd53caf81e37c7e90aa465c92c9a5f8d91e817d2e6188f71",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/predictions/val_base/metadata.json": {
+      "size": 2832,
+      "sha256": "c2ed05016e464ffbc749d6557cf7a4b4858c7c6ceaa32829b16d522a745c810d",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/predictions/val_base/predictions.npz": {
+      "size": 23680,
+      "sha256": "64fcf5fee461a1714cdef79695dc8cd354f8be29b95c0848b5f1a4d170b1ce5f",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/prompt_learner/checkpoint": {
+      "size": 17,
+      "sha256": "39b52e1fe4e3b14f97e01b66f780e0cf0ab5005ccbde5121115a139f1ab250db",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/prompt_learner/model.pth.tar-20": {
+      "size": 252490490,
+      "sha256": "3a26df51dbb16ebf690ebbb3384abd51ee24c689a0605dbb08baa4382d38aad8",
+      "checkpoint": true
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/reload_probe.npz": {
+      "size": 11438,
+      "sha256": "167b5ad6b8846640c79188338d5b97ce1935ca2c3c2ecd8d5fa4146f97ffb8a4",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/run_status.json": {
+      "size": 490,
+      "sha256": "b28c20250b3e3b843a86a776bfcac8bb31c6a4d31ae6ed75d0eb23506d79302e",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/temperature.json": {
+      "size": 23679,
+      "sha256": "cc39df76f2b9b773b12ca86f2ea2a51aa239a8fadfe6e65e507f29a1e63539d6",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/tensorboard/events.out.tfevents.1794313583.autodl-container-4f41468bb9-58d83b0c.116392.0": {
+      "size": 391508,
+      "sha256": "d1307b6c8c8896e301661dcdf57641601243ae81f8a54d34e366cfc46ef04e34",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/training_resources.json": {
+      "size": 403,
+      "sha256": "6ad61ea036d2334d9ca5949de923f33622db5a998f0914d589e2682f6b2018db",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed2/attempt01/updates.jsonl": {
+      "size": 1288302,
+      "sha256": "21fb83fc5225d3da40ffa6321c03d4739ee250d2fb0a1de5dd9ea8c92fde9db8",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/checkpoint_check.json": {
+      "size": 135,
+      "sha256": "e54d71643afacab4b13e84273d1a43fe2fb3ba58db24733dbc3a60caa7b6f8ac",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/config.yaml": {
+      "size": 4606,
+      "sha256": "5b0c5887779989cffb7ff7ec93bc8b7f7b670ade35c9214e2c8a458fdf20b720",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/console.command.json": {
+      "size": 1015,
+      "sha256": "ba29a2450e833836f26bbed618d6fc6ace443e35ed5843f20a1b7f1f694a69c2",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/console.log": {
+      "size": 20408,
+      "sha256": "dbeef80edb722dcd8aadb185514344af4adccaf84229f4723da90b1cbd2e0f07",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/epochs.jsonl": {
+      "size": 1957,
+      "sha256": "d03ea8b697b627fd4a44d31288b9e150b5a4582e3832052171fb0f9f510de21b",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/eval_test_base/config.yaml": {
+      "size": 4711,
+      "sha256": "0c3cd2add22f66f05c18297e7ccc5028afac9b04aab917d4e14c7fae23c471e7",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/eval_test_base/console.command.json": {
+      "size": 1305,
+      "sha256": "8654d9eb6d7c5bd304a19fc130fb06c49118bd4a74bde280223630298c5cb5f3",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/eval_test_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/eval_test_base/console.log": {
+      "size": 11969,
+      "sha256": "b96c3288938484f700e3d03fcab6f9a799cae66deb6b067cdf76c2e97f31e2de",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/eval_test_base/initialization.json": {
+      "size": 529,
+      "sha256": "da99018901ce42136555e885d048941422788959a1a51201c108f5a976ea39d9",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/eval_test_base/log.txt": {
+      "size": 9703,
+      "sha256": "b184c85c7f6600be92c569c1ac9b9965a6c010f51e6775c496d8fd3903bea301",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/eval_test_new/config.yaml": {
+      "size": 4708,
+      "sha256": "6436af6e1b03edec0497c122d14908dab5e1af24f63d3d3199f7e3ebf7d2991e",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/eval_test_new/console.command.json": {
+      "size": 1302,
+      "sha256": "ff9ca07ecf16e7603d74c4be695d1c17d88b82ac1d55d08c3b0b7f537f7632bb",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/eval_test_new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/eval_test_new/console.log": {
+      "size": 12045,
+      "sha256": "64fd8d89aa4b1167f3655f26071c07d16cd292d8f3a2533263a53804939dbe64",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/eval_test_new/initialization.json": {
+      "size": 529,
+      "sha256": "803815dfff53f449ad8eb83b5c04dbca75e3646486a1cc2760f06b42f34f7b7a",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/eval_test_new/log.txt": {
+      "size": 9779,
+      "sha256": "ba894c54fa5e092a450bef67e33e96f2294c35815116b50c98ca87c5e521c92f",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/eval_val_base/config.yaml": {
+      "size": 4708,
+      "sha256": "bce42f6bc1e22b92ea9a87de303b26565b80061ae7995feaae085528e9fa29a2",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/eval_val_base/console.command.json": {
+      "size": 1302,
+      "sha256": "a3c8cf5b238c4ac5eb48f0167b4345ba7bd1691e24647b661557cfba3f12d439",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/eval_val_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/eval_val_base/console.log": {
+      "size": 11911,
+      "sha256": "48c1a26f1369517c3e74e7e15f8c38f8c4bc4a816ef2d8dae70735a88ebcc197",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/eval_val_base/initialization.json": {
+      "size": 529,
+      "sha256": "304a2e1595a1af69bdea831aff7c0400198198cdfeaf4fb7678a0fc174a2fdb9",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/eval_val_base/log.txt": {
+      "size": 9645,
+      "sha256": "0ecb54e66259d53d7da0ad3c9559cdf3bfd7fa2656aeb1b3a7e1210dfa100174",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/initialization.json": {
+      "size": 528,
+      "sha256": "f753e97b3a033cd7f555a175a2b15d17b09048c9887e490141630857cedfd8c5",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/log.txt": {
+      "size": 18142,
+      "sha256": "39fd91ad089da1c66ed9b8331fd896d46f980494a26619ff1c2f1b5866a613ef",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/negative_sampling.jsonl": {
+      "size": 4570828,
+      "sha256": "92cabdcbac309b62cfbf85cbfad255f8ff20c438aadc6a6aa9bc9360fda501a4",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/predictions/test_base/metadata.json": {
+      "size": 2927,
+      "sha256": "45b3dc05b77ee2445105362f0ef77c35164edb1f328d2142dabb2b2989e0536d",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/predictions/test_base/predictions.npz": {
+      "size": 111257,
+      "sha256": "3ac1a4e720727423331cdfaa4e8507ea2502acaf36ff2af83d8957b7473d7be5",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/predictions/test_new/metadata.json": {
+      "size": 2898,
+      "sha256": "74f4a526f9c3fe8fbb019ba73b7c04f4326e9d4a570b08a7a6af84ef746b477f",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/predictions/test_new/predictions.npz": {
+      "size": 145130,
+      "sha256": "2fbb99ca17fabc83659c42e4b0fff361a217283021e73784d7a8999e7c03ec32",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/predictions/val_base/metadata.json": {
+      "size": 2876,
+      "sha256": "14a7c32bb2e600cf430c8a09d093c2ca718f40cd470d400d48b3749003660000",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/predictions/val_base/predictions.npz": {
+      "size": 23698,
+      "sha256": "6e857187c2c8647f08b24b8890257c28466161c6831557349175da637d13169e",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/prompt_learner/checkpoint": {
+      "size": 17,
+      "sha256": "39b52e1fe4e3b14f97e01b66f780e0cf0ab5005ccbde5121115a139f1ab250db",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/prompt_learner/model.pth.tar-20": {
+      "size": 252490490,
+      "sha256": "a1ca711f24a8707015e38d40f384509fd5c125d422fe8fccc3415736226b885a",
+      "checkpoint": true
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/reload_probe.npz": {
+      "size": 11459,
+      "sha256": "d8f39e5cf62d921c704c9bfc78e1f5858284dec115cba676a5353d290003b6c9",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/run_status.json": {
+      "size": 490,
+      "sha256": "578dda066cdcdafeb3289a9714f34d6b6fc5485419e83b31e91b5e9b3c02708d",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/temperature.json": {
+      "size": 23503,
+      "sha256": "bb238efbdcb88e90ec8e86ef78b0d793beea4d1d1999eb3ce0a979852d3f7b66",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/tensorboard/events.out.tfevents.1794315131.autodl-container-4f41468bb9-58d83b0c.137235.0": {
+      "size": 391508,
+      "sha256": "97ed1a6813392048bcdd065069be2a56cd66d6ac7452193aa05d17cad180017a",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/training_resources.json": {
+      "size": 402,
+      "sha256": "c832ab1933a3ebf6afd337d66a8d02b0daeade7b331349e422c12cfc1977114f",
+      "checkpoint": false
+    },
+    "outputs/E/oxford_flowers/dpc/seed3/attempt01/updates.jsonl": {
+      "size": 1287605,
+      "sha256": "f4340c4e5941b7ee21d5fa4943d7f50a76476b84e9dda6166c1ba25fb357225d",
+      "checkpoint": false
+    },
+    "outputs/E/tables/clip_reference.csv": {
+      "size": 469,
+      "sha256": "db1d7e66a23b1a9265a0dffa630711e4c66357c980401c644d2fad04d38d1376",
+      "checkpoint": false
+    },
+    "outputs/E/tables/costs.csv": {
+      "size": 2932,
+      "sha256": "fdf245ba83b499d7c81dc4ebd2fee5fb172fdbb8356660db6b287e22de836639",
+      "checkpoint": false
+    },
+    "outputs/E/tables/dpc_two_stage_costs.csv": {
+      "size": 1309,
+      "sha256": "0b1832f6c4afe97d117779efa492de4f57fc0f1e1de0702636372dee68f580c4",
+      "checkpoint": false
+    },
+    "outputs/E/tables/ece_bins_sensitivity.csv": {
+      "size": 7389,
+      "sha256": "ec85de2f8e6be731608c2e187e4e361e6196778090ca686bd37029572eb7e7b4",
+      "checkpoint": false
+    },
+    "outputs/E/tables/main_comparison_raw.csv": {
+      "size": 1908,
+      "sha256": "8f8fdf42aca38279812cf2e6e9fae3f37ee0d23adab34911db1667f5bbe94a5f",
+      "checkpoint": false
+    },
+    "outputs/E/tables/main_comparison_temperature.csv": {
+      "size": 2463,
+      "sha256": "04508cf86956eabf58a511735e270cfe8853ad51d90cf2f7502d61519f177913",
+      "checkpoint": false
+    },
+    "outputs/E/tables/paired_dpc_vs_coop.csv": {
+      "size": 1718,
+      "sha256": "f5066c34850c8a3a96af49eee325b5c4b4c7ce0bb6cd698fa577f59c74c0e9e6",
+      "checkpoint": false
+    },
+    "outputs/E/tables/reliability_seed1.csv": {
+      "size": 11897,
+      "sha256": "9265af0ceedb72ea4a84ee683b73cdab9b09661aff99d44ffe1f8e4755d50265",
+      "checkpoint": false
+    },
+    "outputs/E/tables/runs_raw.csv": {
+      "size": 3267,
+      "sha256": "299d85fd1ada4e7154b7d98b62562cb42b3df196fee087a4d12cc570830e5da9",
+      "checkpoint": false
+    },
+    "outputs/E/tables/summary_raw.csv": {
+      "size": 1330,
+      "sha256": "5092724ca35383c67a01c2b143a1bd83cb921bb19dfd0d3e1c0e2d90f00585c8",
+      "checkpoint": false
+    },
+    "outputs/E/tables/summary_temperature.csv": {
+      "size": 1724,
+      "sha256": "8ede66c89af9b4ae77db4a22f2eb932ad8a2c65accd251b24593c81b4b661490",
+      "checkpoint": false
+    },
+    "outputs/E/tables/temperature_runs.csv": {
+      "size": 3638,
+      "sha256": "4aefaab9f1867a3cc027ec90aed8cc177a5113f6d577eba9ef5bf711e4c47254",
+      "checkpoint": false
+    },
+    "records/E_analysis.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "records/E_analysis.log": {
+      "size": 6671,
+      "sha256": "01d2593c9d497aa35c40d0805a6e21ed2fb85afdde1e8ea1e1265d6fed3d7be4",
+      "checkpoint": false
+    },
+    "records/E_analysis_checks.json": {
+      "size": 6671,
+      "sha256": "01d2593c9d497aa35c40d0805a6e21ed2fb85afdde1e8ea1e1265d6fed3d7be4",
+      "checkpoint": false
+    },
+    "records/E_annotation_checks.json": {
+      "size": 3000,
+      "sha256": "afab59b604929470de0167192c428ae88ce27968840206fcb9ea5296258c62ad",
+      "checkpoint": false
+    },
+    "records/E_config_manifest.json": {
+      "size": 928,
+      "sha256": "5359295844094872b48ca0281012a38ac6ef41110906ee0f627fcb7a2203ca30",
+      "checkpoint": false
+    },
+    "records/E_extension_decision.json": {
+      "size": 616,
+      "sha256": "ec8ff8a9dc822c64facdcdb88c8397bca9e55ef7f009b2bbb98ce3aa25be1211",
+      "checkpoint": false
+    },
+    "records/E_implementation.patch": {
+      "size": 55283,
+      "sha256": "088243cf10c968789a1264ed57ca52dfea455207fcd3c78860771c9509cddbdc",
+      "checkpoint": false
+    },
+    "records/E_implementation_files.json": {
+      "size": 39132,
+      "sha256": "cfce706a05e3648e4f86355d0101cacb93b6be6ac3a82c59e75f141f606c8122",
+      "checkpoint": false
+    },
+    "records/E_import.log": {
+      "size": 1913,
+      "sha256": "b4f0d9f0390f46cd11e0f86797394f889ec0de1063fb26d0e8d29775868e79a8",
+      "checkpoint": false
+    },
+    "records/E_import_attempt01.log": {
+      "size": 205,
+      "sha256": "dd82c0494b885ae14895514680293b7ad2ee0693b7f499a612660bfdd0799025",
+      "checkpoint": false
+    },
+    "records/E_matrix.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "records/E_matrix.log": {
+      "size": 708,
+      "sha256": "848931d9bedfe4648d0d0da843fbe953dcc6e2162b375ecbd76f1e98c3d2e8dc",
+      "checkpoint": false
+    },
+    "records/E_pilot.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "records/E_pilot.json": {
+      "size": 834,
+      "sha256": "f2caa18f65e2ca8286d0fbe697bec1b465c4cd10a7585fa5dbd11f5bd53ba168",
+      "checkpoint": false
+    },
+    "records/E_pilot.log": {
+      "size": 96,
+      "sha256": "bbbc1707d7d067e9b62b43c099aa458aa92b75a35058fa1902219f8e1e2d794b",
+      "checkpoint": false
+    },
+    "records/E_preflight.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "records/E_preflight.json": {
+      "size": 1043,
+      "sha256": "3eda2de9c75ae11756aef60241f720984af90ac9654cd390ed3c9cd6845eca46",
+      "checkpoint": false
+    },
+    "records/E_preflight.log": {
+      "size": 40227,
+      "sha256": "1c066c7148de564a3aa52958c50f11dbf07c7ee1d23b301ba6ca496875e274e4",
+      "checkpoint": false
+    },
+    "records/E_progress.json": {
+      "size": 1824,
+      "sha256": "4e5a345b522523c91aede5194eceb298dd6807a6cf55ced647b751785cf84e86",
+      "checkpoint": false
+    },
+    "records/E_runner.lock": {
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "checkpoint": false
+    },
+    "records/E_sampling_checks.json": {
+      "size": 3696,
+      "sha256": "88e9de67b96b0039465323d4802d16f82fcbb52ab41d4d1b66cfa49dd66adc12",
+      "checkpoint": false
+    },
+    "scripts/analyze_e.py": {
+      "size": 22190,
+      "sha256": "33ac4ecbe91d3295f07b4aa2794c6861d5d1c55ca51943b6dab4e7104afedead",
+      "checkpoint": false
+    },
+    "scripts/package_results_e.py": {
+      "size": 3042,
+      "sha256": "6e29a796ea427761be390ba24f31b8a7e7b8ffc43517ffa2f18e8446fcc2ea6a",
+      "checkpoint": false
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "implementation_sha256": "cfce706a05e3648e4f86355d0101cacb93b6be6ac3a82c59e75f141f606c8122",
+  "data_manifest_sha256": "7e83bccedc996d8e0e67f2cca3bf46b7c84e7522985f4c122b5992a7f4739b44",
+  "annotations_sha256": "afab59b604929470de0167192c428ae88ce27968840206fcb9ea5296258c62ad",
+  "configurations": {
+    "coop": [
+      "CoOpE",
+      "configs/trainers/CoOp/vit_b16.yaml",
+      200
+    ],
+    "dpc": [
+      "DPCE",
+      "configs/trainers/SPLE/CoOp/vit_b16_ep20.yaml",
+      20
+    ]
+  },
+  "shots": 16,
+  "context_length": 16,
+  "class_specific_context": false,
+  "initialization": "random_normal_0.02",
+  "precision": "fp16",
+  "base_weight": 0.5,
+  "new_weight": 0.0,
+  "configured_topk": 8,
+  "nonrepeat": true,
+  "learning_rate": 0.002,
+  "datasets": [
+    "dtd",
+    "oxford_flowers"
+  ],
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "recipe_sha256": "08c93a892784d37d61b75ab830bab60028a3e16dec5784db5320672996bcc5f4"
+}

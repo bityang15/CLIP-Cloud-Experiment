@@ -1,0 +1,482 @@
+[
+  {
+    "image_id": "dtd/images/banded/banded_0008.jpg",
+    "label": 0,
+    "classname": "banded"
+  },
+  {
+    "image_id": "dtd/images/banded/banded_0103.jpg",
+    "label": 0,
+    "classname": "banded"
+  },
+  {
+    "image_id": "dtd/images/banded/banded_0073.jpg",
+    "label": 0,
+    "classname": "banded"
+  },
+  {
+    "image_id": "dtd/images/banded/banded_0153.jpg",
+    "label": 0,
+    "classname": "banded"
+  },
+  {
+    "image_id": "dtd/images/blotchy/blotchy_0128.jpg",
+    "label": 1,
+    "classname": "blotchy"
+  },
+  {
+    "image_id": "dtd/images/blotchy/blotchy_0125.jpg",
+    "label": 1,
+    "classname": "blotchy"
+  },
+  {
+    "image_id": "dtd/images/blotchy/blotchy_0131.jpg",
+    "label": 1,
+    "classname": "blotchy"
+  },
+  {
+    "image_id": "dtd/images/blotchy/blotchy_0115.jpg",
+    "label": 1,
+    "classname": "blotchy"
+  },
+  {
+    "image_id": "dtd/images/braided/braided_0191.jpg",
+    "label": 2,
+    "classname": "braided"
+  },
+  {
+    "image_id": "dtd/images/braided/braided_0149.jpg",
+    "label": 2,
+    "classname": "braided"
+  },
+  {
+    "image_id": "dtd/images/braided/braided_0027.jpg",
+    "label": 2,
+    "classname": "braided"
+  },
+  {
+    "image_id": "dtd/images/braided/braided_0162.jpg",
+    "label": 2,
+    "classname": "braided"
+  },
+  {
+    "image_id": "dtd/images/bubbly/bubbly_0120.jpg",
+    "label": 3,
+    "classname": "bubbly"
+  },
+  {
+    "image_id": "dtd/images/bubbly/bubbly_0137.jpg",
+    "label": 3,
+    "classname": "bubbly"
+  },
+  {
+    "image_id": "dtd/images/bubbly/bubbly_0146.jpg",
+    "label": 3,
+    "classname": "bubbly"
+  },
+  {
+    "image_id": "dtd/images/bubbly/bubbly_0156.jpg",
+    "label": 3,
+    "classname": "bubbly"
+  },
+  {
+    "image_id": "dtd/images/bumpy/bumpy_0149.jpg",
+    "label": 4,
+    "classname": "bumpy"
+  },
+  {
+    "image_id": "dtd/images/bumpy/bumpy_0143.jpg",
+    "label": 4,
+    "classname": "bumpy"
+  },
+  {
+    "image_id": "dtd/images/bumpy/bumpy_0175.jpg",
+    "label": 4,
+    "classname": "bumpy"
+  },
+  {
+    "image_id": "dtd/images/bumpy/bumpy_0107.jpg",
+    "label": 4,
+    "classname": "bumpy"
+  },
+  {
+    "image_id": "dtd/images/chequered/chequered_0049.jpg",
+    "label": 5,
+    "classname": "chequered"
+  },
+  {
+    "image_id": "dtd/images/chequered/chequered_0062.jpg",
+    "label": 5,
+    "classname": "chequered"
+  },
+  {
+    "image_id": "dtd/images/chequered/chequered_0195.jpg",
+    "label": 5,
+    "classname": "chequered"
+  },
+  {
+    "image_id": "dtd/images/chequered/chequered_0187.jpg",
+    "label": 5,
+    "classname": "chequered"
+  },
+  {
+    "image_id": "dtd/images/cobwebbed/cobwebbed_0089.jpg",
+    "label": 6,
+    "classname": "cobwebbed"
+  },
+  {
+    "image_id": "dtd/images/cobwebbed/cobwebbed_0150.jpg",
+    "label": 6,
+    "classname": "cobwebbed"
+  },
+  {
+    "image_id": "dtd/images/cobwebbed/cobwebbed_0118.jpg",
+    "label": 6,
+    "classname": "cobwebbed"
+  },
+  {
+    "image_id": "dtd/images/cobwebbed/cobwebbed_0054.jpg",
+    "label": 6,
+    "classname": "cobwebbed"
+  },
+  {
+    "image_id": "dtd/images/cracked/cracked_0115.jpg",
+    "label": 7,
+    "classname": "cracked"
+  },
+  {
+    "image_id": "dtd/images/cracked/cracked_0119.jpg",
+    "label": 7,
+    "classname": "cracked"
+  },
+  {
+    "image_id": "dtd/images/cracked/cracked_0157.jpg",
+    "label": 7,
+    "classname": "cracked"
+  },
+  {
+    "image_id": "dtd/images/cracked/cracked_0124.jpg",
+    "label": 7,
+    "classname": "cracked"
+  },
+  {
+    "image_id": "dtd/images/crosshatched/crosshatched_0006.jpg",
+    "label": 8,
+    "classname": "crosshatched"
+  },
+  {
+    "image_id": "dtd/images/crosshatched/crosshatched_0126.jpg",
+    "label": 8,
+    "classname": "crosshatched"
+  },
+  {
+    "image_id": "dtd/images/crosshatched/crosshatched_0081.jpg",
+    "label": 8,
+    "classname": "crosshatched"
+  },
+  {
+    "image_id": "dtd/images/crosshatched/crosshatched_0103.jpg",
+    "label": 8,
+    "classname": "crosshatched"
+  },
+  {
+    "image_id": "dtd/images/crystalline/crystalline_0156.jpg",
+    "label": 9,
+    "classname": "crystalline"
+  },
+  {
+    "image_id": "dtd/images/crystalline/crystalline_0163.jpg",
+    "label": 9,
+    "classname": "crystalline"
+  },
+  {
+    "image_id": "dtd/images/crystalline/crystalline_0146.jpg",
+    "label": 9,
+    "classname": "crystalline"
+  },
+  {
+    "image_id": "dtd/images/crystalline/crystalline_0189.jpg",
+    "label": 9,
+    "classname": "crystalline"
+  },
+  {
+    "image_id": "dtd/images/dotted/dotted_0125.jpg",
+    "label": 10,
+    "classname": "dotted"
+  },
+  {
+    "image_id": "dtd/images/dotted/dotted_0103.jpg",
+    "label": 10,
+    "classname": "dotted"
+  },
+  {
+    "image_id": "dtd/images/dotted/dotted_0164.jpg",
+    "label": 10,
+    "classname": "dotted"
+  },
+  {
+    "image_id": "dtd/images/dotted/dotted_0174.jpg",
+    "label": 10,
+    "classname": "dotted"
+  },
+  {
+    "image_id": "dtd/images/fibrous/fibrous_0159.jpg",
+    "label": 11,
+    "classname": "fibrous"
+  },
+  {
+    "image_id": "dtd/images/fibrous/fibrous_0193.jpg",
+    "label": 11,
+    "classname": "fibrous"
+  },
+  {
+    "image_id": "dtd/images/fibrous/fibrous_0217.jpg",
+    "label": 11,
+    "classname": "fibrous"
+  },
+  {
+    "image_id": "dtd/images/fibrous/fibrous_0109.jpg",
+    "label": 11,
+    "classname": "fibrous"
+  },
+  {
+    "image_id": "dtd/images/flecked/flecked_0124.jpg",
+    "label": 12,
+    "classname": "flecked"
+  },
+  {
+    "image_id": "dtd/images/flecked/flecked_0107.jpg",
+    "label": 12,
+    "classname": "flecked"
+  },
+  {
+    "image_id": "dtd/images/flecked/flecked_0080.jpg",
+    "label": 12,
+    "classname": "flecked"
+  },
+  {
+    "image_id": "dtd/images/flecked/flecked_0168.jpg",
+    "label": 12,
+    "classname": "flecked"
+  },
+  {
+    "image_id": "dtd/images/freckled/freckled_0052.jpg",
+    "label": 13,
+    "classname": "freckled"
+  },
+  {
+    "image_id": "dtd/images/freckled/freckled_0123.jpg",
+    "label": 13,
+    "classname": "freckled"
+  },
+  {
+    "image_id": "dtd/images/freckled/freckled_0075.jpg",
+    "label": 13,
+    "classname": "freckled"
+  },
+  {
+    "image_id": "dtd/images/freckled/freckled_0098.jpg",
+    "label": 13,
+    "classname": "freckled"
+  },
+  {
+    "image_id": "dtd/images/frilly/frilly_0119.jpg",
+    "label": 14,
+    "classname": "frilly"
+  },
+  {
+    "image_id": "dtd/images/frilly/frilly_0054.jpg",
+    "label": 14,
+    "classname": "frilly"
+  },
+  {
+    "image_id": "dtd/images/frilly/frilly_0093.jpg",
+    "label": 14,
+    "classname": "frilly"
+  },
+  {
+    "image_id": "dtd/images/frilly/frilly_0116.jpg",
+    "label": 14,
+    "classname": "frilly"
+  },
+  {
+    "image_id": "dtd/images/gauzy/gauzy_0124.jpg",
+    "label": 15,
+    "classname": "gauzy"
+  },
+  {
+    "image_id": "dtd/images/gauzy/gauzy_0161.jpg",
+    "label": 15,
+    "classname": "gauzy"
+  },
+  {
+    "image_id": "dtd/images/gauzy/gauzy_0084.jpg",
+    "label": 15,
+    "classname": "gauzy"
+  },
+  {
+    "image_id": "dtd/images/gauzy/gauzy_0123.jpg",
+    "label": 15,
+    "classname": "gauzy"
+  },
+  {
+    "image_id": "dtd/images/grid/grid_0077.jpg",
+    "label": 16,
+    "classname": "grid"
+  },
+  {
+    "image_id": "dtd/images/grid/grid_0002.jpg",
+    "label": 16,
+    "classname": "grid"
+  },
+  {
+    "image_id": "dtd/images/grid/grid_0055.jpg",
+    "label": 16,
+    "classname": "grid"
+  },
+  {
+    "image_id": "dtd/images/grid/grid_0027.jpg",
+    "label": 16,
+    "classname": "grid"
+  },
+  {
+    "image_id": "dtd/images/grooved/grooved_0093.jpg",
+    "label": 17,
+    "classname": "grooved"
+  },
+  {
+    "image_id": "dtd/images/grooved/grooved_0086.jpg",
+    "label": 17,
+    "classname": "grooved"
+  },
+  {
+    "image_id": "dtd/images/grooved/grooved_0066.jpg",
+    "label": 17,
+    "classname": "grooved"
+  },
+  {
+    "image_id": "dtd/images/grooved/grooved_0060.jpg",
+    "label": 17,
+    "classname": "grooved"
+  },
+  {
+    "image_id": "dtd/images/honeycombed/honeycombed_0040.jpg",
+    "label": 18,
+    "classname": "honeycombed"
+  },
+  {
+    "image_id": "dtd/images/honeycombed/honeycombed_0163.jpg",
+    "label": 18,
+    "classname": "honeycombed"
+  },
+  {
+    "image_id": "dtd/images/honeycombed/honeycombed_0168.jpg",
+    "label": 18,
+    "classname": "honeycombed"
+  },
+  {
+    "image_id": "dtd/images/honeycombed/honeycombed_0092.jpg",
+    "label": 18,
+    "classname": "honeycombed"
+  },
+  {
+    "image_id": "dtd/images/interlaced/interlaced_0168.jpg",
+    "label": 19,
+    "classname": "interlaced"
+  },
+  {
+    "image_id": "dtd/images/interlaced/interlaced_0165.jpg",
+    "label": 19,
+    "classname": "interlaced"
+  },
+  {
+    "image_id": "dtd/images/interlaced/interlaced_0200.jpg",
+    "label": 19,
+    "classname": "interlaced"
+  },
+  {
+    "image_id": "dtd/images/interlaced/interlaced_0172.jpg",
+    "label": 19,
+    "classname": "interlaced"
+  },
+  {
+    "image_id": "dtd/images/knitted/knitted_0089.jpg",
+    "label": 20,
+    "classname": "knitted"
+  },
+  {
+    "image_id": "dtd/images/knitted/knitted_0076.jpg",
+    "label": 20,
+    "classname": "knitted"
+  },
+  {
+    "image_id": "dtd/images/knitted/knitted_0105.jpg",
+    "label": 20,
+    "classname": "knitted"
+  },
+  {
+    "image_id": "dtd/images/knitted/knitted_0093.jpg",
+    "label": 20,
+    "classname": "knitted"
+  },
+  {
+    "image_id": "dtd/images/lacelike/lacelike_0063.jpg",
+    "label": 21,
+    "classname": "lacelike"
+  },
+  {
+    "image_id": "dtd/images/lacelike/lacelike_0020.jpg",
+    "label": 21,
+    "classname": "lacelike"
+  },
+  {
+    "image_id": "dtd/images/lacelike/lacelike_0054.jpg",
+    "label": 21,
+    "classname": "lacelike"
+  },
+  {
+    "image_id": "dtd/images/lacelike/lacelike_0058.jpg",
+    "label": 21,
+    "classname": "lacelike"
+  },
+  {
+    "image_id": "dtd/images/lined/lined_0086.jpg",
+    "label": 22,
+    "classname": "lined"
+  },
+  {
+    "image_id": "dtd/images/lined/lined_0038.jpg",
+    "label": 22,
+    "classname": "lined"
+  },
+  {
+    "image_id": "dtd/images/lined/lined_0054.jpg",
+    "label": 22,
+    "classname": "lined"
+  },
+  {
+    "image_id": "dtd/images/lined/lined_0125.jpg",
+    "label": 22,
+    "classname": "lined"
+  },
+  {
+    "image_id": "dtd/images/marbled/marbled_0172.jpg",
+    "label": 23,
+    "classname": "marbled"
+  },
+  {
+    "image_id": "dtd/images/marbled/marbled_0126.jpg",
+    "label": 23,
+    "classname": "marbled"
+  },
+  {
+    "image_id": "dtd/images/marbled/marbled_0182.jpg",
+    "label": 23,
+    "classname": "marbled"
+  },
+  {
+    "image_id": "dtd/images/marbled/marbled_0102.jpg",
+    "label": 23,
+    "classname": "marbled"
+  }
+]

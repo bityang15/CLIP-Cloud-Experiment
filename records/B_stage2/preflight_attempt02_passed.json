@@ -1,0 +1,423 @@
+{
+  "passed": true,
+  "preflight_attempt": "outputs/B_preflight/attempt02",
+  "metric_checks": {
+    "right_closed_bins": true,
+    "confidence_zero_in_first_bin": true,
+    "extreme_nll_stable": true,
+    "temperature_tie_prefers_one": true
+  },
+  "datasets": {
+    "dtd": {
+      "official_maple_equivalence": {
+        "ce_difference": 0.0,
+        "max_logit_difference": 0.0
+      },
+      "maple_update": {
+        "loss": 2.203125,
+        "ce": 2.203125
+      },
+      "maple_reload": {
+        "passed": true,
+        "max_logit_difference": 0.0,
+        "samples": 96
+      },
+      "tcpt_regularizer_gradients": {
+        "margin": {
+          "value": 0.07186400890350342,
+          "gradient_norm": 3.6083417317461373,
+          "finite": true
+        },
+        "moment": {
+          "value": 0.1759636551141739,
+          "gradient_norm": 2.959975881611181,
+          "finite": true
+        }
+      },
+      "tcpt_update": {
+        "loss": 3.1548073291778564,
+        "ce": 2.203125,
+        "margin": 0.07186400890350342,
+        "moment": 0.1759636551141739
+      },
+      "pairing": {
+        "initial_parameter_sha256": "b1bb5a9b71ef01884a5baeef43d9e7858b0823778c60b6683df1b30b0678d684",
+        "initial_rng_sha256": "e2454b3a1114f55fb13972d0cbc7c9d24a4c212ceb2bda1a2a91a87cc4cc516c",
+        "first_three_batch_ids": [
+          [
+            "/root/autodl-tmp/clip-exp/datasets/dtd/images/interlaced/interlaced_0116.jpg",
+            "/root/autodl-tmp/clip-exp/datasets/dtd/images/gauzy/gauzy_0144.jpg",
+            "/root/autodl-tmp/clip-exp/datasets/dtd/images/grooved/grooved_0131.jpg",
+            "/root/autodl-tmp/clip-exp/datasets/dtd/images/frilly/frilly_0046.jpg"
+          ],
+          [
+            "/root/autodl-tmp/clip-exp/datasets/dtd/images/frilly/frilly_0004.jpg",
+            "/root/autodl-tmp/clip-exp/datasets/dtd/images/bubbly/bubbly_0129.jpg",
+            "/root/autodl-tmp/clip-exp/datasets/dtd/images/crystalline/crystalline_0185.jpg",
+            "/root/autodl-tmp/clip-exp/datasets/dtd/images/banded/banded_0150.jpg"
+          ],
+          [
+            "/root/autodl-tmp/clip-exp/datasets/dtd/images/cobwebbed/cobwebbed_0153.jpg",
+            "/root/autodl-tmp/clip-exp/datasets/dtd/images/banded/banded_0106.jpg",
+            "/root/autodl-tmp/clip-exp/datasets/dtd/images/lacelike/lacelike_0071.jpg",
+            "/root/autodl-tmp/clip-exp/datasets/dtd/images/crystalline/crystalline_0161.jpg"
+          ]
+        ],
+        "first_three_input_sha256": [
+          "a65cb940a3f05717b1c9a982a937f65ade4de22d671c190a700aabe146bb0839",
+          "2cf5dbd7ef280e466df8dd7561acfc3017d8239ec7e236fd1b9d16ba0d367171",
+          "ed1d3b37bc939c4a4f8388f0e3af3d0969d0737f9833003f2adf37a5ad01de66"
+        ],
+        "disabled_ce_difference": 0.0,
+        "fixed_reference": true,
+        "regularizer_precision": "float32"
+      },
+      "tcpt_reload": {
+        "passed": true,
+        "max_logit_difference": 0.0,
+        "samples": 96
+      },
+      "promptsrc_last_update": {
+        "loss": 0.46139881014823914,
+        "ce": 0.03485107421875,
+        "text": 0.33447620272636414,
+        "image": 0.023773193359375,
+        "logits": 0.06829833984375
+      },
+      "gpa": {
+        "aggregation_passed": true,
+        "weights": [
+          1.0966065601943706e-43,
+          7.998827762881523e-38,
+          2.1463837372394649e-32,
+          2.1188192550655138e-27,
+          7.694598632357692e-23,
+          1.0279773579218862e-18,
+          5.052271087247517e-15,
+          9.13472041507356e-12,
+          6.075882854285698e-09,
+          1.4867195158262142e-06,
+          0.0001338302258631765,
+          0.004431848415192965,
+          0.05399096655284154,
+          0.24197072469685796,
+          0.39894228069443455,
+          0.24197072469685796,
+          0.05399096655284154,
+          0.004431848415192965,
+          0.0001338302258631765,
+          1.4867195158262142e-06
+        ],
+        "epochs": 20,
+        "reload": {
+          "passed": true,
+          "max_logit_difference": 0.0,
+          "samples": 96
+        }
+      }
+    },
+    "oxford_flowers": {
+      "official_maple_equivalence": {
+        "ce_difference": 0.0,
+        "max_logit_difference": 0.0
+      },
+      "maple_update": {
+        "loss": 0.61767578125,
+        "ce": 0.61767578125
+      },
+      "maple_reload": {
+        "passed": true,
+        "max_logit_difference": 0.0,
+        "samples": 100
+      },
+      "tcpt_regularizer_gradients": {
+        "margin": {
+          "value": -0.10635925829410553,
+          "gradient_norm": 3.794098513064478,
+          "finite": true
+        },
+        "moment": {
+          "value": 0.19403839111328125,
+          "gradient_norm": 2.8650652933711047,
+          "finite": true
+        }
+      },
+      "tcpt_update": {
+        "loss": 1.481508493423462,
+        "ce": 0.61767578125,
+        "margin": -0.10635925829410553,
+        "moment": 0.19403839111328125
+      },
+      "pairing": {
+        "initial_parameter_sha256": "b1bb5a9b71ef01884a5baeef43d9e7858b0823778c60b6683df1b30b0678d684",
+        "initial_rng_sha256": "e2454b3a1114f55fb13972d0cbc7c9d24a4c212ceb2bda1a2a91a87cc4cc516c",
+        "first_three_batch_ids": [
+          [
+            "/root/autodl-tmp/clip-exp/datasets/oxford_flowers/jpg/image_05373.jpg",
+            "/root/autodl-tmp/clip-exp/datasets/oxford_flowers/jpg/image_03489.jpg",
+            "/root/autodl-tmp/clip-exp/datasets/oxford_flowers/jpg/image_08095.jpg",
+            "/root/autodl-tmp/clip-exp/datasets/oxford_flowers/jpg/image_03353.jpg"
+          ],
+          [
+            "/root/autodl-tmp/clip-exp/datasets/oxford_flowers/jpg/image_03786.jpg",
+            "/root/autodl-tmp/clip-exp/datasets/oxford_flowers/jpg/image_04099.jpg",
+            "/root/autodl-tmp/clip-exp/datasets/oxford_flowers/jpg/image_05360.jpg",
+            "/root/autodl-tmp/clip-exp/datasets/oxford_flowers/jpg/image_04280.jpg"
+          ],
+          [
+            "/root/autodl-tmp/clip-exp/datasets/oxford_flowers/jpg/image_06053.jpg",
+            "/root/autodl-tmp/clip-exp/datasets/oxford_flowers/jpg/image_03919.jpg",
+            "/root/autodl-tmp/clip-exp/datasets/oxford_flowers/jpg/image_06526.jpg",
+            "/root/autodl-tmp/clip-exp/datasets/oxford_flowers/jpg/image_06877.jpg"
+          ]
+        ],
+        "first_three_input_sha256": [
+          "a01a8087f2939049d475c2dafa0541e2fd7473e364bd5306cb7cb43a8aab068c",
+          "a619ed627574882a44602ea98c3a88b7693c97fb34f14f4ef5e396b699938bad",
+          "1c7318109c5f779ecec5947f41124e3152fbf7a6eb942b4f2230e941860d526e"
+        ],
+        "disabled_ce_difference": 0.0,
+        "fixed_reference": true,
+        "regularizer_precision": "float32"
+      },
+      "tcpt_reload": {
+        "passed": true,
+        "max_logit_difference": 0.0,
+        "samples": 100
+      },
+      "promptsrc_last_update": {
+        "loss": 0.7507928013801575,
+        "ce": 0.0189666748046875,
+        "text": 0.6553338170051575,
+        "image": 0.0228729248046875,
+        "logits": 0.053619384765625
+      },
+      "gpa": {
+        "aggregation_passed": true,
+        "weights": [
+          1.0966065601943706e-43,
+          7.998827762881523e-38,
+          2.1463837372394649e-32,
+          2.1188192550655138e-27,
+          7.694598632357692e-23,
+          1.0279773579218862e-18,
+          5.052271087247517e-15,
+          9.13472041507356e-12,
+          6.075882854285698e-09,
+          1.4867195158262142e-06,
+          0.0001338302258631765,
+          0.004431848415192965,
+          0.05399096655284154,
+          0.24197072469685796,
+          0.39894228069443455,
+          0.24197072469685796,
+          0.05399096655284154,
+          0.004431848415192965,
+          0.0001338302258631765,
+          1.4867195158262142e-06
+        ],
+        "epochs": 20,
+        "reload": {
+          "passed": true,
+          "max_logit_difference": 0.0,
+          "samples": 100
+        }
+      }
+    }
+  },
+  "exports": {
+    "base": {
+      "dataset": "dtd",
+      "method": "maple",
+      "seed": 1,
+      "run_id": "outputs/B_preflight/attempt02/dtd/maple",
+      "candidate_group": "base",
+      "split": "test",
+      "checkpoint": "/root/autodl-tmp/clip-exp/outputs/B_preflight/attempt02/dtd/maple/MultiModalPromptLearner/model.pth.tar-5",
+      "checkpoint_sha256": "8d55d966d6822e6d0e5c323c938d1ce2d0bf27bb5abe2b074548751f889b8042",
+      "config_sha256": "f5413bf5c76f65b46075891b7c5d907231869c3c9b933de2cbe9acdf108f7597",
+      "data_manifest_sha256": "7e83bccedc996d8e0e67f2cca3bf46b7c84e7522985f4c122b5992a7f4739b44",
+      "sample_manifest_sha256": "804e2eaefcffd198eb702e0eb77a588903546fe793f579258279a77ce00e28a8",
+      "classnames": [
+        "banded",
+        "blotchy",
+        "braided",
+        "bubbly",
+        "bumpy",
+        "chequered",
+        "cobwebbed",
+        "cracked",
+        "crosshatched",
+        "crystalline",
+        "dotted",
+        "fibrous",
+        "flecked",
+        "freckled",
+        "frilly",
+        "gauzy",
+        "grid",
+        "grooved",
+        "honeycombed",
+        "interlaced",
+        "knitted",
+        "lacelike",
+        "lined",
+        "marbled"
+      ],
+      "raw_logit_scale": true,
+      "logits_dtype": "float32",
+      "n": 864,
+      "classes": 24,
+      "text_template": null,
+      "evaluation_seconds": 2.0302868876606226,
+      "online": {
+        "accuracy": 55.208333333333336,
+        "ece": 3.841675866859901,
+        "nll": 1.6557859246061477
+      },
+      "peak_memory_gib": 0.8137054443359375,
+      "offline": {
+        "accuracy": 55.208333333333336,
+        "nll": 1.6557859246061473,
+        "n": 864,
+        "classes": 24,
+        "bins": 10,
+        "ece": 3.8416758668598985,
+        "counts": [
+          0,
+          70,
+          164,
+          113,
+          98,
+          51,
+          55,
+          60,
+          88,
+          165
+        ],
+        "bin_accuracy": [
+          0.0,
+          0.12857142857142856,
+          0.24390243902439024,
+          0.336283185840708,
+          0.32653061224489793,
+          0.6078431372549019,
+          0.7090909090909091,
+          0.8333333333333334,
+          0.8977272727272727,
+          0.9636363636363636
+        ],
+        "bin_confidence": [
+          0.0,
+          0.17070135134374795,
+          0.2548214151775374,
+          0.3444055650632383,
+          0.44982882849034517,
+          0.5498907586072597,
+          0.6530822984341671,
+          0.7500523592150425,
+          0.8544498877171012,
+          0.9599399664415262
+        ]
+      },
+      "online_offline_check": true,
+      "predictions_sha256": "f00c71d155f30d8f3b3b871061471c94df4bc1af0a2903e068a30dbfe42c40d8"
+    },
+    "new": {
+      "dataset": "dtd",
+      "method": "maple",
+      "seed": 1,
+      "run_id": "outputs/B_preflight/attempt02/dtd/maple",
+      "candidate_group": "new",
+      "split": "test",
+      "checkpoint": "/root/autodl-tmp/clip-exp/outputs/B_preflight/attempt02/dtd/maple/MultiModalPromptLearner/model.pth.tar-5",
+      "checkpoint_sha256": "8d55d966d6822e6d0e5c323c938d1ce2d0bf27bb5abe2b074548751f889b8042",
+      "config_sha256": "5b393564d571f5358984cf0c827039f66768f4653534da322bc5724c06f65e7c",
+      "data_manifest_sha256": "7e83bccedc996d8e0e67f2cca3bf46b7c84e7522985f4c122b5992a7f4739b44",
+      "sample_manifest_sha256": "aa4cc4181491806bce01f40856e7757e1c1c80551883bfd28910d80ad25ba683",
+      "classnames": [
+        "matted",
+        "meshed",
+        "paisley",
+        "perforated",
+        "pitted",
+        "pleated",
+        "polka-dotted",
+        "porous",
+        "potholed",
+        "scaly",
+        "smeared",
+        "spiralled",
+        "sprinkled",
+        "stained",
+        "stratified",
+        "striped",
+        "studded",
+        "swirly",
+        "veined",
+        "waffled",
+        "woven",
+        "wrinkled",
+        "zigzagged"
+      ],
+      "raw_logit_scale": true,
+      "logits_dtype": "float32",
+      "n": 828,
+      "classes": 23,
+      "text_template": null,
+      "evaluation_seconds": 2.0834525506943464,
+      "online": {
+        "accuracy": 56.88405797101449,
+        "ece": 2.928337186973225,
+        "nll": 1.4523874922999152
+      },
+      "peak_memory_gib": 0.8137030601501465,
+      "offline": {
+        "accuracy": 56.88405797101449,
+        "nll": 1.4523874922999152,
+        "n": 828,
+        "classes": 23,
+        "bins": 10,
+        "ece": 2.9283371869732293,
+        "counts": [
+          0,
+          38,
+          127,
+          119,
+          90,
+          74,
+          81,
+          59,
+          85,
+          155
+        ],
+        "bin_accuracy": [
+          0.0,
+          0.2631578947368421,
+          0.2440944881889764,
+          0.35294117647058826,
+          0.37777777777777777,
+          0.5945945945945946,
+          0.654320987654321,
+          0.7288135593220338,
+          0.8470588235294118,
+          0.9161290322580645
+        ],
+        "bin_confidence": [
+          0.0,
+          0.17240319097605,
+          0.2523356494870482,
+          0.34749786442912245,
+          0.4505885749871364,
+          0.549012421304286,
+          0.6493712964930692,
+          0.7475134115496639,
+          0.8515115946110069,
+          0.9631923688237835
+        ]
+      },
+      "online_offline_check": true,
+      "predictions_sha256": "c0fcb4740791ffc9617ff14d3c56d9dd1ad579953e18385ed102ea5308317082"
+    }
+  }
+}

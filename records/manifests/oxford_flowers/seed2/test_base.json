@@ -1,0 +1,5267 @@
+[
+  {
+    "image_id": "oxford_flowers/jpg/image_01030.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01113.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01104.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01016.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01081.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_00953.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01061.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01048.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01096.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01060.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_00955.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01083.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_00979.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_00957.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01027.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_00972.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01041.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01075.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01067.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01078.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_00970.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_00960.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_00958.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01132.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_00999.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01126.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_00985.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_00971.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_00992.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01011.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_00965.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01103.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01015.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_00964.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01116.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01055.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01122.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_00998.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01084.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01052.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01087.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01037.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01137.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01080.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01110.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01090.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01125.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01101.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01056.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01036.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_00991.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01098.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01097.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_00962.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01139.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01009.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01109.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01111.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01013.jpg",
+    "label": 45,
+    "classname": "wallflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01443.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03946.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03942.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03945.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01429.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03913.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01462.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01360.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03944.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01359.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03981.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01375.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01434.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03947.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01408.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01441.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03985.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01439.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03970.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01392.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03914.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01436.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01385.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03958.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03955.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01352.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03960.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01469.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01450.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03986.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01467.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01475.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01457.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01418.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01363.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01379.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01347.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01351.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01419.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01377.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03916.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01383.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01384.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01444.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01372.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01339.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03951.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03983.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01390.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01426.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01474.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01452.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01328.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01382.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03917.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03962.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01402.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01482.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03922.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03929.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01316.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01340.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01438.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03956.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01400.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01473.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03930.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03937.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01368.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03969.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01453.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03943.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03965.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01476.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03988.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01461.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03949.jpg",
+    "label": 50,
+    "classname": "petunia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01545.jpg",
+    "label": 43,
+    "classname": "poinsettia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01531.jpg",
+    "label": 43,
+    "classname": "poinsettia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01577.jpg",
+    "label": 43,
+    "classname": "poinsettia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01576.jpg",
+    "label": 43,
+    "classname": "poinsettia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01511.jpg",
+    "label": 43,
+    "classname": "poinsettia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01567.jpg",
+    "label": 43,
+    "classname": "poinsettia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01562.jpg",
+    "label": 43,
+    "classname": "poinsettia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01504.jpg",
+    "label": 43,
+    "classname": "poinsettia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01521.jpg",
+    "label": 43,
+    "classname": "poinsettia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01522.jpg",
+    "label": 43,
+    "classname": "poinsettia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01581.jpg",
+    "label": 43,
+    "classname": "poinsettia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01571.jpg",
+    "label": 43,
+    "classname": "poinsettia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01563.jpg",
+    "label": 43,
+    "classname": "poinsettia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01525.jpg",
+    "label": 43,
+    "classname": "poinsettia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01561.jpg",
+    "label": 43,
+    "classname": "poinsettia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01536.jpg",
+    "label": 43,
+    "classname": "poinsettia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01556.jpg",
+    "label": 43,
+    "classname": "poinsettia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01558.jpg",
+    "label": 43,
+    "classname": "poinsettia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01508.jpg",
+    "label": 43,
+    "classname": "poinsettia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01566.jpg",
+    "label": 43,
+    "classname": "poinsettia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01505.jpg",
+    "label": 43,
+    "classname": "poinsettia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01496.jpg",
+    "label": 43,
+    "classname": "poinsettia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01491.jpg",
+    "label": 43,
+    "classname": "poinsettia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01573.jpg",
+    "label": 43,
+    "classname": "poinsettia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01495.jpg",
+    "label": 43,
+    "classname": "poinsettia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01551.jpg",
+    "label": 43,
+    "classname": "poinsettia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01503.jpg",
+    "label": 43,
+    "classname": "poinsettia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_01497.jpg",
+    "label": 43,
+    "classname": "poinsettia"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02202.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02195.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02218.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02236.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02315.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02222.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02286.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02304.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02284.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02307.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02217.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02253.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02306.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02309.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02270.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02200.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02285.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02228.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02296.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02190.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02243.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02224.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02273.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02314.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02292.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02226.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02271.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02263.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02203.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02266.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02229.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02251.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02254.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02291.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02300.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02232.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02259.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02244.jpg",
+    "label": 40,
+    "classname": "barbeton daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02358.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02354.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02384.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02351.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02371.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02325.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02346.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02330.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02399.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02393.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02338.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02359.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02378.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02441.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02370.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02327.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02365.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02402.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02364.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02394.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02429.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02400.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02442.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02436.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02374.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02361.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02360.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02357.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02340.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02413.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02348.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02440.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02320.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02408.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02347.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02427.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02424.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02380.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_02389.jpg",
+    "label": 42,
+    "classname": "sword lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03166.jpg",
+    "label": 10,
+    "classname": "snapdragon"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03162.jpg",
+    "label": 10,
+    "classname": "snapdragon"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03097.jpg",
+    "label": 10,
+    "classname": "snapdragon"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03179.jpg",
+    "label": 10,
+    "classname": "snapdragon"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03165.jpg",
+    "label": 10,
+    "classname": "snapdragon"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03168.jpg",
+    "label": 10,
+    "classname": "snapdragon"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03131.jpg",
+    "label": 10,
+    "classname": "snapdragon"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03154.jpg",
+    "label": 10,
+    "classname": "snapdragon"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03103.jpg",
+    "label": 10,
+    "classname": "snapdragon"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03129.jpg",
+    "label": 10,
+    "classname": "snapdragon"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03120.jpg",
+    "label": 10,
+    "classname": "snapdragon"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03163.jpg",
+    "label": 10,
+    "classname": "snapdragon"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03096.jpg",
+    "label": 10,
+    "classname": "snapdragon"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03111.jpg",
+    "label": 10,
+    "classname": "snapdragon"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03142.jpg",
+    "label": 10,
+    "classname": "snapdragon"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03164.jpg",
+    "label": 10,
+    "classname": "snapdragon"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03136.jpg",
+    "label": 10,
+    "classname": "snapdragon"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03167.jpg",
+    "label": 10,
+    "classname": "snapdragon"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03155.jpg",
+    "label": 10,
+    "classname": "snapdragon"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03152.jpg",
+    "label": 10,
+    "classname": "snapdragon"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03099.jpg",
+    "label": 10,
+    "classname": "snapdragon"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03153.jpg",
+    "label": 10,
+    "classname": "snapdragon"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03181.jpg",
+    "label": 10,
+    "classname": "snapdragon"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03159.jpg",
+    "label": 10,
+    "classname": "snapdragon"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03108.jpg",
+    "label": 10,
+    "classname": "snapdragon"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03112.jpg",
+    "label": 10,
+    "classname": "snapdragon"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03306.jpg",
+    "label": 7,
+    "classname": "bird of paradise"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03286.jpg",
+    "label": 7,
+    "classname": "bird of paradise"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03323.jpg",
+    "label": 7,
+    "classname": "bird of paradise"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03302.jpg",
+    "label": 7,
+    "classname": "bird of paradise"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03351.jpg",
+    "label": 7,
+    "classname": "bird of paradise"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03342.jpg",
+    "label": 7,
+    "classname": "bird of paradise"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03289.jpg",
+    "label": 7,
+    "classname": "bird of paradise"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03315.jpg",
+    "label": 7,
+    "classname": "bird of paradise"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03367.jpg",
+    "label": 7,
+    "classname": "bird of paradise"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03366.jpg",
+    "label": 7,
+    "classname": "bird of paradise"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03291.jpg",
+    "label": 7,
+    "classname": "bird of paradise"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03365.jpg",
+    "label": 7,
+    "classname": "bird of paradise"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03364.jpg",
+    "label": 7,
+    "classname": "bird of paradise"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03349.jpg",
+    "label": 7,
+    "classname": "bird of paradise"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03313.jpg",
+    "label": 7,
+    "classname": "bird of paradise"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03346.jpg",
+    "label": 7,
+    "classname": "bird of paradise"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03334.jpg",
+    "label": 7,
+    "classname": "bird of paradise"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03355.jpg",
+    "label": 7,
+    "classname": "bird of paradise"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03300.jpg",
+    "label": 7,
+    "classname": "bird of paradise"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03358.jpg",
+    "label": 7,
+    "classname": "bird of paradise"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03345.jpg",
+    "label": 7,
+    "classname": "bird of paradise"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03287.jpg",
+    "label": 7,
+    "classname": "bird of paradise"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03332.jpg",
+    "label": 7,
+    "classname": "bird of paradise"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03336.jpg",
+    "label": 7,
+    "classname": "bird of paradise"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03294.jpg",
+    "label": 7,
+    "classname": "bird of paradise"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03301.jpg",
+    "label": 7,
+    "classname": "bird of paradise"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03459.jpg",
+    "label": 22,
+    "classname": "fritillary"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03400.jpg",
+    "label": 22,
+    "classname": "fritillary"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03441.jpg",
+    "label": 22,
+    "classname": "fritillary"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03393.jpg",
+    "label": 22,
+    "classname": "fritillary"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03383.jpg",
+    "label": 22,
+    "classname": "fritillary"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03424.jpg",
+    "label": 22,
+    "classname": "fritillary"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03442.jpg",
+    "label": 22,
+    "classname": "fritillary"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03390.jpg",
+    "label": 22,
+    "classname": "fritillary"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03370.jpg",
+    "label": 22,
+    "classname": "fritillary"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03427.jpg",
+    "label": 22,
+    "classname": "fritillary"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03440.jpg",
+    "label": 22,
+    "classname": "fritillary"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03428.jpg",
+    "label": 22,
+    "classname": "fritillary"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03436.jpg",
+    "label": 22,
+    "classname": "fritillary"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03384.jpg",
+    "label": 22,
+    "classname": "fritillary"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03398.jpg",
+    "label": 22,
+    "classname": "fritillary"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03378.jpg",
+    "label": 22,
+    "classname": "fritillary"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03377.jpg",
+    "label": 22,
+    "classname": "fritillary"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03379.jpg",
+    "label": 22,
+    "classname": "fritillary"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03412.jpg",
+    "label": 22,
+    "classname": "fritillary"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03426.jpg",
+    "label": 22,
+    "classname": "fritillary"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03452.jpg",
+    "label": 22,
+    "classname": "fritillary"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03434.jpg",
+    "label": 22,
+    "classname": "fritillary"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03406.jpg",
+    "label": 22,
+    "classname": "fritillary"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03450.jpg",
+    "label": 22,
+    "classname": "fritillary"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03397.jpg",
+    "label": 22,
+    "classname": "fritillary"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03408.jpg",
+    "label": 22,
+    "classname": "fritillary"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03458.jpg",
+    "label": 22,
+    "classname": "fritillary"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03494.jpg",
+    "label": 29,
+    "classname": "sweet william"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03538.jpg",
+    "label": 29,
+    "classname": "sweet william"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03495.jpg",
+    "label": 29,
+    "classname": "sweet william"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03525.jpg",
+    "label": 29,
+    "classname": "sweet william"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03464.jpg",
+    "label": 29,
+    "classname": "sweet william"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03468.jpg",
+    "label": 29,
+    "classname": "sweet william"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03524.jpg",
+    "label": 29,
+    "classname": "sweet william"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03520.jpg",
+    "label": 29,
+    "classname": "sweet william"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03512.jpg",
+    "label": 29,
+    "classname": "sweet william"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03465.jpg",
+    "label": 29,
+    "classname": "sweet william"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03541.jpg",
+    "label": 29,
+    "classname": "sweet william"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03533.jpg",
+    "label": 29,
+    "classname": "sweet william"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03488.jpg",
+    "label": 29,
+    "classname": "sweet william"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03478.jpg",
+    "label": 29,
+    "classname": "sweet william"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03500.jpg",
+    "label": 29,
+    "classname": "sweet william"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03466.jpg",
+    "label": 29,
+    "classname": "sweet william"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03526.jpg",
+    "label": 29,
+    "classname": "sweet william"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03463.jpg",
+    "label": 29,
+    "classname": "sweet william"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03527.jpg",
+    "label": 29,
+    "classname": "sweet william"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03486.jpg",
+    "label": 29,
+    "classname": "sweet william"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03539.jpg",
+    "label": 29,
+    "classname": "sweet william"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03477.jpg",
+    "label": 29,
+    "classname": "sweet william"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03510.jpg",
+    "label": 29,
+    "classname": "sweet william"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03532.jpg",
+    "label": 29,
+    "classname": "sweet william"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03521.jpg",
+    "label": 29,
+    "classname": "sweet william"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03483.jpg",
+    "label": 29,
+    "classname": "sweet william"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03811.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03789.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03788.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03778.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03805.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03825.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03763.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03744.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03771.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03783.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07296.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03782.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03774.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03777.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03748.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03790.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03810.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03779.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03760.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03816.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07285.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03794.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03801.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03740.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03768.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03741.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03737.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07291.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03793.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03817.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03827.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03804.jpg",
+    "label": 36,
+    "classname": "cape flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03869.jpg",
+    "label": 16,
+    "classname": "purple coneflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03912.jpg",
+    "label": 16,
+    "classname": "purple coneflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03871.jpg",
+    "label": 16,
+    "classname": "purple coneflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03882.jpg",
+    "label": 16,
+    "classname": "purple coneflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03885.jpg",
+    "label": 16,
+    "classname": "purple coneflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03834.jpg",
+    "label": 16,
+    "classname": "purple coneflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03909.jpg",
+    "label": 16,
+    "classname": "purple coneflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03896.jpg",
+    "label": 16,
+    "classname": "purple coneflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03829.jpg",
+    "label": 16,
+    "classname": "purple coneflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03905.jpg",
+    "label": 16,
+    "classname": "purple coneflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03884.jpg",
+    "label": 16,
+    "classname": "purple coneflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03830.jpg",
+    "label": 16,
+    "classname": "purple coneflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03872.jpg",
+    "label": 16,
+    "classname": "purple coneflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03865.jpg",
+    "label": 16,
+    "classname": "purple coneflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03835.jpg",
+    "label": 16,
+    "classname": "purple coneflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03876.jpg",
+    "label": 16,
+    "classname": "purple coneflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03831.jpg",
+    "label": 16,
+    "classname": "purple coneflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03845.jpg",
+    "label": 16,
+    "classname": "purple coneflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03868.jpg",
+    "label": 16,
+    "classname": "purple coneflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03837.jpg",
+    "label": 16,
+    "classname": "purple coneflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03858.jpg",
+    "label": 16,
+    "classname": "purple coneflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03887.jpg",
+    "label": 16,
+    "classname": "purple coneflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03878.jpg",
+    "label": 16,
+    "classname": "purple coneflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03841.jpg",
+    "label": 16,
+    "classname": "purple coneflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03877.jpg",
+    "label": 16,
+    "classname": "purple coneflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03899.jpg",
+    "label": 16,
+    "classname": "purple coneflower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04049.jpg",
+    "label": 11,
+    "classname": "colt's foot"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04050.jpg",
+    "label": 11,
+    "classname": "colt's foot"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04056.jpg",
+    "label": 11,
+    "classname": "colt's foot"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04014.jpg",
+    "label": 11,
+    "classname": "colt's foot"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04074.jpg",
+    "label": 11,
+    "classname": "colt's foot"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04043.jpg",
+    "label": 11,
+    "classname": "colt's foot"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04000.jpg",
+    "label": 11,
+    "classname": "colt's foot"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04069.jpg",
+    "label": 11,
+    "classname": "colt's foot"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04038.jpg",
+    "label": 11,
+    "classname": "colt's foot"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04012.jpg",
+    "label": 11,
+    "classname": "colt's foot"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04047.jpg",
+    "label": 11,
+    "classname": "colt's foot"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04026.jpg",
+    "label": 11,
+    "classname": "colt's foot"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04075.jpg",
+    "label": 11,
+    "classname": "colt's foot"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04008.jpg",
+    "label": 11,
+    "classname": "colt's foot"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04068.jpg",
+    "label": 11,
+    "classname": "colt's foot"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03998.jpg",
+    "label": 11,
+    "classname": "colt's foot"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04006.jpg",
+    "label": 11,
+    "classname": "colt's foot"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04007.jpg",
+    "label": 11,
+    "classname": "colt's foot"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04004.jpg",
+    "label": 11,
+    "classname": "colt's foot"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04022.jpg",
+    "label": 11,
+    "classname": "colt's foot"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_03999.jpg",
+    "label": 11,
+    "classname": "colt's foot"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04077.jpg",
+    "label": 11,
+    "classname": "colt's foot"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04024.jpg",
+    "label": 11,
+    "classname": "colt's foot"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04080.jpg",
+    "label": 11,
+    "classname": "colt's foot"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04013.jpg",
+    "label": 11,
+    "classname": "colt's foot"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04053.jpg",
+    "label": 11,
+    "classname": "colt's foot"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04103.jpg",
+    "label": 28,
+    "classname": "artichoke"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04105.jpg",
+    "label": 28,
+    "classname": "artichoke"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04096.jpg",
+    "label": 28,
+    "classname": "artichoke"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04128.jpg",
+    "label": 28,
+    "classname": "artichoke"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04134.jpg",
+    "label": 28,
+    "classname": "artichoke"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04150.jpg",
+    "label": 28,
+    "classname": "artichoke"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04094.jpg",
+    "label": 28,
+    "classname": "artichoke"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04143.jpg",
+    "label": 28,
+    "classname": "artichoke"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04106.jpg",
+    "label": 28,
+    "classname": "artichoke"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04121.jpg",
+    "label": 28,
+    "classname": "artichoke"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04146.jpg",
+    "label": 28,
+    "classname": "artichoke"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04118.jpg",
+    "label": 28,
+    "classname": "artichoke"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04087.jpg",
+    "label": 28,
+    "classname": "artichoke"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04113.jpg",
+    "label": 28,
+    "classname": "artichoke"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04095.jpg",
+    "label": 28,
+    "classname": "artichoke"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04137.jpg",
+    "label": 28,
+    "classname": "artichoke"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04135.jpg",
+    "label": 28,
+    "classname": "artichoke"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04124.jpg",
+    "label": 28,
+    "classname": "artichoke"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04133.jpg",
+    "label": 28,
+    "classname": "artichoke"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04097.jpg",
+    "label": 28,
+    "classname": "artichoke"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04126.jpg",
+    "label": 28,
+    "classname": "artichoke"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04142.jpg",
+    "label": 28,
+    "classname": "artichoke"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04110.jpg",
+    "label": 28,
+    "classname": "artichoke"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04289.jpg",
+    "label": 17,
+    "classname": "peruvian lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04271.jpg",
+    "label": 17,
+    "classname": "peruvian lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04277.jpg",
+    "label": 17,
+    "classname": "peruvian lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04266.jpg",
+    "label": 17,
+    "classname": "peruvian lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04314.jpg",
+    "label": 17,
+    "classname": "peruvian lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04259.jpg",
+    "label": 17,
+    "classname": "peruvian lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04288.jpg",
+    "label": 17,
+    "classname": "peruvian lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04245.jpg",
+    "label": 17,
+    "classname": "peruvian lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04260.jpg",
+    "label": 17,
+    "classname": "peruvian lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04285.jpg",
+    "label": 17,
+    "classname": "peruvian lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04257.jpg",
+    "label": 17,
+    "classname": "peruvian lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04297.jpg",
+    "label": 17,
+    "classname": "peruvian lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04321.jpg",
+    "label": 17,
+    "classname": "peruvian lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04283.jpg",
+    "label": 17,
+    "classname": "peruvian lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04310.jpg",
+    "label": 17,
+    "classname": "peruvian lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04250.jpg",
+    "label": 17,
+    "classname": "peruvian lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04284.jpg",
+    "label": 17,
+    "classname": "peruvian lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04270.jpg",
+    "label": 17,
+    "classname": "peruvian lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04318.jpg",
+    "label": 17,
+    "classname": "peruvian lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04255.jpg",
+    "label": 17,
+    "classname": "peruvian lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04249.jpg",
+    "label": 17,
+    "classname": "peruvian lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04293.jpg",
+    "label": 17,
+    "classname": "peruvian lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04265.jpg",
+    "label": 17,
+    "classname": "peruvian lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04307.jpg",
+    "label": 17,
+    "classname": "peruvian lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04300.jpg",
+    "label": 17,
+    "classname": "peruvian lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04385.jpg",
+    "label": 35,
+    "classname": "ruby-lipped cattleya"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04351.jpg",
+    "label": 35,
+    "classname": "ruby-lipped cattleya"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04369.jpg",
+    "label": 35,
+    "classname": "ruby-lipped cattleya"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04328.jpg",
+    "label": 35,
+    "classname": "ruby-lipped cattleya"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04334.jpg",
+    "label": 35,
+    "classname": "ruby-lipped cattleya"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04339.jpg",
+    "label": 35,
+    "classname": "ruby-lipped cattleya"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04361.jpg",
+    "label": 35,
+    "classname": "ruby-lipped cattleya"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04342.jpg",
+    "label": 35,
+    "classname": "ruby-lipped cattleya"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04378.jpg",
+    "label": 35,
+    "classname": "ruby-lipped cattleya"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04337.jpg",
+    "label": 35,
+    "classname": "ruby-lipped cattleya"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04387.jpg",
+    "label": 35,
+    "classname": "ruby-lipped cattleya"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04332.jpg",
+    "label": 35,
+    "classname": "ruby-lipped cattleya"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04364.jpg",
+    "label": 35,
+    "classname": "ruby-lipped cattleya"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04338.jpg",
+    "label": 35,
+    "classname": "ruby-lipped cattleya"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04365.jpg",
+    "label": 35,
+    "classname": "ruby-lipped cattleya"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04381.jpg",
+    "label": 35,
+    "classname": "ruby-lipped cattleya"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04383.jpg",
+    "label": 35,
+    "classname": "ruby-lipped cattleya"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04358.jpg",
+    "label": 35,
+    "classname": "ruby-lipped cattleya"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04349.jpg",
+    "label": 35,
+    "classname": "ruby-lipped cattleya"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04336.jpg",
+    "label": 35,
+    "classname": "ruby-lipped cattleya"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04359.jpg",
+    "label": 35,
+    "classname": "ruby-lipped cattleya"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04330.jpg",
+    "label": 35,
+    "classname": "ruby-lipped cattleya"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04622.jpg",
+    "label": 39,
+    "classname": "lenten rose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04572.jpg",
+    "label": 39,
+    "classname": "lenten rose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04610.jpg",
+    "label": 39,
+    "classname": "lenten rose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04603.jpg",
+    "label": 39,
+    "classname": "lenten rose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04614.jpg",
+    "label": 39,
+    "classname": "lenten rose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04593.jpg",
+    "label": 39,
+    "classname": "lenten rose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04608.jpg",
+    "label": 39,
+    "classname": "lenten rose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04585.jpg",
+    "label": 39,
+    "classname": "lenten rose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04588.jpg",
+    "label": 39,
+    "classname": "lenten rose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04594.jpg",
+    "label": 39,
+    "classname": "lenten rose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04600.jpg",
+    "label": 39,
+    "classname": "lenten rose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04569.jpg",
+    "label": 39,
+    "classname": "lenten rose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04575.jpg",
+    "label": 39,
+    "classname": "lenten rose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04623.jpg",
+    "label": 39,
+    "classname": "lenten rose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04580.jpg",
+    "label": 39,
+    "classname": "lenten rose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04563.jpg",
+    "label": 39,
+    "classname": "lenten rose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04605.jpg",
+    "label": 39,
+    "classname": "lenten rose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04566.jpg",
+    "label": 39,
+    "classname": "lenten rose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04591.jpg",
+    "label": 39,
+    "classname": "lenten rose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04576.jpg",
+    "label": 39,
+    "classname": "lenten rose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04680.jpg",
+    "label": 47,
+    "classname": "buttercup"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04649.jpg",
+    "label": 47,
+    "classname": "buttercup"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04672.jpg",
+    "label": 47,
+    "classname": "buttercup"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04628.jpg",
+    "label": 47,
+    "classname": "buttercup"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04657.jpg",
+    "label": 47,
+    "classname": "buttercup"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04635.jpg",
+    "label": 47,
+    "classname": "buttercup"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04693.jpg",
+    "label": 47,
+    "classname": "buttercup"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04666.jpg",
+    "label": 47,
+    "classname": "buttercup"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04640.jpg",
+    "label": 47,
+    "classname": "buttercup"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04690.jpg",
+    "label": 47,
+    "classname": "buttercup"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04645.jpg",
+    "label": 47,
+    "classname": "buttercup"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04654.jpg",
+    "label": 47,
+    "classname": "buttercup"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04695.jpg",
+    "label": 47,
+    "classname": "buttercup"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04626.jpg",
+    "label": 47,
+    "classname": "buttercup"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04679.jpg",
+    "label": 47,
+    "classname": "buttercup"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04694.jpg",
+    "label": 47,
+    "classname": "buttercup"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04663.jpg",
+    "label": 47,
+    "classname": "buttercup"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04664.jpg",
+    "label": 47,
+    "classname": "buttercup"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04631.jpg",
+    "label": 47,
+    "classname": "buttercup"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04651.jpg",
+    "label": 47,
+    "classname": "buttercup"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04673.jpg",
+    "label": 47,
+    "classname": "buttercup"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04918.jpg",
+    "label": 19,
+    "classname": "giant white arum lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04925.jpg",
+    "label": 19,
+    "classname": "giant white arum lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04904.jpg",
+    "label": 19,
+    "classname": "giant white arum lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04942.jpg",
+    "label": 19,
+    "classname": "giant white arum lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04928.jpg",
+    "label": 19,
+    "classname": "giant white arum lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04949.jpg",
+    "label": 19,
+    "classname": "giant white arum lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04919.jpg",
+    "label": 19,
+    "classname": "giant white arum lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04923.jpg",
+    "label": 19,
+    "classname": "giant white arum lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04909.jpg",
+    "label": 19,
+    "classname": "giant white arum lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04901.jpg",
+    "label": 19,
+    "classname": "giant white arum lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04938.jpg",
+    "label": 19,
+    "classname": "giant white arum lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04935.jpg",
+    "label": 19,
+    "classname": "giant white arum lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04936.jpg",
+    "label": 19,
+    "classname": "giant white arum lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04930.jpg",
+    "label": 19,
+    "classname": "giant white arum lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04924.jpg",
+    "label": 19,
+    "classname": "giant white arum lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04917.jpg",
+    "label": 19,
+    "classname": "giant white arum lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04934.jpg",
+    "label": 19,
+    "classname": "giant white arum lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04979.jpg",
+    "label": 46,
+    "classname": "marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04994.jpg",
+    "label": 46,
+    "classname": "marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05003.jpg",
+    "label": 46,
+    "classname": "marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05014.jpg",
+    "label": 46,
+    "classname": "marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05011.jpg",
+    "label": 46,
+    "classname": "marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05006.jpg",
+    "label": 46,
+    "classname": "marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04968.jpg",
+    "label": 46,
+    "classname": "marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04975.jpg",
+    "label": 46,
+    "classname": "marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04954.jpg",
+    "label": 46,
+    "classname": "marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04965.jpg",
+    "label": 46,
+    "classname": "marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04966.jpg",
+    "label": 46,
+    "classname": "marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04998.jpg",
+    "label": 46,
+    "classname": "marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04956.jpg",
+    "label": 46,
+    "classname": "marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04964.jpg",
+    "label": 46,
+    "classname": "marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04986.jpg",
+    "label": 46,
+    "classname": "marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04987.jpg",
+    "label": 46,
+    "classname": "marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04999.jpg",
+    "label": 46,
+    "classname": "marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_04961.jpg",
+    "label": 46,
+    "classname": "marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05015.jpg",
+    "label": 46,
+    "classname": "marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05007.jpg",
+    "label": 46,
+    "classname": "marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05129.jpg",
+    "label": 1,
+    "classname": "hard-leaved pocket orchid"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05114.jpg",
+    "label": 1,
+    "classname": "hard-leaved pocket orchid"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05115.jpg",
+    "label": 1,
+    "classname": "hard-leaved pocket orchid"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05088.jpg",
+    "label": 1,
+    "classname": "hard-leaved pocket orchid"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05095.jpg",
+    "label": 1,
+    "classname": "hard-leaved pocket orchid"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05117.jpg",
+    "label": 1,
+    "classname": "hard-leaved pocket orchid"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05144.jpg",
+    "label": 1,
+    "classname": "hard-leaved pocket orchid"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05106.jpg",
+    "label": 1,
+    "classname": "hard-leaved pocket orchid"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05128.jpg",
+    "label": 1,
+    "classname": "hard-leaved pocket orchid"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05116.jpg",
+    "label": 1,
+    "classname": "hard-leaved pocket orchid"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05133.jpg",
+    "label": 1,
+    "classname": "hard-leaved pocket orchid"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05121.jpg",
+    "label": 1,
+    "classname": "hard-leaved pocket orchid"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05119.jpg",
+    "label": 1,
+    "classname": "hard-leaved pocket orchid"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05135.jpg",
+    "label": 1,
+    "classname": "hard-leaved pocket orchid"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05100.jpg",
+    "label": 1,
+    "classname": "hard-leaved pocket orchid"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05136.jpg",
+    "label": 1,
+    "classname": "hard-leaved pocket orchid"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05124.jpg",
+    "label": 1,
+    "classname": "hard-leaved pocket orchid"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05089.jpg",
+    "label": 1,
+    "classname": "hard-leaved pocket orchid"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05166.jpg",
+    "label": 4,
+    "classname": "english marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05189.jpg",
+    "label": 4,
+    "classname": "english marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05208.jpg",
+    "label": 4,
+    "classname": "english marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05200.jpg",
+    "label": 4,
+    "classname": "english marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05174.jpg",
+    "label": 4,
+    "classname": "english marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05194.jpg",
+    "label": 4,
+    "classname": "english marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05154.jpg",
+    "label": 4,
+    "classname": "english marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05156.jpg",
+    "label": 4,
+    "classname": "english marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05205.jpg",
+    "label": 4,
+    "classname": "english marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05147.jpg",
+    "label": 4,
+    "classname": "english marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05164.jpg",
+    "label": 4,
+    "classname": "english marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05172.jpg",
+    "label": 4,
+    "classname": "english marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05185.jpg",
+    "label": 4,
+    "classname": "english marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05165.jpg",
+    "label": 4,
+    "classname": "english marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05161.jpg",
+    "label": 4,
+    "classname": "english marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05211.jpg",
+    "label": 4,
+    "classname": "english marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05209.jpg",
+    "label": 4,
+    "classname": "english marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05197.jpg",
+    "label": 4,
+    "classname": "english marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05195.jpg",
+    "label": 4,
+    "classname": "english marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05206.jpg",
+    "label": 4,
+    "classname": "english marigold"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05270.jpg",
+    "label": 27,
+    "classname": "stemless gentian"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05268.jpg",
+    "label": 27,
+    "classname": "stemless gentian"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05269.jpg",
+    "label": 27,
+    "classname": "stemless gentian"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05248.jpg",
+    "label": 27,
+    "classname": "stemless gentian"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05219.jpg",
+    "label": 27,
+    "classname": "stemless gentian"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05218.jpg",
+    "label": 27,
+    "classname": "stemless gentian"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05236.jpg",
+    "label": 27,
+    "classname": "stemless gentian"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05244.jpg",
+    "label": 27,
+    "classname": "stemless gentian"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05251.jpg",
+    "label": 27,
+    "classname": "stemless gentian"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05263.jpg",
+    "label": 27,
+    "classname": "stemless gentian"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05213.jpg",
+    "label": 27,
+    "classname": "stemless gentian"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05261.jpg",
+    "label": 27,
+    "classname": "stemless gentian"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05272.jpg",
+    "label": 27,
+    "classname": "stemless gentian"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05241.jpg",
+    "label": 27,
+    "classname": "stemless gentian"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05264.jpg",
+    "label": 27,
+    "classname": "stemless gentian"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05246.jpg",
+    "label": 27,
+    "classname": "stemless gentian"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05238.jpg",
+    "label": 27,
+    "classname": "stemless gentian"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05276.jpg",
+    "label": 27,
+    "classname": "stemless gentian"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05214.jpg",
+    "label": 27,
+    "classname": "stemless gentian"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05245.jpg",
+    "label": 27,
+    "classname": "stemless gentian"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05361.jpg",
+    "label": 21,
+    "classname": "pincushion flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05371.jpg",
+    "label": 21,
+    "classname": "pincushion flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05376.jpg",
+    "label": 21,
+    "classname": "pincushion flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05394.jpg",
+    "label": 21,
+    "classname": "pincushion flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05377.jpg",
+    "label": 21,
+    "classname": "pincushion flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05358.jpg",
+    "label": 21,
+    "classname": "pincushion flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05349.jpg",
+    "label": 21,
+    "classname": "pincushion flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05382.jpg",
+    "label": 21,
+    "classname": "pincushion flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05354.jpg",
+    "label": 21,
+    "classname": "pincushion flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05385.jpg",
+    "label": 21,
+    "classname": "pincushion flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05362.jpg",
+    "label": 21,
+    "classname": "pincushion flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05343.jpg",
+    "label": 21,
+    "classname": "pincushion flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05383.jpg",
+    "label": 21,
+    "classname": "pincushion flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05380.jpg",
+    "label": 21,
+    "classname": "pincushion flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05368.jpg",
+    "label": 21,
+    "classname": "pincushion flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05364.jpg",
+    "label": 21,
+    "classname": "pincushion flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05397.jpg",
+    "label": 21,
+    "classname": "pincushion flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05604.jpg",
+    "label": 31,
+    "classname": "garden phlox"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05615.jpg",
+    "label": 31,
+    "classname": "garden phlox"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05621.jpg",
+    "label": 31,
+    "classname": "garden phlox"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05622.jpg",
+    "label": 31,
+    "classname": "garden phlox"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05614.jpg",
+    "label": 31,
+    "classname": "garden phlox"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05616.jpg",
+    "label": 31,
+    "classname": "garden phlox"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05587.jpg",
+    "label": 31,
+    "classname": "garden phlox"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05601.jpg",
+    "label": 31,
+    "classname": "garden phlox"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05603.jpg",
+    "label": 31,
+    "classname": "garden phlox"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05608.jpg",
+    "label": 31,
+    "classname": "garden phlox"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05591.jpg",
+    "label": 31,
+    "classname": "garden phlox"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05584.jpg",
+    "label": 31,
+    "classname": "garden phlox"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05607.jpg",
+    "label": 31,
+    "classname": "garden phlox"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05605.jpg",
+    "label": 31,
+    "classname": "garden phlox"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05660.jpg",
+    "label": 3,
+    "classname": "sweet pea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05675.jpg",
+    "label": 3,
+    "classname": "sweet pea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05680.jpg",
+    "label": 3,
+    "classname": "sweet pea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05631.jpg",
+    "label": 3,
+    "classname": "sweet pea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05655.jpg",
+    "label": 3,
+    "classname": "sweet pea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05677.jpg",
+    "label": 3,
+    "classname": "sweet pea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05637.jpg",
+    "label": 3,
+    "classname": "sweet pea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05661.jpg",
+    "label": 3,
+    "classname": "sweet pea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05648.jpg",
+    "label": 3,
+    "classname": "sweet pea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05638.jpg",
+    "label": 3,
+    "classname": "sweet pea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05630.jpg",
+    "label": 3,
+    "classname": "sweet pea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05656.jpg",
+    "label": 3,
+    "classname": "sweet pea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05658.jpg",
+    "label": 3,
+    "classname": "sweet pea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05640.jpg",
+    "label": 3,
+    "classname": "sweet pea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05665.jpg",
+    "label": 3,
+    "classname": "sweet pea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05646.jpg",
+    "label": 3,
+    "classname": "sweet pea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05673.jpg",
+    "label": 3,
+    "classname": "sweet pea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05743.jpg",
+    "label": 41,
+    "classname": "daffodil"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05686.jpg",
+    "label": 41,
+    "classname": "daffodil"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05693.jpg",
+    "label": 41,
+    "classname": "daffodil"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05718.jpg",
+    "label": 41,
+    "classname": "daffodil"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05689.jpg",
+    "label": 41,
+    "classname": "daffodil"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05720.jpg",
+    "label": 41,
+    "classname": "daffodil"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05716.jpg",
+    "label": 41,
+    "classname": "daffodil"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05703.jpg",
+    "label": 41,
+    "classname": "daffodil"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05728.jpg",
+    "label": 41,
+    "classname": "daffodil"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05705.jpg",
+    "label": 41,
+    "classname": "daffodil"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05724.jpg",
+    "label": 41,
+    "classname": "daffodil"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05710.jpg",
+    "label": 41,
+    "classname": "daffodil"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05714.jpg",
+    "label": 41,
+    "classname": "daffodil"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05735.jpg",
+    "label": 41,
+    "classname": "daffodil"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05694.jpg",
+    "label": 41,
+    "classname": "daffodil"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05738.jpg",
+    "label": 41,
+    "classname": "daffodil"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05725.jpg",
+    "label": 41,
+    "classname": "daffodil"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05748.jpg",
+    "label": 12,
+    "classname": "king protea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05765.jpg",
+    "label": 12,
+    "classname": "king protea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05758.jpg",
+    "label": 12,
+    "classname": "king protea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05783.jpg",
+    "label": 12,
+    "classname": "king protea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05774.jpg",
+    "label": 12,
+    "classname": "king protea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05753.jpg",
+    "label": 12,
+    "classname": "king protea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05772.jpg",
+    "label": 12,
+    "classname": "king protea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05752.jpg",
+    "label": 12,
+    "classname": "king protea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05788.jpg",
+    "label": 12,
+    "classname": "king protea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05766.jpg",
+    "label": 12,
+    "classname": "king protea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05775.jpg",
+    "label": 12,
+    "classname": "king protea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05777.jpg",
+    "label": 12,
+    "classname": "king protea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05762.jpg",
+    "label": 12,
+    "classname": "king protea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05747.jpg",
+    "label": 12,
+    "classname": "king protea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05782.jpg",
+    "label": 12,
+    "classname": "king protea"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05811.jpg",
+    "label": 37,
+    "classname": "great masterwort"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05841.jpg",
+    "label": 37,
+    "classname": "great masterwort"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05809.jpg",
+    "label": 37,
+    "classname": "great masterwort"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05834.jpg",
+    "label": 37,
+    "classname": "great masterwort"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05814.jpg",
+    "label": 37,
+    "classname": "great masterwort"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05818.jpg",
+    "label": 37,
+    "classname": "great masterwort"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05805.jpg",
+    "label": 37,
+    "classname": "great masterwort"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05796.jpg",
+    "label": 37,
+    "classname": "great masterwort"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05842.jpg",
+    "label": 37,
+    "classname": "great masterwort"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05824.jpg",
+    "label": 37,
+    "classname": "great masterwort"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05802.jpg",
+    "label": 37,
+    "classname": "great masterwort"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05846.jpg",
+    "label": 37,
+    "classname": "great masterwort"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05821.jpg",
+    "label": 37,
+    "classname": "great masterwort"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05844.jpg",
+    "label": 37,
+    "classname": "great masterwort"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05826.jpg",
+    "label": 37,
+    "classname": "great masterwort"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05833.jpg",
+    "label": 37,
+    "classname": "great masterwort"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_05823.jpg",
+    "label": 37,
+    "classname": "great masterwort"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06049.jpg",
+    "label": 13,
+    "classname": "spear thistle"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06064.jpg",
+    "label": 13,
+    "classname": "spear thistle"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06090.jpg",
+    "label": 13,
+    "classname": "spear thistle"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06078.jpg",
+    "label": 13,
+    "classname": "spear thistle"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06084.jpg",
+    "label": 13,
+    "classname": "spear thistle"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06083.jpg",
+    "label": 13,
+    "classname": "spear thistle"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06077.jpg",
+    "label": 13,
+    "classname": "spear thistle"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06067.jpg",
+    "label": 13,
+    "classname": "spear thistle"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06051.jpg",
+    "label": 13,
+    "classname": "spear thistle"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06063.jpg",
+    "label": 13,
+    "classname": "spear thistle"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06060.jpg",
+    "label": 13,
+    "classname": "spear thistle"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06072.jpg",
+    "label": 13,
+    "classname": "spear thistle"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06093.jpg",
+    "label": 13,
+    "classname": "spear thistle"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06079.jpg",
+    "label": 13,
+    "classname": "spear thistle"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06164.jpg",
+    "label": 18,
+    "classname": "balloon flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06197.jpg",
+    "label": 18,
+    "classname": "balloon flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06195.jpg",
+    "label": 18,
+    "classname": "balloon flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06187.jpg",
+    "label": 18,
+    "classname": "balloon flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06151.jpg",
+    "label": 18,
+    "classname": "balloon flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06159.jpg",
+    "label": 18,
+    "classname": "balloon flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06169.jpg",
+    "label": 18,
+    "classname": "balloon flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06152.jpg",
+    "label": 18,
+    "classname": "balloon flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06160.jpg",
+    "label": 18,
+    "classname": "balloon flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06181.jpg",
+    "label": 18,
+    "classname": "balloon flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06172.jpg",
+    "label": 18,
+    "classname": "balloon flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06149.jpg",
+    "label": 18,
+    "classname": "balloon flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06150.jpg",
+    "label": 18,
+    "classname": "balloon flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06156.jpg",
+    "label": 18,
+    "classname": "balloon flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06165.jpg",
+    "label": 18,
+    "classname": "balloon flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06211.jpg",
+    "label": 48,
+    "classname": "oxeye daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06224.jpg",
+    "label": 48,
+    "classname": "oxeye daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06208.jpg",
+    "label": 48,
+    "classname": "oxeye daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06243.jpg",
+    "label": 48,
+    "classname": "oxeye daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06217.jpg",
+    "label": 48,
+    "classname": "oxeye daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06216.jpg",
+    "label": 48,
+    "classname": "oxeye daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06233.jpg",
+    "label": 48,
+    "classname": "oxeye daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06213.jpg",
+    "label": 48,
+    "classname": "oxeye daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06245.jpg",
+    "label": 48,
+    "classname": "oxeye daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06236.jpg",
+    "label": 48,
+    "classname": "oxeye daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06235.jpg",
+    "label": 48,
+    "classname": "oxeye daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06205.jpg",
+    "label": 48,
+    "classname": "oxeye daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06203.jpg",
+    "label": 48,
+    "classname": "oxeye daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06221.jpg",
+    "label": 48,
+    "classname": "oxeye daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06231.jpg",
+    "label": 48,
+    "classname": "oxeye daisy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06309.jpg",
+    "label": 49,
+    "classname": "common dandelion"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06551.jpg",
+    "label": 49,
+    "classname": "common dandelion"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06318.jpg",
+    "label": 49,
+    "classname": "common dandelion"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06566.jpg",
+    "label": 49,
+    "classname": "common dandelion"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06568.jpg",
+    "label": 49,
+    "classname": "common dandelion"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06565.jpg",
+    "label": 49,
+    "classname": "common dandelion"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06570.jpg",
+    "label": 49,
+    "classname": "common dandelion"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06300.jpg",
+    "label": 49,
+    "classname": "common dandelion"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06330.jpg",
+    "label": 49,
+    "classname": "common dandelion"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06553.jpg",
+    "label": 49,
+    "classname": "common dandelion"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06546.jpg",
+    "label": 49,
+    "classname": "common dandelion"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06298.jpg",
+    "label": 49,
+    "classname": "common dandelion"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06550.jpg",
+    "label": 49,
+    "classname": "common dandelion"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06329.jpg",
+    "label": 49,
+    "classname": "common dandelion"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06337.jpg",
+    "label": 49,
+    "classname": "common dandelion"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06345.jpg",
+    "label": 49,
+    "classname": "common dandelion"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06539.jpg",
+    "label": 49,
+    "classname": "common dandelion"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06541.jpg",
+    "label": 49,
+    "classname": "common dandelion"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06322.jpg",
+    "label": 49,
+    "classname": "common dandelion"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06326.jpg",
+    "label": 49,
+    "classname": "common dandelion"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06569.jpg",
+    "label": 49,
+    "classname": "common dandelion"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06308.jpg",
+    "label": 49,
+    "classname": "common dandelion"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06563.jpg",
+    "label": 49,
+    "classname": "common dandelion"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06315.jpg",
+    "label": 49,
+    "classname": "common dandelion"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06556.jpg",
+    "label": 49,
+    "classname": "common dandelion"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06529.jpg",
+    "label": 49,
+    "classname": "common dandelion"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06545.jpg",
+    "label": 49,
+    "classname": "common dandelion"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06558.jpg",
+    "label": 49,
+    "classname": "common dandelion"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06393.jpg",
+    "label": 14,
+    "classname": "yellow iris"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06374.jpg",
+    "label": 14,
+    "classname": "yellow iris"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06367.jpg",
+    "label": 14,
+    "classname": "yellow iris"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06394.jpg",
+    "label": 14,
+    "classname": "yellow iris"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06368.jpg",
+    "label": 14,
+    "classname": "yellow iris"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06361.jpg",
+    "label": 14,
+    "classname": "yellow iris"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06373.jpg",
+    "label": 14,
+    "classname": "yellow iris"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06369.jpg",
+    "label": 14,
+    "classname": "yellow iris"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06379.jpg",
+    "label": 14,
+    "classname": "yellow iris"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06346.jpg",
+    "label": 14,
+    "classname": "yellow iris"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06390.jpg",
+    "label": 14,
+    "classname": "yellow iris"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06362.jpg",
+    "label": 14,
+    "classname": "yellow iris"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06355.jpg",
+    "label": 14,
+    "classname": "yellow iris"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06388.jpg",
+    "label": 14,
+    "classname": "yellow iris"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06375.jpg",
+    "label": 14,
+    "classname": "yellow iris"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06428.jpg",
+    "label": 8,
+    "classname": "monkshood"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06413.jpg",
+    "label": 8,
+    "classname": "monkshood"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06427.jpg",
+    "label": 8,
+    "classname": "monkshood"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06420.jpg",
+    "label": 8,
+    "classname": "monkshood"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06421.jpg",
+    "label": 8,
+    "classname": "monkshood"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06400.jpg",
+    "label": 8,
+    "classname": "monkshood"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06412.jpg",
+    "label": 8,
+    "classname": "monkshood"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06410.jpg",
+    "label": 8,
+    "classname": "monkshood"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06407.jpg",
+    "label": 8,
+    "classname": "monkshood"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06432.jpg",
+    "label": 8,
+    "classname": "monkshood"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06430.jpg",
+    "label": 8,
+    "classname": "monkshood"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06422.jpg",
+    "label": 8,
+    "classname": "monkshood"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06408.jpg",
+    "label": 8,
+    "classname": "monkshood"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06414.jpg",
+    "label": 8,
+    "classname": "monkshood"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06443.jpg",
+    "label": 32,
+    "classname": "love in the mist"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06464.jpg",
+    "label": 32,
+    "classname": "love in the mist"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06446.jpg",
+    "label": 32,
+    "classname": "love in the mist"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06448.jpg",
+    "label": 32,
+    "classname": "love in the mist"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06475.jpg",
+    "label": 32,
+    "classname": "love in the mist"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06457.jpg",
+    "label": 32,
+    "classname": "love in the mist"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06479.jpg",
+    "label": 32,
+    "classname": "love in the mist"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06441.jpg",
+    "label": 32,
+    "classname": "love in the mist"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06459.jpg",
+    "label": 32,
+    "classname": "love in the mist"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06471.jpg",
+    "label": 32,
+    "classname": "love in the mist"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06468.jpg",
+    "label": 32,
+    "classname": "love in the mist"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06486.jpg",
+    "label": 32,
+    "classname": "love in the mist"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06449.jpg",
+    "label": 32,
+    "classname": "love in the mist"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06472.jpg",
+    "label": 32,
+    "classname": "love in the mist"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06503.jpg",
+    "label": 25,
+    "classname": "corn poppy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06517.jpg",
+    "label": 25,
+    "classname": "corn poppy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06514.jpg",
+    "label": 25,
+    "classname": "corn poppy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06513.jpg",
+    "label": 25,
+    "classname": "corn poppy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06522.jpg",
+    "label": 25,
+    "classname": "corn poppy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06502.jpg",
+    "label": 25,
+    "classname": "corn poppy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06492.jpg",
+    "label": 25,
+    "classname": "corn poppy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06491.jpg",
+    "label": 25,
+    "classname": "corn poppy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06512.jpg",
+    "label": 25,
+    "classname": "corn poppy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06487.jpg",
+    "label": 25,
+    "classname": "corn poppy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06511.jpg",
+    "label": 25,
+    "classname": "corn poppy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06527.jpg",
+    "label": 25,
+    "classname": "corn poppy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06523.jpg",
+    "label": 25,
+    "classname": "corn poppy"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06588.jpg",
+    "label": 24,
+    "classname": "grape hyacinth"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06605.jpg",
+    "label": 24,
+    "classname": "grape hyacinth"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06601.jpg",
+    "label": 24,
+    "classname": "grape hyacinth"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06593.jpg",
+    "label": 24,
+    "classname": "grape hyacinth"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06586.jpg",
+    "label": 24,
+    "classname": "grape hyacinth"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06585.jpg",
+    "label": 24,
+    "classname": "grape hyacinth"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06584.jpg",
+    "label": 24,
+    "classname": "grape hyacinth"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06572.jpg",
+    "label": 24,
+    "classname": "grape hyacinth"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06576.jpg",
+    "label": 24,
+    "classname": "grape hyacinth"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06607.jpg",
+    "label": 24,
+    "classname": "grape hyacinth"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06596.jpg",
+    "label": 24,
+    "classname": "grape hyacinth"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06594.jpg",
+    "label": 24,
+    "classname": "grape hyacinth"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06608.jpg",
+    "label": 24,
+    "classname": "grape hyacinth"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06645.jpg",
+    "label": 2,
+    "classname": "canterbury bells"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06619.jpg",
+    "label": 2,
+    "classname": "canterbury bells"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06637.jpg",
+    "label": 2,
+    "classname": "canterbury bells"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06624.jpg",
+    "label": 2,
+    "classname": "canterbury bells"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06638.jpg",
+    "label": 2,
+    "classname": "canterbury bells"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06625.jpg",
+    "label": 2,
+    "classname": "canterbury bells"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06635.jpg",
+    "label": 2,
+    "classname": "canterbury bells"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06628.jpg",
+    "label": 2,
+    "classname": "canterbury bells"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06613.jpg",
+    "label": 2,
+    "classname": "canterbury bells"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06623.jpg",
+    "label": 2,
+    "classname": "canterbury bells"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06612.jpg",
+    "label": 2,
+    "classname": "canterbury bells"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06636.jpg",
+    "label": 2,
+    "classname": "canterbury bells"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06677.jpg",
+    "label": 15,
+    "classname": "globe-flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06682.jpg",
+    "label": 15,
+    "classname": "globe-flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06679.jpg",
+    "label": 15,
+    "classname": "globe-flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06665.jpg",
+    "label": 15,
+    "classname": "globe-flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06666.jpg",
+    "label": 15,
+    "classname": "globe-flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06654.jpg",
+    "label": 15,
+    "classname": "globe-flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06667.jpg",
+    "label": 15,
+    "classname": "globe-flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06692.jpg",
+    "label": 15,
+    "classname": "globe-flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06674.jpg",
+    "label": 15,
+    "classname": "globe-flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06669.jpg",
+    "label": 15,
+    "classname": "globe-flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06670.jpg",
+    "label": 15,
+    "classname": "globe-flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06663.jpg",
+    "label": 15,
+    "classname": "globe-flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06680.jpg",
+    "label": 15,
+    "classname": "globe-flower"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06743.jpg",
+    "label": 0,
+    "classname": "pink primrose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06735.jpg",
+    "label": 0,
+    "classname": "pink primrose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06740.jpg",
+    "label": 0,
+    "classname": "pink primrose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06760.jpg",
+    "label": 0,
+    "classname": "pink primrose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06763.jpg",
+    "label": 0,
+    "classname": "pink primrose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06769.jpg",
+    "label": 0,
+    "classname": "pink primrose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06756.jpg",
+    "label": 0,
+    "classname": "pink primrose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06759.jpg",
+    "label": 0,
+    "classname": "pink primrose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06736.jpg",
+    "label": 0,
+    "classname": "pink primrose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06750.jpg",
+    "label": 0,
+    "classname": "pink primrose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06765.jpg",
+    "label": 0,
+    "classname": "pink primrose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06748.jpg",
+    "label": 0,
+    "classname": "pink primrose"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06778.jpg",
+    "label": 20,
+    "classname": "fire lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06801.jpg",
+    "label": 20,
+    "classname": "fire lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06784.jpg",
+    "label": 20,
+    "classname": "fire lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06800.jpg",
+    "label": 20,
+    "classname": "fire lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06774.jpg",
+    "label": 20,
+    "classname": "fire lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06790.jpg",
+    "label": 20,
+    "classname": "fire lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06799.jpg",
+    "label": 20,
+    "classname": "fire lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06802.jpg",
+    "label": 20,
+    "classname": "fire lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06806.jpg",
+    "label": 20,
+    "classname": "fire lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06783.jpg",
+    "label": 20,
+    "classname": "fire lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06796.jpg",
+    "label": 20,
+    "classname": "fire lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06789.jpg",
+    "label": 20,
+    "classname": "fire lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06829.jpg",
+    "label": 23,
+    "classname": "red ginger"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06820.jpg",
+    "label": 23,
+    "classname": "red ginger"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06835.jpg",
+    "label": 23,
+    "classname": "red ginger"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_08052.jpg",
+    "label": 23,
+    "classname": "red ginger"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06848.jpg",
+    "label": 23,
+    "classname": "red ginger"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06826.jpg",
+    "label": 23,
+    "classname": "red ginger"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06838.jpg",
+    "label": 23,
+    "classname": "red ginger"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06845.jpg",
+    "label": 23,
+    "classname": "red ginger"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06822.jpg",
+    "label": 23,
+    "classname": "red ginger"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06843.jpg",
+    "label": 23,
+    "classname": "red ginger"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_08048.jpg",
+    "label": 23,
+    "classname": "red ginger"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06817.jpg",
+    "label": 23,
+    "classname": "red ginger"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06836.jpg",
+    "label": 23,
+    "classname": "red ginger"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06885.jpg",
+    "label": 26,
+    "classname": "prince of wales feathers"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06871.jpg",
+    "label": 26,
+    "classname": "prince of wales feathers"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06861.jpg",
+    "label": 26,
+    "classname": "prince of wales feathers"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06870.jpg",
+    "label": 26,
+    "classname": "prince of wales feathers"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06874.jpg",
+    "label": 26,
+    "classname": "prince of wales feathers"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06887.jpg",
+    "label": 26,
+    "classname": "prince of wales feathers"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06853.jpg",
+    "label": 26,
+    "classname": "prince of wales feathers"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06862.jpg",
+    "label": 26,
+    "classname": "prince of wales feathers"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06882.jpg",
+    "label": 26,
+    "classname": "prince of wales feathers"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06863.jpg",
+    "label": 26,
+    "classname": "prince of wales feathers"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06878.jpg",
+    "label": 26,
+    "classname": "prince of wales feathers"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06869.jpg",
+    "label": 26,
+    "classname": "prince of wales feathers"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06901.jpg",
+    "label": 30,
+    "classname": "carnation"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06914.jpg",
+    "label": 30,
+    "classname": "carnation"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06917.jpg",
+    "label": 30,
+    "classname": "carnation"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_08069.jpg",
+    "label": 30,
+    "classname": "carnation"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06898.jpg",
+    "label": 30,
+    "classname": "carnation"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_08068.jpg",
+    "label": 30,
+    "classname": "carnation"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06921.jpg",
+    "label": 30,
+    "classname": "carnation"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06891.jpg",
+    "label": 30,
+    "classname": "carnation"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06918.jpg",
+    "label": 30,
+    "classname": "carnation"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_08066.jpg",
+    "label": 30,
+    "classname": "carnation"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06911.jpg",
+    "label": 30,
+    "classname": "carnation"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06919.jpg",
+    "label": 30,
+    "classname": "carnation"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06924.jpg",
+    "label": 30,
+    "classname": "carnation"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06909.jpg",
+    "label": 30,
+    "classname": "carnation"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06906.jpg",
+    "label": 30,
+    "classname": "carnation"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06905.jpg",
+    "label": 30,
+    "classname": "carnation"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06938.jpg",
+    "label": 33,
+    "classname": "mexican aster"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06950.jpg",
+    "label": 33,
+    "classname": "mexican aster"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06958.jpg",
+    "label": 33,
+    "classname": "mexican aster"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06956.jpg",
+    "label": 33,
+    "classname": "mexican aster"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06942.jpg",
+    "label": 33,
+    "classname": "mexican aster"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06968.jpg",
+    "label": 33,
+    "classname": "mexican aster"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06930.jpg",
+    "label": 33,
+    "classname": "mexican aster"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06943.jpg",
+    "label": 33,
+    "classname": "mexican aster"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06948.jpg",
+    "label": 33,
+    "classname": "mexican aster"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06947.jpg",
+    "label": 33,
+    "classname": "mexican aster"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06944.jpg",
+    "label": 33,
+    "classname": "mexican aster"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06935.jpg",
+    "label": 33,
+    "classname": "mexican aster"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06989.jpg",
+    "label": 34,
+    "classname": "alpine sea holly"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06998.jpg",
+    "label": 34,
+    "classname": "alpine sea holly"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06972.jpg",
+    "label": 34,
+    "classname": "alpine sea holly"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06980.jpg",
+    "label": 34,
+    "classname": "alpine sea holly"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06994.jpg",
+    "label": 34,
+    "classname": "alpine sea holly"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06990.jpg",
+    "label": 34,
+    "classname": "alpine sea holly"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06992.jpg",
+    "label": 34,
+    "classname": "alpine sea holly"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06988.jpg",
+    "label": 34,
+    "classname": "alpine sea holly"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07001.jpg",
+    "label": 34,
+    "classname": "alpine sea holly"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06977.jpg",
+    "label": 34,
+    "classname": "alpine sea holly"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06971.jpg",
+    "label": 34,
+    "classname": "alpine sea holly"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_06985.jpg",
+    "label": 34,
+    "classname": "alpine sea holly"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07014.jpg",
+    "label": 38,
+    "classname": "siam tulip"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07020.jpg",
+    "label": 38,
+    "classname": "siam tulip"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07012.jpg",
+    "label": 38,
+    "classname": "siam tulip"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07009.jpg",
+    "label": 38,
+    "classname": "siam tulip"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07030.jpg",
+    "label": 38,
+    "classname": "siam tulip"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07028.jpg",
+    "label": 38,
+    "classname": "siam tulip"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07029.jpg",
+    "label": 38,
+    "classname": "siam tulip"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07023.jpg",
+    "label": 38,
+    "classname": "siam tulip"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07036.jpg",
+    "label": 38,
+    "classname": "siam tulip"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07043.jpg",
+    "label": 38,
+    "classname": "siam tulip"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07033.jpg",
+    "label": 38,
+    "classname": "siam tulip"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07026.jpg",
+    "label": 38,
+    "classname": "siam tulip"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07041.jpg",
+    "label": 38,
+    "classname": "siam tulip"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07100.jpg",
+    "label": 9,
+    "classname": "globe thistle"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07104.jpg",
+    "label": 9,
+    "classname": "globe thistle"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07118.jpg",
+    "label": 9,
+    "classname": "globe thistle"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07108.jpg",
+    "label": 9,
+    "classname": "globe thistle"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07087.jpg",
+    "label": 9,
+    "classname": "globe thistle"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07110.jpg",
+    "label": 9,
+    "classname": "globe thistle"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_08090.jpg",
+    "label": 9,
+    "classname": "globe thistle"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_08091.jpg",
+    "label": 9,
+    "classname": "globe thistle"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07113.jpg",
+    "label": 9,
+    "classname": "globe thistle"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07091.jpg",
+    "label": 9,
+    "classname": "globe thistle"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07121.jpg",
+    "label": 9,
+    "classname": "globe thistle"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07111.jpg",
+    "label": 9,
+    "classname": "globe thistle"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07101.jpg",
+    "label": 9,
+    "classname": "globe thistle"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07115.jpg",
+    "label": 9,
+    "classname": "globe thistle"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07147.jpg",
+    "label": 44,
+    "classname": "bolero deep blue"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07129.jpg",
+    "label": 44,
+    "classname": "bolero deep blue"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07153.jpg",
+    "label": 44,
+    "classname": "bolero deep blue"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07143.jpg",
+    "label": 44,
+    "classname": "bolero deep blue"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07138.jpg",
+    "label": 44,
+    "classname": "bolero deep blue"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07157.jpg",
+    "label": 44,
+    "classname": "bolero deep blue"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07131.jpg",
+    "label": 44,
+    "classname": "bolero deep blue"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07128.jpg",
+    "label": 44,
+    "classname": "bolero deep blue"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07125.jpg",
+    "label": 44,
+    "classname": "bolero deep blue"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07144.jpg",
+    "label": 44,
+    "classname": "bolero deep blue"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07139.jpg",
+    "label": 44,
+    "classname": "bolero deep blue"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07142.jpg",
+    "label": 44,
+    "classname": "bolero deep blue"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07177.jpg",
+    "label": 5,
+    "classname": "tiger lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07164.jpg",
+    "label": 5,
+    "classname": "tiger lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07176.jpg",
+    "label": 5,
+    "classname": "tiger lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07181.jpg",
+    "label": 5,
+    "classname": "tiger lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07168.jpg",
+    "label": 5,
+    "classname": "tiger lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07183.jpg",
+    "label": 5,
+    "classname": "tiger lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07198.jpg",
+    "label": 5,
+    "classname": "tiger lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07167.jpg",
+    "label": 5,
+    "classname": "tiger lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07199.jpg",
+    "label": 5,
+    "classname": "tiger lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07191.jpg",
+    "label": 5,
+    "classname": "tiger lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07190.jpg",
+    "label": 5,
+    "classname": "tiger lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07197.jpg",
+    "label": 5,
+    "classname": "tiger lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07192.jpg",
+    "label": 5,
+    "classname": "tiger lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_08111.jpg",
+    "label": 5,
+    "classname": "tiger lily"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_08100.jpg",
+    "label": 6,
+    "classname": "moon orchid"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07229.jpg",
+    "label": 6,
+    "classname": "moon orchid"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07217.jpg",
+    "label": 6,
+    "classname": "moon orchid"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07208.jpg",
+    "label": 6,
+    "classname": "moon orchid"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07219.jpg",
+    "label": 6,
+    "classname": "moon orchid"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07216.jpg",
+    "label": 6,
+    "classname": "moon orchid"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07205.jpg",
+    "label": 6,
+    "classname": "moon orchid"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07220.jpg",
+    "label": 6,
+    "classname": "moon orchid"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07204.jpg",
+    "label": 6,
+    "classname": "moon orchid"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07230.jpg",
+    "label": 6,
+    "classname": "moon orchid"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07232.jpg",
+    "label": 6,
+    "classname": "moon orchid"
+  },
+  {
+    "image_id": "oxford_flowers/jpg/image_07211.jpg",
+    "label": 6,
+    "classname": "moon orchid"
+  }
+]

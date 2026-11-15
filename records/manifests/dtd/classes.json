@@ -1,0 +1,290 @@
+{
+  "all": {
+    "0": "banded",
+    "1": "blotchy",
+    "2": "braided",
+    "3": "bubbly",
+    "4": "bumpy",
+    "5": "chequered",
+    "6": "cobwebbed",
+    "7": "cracked",
+    "8": "crosshatched",
+    "9": "crystalline",
+    "10": "dotted",
+    "11": "fibrous",
+    "12": "flecked",
+    "13": "freckled",
+    "14": "frilly",
+    "15": "gauzy",
+    "16": "grid",
+    "17": "grooved",
+    "18": "honeycombed",
+    "19": "interlaced",
+    "20": "knitted",
+    "21": "lacelike",
+    "22": "lined",
+    "23": "marbled",
+    "24": "matted",
+    "25": "meshed",
+    "26": "paisley",
+    "27": "perforated",
+    "28": "pitted",
+    "29": "pleated",
+    "30": "polka-dotted",
+    "31": "porous",
+    "32": "potholed",
+    "33": "scaly",
+    "34": "smeared",
+    "35": "spiralled",
+    "36": "sprinkled",
+    "37": "stained",
+    "38": "stratified",
+    "39": "striped",
+    "40": "studded",
+    "41": "swirly",
+    "42": "veined",
+    "43": "waffled",
+    "44": "woven",
+    "45": "wrinkled",
+    "46": "zigzagged"
+  },
+  "base": [
+    {
+      "label": 0,
+      "original_label": 0,
+      "classname": "banded"
+    },
+    {
+      "label": 1,
+      "original_label": 1,
+      "classname": "blotchy"
+    },
+    {
+      "label": 2,
+      "original_label": 2,
+      "classname": "braided"
+    },
+    {
+      "label": 3,
+      "original_label": 3,
+      "classname": "bubbly"
+    },
+    {
+      "label": 4,
+      "original_label": 4,
+      "classname": "bumpy"
+    },
+    {
+      "label": 5,
+      "original_label": 5,
+      "classname": "chequered"
+    },
+    {
+      "label": 6,
+      "original_label": 6,
+      "classname": "cobwebbed"
+    },
+    {
+      "label": 7,
+      "original_label": 7,
+      "classname": "cracked"
+    },
+    {
+      "label": 8,
+      "original_label": 8,
+      "classname": "crosshatched"
+    },
+    {
+      "label": 9,
+      "original_label": 9,
+      "classname": "crystalline"
+    },
+    {
+      "label": 10,
+      "original_label": 10,
+      "classname": "dotted"
+    },
+    {
+      "label": 11,
+      "original_label": 11,
+      "classname": "fibrous"
+    },
+    {
+      "label": 12,
+      "original_label": 12,
+      "classname": "flecked"
+    },
+    {
+      "label": 13,
+      "original_label": 13,
+      "classname": "freckled"
+    },
+    {
+      "label": 14,
+      "original_label": 14,
+      "classname": "frilly"
+    },
+    {
+      "label": 15,
+      "original_label": 15,
+      "classname": "gauzy"
+    },
+    {
+      "label": 16,
+      "original_label": 16,
+      "classname": "grid"
+    },
+    {
+      "label": 17,
+      "original_label": 17,
+      "classname": "grooved"
+    },
+    {
+      "label": 18,
+      "original_label": 18,
+      "classname": "honeycombed"
+    },
+    {
+      "label": 19,
+      "original_label": 19,
+      "classname": "interlaced"
+    },
+    {
+      "label": 20,
+      "original_label": 20,
+      "classname": "knitted"
+    },
+    {
+      "label": 21,
+      "original_label": 21,
+      "classname": "lacelike"
+    },
+    {
+      "label": 22,
+      "original_label": 22,
+      "classname": "lined"
+    },
+    {
+      "label": 23,
+      "original_label": 23,
+      "classname": "marbled"
+    }
+  ],
+  "new": [
+    {
+      "label": 0,
+      "original_label": 24,
+      "classname": "matted"
+    },
+    {
+      "label": 1,
+      "original_label": 25,
+      "classname": "meshed"
+    },
+    {
+      "label": 2,
+      "original_label": 26,
+      "classname": "paisley"
+    },
+    {
+      "label": 3,
+      "original_label": 27,
+      "classname": "perforated"
+    },
+    {
+      "label": 4,
+      "original_label": 28,
+      "classname": "pitted"
+    },
+    {
+      "label": 5,
+      "original_label": 29,
+      "classname": "pleated"
+    },
+    {
+      "label": 6,
+      "original_label": 30,
+      "classname": "polka-dotted"
+    },
+    {
+      "label": 7,
+      "original_label": 31,
+      "classname": "porous"
+    },
+    {
+      "label": 8,
+      "original_label": 32,
+      "classname": "potholed"
+    },
+    {
+      "label": 9,
+      "original_label": 33,
+      "classname": "scaly"
+    },
+    {
+      "label": 10,
+      "original_label": 34,
+      "classname": "smeared"
+    },
+    {
+      "label": 11,
+      "original_label": 35,
+      "classname": "spiralled"
+    },
+    {
+      "label": 12,
+      "original_label": 36,
+      "classname": "sprinkled"
+    },
+    {
+      "label": 13,
+      "original_label": 37,
+      "classname": "stained"
+    },
+    {
+      "label": 14,
+      "original_label": 38,
+      "classname": "stratified"
+    },
+    {
+      "label": 15,
+      "original_label": 39,
+      "classname": "striped"
+    },
+    {
+      "label": 16,
+      "original_label": 40,
+      "classname": "studded"
+    },
+    {
+      "label": 17,
+      "original_label": 41,
+      "classname": "swirly"
+    },
+    {
+      "label": 18,
+      "original_label": 42,
+      "classname": "veined"
+    },
+    {
+      "label": 19,
+      "original_label": 43,
+      "classname": "waffled"
+    },
+    {
+      "label": 20,
+      "original_label": 44,
+      "classname": "woven"
+    },
+    {
+      "label": 21,
+      "original_label": 45,
+      "classname": "wrinkled"
+    },
+    {
+      "label": 22,
+      "original_label": 46,
+      "classname": "zigzagged"
+    }
+  ]
+}

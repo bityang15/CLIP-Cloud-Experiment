@@ -1,0 +1,28 @@
+{
+  "status": "training_and_exports_complete",
+  "completed": 12,
+  "total": 12,
+  "selected_runs": {
+    "dtd/coop/seed1": "/root/autodl-tmp/clip-exp/outputs/E/dtd/coop/seed1/attempt01",
+    "dtd/dpc/seed1": "/root/autodl-tmp/clip-exp/outputs/E/dtd/dpc/seed1/attempt01",
+    "oxford_flowers/coop/seed1": "/root/autodl-tmp/clip-exp/outputs/E/oxford_flowers/coop/seed1/attempt01",
+    "oxford_flowers/dpc/seed1": "/root/autodl-tmp/clip-exp/outputs/E/oxford_flowers/dpc/seed1/attempt01",
+    "dtd/coop/seed2": "/root/autodl-tmp/clip-exp/outputs/E/dtd/coop/seed2/attempt01",
+    "dtd/dpc/seed2": "/root/autodl-tmp/clip-exp/outputs/E/dtd/dpc/seed2/attempt01",
+    "oxford_flowers/coop/seed2": "/root/autodl-tmp/clip-exp/outputs/E/oxford_flowers/coop/seed2/attempt01",
+    "oxford_flowers/dpc/seed2": "/root/autodl-tmp/clip-exp/outputs/E/oxford_flowers/dpc/seed2/attempt01",
+    "dtd/coop/seed3": "/root/autodl-tmp/clip-exp/outputs/E/dtd/coop/seed3/attempt01",
+    "dtd/dpc/seed3": "/root/autodl-tmp/clip-exp/outputs/E/dtd/dpc/seed3/attempt01",
+    "oxford_flowers/coop/seed3": "/root/autodl-tmp/clip-exp/outputs/E/oxford_flowers/coop/seed3/attempt01",
+    "oxford_flowers/dpc/seed3": "/root/autodl-tmp/clip-exp/outputs/E/oxford_flowers/dpc/seed3/attempt01"
+  },
+  "clip_references": {
+    "dtd/base": "/root/autodl-tmp/clip-exp/outputs/B/clip_reference/dtd/base/predictions",
+    "dtd/new": "/root/autodl-tmp/clip-exp/outputs/B/clip_reference/dtd/new/predictions",
+    "oxford_flowers/base": "/root/autodl-tmp/clip-exp/outputs/B/clip_reference/oxford_flowers/base/predictions",
+    "oxford_flowers/new": "/root/autodl-tmp/clip-exp/outputs/B/clip_reference/oxford_flowers/new/predictions"
+  },
+  "current": "oxford_flowers/dpc/seed3",
+  "elapsed_seconds": 4104.10173404403,
+  "completed_at": "2026-11-10T21:03:12.413223+08:00"
+}

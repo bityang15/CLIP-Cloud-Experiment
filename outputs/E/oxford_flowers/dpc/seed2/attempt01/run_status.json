@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "dataset": "oxford_flowers",
+  "method": "dpc",
+  "seed": 2,
+  "run_id": "outputs/E/oxford_flowers/dpc/seed2/attempt01",
+  "recipe_sha256": "08c93a892784d37d61b75ab830bab60028a3e16dec5784db5320672996bcc5f4",
+  "started_at": "2026-11-10T20:26:12.253135+08:00",
+  "new_zero_weight_matches_coop_exactly": true,
+  "finished_at": "2026-11-10T20:37:16.487024+08:00",
+  "prediction_exports": 3,
+  "checkpoint_reload_passed": true,
+  "cross_process_probe_exact": true
+}

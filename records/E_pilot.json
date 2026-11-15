@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "status": "pilot_complete",
+  "completed": 2,
+  "total": 12,
+  "selected_runs": {
+    "dtd/coop/seed1": "/root/autodl-tmp/clip-exp/outputs/E/dtd/coop/seed1/attempt01",
+    "dtd/dpc/seed1": "/root/autodl-tmp/clip-exp/outputs/E/dtd/dpc/seed1/attempt01"
+  },
+  "clip_references": {
+    "dtd/base": "/root/autodl-tmp/clip-exp/outputs/B/clip_reference/dtd/base/predictions",
+    "dtd/new": "/root/autodl-tmp/clip-exp/outputs/B/clip_reference/dtd/new/predictions",
+    "oxford_flowers/base": "/root/autodl-tmp/clip-exp/outputs/B/clip_reference/oxford_flowers/base/predictions",
+    "oxford_flowers/new": "/root/autodl-tmp/clip-exp/outputs/B/clip_reference/oxford_flowers/new/predictions"
+  },
+  "current": "dtd/dpc/seed1",
+  "elapsed_seconds": 519.2257112646475,
+  "completed_at": "2026-11-10T19:52:52.616698+08:00"
+}

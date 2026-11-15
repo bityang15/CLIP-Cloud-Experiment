@@ -1,0 +1,6 @@
+Error:
+
+	('Connection aborted.', ConnectionResetError(104, 'Connection reset by
+	peer'))
+
+To report issues, please visit https://github.com/wkentaro/gdown/issues.

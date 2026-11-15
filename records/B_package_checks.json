@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "files": 849,
+  "checkpoints": 18,
+  "archives": {
+    "B_evidence.tar.gz": {
+      "size": 10847545,
+      "sha256": "2feea1678583e372124858e62395bb2bd8ccd7e2141f76b2fc3a5e90106a8654"
+    },
+    "B_checkpoints.tar": {
+      "size": 5900953600,
+      "sha256": "68c7cb6d9fea74958fbe376b922dfe7aed9d1a23b6d1f3c7660a094d2dcc50f9"
+    }
+  }
+}

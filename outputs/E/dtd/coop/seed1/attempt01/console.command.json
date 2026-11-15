@@ -1,0 +1,29 @@
+{
+  "arguments": [
+    "/root/autodl-tmp/clip-exp/code/DPC_expE/../../env/bin/python",
+    "train.py",
+    "--root",
+    "/root/autodl-tmp/clip-exp/datasets",
+    "--seed",
+    "1",
+    "--trainer",
+    "CoOpE",
+    "--dataset-config-file",
+    "configs/datasets/dtd.yaml",
+    "--config-file",
+    "configs/trainers/CoOp/vit_b16.yaml",
+    "--output-dir",
+    "/root/autodl-tmp/clip-exp/outputs/E/dtd/coop/seed1/attempt01",
+    "DATASET.NUM_SHOTS",
+    "16",
+    "DATASET.SUBSAMPLE_CLASSES",
+    "base",
+    "TEST.SPLIT",
+    "test",
+    "TEST.NO_TEST",
+    "True",
+    "TRAIN.PRINT_FREQ",
+    "50"
+  ],
+  "cwd": "/root/autodl-tmp/clip-exp/code/DPC_expE"
+}

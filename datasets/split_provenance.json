@@ -1,0 +1,23 @@
+[
+  {
+    "file_name": "split_zhou_DescribableTextures.json",
+    "source_url": "https://drive.google.com/file/d/1u3_QfB467jqHgNXC00UIzbLZRQCg2S7x/view",
+    "size": 563702,
+    "sha256": "f26ebeccd2b58e68d70f07a0dc39fe49bf7b69024bac34396b954dfd87969c38",
+    "transfer": "Google Drive connector raw download, followed by SFTP upload"
+  },
+  {
+    "file_name": "cat_to_name.json",
+    "source_url": "https://drive.google.com/file/d/1AkcxCXeK_RCGCEC_GvmWxjcjaNhu-at0/view",
+    "size": 2212,
+    "sha256": "0469f1ad7fe0072d98155c49aa58649d998edbbe3326229003aa5f7228525236",
+    "transfer": "Google Drive connector raw download, followed by SFTP upload"
+  },
+  {
+    "file_name": "split_zhou_OxfordFlowers.json",
+    "source_url": "https://drive.google.com/file/d/1Pp0sRXzZFZq15zVOzKjKBu4A9i01nozT/view",
+    "size": 771139,
+    "sha256": "2f50c42fc1a17ca13c271cb4269b1347bdb43d2be672e34f74a4e4cbfbcca794",
+    "transfer": "Google Drive connector raw download, followed by SFTP upload"
+  }
+]

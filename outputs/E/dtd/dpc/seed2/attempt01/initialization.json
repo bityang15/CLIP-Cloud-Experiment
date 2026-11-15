@@ -1,0 +1,17 @@
+{
+  "method": "dpc",
+  "seed": 2,
+  "initialization_seconds": 7.689208594150841,
+  "parameter_sha256": "a4466fd1c5d1f498c1b00494a66e6f62fc3fbc088b33c6b2685f76edaec00f48",
+  "rng_sha256": "17fac35b744c51f5b70a7dafeceddc4bcf5337d1bca93f477b8b733a894502eb",
+  "trainable_parameters": [
+    {
+      "name": "prompt_learner.ctx",
+      "count": 8192,
+      "dtype": "torch.float16"
+    }
+  ],
+  "trainable_count": 8192,
+  "config_sha256": "8e2b90650083560229f5d42882a2c1f5a5ca996aea54dcb1a55bc35cd84a2f3d",
+  "tcpt_reference": null
+}

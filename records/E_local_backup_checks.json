@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "checked_at": "2026-11-10T21:18:07.602684+08:00",
+  "archive": {
+    "name": "E_evidence.tar.gz",
+    "size": 1413783230,
+    "sha256": "4328b243f7a5c39c2d3cfd34c3e7456780441fc8f5375728153ad6b830e8f90b"
+  },
+  "E_manifest_files": 880,
+  "B_manifest_files_rechecked": 849,
+  "E_checkpoints": 12,
+  "E_prediction_exports": 36,
+  "total_B_E_checkpoints": 30,
+  "total_B_E_prediction_exports": 94,
+  "B_source_files_unchanged": 117,
+  "figures_visually_checked": [
+    "outputs/E/figures/main_comparison/new_calibration_raw_vs_temperature.png",
+    "outputs/E/figures/main_comparison/recognition_base_new_h.png",
+    "outputs/E/figures/main_comparison/reliability_seed1_raw.png",
+    "outputs/E/figures/main_comparison/reliability_seed1_temperature.png",
+    "outputs/E/figures/new_calibration_raw_vs_temperature.png",
+    "outputs/E/figures/recognition_base_new_h.png",
+    "outputs/E/figures/reliability_seed1_raw.png",
+    "outputs/E/figures/reliability_seed1_temperature.png"
+  ],
+  "E_source_files_unchanged": 331,
+  "report_local_links_passed": true
+}

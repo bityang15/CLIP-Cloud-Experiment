@@ -1,0 +1,620 @@
+{
+  "all": {
+    "76": "passion flower",
+    "72": "water lily",
+    "87": "cyclamen",
+    "88": "watercress",
+    "80": "frangipani",
+    "45": "wallflower",
+    "73": "rose",
+    "50": "petunia",
+    "43": "poinsettia",
+    "81": "clematis",
+    "82": "hibiscus",
+    "77": "lotus",
+    "79": "anthurium",
+    "74": "thorn apple",
+    "40": "barbeton daisy",
+    "42": "sword lily",
+    "75": "morning glory",
+    "83": "columbine",
+    "57": "geranium",
+    "55": "bishop of llandaff",
+    "85": "tree mallow",
+    "59": "pink-yellow dahlia",
+    "91": "bee balm",
+    "10": "snapdragon",
+    "64": "californian poppy",
+    "7": "bird of paradise",
+    "22": "fritillary",
+    "29": "sweet william",
+    "71": "azalea",
+    "52": "primula",
+    "36": "cape flower",
+    "16": "purple coneflower",
+    "11": "colt's foot",
+    "28": "artichoke",
+    "51": "wild pansy",
+    "17": "peruvian lily",
+    "35": "ruby-lipped cattleya",
+    "89": "canna lily",
+    "70": "gazania",
+    "39": "lenten rose",
+    "47": "buttercup",
+    "54": "pelargonium",
+    "84": "desert-rose",
+    "90": "hippeastrum",
+    "19": "giant white arum lily",
+    "46": "marigold",
+    "58": "orange dahlia",
+    "1": "hard-leaved pocket orchid",
+    "4": "english marigold",
+    "27": "stemless gentian",
+    "69": "tree poppy",
+    "21": "pincushion flower",
+    "53": "sunflower",
+    "86": "magnolia",
+    "65": "osteospermum",
+    "31": "garden phlox",
+    "3": "sweet pea",
+    "41": "daffodil",
+    "12": "king protea",
+    "37": "great masterwort",
+    "62": "black-eyed susan",
+    "67": "bearded iris",
+    "68": "windflower",
+    "92": "ball moss",
+    "13": "spear thistle",
+    "63": "silverbush",
+    "18": "balloon flower",
+    "48": "oxeye daisy",
+    "60": "cautleya spicata",
+    "49": "common dandelion",
+    "14": "yellow iris",
+    "8": "monkshood",
+    "32": "love in the mist",
+    "25": "corn poppy",
+    "24": "grape hyacinth",
+    "2": "canterbury bells",
+    "15": "globe-flower",
+    "78": "toad lily",
+    "0": "pink primrose",
+    "20": "fire lily",
+    "23": "red ginger",
+    "26": "prince of wales feathers",
+    "30": "carnation",
+    "33": "mexican aster",
+    "34": "alpine sea holly",
+    "38": "siam tulip",
+    "66": "spring crocus",
+    "9": "globe thistle",
+    "44": "bolero deep blue",
+    "5": "tiger lily",
+    "6": "moon orchid",
+    "56": "gaura",
+    "61": "japanese anemone",
+    "93": "foxglove",
+    "94": "bougainvillea",
+    "95": "camellia",
+    "96": "mallow",
+    "97": "mexican petunia",
+    "98": "bromelia",
+    "99": "blanket flower",
+    "100": "trumpet creeper",
+    "101": "blackberry lily"
+  },
+  "base": [
+    {
+      "label": 0,
+      "original_label": 0,
+      "classname": "pink primrose"
+    },
+    {
+      "label": 1,
+      "original_label": 1,
+      "classname": "hard-leaved pocket orchid"
+    },
+    {
+      "label": 2,
+      "original_label": 2,
+      "classname": "canterbury bells"
+    },
+    {
+      "label": 3,
+      "original_label": 3,
+      "classname": "sweet pea"
+    },
+    {
+      "label": 4,
+      "original_label": 4,
+      "classname": "english marigold"
+    },
+    {
+      "label": 5,
+      "original_label": 5,
+      "classname": "tiger lily"
+    },
+    {
+      "label": 6,
+      "original_label": 6,
+      "classname": "moon orchid"
+    },
+    {
+      "label": 7,
+      "original_label": 7,
+      "classname": "bird of paradise"
+    },
+    {
+      "label": 8,
+      "original_label": 8,
+      "classname": "monkshood"
+    },
+    {
+      "label": 9,
+      "original_label": 9,
+      "classname": "globe thistle"
+    },
+    {
+      "label": 10,
+      "original_label": 10,
+      "classname": "snapdragon"
+    },
+    {
+      "label": 11,
+      "original_label": 11,
+      "classname": "colt's foot"
+    },
+    {
+      "label": 12,
+      "original_label": 12,
+      "classname": "king protea"
+    },
+    {
+      "label": 13,
+      "original_label": 13,
+      "classname": "spear thistle"
+    },
+    {
+      "label": 14,
+      "original_label": 14,
+      "classname": "yellow iris"
+    },
+    {
+      "label": 15,
+      "original_label": 15,
+      "classname": "globe-flower"
+    },
+    {
+      "label": 16,
+      "original_label": 16,
+      "classname": "purple coneflower"
+    },
+    {
+      "label": 17,
+      "original_label": 17,
+      "classname": "peruvian lily"
+    },
+    {
+      "label": 18,
+      "original_label": 18,
+      "classname": "balloon flower"
+    },
+    {
+      "label": 19,
+      "original_label": 19,
+      "classname": "giant white arum lily"
+    },
+    {
+      "label": 20,
+      "original_label": 20,
+      "classname": "fire lily"
+    },
+    {
+      "label": 21,
+      "original_label": 21,
+      "classname": "pincushion flower"
+    },
+    {
+      "label": 22,
+      "original_label": 22,
+      "classname": "fritillary"
+    },
+    {
+      "label": 23,
+      "original_label": 23,
+      "classname": "red ginger"
+    },
+    {
+      "label": 24,
+      "original_label": 24,
+      "classname": "grape hyacinth"
+    },
+    {
+      "label": 25,
+      "original_label": 25,
+      "classname": "corn poppy"
+    },
+    {
+      "label": 26,
+      "original_label": 26,
+      "classname": "prince of wales feathers"
+    },
+    {
+      "label": 27,
+      "original_label": 27,
+      "classname": "stemless gentian"
+    },
+    {
+      "label": 28,
+      "original_label": 28,
+      "classname": "artichoke"
+    },
+    {
+      "label": 29,
+      "original_label": 29,
+      "classname": "sweet william"
+    },
+    {
+      "label": 30,
+      "original_label": 30,
+      "classname": "carnation"
+    },
+    {
+      "label": 31,
+      "original_label": 31,
+      "classname": "garden phlox"
+    },
+    {
+      "label": 32,
+      "original_label": 32,
+      "classname": "love in the mist"
+    },
+    {
+      "label": 33,
+      "original_label": 33,
+      "classname": "mexican aster"
+    },
+    {
+      "label": 34,
+      "original_label": 34,
+      "classname": "alpine sea holly"
+    },
+    {
+      "label": 35,
+      "original_label": 35,
+      "classname": "ruby-lipped cattleya"
+    },
+    {
+      "label": 36,
+      "original_label": 36,
+      "classname": "cape flower"
+    },
+    {
+      "label": 37,
+      "original_label": 37,
+      "classname": "great masterwort"
+    },
+    {
+      "label": 38,
+      "original_label": 38,
+      "classname": "siam tulip"
+    },
+    {
+      "label": 39,
+      "original_label": 39,
+      "classname": "lenten rose"
+    },
+    {
+      "label": 40,
+      "original_label": 40,
+      "classname": "barbeton daisy"
+    },
+    {
+      "label": 41,
+      "original_label": 41,
+      "classname": "daffodil"
+    },
+    {
+      "label": 42,
+      "original_label": 42,
+      "classname": "sword lily"
+    },
+    {
+      "label": 43,
+      "original_label": 43,
+      "classname": "poinsettia"
+    },
+    {
+      "label": 44,
+      "original_label": 44,
+      "classname": "bolero deep blue"
+    },
+    {
+      "label": 45,
+      "original_label": 45,
+      "classname": "wallflower"
+    },
+    {
+      "label": 46,
+      "original_label": 46,
+      "classname": "marigold"
+    },
+    {
+      "label": 47,
+      "original_label": 47,
+      "classname": "buttercup"
+    },
+    {
+      "label": 48,
+      "original_label": 48,
+      "classname": "oxeye daisy"
+    },
+    {
+      "label": 49,
+      "original_label": 49,
+      "classname": "common dandelion"
+    },
+    {
+      "label": 50,
+      "original_label": 50,
+      "classname": "petunia"
+    }
+  ],
+  "new": [
+    {
+      "label": 0,
+      "original_label": 51,
+      "classname": "wild pansy"
+    },
+    {
+      "label": 1,
+      "original_label": 52,
+      "classname": "primula"
+    },
+    {
+      "label": 2,
+      "original_label": 53,
+      "classname": "sunflower"
+    },
+    {
+      "label": 3,
+      "original_label": 54,
+      "classname": "pelargonium"
+    },
+    {
+      "label": 4,
+      "original_label": 55,
+      "classname": "bishop of llandaff"
+    },
+    {
+      "label": 5,
+      "original_label": 56,
+      "classname": "gaura"
+    },
+    {
+      "label": 6,
+      "original_label": 57,
+      "classname": "geranium"
+    },
+    {
+      "label": 7,
+      "original_label": 58,
+      "classname": "orange dahlia"
+    },
+    {
+      "label": 8,
+      "original_label": 59,
+      "classname": "pink-yellow dahlia"
+    },
+    {
+      "label": 9,
+      "original_label": 60,
+      "classname": "cautleya spicata"
+    },
+    {
+      "label": 10,
+      "original_label": 61,
+      "classname": "japanese anemone"
+    },
+    {
+      "label": 11,
+      "original_label": 62,
+      "classname": "black-eyed susan"
+    },
+    {
+      "label": 12,
+      "original_label": 63,
+      "classname": "silverbush"
+    },
+    {
+      "label": 13,
+      "original_label": 64,
+      "classname": "californian poppy"
+    },
+    {
+      "label": 14,
+      "original_label": 65,
+      "classname": "osteospermum"
+    },
+    {
+      "label": 15,
+      "original_label": 66,
+      "classname": "spring crocus"
+    },
+    {
+      "label": 16,
+      "original_label": 67,
+      "classname": "bearded iris"
+    },
+    {
+      "label": 17,
+      "original_label": 68,
+      "classname": "windflower"
+    },
+    {
+      "label": 18,
+      "original_label": 69,
+      "classname": "tree poppy"
+    },
+    {
+      "label": 19,
+      "original_label": 70,
+      "classname": "gazania"
+    },
+    {
+      "label": 20,
+      "original_label": 71,
+      "classname": "azalea"
+    },
+    {
+      "label": 21,
+      "original_label": 72,
+      "classname": "water lily"
+    },
+    {
+      "label": 22,
+      "original_label": 73,
+      "classname": "rose"
+    },
+    {
+      "label": 23,
+      "original_label": 74,
+      "classname": "thorn apple"
+    },
+    {
+      "label": 24,
+      "original_label": 75,
+      "classname": "morning glory"
+    },
+    {
+      "label": 25,
+      "original_label": 76,
+      "classname": "passion flower"
+    },
+    {
+      "label": 26,
+      "original_label": 77,
+      "classname": "lotus"
+    },
+    {
+      "label": 27,
+      "original_label": 78,
+      "classname": "toad lily"
+    },
+    {
+      "label": 28,
+      "original_label": 79,
+      "classname": "anthurium"
+    },
+    {
+      "label": 29,
+      "original_label": 80,
+      "classname": "frangipani"
+    },
+    {
+      "label": 30,
+      "original_label": 81,
+      "classname": "clematis"
+    },
+    {
+      "label": 31,
+      "original_label": 82,
+      "classname": "hibiscus"
+    },
+    {
+      "label": 32,
+      "original_label": 83,
+      "classname": "columbine"
+    },
+    {
+      "label": 33,
+      "original_label": 84,
+      "classname": "desert-rose"
+    },
+    {
+      "label": 34,
+      "original_label": 85,
+      "classname": "tree mallow"
+    },
+    {
+      "label": 35,
+      "original_label": 86,
+      "classname": "magnolia"
+    },
+    {
+      "label": 36,
+      "original_label": 87,
+      "classname": "cyclamen"
+    },
+    {
+      "label": 37,
+      "original_label": 88,
+      "classname": "watercress"
+    },
+    {
+      "label": 38,
+      "original_label": 89,
+      "classname": "canna lily"
+    },
+    {
+      "label": 39,
+      "original_label": 90,
+      "classname": "hippeastrum"
+    },
+    {
+      "label": 40,
+      "original_label": 91,
+      "classname": "bee balm"
+    },
+    {
+      "label": 41,
+      "original_label": 92,
+      "classname": "ball moss"
+    },
+    {
+      "label": 42,
+      "original_label": 93,
+      "classname": "foxglove"
+    },
+    {
+      "label": 43,
+      "original_label": 94,
+      "classname": "bougainvillea"
+    },
+    {
+      "label": 44,
+      "original_label": 95,
+      "classname": "camellia"
+    },
+    {
+      "label": 45,
+      "original_label": 96,
+      "classname": "mallow"
+    },
+    {
+      "label": 46,
+      "original_label": 97,
+      "classname": "mexican petunia"
+    },
+    {
+      "label": 47,
+      "original_label": 98,
+      "classname": "bromelia"
+    },
+    {
+      "label": 48,
+      "original_label": 99,
+      "classname": "blanket flower"
+    },
+    {
+      "label": 49,
+      "original_label": 100,
+      "classname": "trumpet creeper"
+    },
+    {
+      "label": 50,
+      "original_label": 101,
+      "classname": "blackberry lily"
+    }
+  ]
+}

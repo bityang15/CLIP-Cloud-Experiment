@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "dataset": "dtd",
+  "method": "coop",
+  "seed": 3,
+  "run_id": "outputs/E/dtd/coop/seed3/attempt01",
+  "recipe_sha256": "08c93a892784d37d61b75ab830bab60028a3e16dec5784db5320672996bcc5f4",
+  "started_at": "2026-11-10T20:37:16.488371+08:00",
+  "finished_at": "2026-11-10T20:41:28.367688+08:00",
+  "prediction_exports": 3,
+  "checkpoint_reload_passed": true,
+  "cross_process_probe_exact": true
+}

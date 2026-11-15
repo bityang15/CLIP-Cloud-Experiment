@@ -1,0 +1,14 @@
+{
+  "status": "extend_to_E",
+  "decided_at": "2026-11-10T19:54:05.055154+08:00",
+  "conditions_passed": true,
+  "pilot_counted_as_formal": true,
+  "pilot_dataset": "dtd",
+  "pilot_seed": 1,
+  "pilot_two_stage_seconds": 519.2257112646475,
+  "remaining_training_stages": 10,
+  "remaining_estimate_with_20_percent_margin_seconds": 6853.779388693348,
+  "estimation_rule": "Two remaining DTD pairs at measured cost, three Flowers pairs at three times measured DTD cost, multiplied by 1.2",
+  "deadline": "2026-11-13T12:00:00+08:00",
+  "recipe_sha256": "08c93a892784d37d61b75ab830bab60028a3e16dec5784db5320672996bcc5f4"
+}

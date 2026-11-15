@@ -1,0 +1,11 @@
+{
+  "finished_at": "2026-11-10T17:11:29.323054+08:00",
+  "initialization_seconds": 8.406293377280235,
+  "training_seconds": 101.19623017311096,
+  "peak_memory_gib": 1.665388584136963,
+  "checkpoint_probe_seconds": 1.4250894505530596,
+  "checkpoint_probe_peak_memory_gib": 1.3586716651916504,
+  "peak_memory_method": "torch.cuda.max_memory_allocated",
+  "epochs": 20,
+  "checkpoint_type": "GPA"
+}

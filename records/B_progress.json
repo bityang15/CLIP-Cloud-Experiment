@@ -1,0 +1,72 @@
+{
+  "status": "training_and_exports_complete",
+  "completed": 18,
+  "total": 18,
+  "selected_runs": {
+    "dtd/maple/seed1": "/root/autodl-tmp/clip-exp/outputs/B/dtd/maple/seed1/attempt01",
+    "dtd/tcpt/seed1": "/root/autodl-tmp/clip-exp/outputs/B/dtd/tcpt/seed1/attempt01",
+    "dtd/promptsrc/seed1": "/root/autodl-tmp/clip-exp/outputs/B/dtd/promptsrc/seed1/attempt01",
+    "oxford_flowers/maple/seed1": "/root/autodl-tmp/clip-exp/outputs/B/oxford_flowers/maple/seed1/attempt01",
+    "oxford_flowers/tcpt/seed1": "/root/autodl-tmp/clip-exp/outputs/B/oxford_flowers/tcpt/seed1/attempt01",
+    "oxford_flowers/promptsrc/seed1": "/root/autodl-tmp/clip-exp/outputs/B/oxford_flowers/promptsrc/seed1/attempt01",
+    "dtd/maple/seed2": "/root/autodl-tmp/clip-exp/outputs/B/dtd/maple/seed2/attempt01",
+    "dtd/tcpt/seed2": "/root/autodl-tmp/clip-exp/outputs/B/dtd/tcpt/seed2/attempt01",
+    "dtd/promptsrc/seed2": "/root/autodl-tmp/clip-exp/outputs/B/dtd/promptsrc/seed2/attempt01",
+    "oxford_flowers/maple/seed2": "/root/autodl-tmp/clip-exp/outputs/B/oxford_flowers/maple/seed2/attempt01",
+    "oxford_flowers/tcpt/seed2": "/root/autodl-tmp/clip-exp/outputs/B/oxford_flowers/tcpt/seed2/attempt01",
+    "oxford_flowers/promptsrc/seed2": "/root/autodl-tmp/clip-exp/outputs/B/oxford_flowers/promptsrc/seed2/attempt01",
+    "dtd/maple/seed3": "/root/autodl-tmp/clip-exp/outputs/B/dtd/maple/seed3/attempt01",
+    "dtd/tcpt/seed3": "/root/autodl-tmp/clip-exp/outputs/B/dtd/tcpt/seed3/attempt01",
+    "dtd/promptsrc/seed3": "/root/autodl-tmp/clip-exp/outputs/B/dtd/promptsrc/seed3/attempt01",
+    "oxford_flowers/maple/seed3": "/root/autodl-tmp/clip-exp/outputs/B/oxford_flowers/maple/seed3/attempt01",
+    "oxford_flowers/tcpt/seed3": "/root/autodl-tmp/clip-exp/outputs/B/oxford_flowers/tcpt/seed3/attempt01",
+    "oxford_flowers/promptsrc/seed3": "/root/autodl-tmp/clip-exp/outputs/B/oxford_flowers/promptsrc/seed3/attempt01"
+  },
+  "pairing": {
+    "dtd/seed1": {
+      "passed": true,
+      "initial_parameter_sha256": "b1bb5a9b71ef01884a5baeef43d9e7858b0823778c60b6683df1b30b0678d684",
+      "initial_rng_sha256": "e2454b3a1114f55fb13972d0cbc7c9d24a4c212ceb2bda1a2a91a87cc4cc516c",
+      "first_three_batches_equal": true
+    },
+    "oxford_flowers/seed1": {
+      "passed": true,
+      "initial_parameter_sha256": "b1bb5a9b71ef01884a5baeef43d9e7858b0823778c60b6683df1b30b0678d684",
+      "initial_rng_sha256": "e2454b3a1114f55fb13972d0cbc7c9d24a4c212ceb2bda1a2a91a87cc4cc516c",
+      "first_three_batches_equal": true
+    },
+    "dtd/seed2": {
+      "passed": true,
+      "initial_parameter_sha256": "cf253c1a3e5e288b4e003eee1cc4f2474888f2bc3cd48ef7fbef128a150d2000",
+      "initial_rng_sha256": "395147c55047a4ce09e20e06c316ae0c333a2ad7851c29264c8058c50d9a04a8",
+      "first_three_batches_equal": true
+    },
+    "oxford_flowers/seed2": {
+      "passed": true,
+      "initial_parameter_sha256": "cf253c1a3e5e288b4e003eee1cc4f2474888f2bc3cd48ef7fbef128a150d2000",
+      "initial_rng_sha256": "395147c55047a4ce09e20e06c316ae0c333a2ad7851c29264c8058c50d9a04a8",
+      "first_three_batches_equal": true
+    },
+    "dtd/seed3": {
+      "passed": true,
+      "initial_parameter_sha256": "c5fa47598237702af4b5b8698455ec7734a7f48ef367bc517e9a075673ea622b",
+      "initial_rng_sha256": "1890bf5410734e26cf87a73b23c9216a46b9389fcb1c780aeb070a2fee682f4e",
+      "first_three_batches_equal": true
+    },
+    "oxford_flowers/seed3": {
+      "passed": true,
+      "initial_parameter_sha256": "c5fa47598237702af4b5b8698455ec7734a7f48ef367bc517e9a075673ea622b",
+      "initial_rng_sha256": "1890bf5410734e26cf87a73b23c9216a46b9389fcb1c780aeb070a2fee682f4e",
+      "first_three_batches_equal": true
+    }
+  },
+  "clip_references": {
+    "dtd/base": "/root/autodl-tmp/clip-exp/outputs/B/clip_reference/dtd/base/predictions",
+    "dtd/new": "/root/autodl-tmp/clip-exp/outputs/B/clip_reference/dtd/new/predictions",
+    "oxford_flowers/base": "/root/autodl-tmp/clip-exp/outputs/B/clip_reference/oxford_flowers/base/predictions",
+    "oxford_flowers/new": "/root/autodl-tmp/clip-exp/outputs/B/clip_reference/oxford_flowers/new/predictions"
+  },
+  "current": "oxford_flowers/promptsrc/seed3",
+  "elapsed_seconds": 2490.4948182273656,
+  "completed_at": "2026-11-10T17:48:26.080301+08:00"
+}

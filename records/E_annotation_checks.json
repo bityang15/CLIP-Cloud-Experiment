@@ -1,0 +1,91 @@
+{
+  "checked_at": "2026-11-10T19:28:25.600946+08:00",
+  "official_archive_sha256": "98043c32eb8520f73a2cccecf6f1a10aaefdcca43491f4e41f1323acb768a384",
+  "checks": [
+    {
+      "dataset": "dtd",
+      "seed": 1,
+      "images": 384,
+      "classes": 24,
+      "counts_per_class": [
+        16
+      ],
+      "missing_from_official_train": [],
+      "source_label_differences": [],
+      "validation_test_overlap": 0,
+      "output_sha256": "00893fead22995908789dadf5f70caee85811ff2cacff19c8bcfcb11a82b4407",
+      "train_manifest_sha256": "d83ec4ca2975ea5d09e80b8d96f3a4e237fdfadcee8a49aef509b11063bdd859"
+    },
+    {
+      "dataset": "dtd",
+      "seed": 2,
+      "images": 384,
+      "classes": 24,
+      "counts_per_class": [
+        16
+      ],
+      "missing_from_official_train": [],
+      "source_label_differences": [],
+      "validation_test_overlap": 0,
+      "output_sha256": "52bbb0cfd24cf015c1c48412d6548525fd84580fc7b68794b07c560014e87d2e",
+      "train_manifest_sha256": "07412ec762135d0b90c02239dd30e59ecace3ebe5b18e4ff1ee7e75dd54846a1"
+    },
+    {
+      "dataset": "dtd",
+      "seed": 3,
+      "images": 384,
+      "classes": 24,
+      "counts_per_class": [
+        16
+      ],
+      "missing_from_official_train": [],
+      "source_label_differences": [],
+      "validation_test_overlap": 0,
+      "output_sha256": "236bb2e747131f94a3cad22b689ed915fed81a1dea2a4892e627e5d2f53e1f3f",
+      "train_manifest_sha256": "82740189d620b43da9d232ad52b78317bce761c19dc43c500df503001aa12f9c"
+    },
+    {
+      "dataset": "oxford_flowers",
+      "seed": 1,
+      "images": 816,
+      "classes": 51,
+      "counts_per_class": [
+        16
+      ],
+      "missing_from_official_train": [],
+      "source_label_differences": [],
+      "validation_test_overlap": 0,
+      "output_sha256": "3d4bf2448c508688cd57d35be91121a62d025ff06743d5d212cbb536642b73c8",
+      "train_manifest_sha256": "fe5d10a41feb2a381860067d4cc6c14781ee66320acabdea8711853f3cc36b98"
+    },
+    {
+      "dataset": "oxford_flowers",
+      "seed": 2,
+      "images": 816,
+      "classes": 51,
+      "counts_per_class": [
+        16
+      ],
+      "missing_from_official_train": [],
+      "source_label_differences": [],
+      "validation_test_overlap": 0,
+      "output_sha256": "2e7880c36e3cdf96fb6f1c204184c71c99e0d71446a84be263ac5b841f8ef2a0",
+      "train_manifest_sha256": "cedd565e86f9adddce641c450ed4f05889855ba1e03673f15e9ddefeb75ecb00"
+    },
+    {
+      "dataset": "oxford_flowers",
+      "seed": 3,
+      "images": 816,
+      "classes": 51,
+      "counts_per_class": [
+        16
+      ],
+      "missing_from_official_train": [],
+      "source_label_differences": [],
+      "validation_test_overlap": 0,
+      "output_sha256": "da9232a981be86879262b2ea9c97c4b81ba596f2c47b7ab0e0c5115a2be5a777",
+      "train_manifest_sha256": "03260eb65fa7964f6910aeb969f5563d4c41d4343868b733e77be6b114fa33ea"
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "scope": "One real update per stage and dataset, not formal runs",
+  "datasets": {
+    "dtd": {
+      "passed": true,
+      "data_manifests_exact": true,
+      "prompt_weights": {
+        "separate_storage": true,
+        "training_decoupling_exact": true,
+        "base_inference_mixture_exact": true,
+        "first_stage_sha256": "0c8f7c006e496a5ac3e6f3ce6483399a192ab7db7cd270cdfa639c07edba2a81"
+      },
+      "real_update_each_stage": true,
+      "negative_sampling_budget_passed": true,
+      "new_weight_zero_logits_exact": true
+    },
+    "oxford_flowers": {
+      "passed": true,
+      "data_manifests_exact": true,
+      "prompt_weights": {
+        "separate_storage": true,
+        "training_decoupling_exact": true,
+        "base_inference_mixture_exact": true,
+        "first_stage_sha256": "236056328ad048640996d8ef8cc37d52ce21ceee84ae3acf3a6107b2596a5bba"
+      },
+      "real_update_each_stage": true,
+      "negative_sampling_budget_passed": true,
+      "new_weight_zero_logits_exact": true
+    }
+  }
+}

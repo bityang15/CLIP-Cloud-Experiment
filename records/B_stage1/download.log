@@ -1,0 +1,62 @@
+2026-11-10T16:22:02+08:00
+Downloading https://www.robots.ox.ac.uk/~vgg/data/dtd/download/dtd-r1.0.1.tar.gz bytes 625239812 connections 16
+dtd-r1.0.1.tar.gz part 5/16 complete
+dtd-r1.0.1.tar.gz part 2/16 complete
+dtd-r1.0.1.tar.gz part 16/16 complete
+dtd-r1.0.1.tar.gz part 12/16 complete
+dtd-r1.0.1.tar.gz part 13/16 complete
+dtd-r1.0.1.tar.gz part 6/16 complete
+dtd-r1.0.1.tar.gz part 7/16 complete
+dtd-r1.0.1.tar.gz part 3/16 complete
+dtd-r1.0.1.tar.gz part 14/16 complete
+dtd-r1.0.1.tar.gz part 11/16 complete
+dtd-r1.0.1.tar.gz part 8/16 complete
+dtd-r1.0.1.tar.gz part 9/16 complete
+dtd-r1.0.1.tar.gz part 10/16 complete
+dtd-r1.0.1.tar.gz part 4/16 complete
+dtd-r1.0.1.tar.gz part 1/16 complete
+dtd-r1.0.1.tar.gz part 15/16 complete
+Verified md5 fff73e5086ae6bdbea199a49dfb8a4c1 /root/autodl-tmp/clip-exp/downloads/dtd-r1.0.1.tar.gz
+Downloading https://www.robots.ox.ac.uk/~vgg/data/flowers/102/102flowers.tgz bytes 344862509 connections 16
+102flowers.tgz part 14/16 complete
+102flowers.tgz part 12/16 complete
+102flowers.tgz part 11/16 complete
+102flowers.tgz part 5/16 complete
+102flowers.tgz part 2/16 complete
+102flowers.tgz part 10/16 complete
+102flowers.tgz part 3/16 complete
+102flowers.tgz part 13/16 complete
+102flowers.tgz part 6/16 complete
+102flowers.tgz part 4/16 complete
+102flowers.tgz part 7/16 complete
+102flowers.tgz part 15/16 complete
+102flowers.tgz part 16/16 complete
+102flowers.tgz part 9/16 complete
+102flowers.tgz part 1/16 complete
+102flowers.tgz part 8/16 complete
+Verified md5 52808999861908f626f3c1f4e79d11fa /root/autodl-tmp/clip-exp/downloads/102flowers.tgz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   349  100   349    0     0    369      0 --:--:-- --:--:-- --:--:--   369
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100   502  100   502    0     0    234      0  0:00:02  0:00:02 --:--:--  1070
+Downloading https://openaipublic.azureedge.net/clip/models/5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f/ViT-B-16.pt bytes 350837078 connections 16
+ViT-B-16.pt part 5/16 complete
+ViT-B-16.pt part 16/16 complete
+ViT-B-16.pt part 11/16 complete
+ViT-B-16.pt part 7/16 complete
+ViT-B-16.pt part 14/16 complete
+ViT-B-16.pt part 6/16 complete
+ViT-B-16.pt part 4/16 complete
+ViT-B-16.pt part 8/16 complete
+ViT-B-16.pt part 1/16 complete
+ViT-B-16.pt part 3/16 complete
+ViT-B-16.pt part 13/16 complete
+ViT-B-16.pt part 15/16 complete
+ViT-B-16.pt part 2/16 complete
+ViT-B-16.pt part 10/16 complete
+ViT-B-16.pt part 12/16 complete
+ViT-B-16.pt part 9/16 complete
+Verified sha256 5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f /root/autodl-tmp/clip-exp/weights/ViT-B-16.pt
+/root/autodl-tmp/clip-exp/weights/ViT-B-16.pt: OK
+5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f  /root/.cache/clip/ViT-B-16.pt
+2026-11-10T16:37:14+08:00

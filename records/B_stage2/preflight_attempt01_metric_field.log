@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/root/autodl-tmp/clip-exp/code/PromptSRC_expB/preflight.py", line 230, in <module>
+    main()
+  File "/root/autodl-tmp/clip-exp/code/PromptSRC_expB/preflight.py", line 148, in main
+    report = dict(passed=False, metric_checks=metric_checks(), datasets={})
+  File "/root/autodl-tmp/clip-exp/code/PromptSRC_expB/preflight.py", line 134, in metric_checks
+    extreme = metrics(np.array([[10000.0, -10000.0], [-10000.0, 10000.0]]), np.array([0, 1]))
+  File "/root/autodl-tmp/clip-exp/code/PromptSRC_expB/experiment_metrics.py", line 34, in metrics
+    return dict(accuracy=100.0 * float(correct.mean()), nll=float(nll), n=len(labels),
+TypeError: dict() got multiple values for keyword argument 'accuracy'

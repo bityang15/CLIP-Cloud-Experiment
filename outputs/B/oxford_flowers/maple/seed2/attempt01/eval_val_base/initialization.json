@@ -1,0 +1,147 @@
+{
+  "method": "maple",
+  "seed": 2,
+  "initialization_seconds": 2.991386631503701,
+  "parameter_sha256": "cf253c1a3e5e288b4e003eee1cc4f2474888f2bc3cd48ef7fbef128a150d2000",
+  "rng_sha256": "395147c55047a4ce09e20e06c316ae0c333a2ad7851c29264c8058c50d9a04a8",
+  "trainable_parameters": [
+    {
+      "name": "prompt_learner.ctx",
+      "count": 1024,
+      "dtype": "torch.float16"
+    },
+    {
+      "name": "prompt_learner.proj.weight",
+      "count": 393216,
+      "dtype": "torch.float16"
+    },
+    {
+      "name": "prompt_learner.proj.bias",
+      "count": 768,
+      "dtype": "torch.float16"
+    },
+    {
+      "name": "prompt_learner.compound_prompts_text.0",
+      "count": 1024,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompts_text.1",
+      "count": 1024,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompts_text.2",
+      "count": 1024,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompts_text.3",
+      "count": 1024,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompts_text.4",
+      "count": 1024,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompts_text.5",
+      "count": 1024,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompts_text.6",
+      "count": 1024,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompts_text.7",
+      "count": 1024,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.0.weight",
+      "count": 393216,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.0.bias",
+      "count": 768,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.1.weight",
+      "count": 393216,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.1.bias",
+      "count": 768,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.2.weight",
+      "count": 393216,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.2.bias",
+      "count": 768,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.3.weight",
+      "count": 393216,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.3.bias",
+      "count": 768,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.4.weight",
+      "count": 393216,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.4.bias",
+      "count": 768,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.5.weight",
+      "count": 393216,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.5.bias",
+      "count": 768,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.6.weight",
+      "count": 393216,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.6.bias",
+      "count": 768,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.7.weight",
+      "count": 393216,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.7.bias",
+      "count": 768,
+      "dtype": "torch.float32"
+    }
+  ],
+  "trainable_count": 3555072,
+  "config_sha256": "a2c5858c1365c1886013b21164fb61978744ec028cf104e60b0e990cec5a8e7e",
+  "tcpt_reference": null
+}

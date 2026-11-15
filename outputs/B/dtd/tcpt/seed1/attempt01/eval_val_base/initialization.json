@@ -1,0 +1,180 @@
+{
+  "method": "tcpt",
+  "seed": 1,
+  "initialization_seconds": 5.39728136267513,
+  "parameter_sha256": "b1bb5a9b71ef01884a5baeef43d9e7858b0823778c60b6683df1b30b0678d684",
+  "rng_sha256": "e2454b3a1114f55fb13972d0cbc7c9d24a4c212ceb2bda1a2a91a87cc4cc516c",
+  "trainable_parameters": [
+    {
+      "name": "prompt_learner.ctx",
+      "count": 1024,
+      "dtype": "torch.float16"
+    },
+    {
+      "name": "prompt_learner.proj.weight",
+      "count": 393216,
+      "dtype": "torch.float16"
+    },
+    {
+      "name": "prompt_learner.proj.bias",
+      "count": 768,
+      "dtype": "torch.float16"
+    },
+    {
+      "name": "prompt_learner.compound_prompts_text.0",
+      "count": 1024,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompts_text.1",
+      "count": 1024,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompts_text.2",
+      "count": 1024,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompts_text.3",
+      "count": 1024,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompts_text.4",
+      "count": 1024,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompts_text.5",
+      "count": 1024,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompts_text.6",
+      "count": 1024,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompts_text.7",
+      "count": 1024,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.0.weight",
+      "count": 393216,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.0.bias",
+      "count": 768,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.1.weight",
+      "count": 393216,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.1.bias",
+      "count": 768,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.2.weight",
+      "count": 393216,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.2.bias",
+      "count": 768,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.3.weight",
+      "count": 393216,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.3.bias",
+      "count": 768,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.4.weight",
+      "count": 393216,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.4.bias",
+      "count": 768,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.5.weight",
+      "count": 393216,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.5.bias",
+      "count": 768,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.6.weight",
+      "count": 393216,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.6.bias",
+      "count": 768,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.7.weight",
+      "count": 393216,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "prompt_learner.compound_prompt_projections.7.bias",
+      "count": 768,
+      "dtype": "torch.float32"
+    }
+  ],
+  "trainable_count": 3555072,
+  "config_sha256": "66d68ed380422a3c1e18a2168cd43e4f4041e1dd0c36da94946b28ca268e55a2",
+  "tcpt_reference": {
+    "template": "{} texture.",
+    "classnames": [
+      "banded",
+      "blotchy",
+      "braided",
+      "bubbly",
+      "bumpy",
+      "chequered",
+      "cobwebbed",
+      "cracked",
+      "crosshatched",
+      "crystalline",
+      "dotted",
+      "fibrous",
+      "flecked",
+      "freckled",
+      "frilly",
+      "gauzy",
+      "grid",
+      "grooved",
+      "honeycombed",
+      "interlaced",
+      "knitted",
+      "lacelike",
+      "lined",
+      "marbled"
+    ],
+    "feature_sha256": "42b1483f89da0c04fd85d1530f3d673e82ea0c1d8991f7742354882207344b35",
+    "seconds": 2.467793366871774,
+    "precision": "float32",
+    "evaluation_mode": true,
+    "requires_grad": false
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "implementation_sha256": "718d569f14cf5ec7dba56feaeb473cf7a78df29a48d0fceaba2221395a7816f1",
+  "data_manifest_sha256": "7e83bccedc996d8e0e67f2cca3bf46b7c84e7522985f4c122b5992a7f4739b44",
+  "pretrained_sha256": "5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f",
+  "preflight_sha256": "e42840469b756bf469f71220d614554b1dbfaf06de1a407a22e3200f2be8b619",
+  "datasets": [
+    "dtd",
+    "oxford_flowers"
+  ],
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "methods": [
+    "maple",
+    "tcpt",
+    "promptsrc"
+  ],
+  "train_batch": 4,
+  "shots": 16,
+  "precision": "fp16",
+  "base_validation_shots": 4,
+  "calibration_bins": [
+    10,
+    15,
+    20
+  ],
+  "temperature_grid": {
+    "min": 0.05,
+    "max": 20.0,
+    "points": 401
+  },
+  "method_configs": {
+    "maple": {
+      "trainer": "MaPLe",
+      "path": "configs/trainers/MaPLe/vit_b16_c2_ep5_batch4_2ctx.yaml",
+      "epochs": 5,
+      "sha256": "ff46e449ca0fdd7c4f7c5aa3bc689d90490d97abe5c332bfce4515bae5b80328"
+    },
+    "tcpt": {
+      "trainer": "MaPLe",
+      "path": "configs/trainers/MaPLe/vit_b16_c2_ep5_batch4_2ctx.yaml",
+      "epochs": 5,
+      "sha256": "ff46e449ca0fdd7c4f7c5aa3bc689d90490d97abe5c332bfce4515bae5b80328"
+    },
+    "promptsrc": {
+      "trainer": "PromptSRC",
+      "path": "configs/trainers/PromptSRC/vit_b16_c2_ep20_batch4_4+4ctx.yaml",
+      "epochs": 20,
+      "sha256": "4c3738fad52214c5aeccc7acf747fd1e051f6e62e35b02c964113194c5322808"
+    }
+  },
+  "recipe_sha256": "5b5a3c339289de8bccce7892d8051a7f174c75908a69eee0a1f4556cf16ae772"
+}

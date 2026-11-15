@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "dataset": "oxford_flowers",
+  "method": "coop",
+  "seed": 3,
+  "run_id": "outputs/E/oxford_flowers/coop/seed3/attempt01",
+  "recipe_sha256": "08c93a892784d37d61b75ab830bab60028a3e16dec5784db5320672996bcc5f4",
+  "started_at": "2026-11-10T20:46:13.731348+08:00",
+  "finished_at": "2026-11-10T20:51:59.914515+08:00",
+  "prediction_exports": 3,
+  "checkpoint_reload_passed": true,
+  "cross_process_probe_exact": true
+}

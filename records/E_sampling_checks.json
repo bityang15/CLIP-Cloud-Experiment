@@ -1,0 +1,145 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "dataset": "dtd",
+      "seed": 1,
+      "passed": true,
+      "updates": 1920,
+      "sampled_negative_images": 30015,
+      "unique_negative_images": 384,
+      "configured_query_topk": 8,
+      "max_expanded_group_size": 8,
+      "groups_with_more_than_8_images": 0,
+      "expanded_group_size_counts": {
+        "2": 17,
+        "3": 2388,
+        "4": 1301,
+        "5": 1109,
+        "6": 992,
+        "7": 1188,
+        "8": 685
+      },
+      "mean_expanded_group_size": 4.908203125,
+      "validation_test_images_used": 0,
+      "new_zero_weight_logits_exact": true
+    },
+    {
+      "dataset": "dtd",
+      "seed": 2,
+      "passed": true,
+      "updates": 1920,
+      "sampled_negative_images": 30054,
+      "unique_negative_images": 384,
+      "configured_query_topk": 8,
+      "max_expanded_group_size": 8,
+      "groups_with_more_than_8_images": 0,
+      "expanded_group_size_counts": {
+        "1": 5,
+        "2": 17,
+        "3": 2364,
+        "4": 1309,
+        "5": 1151,
+        "6": 959,
+        "7": 1142,
+        "8": 733
+      },
+      "mean_expanded_group_size": 4.91328125,
+      "validation_test_images_used": 0,
+      "new_zero_weight_logits_exact": true
+    },
+    {
+      "dataset": "dtd",
+      "seed": 3,
+      "passed": true,
+      "updates": 1920,
+      "sampled_negative_images": 29971,
+      "unique_negative_images": 384,
+      "configured_query_topk": 8,
+      "max_expanded_group_size": 8,
+      "groups_with_more_than_8_images": 0,
+      "expanded_group_size_counts": {
+        "1": 3,
+        "2": 18,
+        "3": 2303,
+        "4": 1441,
+        "5": 1106,
+        "6": 969,
+        "7": 1125,
+        "8": 715
+      },
+      "mean_expanded_group_size": 4.902473958333333,
+      "validation_test_images_used": 0,
+      "new_zero_weight_logits_exact": true
+    },
+    {
+      "dataset": "oxford_flowers",
+      "seed": 1,
+      "passed": true,
+      "updates": 4080,
+      "sampled_negative_images": 84608,
+      "unique_negative_images": 816,
+      "configured_query_topk": 8,
+      "max_expanded_group_size": 9,
+      "groups_with_more_than_8_images": 6,
+      "expanded_group_size_counts": {
+        "3": 1318,
+        "4": 1578,
+        "5": 2318,
+        "6": 2917,
+        "7": 3948,
+        "8": 4235,
+        "9": 6
+      },
+      "mean_expanded_group_size": 6.184313725490196,
+      "validation_test_images_used": 0,
+      "new_zero_weight_logits_exact": true
+    },
+    {
+      "dataset": "oxford_flowers",
+      "seed": 2,
+      "passed": true,
+      "updates": 4080,
+      "sampled_negative_images": 85088,
+      "unique_negative_images": 816,
+      "configured_query_topk": 8,
+      "max_expanded_group_size": 9,
+      "groups_with_more_than_8_images": 9,
+      "expanded_group_size_counts": {
+        "3": 1271,
+        "4": 1552,
+        "5": 2244,
+        "6": 2929,
+        "7": 4008,
+        "8": 4307,
+        "9": 9
+      },
+      "mean_expanded_group_size": 6.213725490196079,
+      "validation_test_images_used": 0,
+      "new_zero_weight_logits_exact": true
+    },
+    {
+      "dataset": "oxford_flowers",
+      "seed": 3,
+      "passed": true,
+      "updates": 4080,
+      "sampled_negative_images": 85388,
+      "unique_negative_images": 816,
+      "configured_query_topk": 8,
+      "max_expanded_group_size": 9,
+      "groups_with_more_than_8_images": 15,
+      "expanded_group_size_counts": {
+        "3": 1368,
+        "4": 1440,
+        "5": 2222,
+        "6": 2851,
+        "7": 3899,
+        "8": 4525,
+        "9": 15
+      },
+      "mean_expanded_group_size": 6.232107843137255,
+      "validation_test_images_used": 0,
+      "new_zero_weight_logits_exact": true
+    }
+  ]
+}

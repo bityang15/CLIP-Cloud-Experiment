@@ -1,0 +1,477 @@
+Loading trainer: MaPLe
+Loading dataset: DescribableTextures
+Reading split from /root/autodl-tmp/clip-exp/datasets/dtd/split_zhou_DescribableTextures.json
+Loading preprocessed few-shot data from /root/autodl-tmp/clip-exp/datasets/dtd/split_fewshot/shot_16-seed_1.pkl
+SUBSAMPLE BASE CLASSES!
+Building transform_train
++ random resized crop (size=(224, 224), scale=(0.08, 1.0))
++ random flip
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+Building transform_test
++ resize the smaller edge to 224
++ 224x224 center crop
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+---------  -------------------
+Dataset    DescribableTextures
+# classes  24
+# train_x  384
+# val      96
+# test     864
+---------  -------------------
+Loading CLIP (backbone: ViT-B/16)
+Building custom CLIP
+MaPLe design: Multi-modal Prompt Learning
+Initial context: "a photo of a"
+Number of MaPLe context words (tokens): 2
+Turning off gradients in both the image and the text encoder
+Parameters to be updated: {'prompt_learner.compound_prompts_text.2', 'prompt_learner.compound_prompt_projections.0.bias', 'prompt_learner.compound_prompt_projections.5.weight', 'prompt_learner.compound_prompts_text.6', 'prompt_learner.compound_prompt_projections.7.weight', 'prompt_learner.compound_prompt_projections.5.bias', 'prompt_learner.proj.weight', 'prompt_learner.compound_prompts_text.7', 'prompt_learner.compound_prompt_projections.0.weight', 'prompt_learner.compound_prompt_projections.3.bias', 'prompt_learner.compound_prompts_text.0', 'prompt_learner.compound_prompt_projections.6.weight', 'prompt_learner.compound_prompt_projections.6.bias', 'prompt_learner.compound_prompts_text.4', 'prompt_learner.compound_prompts_text.5', 'prompt_learner.compound_prompt_projections.4.bias', 'prompt_learner.compound_prompt_projections.1.bias', 'prompt_learner.compound_prompt_projections.2.weight', 'prompt_learner.compound_prompt_projections.3.weight', 'prompt_learner.ctx', 'prompt_learner.compound_prompt_projections.7.bias', 'prompt_learner.compound_prompt_projections.4.weight', 'prompt_learner.compound_prompts_text.3', 'prompt_learner.compound_prompts_text.1', 'prompt_learner.compound_prompt_projections.1.weight', 'prompt_learner.compound_prompt_projections.2.bias', 'prompt_learner.proj.bias'}
+/root/autodl-tmp/clip-exp/env/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Loading evaluator: Classification
+MaPLe design: Multi-modal Prompt Learning
+Initial context: "a photo of a"
+Number of MaPLe context words (tokens): 2
+Checkpoint saved to /root/autodl-tmp/clip-exp/outputs/B_preflight/attempt03/dtd/maple/MultiModalPromptLearner/model.pth.tar-5
+Loading trainer: MaPLe
+Loading dataset: DescribableTextures
+Reading split from /root/autodl-tmp/clip-exp/datasets/dtd/split_zhou_DescribableTextures.json
+Loading preprocessed few-shot data from /root/autodl-tmp/clip-exp/datasets/dtd/split_fewshot/shot_16-seed_1.pkl
+SUBSAMPLE BASE CLASSES!
+Building transform_train
++ random resized crop (size=(224, 224), scale=(0.08, 1.0))
++ random flip
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+Building transform_test
++ resize the smaller edge to 224
++ 224x224 center crop
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+---------  -------------------
+Dataset    DescribableTextures
+# classes  24
+# train_x  384
+# val      96
+# test     864
+---------  -------------------
+Loading CLIP (backbone: ViT-B/16)
+Building custom CLIP
+MaPLe design: Multi-modal Prompt Learning
+Initial context: "a photo of a"
+Number of MaPLe context words (tokens): 2
+Turning off gradients in both the image and the text encoder
+Parameters to be updated: {'prompt_learner.compound_prompts_text.2', 'prompt_learner.compound_prompt_projections.0.bias', 'prompt_learner.compound_prompt_projections.5.weight', 'prompt_learner.compound_prompts_text.6', 'prompt_learner.compound_prompt_projections.7.weight', 'prompt_learner.compound_prompt_projections.5.bias', 'prompt_learner.proj.weight', 'prompt_learner.compound_prompts_text.7', 'prompt_learner.compound_prompt_projections.0.weight', 'prompt_learner.compound_prompt_projections.3.bias', 'prompt_learner.compound_prompts_text.0', 'prompt_learner.compound_prompt_projections.6.weight', 'prompt_learner.compound_prompt_projections.6.bias', 'prompt_learner.compound_prompts_text.4', 'prompt_learner.compound_prompts_text.5', 'prompt_learner.compound_prompt_projections.4.bias', 'prompt_learner.compound_prompt_projections.1.bias', 'prompt_learner.compound_prompt_projections.2.weight', 'prompt_learner.compound_prompt_projections.3.weight', 'prompt_learner.ctx', 'prompt_learner.compound_prompt_projections.7.bias', 'prompt_learner.compound_prompt_projections.4.weight', 'prompt_learner.compound_prompts_text.3', 'prompt_learner.compound_prompts_text.1', 'prompt_learner.compound_prompt_projections.1.weight', 'prompt_learner.compound_prompt_projections.2.bias', 'prompt_learner.proj.bias'}
+Loading evaluator: Classification
+/root/autodl-tmp/clip-exp/code/Dassl.pytorch/dassl/utils/torchtools.py:102: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(fpath, map_location=map_location)
+Loading weights to MultiModalPromptLearner from "/root/autodl-tmp/clip-exp/outputs/B_preflight/attempt03/dtd/maple/MultiModalPromptLearner/model.pth.tar-5" (epoch = 5)
+Loading trainer: MaPLe
+Loading dataset: DescribableTextures
+Reading split from /root/autodl-tmp/clip-exp/datasets/dtd/split_zhou_DescribableTextures.json
+Loading preprocessed few-shot data from /root/autodl-tmp/clip-exp/datasets/dtd/split_fewshot/shot_16-seed_1.pkl
+SUBSAMPLE BASE CLASSES!
+Building transform_train
++ random resized crop (size=(224, 224), scale=(0.08, 1.0))
++ random flip
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+Building transform_test
++ resize the smaller edge to 224
++ 224x224 center crop
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+---------  -------------------
+Dataset    DescribableTextures
+# classes  24
+# train_x  384
+# val      96
+# test     864
+---------  -------------------
+Loading CLIP (backbone: ViT-B/16)
+Building custom CLIP
+MaPLe design: Multi-modal Prompt Learning
+Initial context: "a photo of a"
+Number of MaPLe context words (tokens): 2
+Turning off gradients in both the image and the text encoder
+Parameters to be updated: {'prompt_learner.compound_prompts_text.2', 'prompt_learner.compound_prompt_projections.0.bias', 'prompt_learner.compound_prompt_projections.5.weight', 'prompt_learner.compound_prompts_text.6', 'prompt_learner.compound_prompt_projections.7.weight', 'prompt_learner.compound_prompt_projections.5.bias', 'prompt_learner.proj.weight', 'prompt_learner.compound_prompts_text.7', 'prompt_learner.compound_prompt_projections.0.weight', 'prompt_learner.compound_prompt_projections.3.bias', 'prompt_learner.compound_prompts_text.0', 'prompt_learner.compound_prompt_projections.6.weight', 'prompt_learner.compound_prompt_projections.6.bias', 'prompt_learner.compound_prompts_text.4', 'prompt_learner.compound_prompts_text.5', 'prompt_learner.compound_prompt_projections.4.bias', 'prompt_learner.compound_prompt_projections.1.bias', 'prompt_learner.compound_prompt_projections.2.weight', 'prompt_learner.compound_prompt_projections.3.weight', 'prompt_learner.ctx', 'prompt_learner.compound_prompt_projections.7.bias', 'prompt_learner.compound_prompt_projections.4.weight', 'prompt_learner.compound_prompts_text.3', 'prompt_learner.compound_prompts_text.1', 'prompt_learner.compound_prompt_projections.1.weight', 'prompt_learner.compound_prompt_projections.2.bias', 'prompt_learner.proj.bias'}
+Loading evaluator: Classification
+Checkpoint saved to /root/autodl-tmp/clip-exp/outputs/B_preflight/attempt03/dtd/tcpt/MultiModalPromptLearner/model.pth.tar-5
+Loading trainer: MaPLe
+Loading dataset: DescribableTextures
+Reading split from /root/autodl-tmp/clip-exp/datasets/dtd/split_zhou_DescribableTextures.json
+Loading preprocessed few-shot data from /root/autodl-tmp/clip-exp/datasets/dtd/split_fewshot/shot_16-seed_1.pkl
+SUBSAMPLE BASE CLASSES!
+Building transform_train
++ random resized crop (size=(224, 224), scale=(0.08, 1.0))
++ random flip
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+Building transform_test
++ resize the smaller edge to 224
++ 224x224 center crop
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+---------  -------------------
+Dataset    DescribableTextures
+# classes  24
+# train_x  384
+# val      96
+# test     864
+---------  -------------------
+Loading CLIP (backbone: ViT-B/16)
+Building custom CLIP
+MaPLe design: Multi-modal Prompt Learning
+Initial context: "a photo of a"
+Number of MaPLe context words (tokens): 2
+Turning off gradients in both the image and the text encoder
+Parameters to be updated: {'prompt_learner.compound_prompts_text.2', 'prompt_learner.compound_prompt_projections.0.bias', 'prompt_learner.compound_prompt_projections.5.weight', 'prompt_learner.compound_prompts_text.6', 'prompt_learner.compound_prompt_projections.7.weight', 'prompt_learner.compound_prompt_projections.5.bias', 'prompt_learner.proj.weight', 'prompt_learner.compound_prompts_text.7', 'prompt_learner.compound_prompt_projections.0.weight', 'prompt_learner.compound_prompt_projections.3.bias', 'prompt_learner.compound_prompts_text.0', 'prompt_learner.compound_prompt_projections.6.weight', 'prompt_learner.compound_prompt_projections.6.bias', 'prompt_learner.compound_prompts_text.4', 'prompt_learner.compound_prompts_text.5', 'prompt_learner.compound_prompt_projections.4.bias', 'prompt_learner.compound_prompt_projections.1.bias', 'prompt_learner.compound_prompt_projections.2.weight', 'prompt_learner.compound_prompt_projections.3.weight', 'prompt_learner.ctx', 'prompt_learner.compound_prompt_projections.7.bias', 'prompt_learner.compound_prompt_projections.4.weight', 'prompt_learner.compound_prompts_text.3', 'prompt_learner.compound_prompts_text.1', 'prompt_learner.compound_prompt_projections.1.weight', 'prompt_learner.compound_prompt_projections.2.bias', 'prompt_learner.proj.bias'}
+Loading evaluator: Classification
+Loading weights to MultiModalPromptLearner from "/root/autodl-tmp/clip-exp/outputs/B_preflight/attempt03/dtd/tcpt/MultiModalPromptLearner/model.pth.tar-5" (epoch = 5)
+Loading trainer: PromptSRC
+Loading dataset: DescribableTextures
+Reading split from /root/autodl-tmp/clip-exp/datasets/dtd/split_zhou_DescribableTextures.json
+Loading preprocessed few-shot data from /root/autodl-tmp/clip-exp/datasets/dtd/split_fewshot/shot_16-seed_1.pkl
+SUBSAMPLE BASE CLASSES!
+Building transform_train
++ random resized crop (size=(224, 224), scale=(0.08, 1.0))
++ random flip
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+Building transform_test
++ resize the smaller edge to 224
++ 224x224 center crop
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+---------  -------------------
+Dataset    DescribableTextures
+# classes  24
+# train_x  384
+# val      96
+# test     864
+---------  -------------------
+Loading CLIP (backbone: ViT-B/16)
+Weights not found for some missing keys:  ['visual.VPT', 'visual.transformer.resblocks.1.VPT_shallow', 'visual.transformer.resblocks.2.VPT_shallow', 'visual.transformer.resblocks.3.VPT_shallow', 'visual.transformer.resblocks.4.VPT_shallow', 'visual.transformer.resblocks.5.VPT_shallow', 'visual.transformer.resblocks.6.VPT_shallow', 'visual.transformer.resblocks.7.VPT_shallow', 'visual.transformer.resblocks.8.VPT_shallow', 'transformer.resblocks.1.VPT_shallow', 'transformer.resblocks.2.VPT_shallow', 'transformer.resblocks.3.VPT_shallow', 'transformer.resblocks.4.VPT_shallow', 'transformer.resblocks.5.VPT_shallow', 'transformer.resblocks.6.VPT_shallow', 'transformer.resblocks.7.VPT_shallow', 'transformer.resblocks.8.VPT_shallow']
+Building custom CLIP
+Independent V-L design
+Initial text context: "a photo of a"
+Number of context words (tokens) for Language prompting: 4
+Number of context words (tokens) for Vision prompting: 4
+Turning off gradients in both the image and the text encoder
+Parameters to be updated: {'image_encoder.transformer.resblocks.2.VPT_shallow', 'text_encoder.transformer.resblocks.7.VPT_shallow', 'image_encoder.transformer.resblocks.4.VPT_shallow', 'text_encoder.transformer.resblocks.8.VPT_shallow', 'text_encoder.transformer.resblocks.1.VPT_shallow', 'text_encoder.transformer.resblocks.5.VPT_shallow', 'image_encoder.transformer.resblocks.6.VPT_shallow', 'image_encoder.VPT', 'image_encoder.transformer.resblocks.5.VPT_shallow', 'image_encoder.transformer.resblocks.3.VPT_shallow', 'image_encoder.transformer.resblocks.8.VPT_shallow', 'text_encoder.transformer.resblocks.6.VPT_shallow', 'text_encoder.transformer.resblocks.3.VPT_shallow', 'image_encoder.transformer.resblocks.1.VPT_shallow', 'image_encoder.transformer.resblocks.7.VPT_shallow', 'text_encoder.transformer.resblocks.2.VPT_shallow', 'text_encoder.transformer.resblocks.4.VPT_shallow', 'prompt_learner.ctx'}
+Parameters count: 18
+Loading evaluator: Classification
+Using GPA model for final inference...
+Checkpoint saved to /root/autodl-tmp/clip-exp/outputs/B_preflight/attempt03/dtd/promptsrc/VLPromptLearner/model.pth.tar-20
+Loading trainer: PromptSRC
+Loading dataset: DescribableTextures
+Reading split from /root/autodl-tmp/clip-exp/datasets/dtd/split_zhou_DescribableTextures.json
+Loading preprocessed few-shot data from /root/autodl-tmp/clip-exp/datasets/dtd/split_fewshot/shot_16-seed_1.pkl
+SUBSAMPLE BASE CLASSES!
+Building transform_train
++ random resized crop (size=(224, 224), scale=(0.08, 1.0))
++ random flip
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+Building transform_test
++ resize the smaller edge to 224
++ 224x224 center crop
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+---------  -------------------
+Dataset    DescribableTextures
+# classes  24
+# train_x  384
+# val      96
+# test     864
+---------  -------------------
+Loading CLIP (backbone: ViT-B/16)
+Weights not found for some missing keys:  ['visual.VPT', 'visual.transformer.resblocks.1.VPT_shallow', 'visual.transformer.resblocks.2.VPT_shallow', 'visual.transformer.resblocks.3.VPT_shallow', 'visual.transformer.resblocks.4.VPT_shallow', 'visual.transformer.resblocks.5.VPT_shallow', 'visual.transformer.resblocks.6.VPT_shallow', 'visual.transformer.resblocks.7.VPT_shallow', 'visual.transformer.resblocks.8.VPT_shallow', 'transformer.resblocks.1.VPT_shallow', 'transformer.resblocks.2.VPT_shallow', 'transformer.resblocks.3.VPT_shallow', 'transformer.resblocks.4.VPT_shallow', 'transformer.resblocks.5.VPT_shallow', 'transformer.resblocks.6.VPT_shallow', 'transformer.resblocks.7.VPT_shallow', 'transformer.resblocks.8.VPT_shallow']
+Building custom CLIP
+Independent V-L design
+Initial text context: "a photo of a"
+Number of context words (tokens) for Language prompting: 4
+Number of context words (tokens) for Vision prompting: 4
+Turning off gradients in both the image and the text encoder
+Parameters to be updated: {'image_encoder.transformer.resblocks.2.VPT_shallow', 'text_encoder.transformer.resblocks.7.VPT_shallow', 'image_encoder.transformer.resblocks.4.VPT_shallow', 'text_encoder.transformer.resblocks.8.VPT_shallow', 'text_encoder.transformer.resblocks.1.VPT_shallow', 'text_encoder.transformer.resblocks.5.VPT_shallow', 'image_encoder.transformer.resblocks.6.VPT_shallow', 'image_encoder.VPT', 'image_encoder.transformer.resblocks.5.VPT_shallow', 'image_encoder.transformer.resblocks.3.VPT_shallow', 'image_encoder.transformer.resblocks.8.VPT_shallow', 'text_encoder.transformer.resblocks.6.VPT_shallow', 'text_encoder.transformer.resblocks.3.VPT_shallow', 'image_encoder.transformer.resblocks.1.VPT_shallow', 'image_encoder.transformer.resblocks.7.VPT_shallow', 'text_encoder.transformer.resblocks.2.VPT_shallow', 'text_encoder.transformer.resblocks.4.VPT_shallow', 'prompt_learner.ctx'}
+Parameters count: 18
+Loading evaluator: Classification
+Loading weights to VLPromptLearner from "/root/autodl-tmp/clip-exp/outputs/B_preflight/attempt03/dtd/promptsrc/VLPromptLearner/model.pth.tar-20" (epoch = 20)
+Loading trainer: MaPLe
+Loading dataset: OxfordFlowers
+Reading split from /root/autodl-tmp/clip-exp/datasets/oxford_flowers/split_zhou_OxfordFlowers.json
+Loading preprocessed few-shot data from /root/autodl-tmp/clip-exp/datasets/oxford_flowers/split_fewshot/shot_16-seed_1.pkl
+SUBSAMPLE BASE CLASSES!
+Building transform_train
++ random resized crop (size=(224, 224), scale=(0.08, 1.0))
++ random flip
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+Building transform_test
++ resize the smaller edge to 224
++ 224x224 center crop
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+---------  -------------
+Dataset    OxfordFlowers
+# classes  51
+# train_x  816
+# val      204
+# test     1,053
+---------  -------------
+Loading CLIP (backbone: ViT-B/16)
+Building custom CLIP
+MaPLe design: Multi-modal Prompt Learning
+Initial context: "a photo of a"
+Number of MaPLe context words (tokens): 2
+Turning off gradients in both the image and the text encoder
+Parameters to be updated: {'prompt_learner.compound_prompts_text.2', 'prompt_learner.compound_prompt_projections.0.bias', 'prompt_learner.compound_prompt_projections.5.weight', 'prompt_learner.compound_prompts_text.6', 'prompt_learner.compound_prompt_projections.7.weight', 'prompt_learner.compound_prompt_projections.5.bias', 'prompt_learner.proj.weight', 'prompt_learner.compound_prompts_text.7', 'prompt_learner.compound_prompt_projections.0.weight', 'prompt_learner.compound_prompt_projections.3.bias', 'prompt_learner.compound_prompts_text.0', 'prompt_learner.compound_prompt_projections.6.weight', 'prompt_learner.compound_prompt_projections.6.bias', 'prompt_learner.compound_prompts_text.4', 'prompt_learner.compound_prompts_text.5', 'prompt_learner.compound_prompt_projections.4.bias', 'prompt_learner.compound_prompt_projections.1.bias', 'prompt_learner.compound_prompt_projections.2.weight', 'prompt_learner.compound_prompt_projections.3.weight', 'prompt_learner.ctx', 'prompt_learner.compound_prompt_projections.7.bias', 'prompt_learner.compound_prompt_projections.4.weight', 'prompt_learner.compound_prompts_text.3', 'prompt_learner.compound_prompts_text.1', 'prompt_learner.compound_prompt_projections.1.weight', 'prompt_learner.compound_prompt_projections.2.bias', 'prompt_learner.proj.bias'}
+Loading evaluator: Classification
+MaPLe design: Multi-modal Prompt Learning
+Initial context: "a photo of a"
+Number of MaPLe context words (tokens): 2
+Checkpoint saved to /root/autodl-tmp/clip-exp/outputs/B_preflight/attempt03/oxford_flowers/maple/MultiModalPromptLearner/model.pth.tar-5
+Loading trainer: MaPLe
+Loading dataset: OxfordFlowers
+Reading split from /root/autodl-tmp/clip-exp/datasets/oxford_flowers/split_zhou_OxfordFlowers.json
+Loading preprocessed few-shot data from /root/autodl-tmp/clip-exp/datasets/oxford_flowers/split_fewshot/shot_16-seed_1.pkl
+SUBSAMPLE BASE CLASSES!
+Building transform_train
++ random resized crop (size=(224, 224), scale=(0.08, 1.0))
++ random flip
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+Building transform_test
++ resize the smaller edge to 224
++ 224x224 center crop
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+---------  -------------
+Dataset    OxfordFlowers
+# classes  51
+# train_x  816
+# val      204
+# test     1,053
+---------  -------------
+Loading CLIP (backbone: ViT-B/16)
+Building custom CLIP
+MaPLe design: Multi-modal Prompt Learning
+Initial context: "a photo of a"
+Number of MaPLe context words (tokens): 2
+Turning off gradients in both the image and the text encoder
+Parameters to be updated: {'prompt_learner.compound_prompts_text.2', 'prompt_learner.compound_prompt_projections.0.bias', 'prompt_learner.compound_prompt_projections.5.weight', 'prompt_learner.compound_prompts_text.6', 'prompt_learner.compound_prompt_projections.7.weight', 'prompt_learner.compound_prompt_projections.5.bias', 'prompt_learner.proj.weight', 'prompt_learner.compound_prompts_text.7', 'prompt_learner.compound_prompt_projections.0.weight', 'prompt_learner.compound_prompt_projections.3.bias', 'prompt_learner.compound_prompts_text.0', 'prompt_learner.compound_prompt_projections.6.weight', 'prompt_learner.compound_prompt_projections.6.bias', 'prompt_learner.compound_prompts_text.4', 'prompt_learner.compound_prompts_text.5', 'prompt_learner.compound_prompt_projections.4.bias', 'prompt_learner.compound_prompt_projections.1.bias', 'prompt_learner.compound_prompt_projections.2.weight', 'prompt_learner.compound_prompt_projections.3.weight', 'prompt_learner.ctx', 'prompt_learner.compound_prompt_projections.7.bias', 'prompt_learner.compound_prompt_projections.4.weight', 'prompt_learner.compound_prompts_text.3', 'prompt_learner.compound_prompts_text.1', 'prompt_learner.compound_prompt_projections.1.weight', 'prompt_learner.compound_prompt_projections.2.bias', 'prompt_learner.proj.bias'}
+Loading evaluator: Classification
+Loading weights to MultiModalPromptLearner from "/root/autodl-tmp/clip-exp/outputs/B_preflight/attempt03/oxford_flowers/maple/MultiModalPromptLearner/model.pth.tar-5" (epoch = 5)
+Loading trainer: MaPLe
+Loading dataset: OxfordFlowers
+Reading split from /root/autodl-tmp/clip-exp/datasets/oxford_flowers/split_zhou_OxfordFlowers.json
+Loading preprocessed few-shot data from /root/autodl-tmp/clip-exp/datasets/oxford_flowers/split_fewshot/shot_16-seed_1.pkl
+SUBSAMPLE BASE CLASSES!
+Building transform_train
++ random resized crop (size=(224, 224), scale=(0.08, 1.0))
++ random flip
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+Building transform_test
++ resize the smaller edge to 224
++ 224x224 center crop
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+---------  -------------
+Dataset    OxfordFlowers
+# classes  51
+# train_x  816
+# val      204
+# test     1,053
+---------  -------------
+Loading CLIP (backbone: ViT-B/16)
+Building custom CLIP
+MaPLe design: Multi-modal Prompt Learning
+Initial context: "a photo of a"
+Number of MaPLe context words (tokens): 2
+Turning off gradients in both the image and the text encoder
+Parameters to be updated: {'prompt_learner.compound_prompts_text.2', 'prompt_learner.compound_prompt_projections.0.bias', 'prompt_learner.compound_prompt_projections.5.weight', 'prompt_learner.compound_prompts_text.6', 'prompt_learner.compound_prompt_projections.7.weight', 'prompt_learner.compound_prompt_projections.5.bias', 'prompt_learner.proj.weight', 'prompt_learner.compound_prompts_text.7', 'prompt_learner.compound_prompt_projections.0.weight', 'prompt_learner.compound_prompt_projections.3.bias', 'prompt_learner.compound_prompts_text.0', 'prompt_learner.compound_prompt_projections.6.weight', 'prompt_learner.compound_prompt_projections.6.bias', 'prompt_learner.compound_prompts_text.4', 'prompt_learner.compound_prompts_text.5', 'prompt_learner.compound_prompt_projections.4.bias', 'prompt_learner.compound_prompt_projections.1.bias', 'prompt_learner.compound_prompt_projections.2.weight', 'prompt_learner.compound_prompt_projections.3.weight', 'prompt_learner.ctx', 'prompt_learner.compound_prompt_projections.7.bias', 'prompt_learner.compound_prompt_projections.4.weight', 'prompt_learner.compound_prompts_text.3', 'prompt_learner.compound_prompts_text.1', 'prompt_learner.compound_prompt_projections.1.weight', 'prompt_learner.compound_prompt_projections.2.bias', 'prompt_learner.proj.bias'}
+Loading evaluator: Classification
+Checkpoint saved to /root/autodl-tmp/clip-exp/outputs/B_preflight/attempt03/oxford_flowers/tcpt/MultiModalPromptLearner/model.pth.tar-5
+Loading trainer: MaPLe
+Loading dataset: OxfordFlowers
+Reading split from /root/autodl-tmp/clip-exp/datasets/oxford_flowers/split_zhou_OxfordFlowers.json
+Loading preprocessed few-shot data from /root/autodl-tmp/clip-exp/datasets/oxford_flowers/split_fewshot/shot_16-seed_1.pkl
+SUBSAMPLE BASE CLASSES!
+Building transform_train
++ random resized crop (size=(224, 224), scale=(0.08, 1.0))
++ random flip
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+Building transform_test
++ resize the smaller edge to 224
++ 224x224 center crop
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+---------  -------------
+Dataset    OxfordFlowers
+# classes  51
+# train_x  816
+# val      204
+# test     1,053
+---------  -------------
+Loading CLIP (backbone: ViT-B/16)
+Building custom CLIP
+MaPLe design: Multi-modal Prompt Learning
+Initial context: "a photo of a"
+Number of MaPLe context words (tokens): 2
+Turning off gradients in both the image and the text encoder
+Parameters to be updated: {'prompt_learner.compound_prompts_text.2', 'prompt_learner.compound_prompt_projections.0.bias', 'prompt_learner.compound_prompt_projections.5.weight', 'prompt_learner.compound_prompts_text.6', 'prompt_learner.compound_prompt_projections.7.weight', 'prompt_learner.compound_prompt_projections.5.bias', 'prompt_learner.proj.weight', 'prompt_learner.compound_prompts_text.7', 'prompt_learner.compound_prompt_projections.0.weight', 'prompt_learner.compound_prompt_projections.3.bias', 'prompt_learner.compound_prompts_text.0', 'prompt_learner.compound_prompt_projections.6.weight', 'prompt_learner.compound_prompt_projections.6.bias', 'prompt_learner.compound_prompts_text.4', 'prompt_learner.compound_prompts_text.5', 'prompt_learner.compound_prompt_projections.4.bias', 'prompt_learner.compound_prompt_projections.1.bias', 'prompt_learner.compound_prompt_projections.2.weight', 'prompt_learner.compound_prompt_projections.3.weight', 'prompt_learner.ctx', 'prompt_learner.compound_prompt_projections.7.bias', 'prompt_learner.compound_prompt_projections.4.weight', 'prompt_learner.compound_prompts_text.3', 'prompt_learner.compound_prompts_text.1', 'prompt_learner.compound_prompt_projections.1.weight', 'prompt_learner.compound_prompt_projections.2.bias', 'prompt_learner.proj.bias'}
+Loading evaluator: Classification
+Loading weights to MultiModalPromptLearner from "/root/autodl-tmp/clip-exp/outputs/B_preflight/attempt03/oxford_flowers/tcpt/MultiModalPromptLearner/model.pth.tar-5" (epoch = 5)
+Loading trainer: PromptSRC
+Loading dataset: OxfordFlowers
+Reading split from /root/autodl-tmp/clip-exp/datasets/oxford_flowers/split_zhou_OxfordFlowers.json
+Loading preprocessed few-shot data from /root/autodl-tmp/clip-exp/datasets/oxford_flowers/split_fewshot/shot_16-seed_1.pkl
+SUBSAMPLE BASE CLASSES!
+Building transform_train
++ random resized crop (size=(224, 224), scale=(0.08, 1.0))
++ random flip
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+Building transform_test
++ resize the smaller edge to 224
++ 224x224 center crop
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+---------  -------------
+Dataset    OxfordFlowers
+# classes  51
+# train_x  816
+# val      204
+# test     1,053
+---------  -------------
+Loading CLIP (backbone: ViT-B/16)
+Weights not found for some missing keys:  ['visual.VPT', 'visual.transformer.resblocks.1.VPT_shallow', 'visual.transformer.resblocks.2.VPT_shallow', 'visual.transformer.resblocks.3.VPT_shallow', 'visual.transformer.resblocks.4.VPT_shallow', 'visual.transformer.resblocks.5.VPT_shallow', 'visual.transformer.resblocks.6.VPT_shallow', 'visual.transformer.resblocks.7.VPT_shallow', 'visual.transformer.resblocks.8.VPT_shallow', 'transformer.resblocks.1.VPT_shallow', 'transformer.resblocks.2.VPT_shallow', 'transformer.resblocks.3.VPT_shallow', 'transformer.resblocks.4.VPT_shallow', 'transformer.resblocks.5.VPT_shallow', 'transformer.resblocks.6.VPT_shallow', 'transformer.resblocks.7.VPT_shallow', 'transformer.resblocks.8.VPT_shallow']
+Building custom CLIP
+Independent V-L design
+Initial text context: "a photo of a"
+Number of context words (tokens) for Language prompting: 4
+Number of context words (tokens) for Vision prompting: 4
+Turning off gradients in both the image and the text encoder
+Parameters to be updated: {'image_encoder.transformer.resblocks.2.VPT_shallow', 'text_encoder.transformer.resblocks.7.VPT_shallow', 'image_encoder.transformer.resblocks.4.VPT_shallow', 'text_encoder.transformer.resblocks.8.VPT_shallow', 'text_encoder.transformer.resblocks.1.VPT_shallow', 'text_encoder.transformer.resblocks.5.VPT_shallow', 'image_encoder.transformer.resblocks.6.VPT_shallow', 'image_encoder.VPT', 'image_encoder.transformer.resblocks.5.VPT_shallow', 'image_encoder.transformer.resblocks.3.VPT_shallow', 'image_encoder.transformer.resblocks.8.VPT_shallow', 'text_encoder.transformer.resblocks.6.VPT_shallow', 'text_encoder.transformer.resblocks.3.VPT_shallow', 'image_encoder.transformer.resblocks.1.VPT_shallow', 'image_encoder.transformer.resblocks.7.VPT_shallow', 'text_encoder.transformer.resblocks.2.VPT_shallow', 'text_encoder.transformer.resblocks.4.VPT_shallow', 'prompt_learner.ctx'}
+Parameters count: 18
+Loading evaluator: Classification
+Using GPA model for final inference...
+Checkpoint saved to /root/autodl-tmp/clip-exp/outputs/B_preflight/attempt03/oxford_flowers/promptsrc/VLPromptLearner/model.pth.tar-20
+Loading trainer: PromptSRC
+Loading dataset: OxfordFlowers
+Reading split from /root/autodl-tmp/clip-exp/datasets/oxford_flowers/split_zhou_OxfordFlowers.json
+Loading preprocessed few-shot data from /root/autodl-tmp/clip-exp/datasets/oxford_flowers/split_fewshot/shot_16-seed_1.pkl
+SUBSAMPLE BASE CLASSES!
+Building transform_train
++ random resized crop (size=(224, 224), scale=(0.08, 1.0))
++ random flip
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+Building transform_test
++ resize the smaller edge to 224
++ 224x224 center crop
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+---------  -------------
+Dataset    OxfordFlowers
+# classes  51
+# train_x  816
+# val      204
+# test     1,053
+---------  -------------
+Loading CLIP (backbone: ViT-B/16)
+Weights not found for some missing keys:  ['visual.VPT', 'visual.transformer.resblocks.1.VPT_shallow', 'visual.transformer.resblocks.2.VPT_shallow', 'visual.transformer.resblocks.3.VPT_shallow', 'visual.transformer.resblocks.4.VPT_shallow', 'visual.transformer.resblocks.5.VPT_shallow', 'visual.transformer.resblocks.6.VPT_shallow', 'visual.transformer.resblocks.7.VPT_shallow', 'visual.transformer.resblocks.8.VPT_shallow', 'transformer.resblocks.1.VPT_shallow', 'transformer.resblocks.2.VPT_shallow', 'transformer.resblocks.3.VPT_shallow', 'transformer.resblocks.4.VPT_shallow', 'transformer.resblocks.5.VPT_shallow', 'transformer.resblocks.6.VPT_shallow', 'transformer.resblocks.7.VPT_shallow', 'transformer.resblocks.8.VPT_shallow']
+Building custom CLIP
+Independent V-L design
+Initial text context: "a photo of a"
+Number of context words (tokens) for Language prompting: 4
+Number of context words (tokens) for Vision prompting: 4
+Turning off gradients in both the image and the text encoder
+Parameters to be updated: {'image_encoder.transformer.resblocks.2.VPT_shallow', 'text_encoder.transformer.resblocks.7.VPT_shallow', 'image_encoder.transformer.resblocks.4.VPT_shallow', 'text_encoder.transformer.resblocks.8.VPT_shallow', 'text_encoder.transformer.resblocks.1.VPT_shallow', 'text_encoder.transformer.resblocks.5.VPT_shallow', 'image_encoder.transformer.resblocks.6.VPT_shallow', 'image_encoder.VPT', 'image_encoder.transformer.resblocks.5.VPT_shallow', 'image_encoder.transformer.resblocks.3.VPT_shallow', 'image_encoder.transformer.resblocks.8.VPT_shallow', 'text_encoder.transformer.resblocks.6.VPT_shallow', 'text_encoder.transformer.resblocks.3.VPT_shallow', 'image_encoder.transformer.resblocks.1.VPT_shallow', 'image_encoder.transformer.resblocks.7.VPT_shallow', 'text_encoder.transformer.resblocks.2.VPT_shallow', 'text_encoder.transformer.resblocks.4.VPT_shallow', 'prompt_learner.ctx'}
+Parameters count: 18
+Loading evaluator: Classification
+Loading weights to VLPromptLearner from "/root/autodl-tmp/clip-exp/outputs/B_preflight/attempt03/oxford_flowers/promptsrc/VLPromptLearner/model.pth.tar-20" (epoch = 20)
+Loading trainer: MaPLe
+Loading dataset: DescribableTextures
+Reading split from /root/autodl-tmp/clip-exp/datasets/dtd/split_zhou_DescribableTextures.json
+Loading preprocessed few-shot data from /root/autodl-tmp/clip-exp/datasets/dtd/split_fewshot/shot_16-seed_1.pkl
+SUBSAMPLE BASE CLASSES!
+Building transform_train
++ random resized crop (size=(224, 224), scale=(0.08, 1.0))
++ random flip
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+Building transform_test
++ resize the smaller edge to 224
++ 224x224 center crop
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+---------  -------------------
+Dataset    DescribableTextures
+# classes  24
+# train_x  384
+# val      96
+# test     864
+---------  -------------------
+Loading CLIP (backbone: ViT-B/16)
+Building custom CLIP
+MaPLe design: Multi-modal Prompt Learning
+Initial context: "a photo of a"
+Number of MaPLe context words (tokens): 2
+Turning off gradients in both the image and the text encoder
+Parameters to be updated: {'prompt_learner.compound_prompts_text.2', 'prompt_learner.compound_prompt_projections.0.bias', 'prompt_learner.compound_prompt_projections.5.weight', 'prompt_learner.compound_prompts_text.6', 'prompt_learner.compound_prompt_projections.7.weight', 'prompt_learner.compound_prompt_projections.5.bias', 'prompt_learner.proj.weight', 'prompt_learner.compound_prompts_text.7', 'prompt_learner.compound_prompt_projections.0.weight', 'prompt_learner.compound_prompt_projections.3.bias', 'prompt_learner.compound_prompts_text.0', 'prompt_learner.compound_prompt_projections.6.weight', 'prompt_learner.compound_prompt_projections.6.bias', 'prompt_learner.compound_prompts_text.4', 'prompt_learner.compound_prompts_text.5', 'prompt_learner.compound_prompt_projections.4.bias', 'prompt_learner.compound_prompt_projections.1.bias', 'prompt_learner.compound_prompt_projections.2.weight', 'prompt_learner.compound_prompt_projections.3.weight', 'prompt_learner.ctx', 'prompt_learner.compound_prompt_projections.7.bias', 'prompt_learner.compound_prompt_projections.4.weight', 'prompt_learner.compound_prompts_text.3', 'prompt_learner.compound_prompts_text.1', 'prompt_learner.compound_prompt_projections.1.weight', 'prompt_learner.compound_prompt_projections.2.bias', 'prompt_learner.proj.bias'}
+Loading evaluator: Classification
+Loading weights to MultiModalPromptLearner from "/root/autodl-tmp/clip-exp/outputs/B_preflight/attempt03/dtd/maple/MultiModalPromptLearner/model.pth.tar-5" (epoch = 5)
+=> result
+* total: 864
+* correct: 477
+* accuracy: 55.2%
+* error: 44.8%
+* macro_f1: 49.8%
+Exported predictions /root/autodl-tmp/clip-exp/outputs/B_preflight/attempt03/export_check/base/predictions metrics {'accuracy': 55.208333333333336, 'nll': 1.6557859246061473, 'n': 864, 'classes': 24, 'bins': 10, 'ece': 3.8416758668598985, 'counts': [0, 70, 164, 113, 98, 51, 55, 60, 88, 165], 'bin_accuracy': [0.0, 0.12857142857142856, 0.24390243902439024, 0.336283185840708, 0.32653061224489793, 0.6078431372549019, 0.7090909090909091, 0.8333333333333334, 0.8977272727272727, 0.9636363636363636], 'bin_confidence': [0.0, 0.17070135134374795, 0.2548214151775374, 0.3444055650632383, 0.44982882849034517, 0.5498907586072597, 0.6530822984341671, 0.7500523592150425, 0.8544498877171012, 0.9599399664415262]}
+Loading trainer: MaPLe
+Loading dataset: DescribableTextures
+Reading split from /root/autodl-tmp/clip-exp/datasets/dtd/split_zhou_DescribableTextures.json
+Loading preprocessed few-shot data from /root/autodl-tmp/clip-exp/datasets/dtd/split_fewshot/shot_16-seed_1.pkl
+SUBSAMPLE NEW CLASSES!
+Building transform_train
++ random resized crop (size=(224, 224), scale=(0.08, 1.0))
++ random flip
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+Building transform_test
++ resize the smaller edge to 224
++ 224x224 center crop
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+---------  -------------------
+Dataset    DescribableTextures
+# classes  23
+# train_x  368
+# val      92
+# test     828
+---------  -------------------
+Loading CLIP (backbone: ViT-B/16)
+Building custom CLIP
+MaPLe design: Multi-modal Prompt Learning
+Initial context: "a photo of a"
+Number of MaPLe context words (tokens): 2
+Turning off gradients in both the image and the text encoder
+Parameters to be updated: {'prompt_learner.compound_prompts_text.2', 'prompt_learner.compound_prompt_projections.0.bias', 'prompt_learner.compound_prompt_projections.5.weight', 'prompt_learner.compound_prompts_text.6', 'prompt_learner.compound_prompt_projections.7.weight', 'prompt_learner.compound_prompt_projections.5.bias', 'prompt_learner.proj.weight', 'prompt_learner.compound_prompts_text.7', 'prompt_learner.compound_prompt_projections.0.weight', 'prompt_learner.compound_prompt_projections.3.bias', 'prompt_learner.compound_prompts_text.0', 'prompt_learner.compound_prompt_projections.6.weight', 'prompt_learner.compound_prompt_projections.6.bias', 'prompt_learner.compound_prompts_text.4', 'prompt_learner.compound_prompts_text.5', 'prompt_learner.compound_prompt_projections.4.bias', 'prompt_learner.compound_prompt_projections.1.bias', 'prompt_learner.compound_prompt_projections.2.weight', 'prompt_learner.compound_prompt_projections.3.weight', 'prompt_learner.ctx', 'prompt_learner.compound_prompt_projections.7.bias', 'prompt_learner.compound_prompt_projections.4.weight', 'prompt_learner.compound_prompts_text.3', 'prompt_learner.compound_prompts_text.1', 'prompt_learner.compound_prompt_projections.1.weight', 'prompt_learner.compound_prompt_projections.2.bias', 'prompt_learner.proj.bias'}
+/root/autodl-tmp/clip-exp/env/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Loading evaluator: Classification
+/root/autodl-tmp/clip-exp/code/Dassl.pytorch/dassl/utils/torchtools.py:102: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(fpath, map_location=map_location)
+Loading weights to MultiModalPromptLearner from "/root/autodl-tmp/clip-exp/outputs/B_preflight/attempt03/dtd/maple/MultiModalPromptLearner/model.pth.tar-5" (epoch = 5)
+=> result
+* total: 828
+* correct: 471
+* accuracy: 56.9%
+* error: 43.1%
+* macro_f1: 53.7%
+Exported predictions /root/autodl-tmp/clip-exp/outputs/B_preflight/attempt03/export_check/new/predictions metrics {'accuracy': 56.88405797101449, 'nll': 1.4523874922999152, 'n': 828, 'classes': 23, 'bins': 10, 'ece': 2.9283371869732293, 'counts': [0, 38, 127, 119, 90, 74, 81, 59, 85, 155], 'bin_accuracy': [0.0, 0.2631578947368421, 0.2440944881889764, 0.35294117647058826, 0.37777777777777777, 0.5945945945945946, 0.654320987654321, 0.7288135593220338, 0.8470588235294118, 0.9161290322580645], 'bin_confidence': [0.0, 0.17240319097605, 0.2523356494870482, 0.34749786442912245, 0.4505885749871364, 0.549012421304286, 0.6493712964930692, 0.7475134115496639, 0.8515115946110069, 0.9631923688237835]}
+All preflight checks passed.

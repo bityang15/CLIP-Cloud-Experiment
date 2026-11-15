@@ -1,0 +1,14 @@
+.archive-work/
+__pycache__/
+*.py[cod]
+.DS_Store
+env/
+.cache/
+weights/
+datasets/dtd/images/
+datasets/dtd/imdb/
+datasets/oxford_flowers/jpg/
+datasets/oxford_flowers/imagelabels.mat
+datasets/**/split_fewshot/
+downloads/*.tgz
+downloads/*.tar.gz

@@ -1,0 +1,11 @@
+{
+  "method": "clip",
+  "seed": 1,
+  "initialization_seconds": 3.006448231637478,
+  "parameter_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "rng_sha256": "a36f9bdcd678f535160fae82a1fe502dae05086133f3fd69734dbdc8877792ea",
+  "trainable_parameters": [],
+  "trainable_count": 0,
+  "config_sha256": "6cd4be41e21370f2bc5a78c0cb34d9997bbdc9bdad348038e14c35ad108a837c",
+  "tcpt_reference": null
+}

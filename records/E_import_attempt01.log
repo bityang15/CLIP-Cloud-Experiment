@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/root/autodl-tmp/clip-exp/code/DPC_expE/train.py", line 22, in <module>
+    import trainers.coop_stats
+ModuleNotFoundError: No module named 'trainers.coop_stats'

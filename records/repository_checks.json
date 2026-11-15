@@ -1,0 +1,19 @@
+{
+  "B": {
+    "files_checked": 849,
+    "passed": true,
+    "source_files_checked": 117
+  },
+  "E": {
+    "files_checked": 880,
+    "passed": true,
+    "source_files_checked": 331
+  },
+  "checkpoints": 30,
+  "prediction_exports": 94,
+  "checkpoint_bytes": 7425156120,
+  "archival_source": "本地已校验的 2026-11-10 云端实验备份",
+  "report_links_converted": true,
+  "initial_cloud_source_files_checked": 261,
+  "dassl_restored_commit": "c61a1b570ac6333bd50fb5ae06aea59002fb20bb"
+}

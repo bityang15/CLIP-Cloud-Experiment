@@ -1,0 +1,17 @@
+{
+  "method": "coop",
+  "seed": 3,
+  "initialization_seconds": 3.023990754969418,
+  "parameter_sha256": "cd52269b8a1e5211245f47408e239c2593d12a18ea8cc304a2d5dc02aff03a43",
+  "rng_sha256": "8f43ee48eed7ed67f83e014757f0dafc7cf225be71fa495325fb10c1d4987dc6",
+  "trainable_parameters": [
+    {
+      "name": "prompt_learner.ctx",
+      "count": 8192,
+      "dtype": "torch.float16"
+    }
+  ],
+  "trainable_count": 8192,
+  "config_sha256": "c9677a5e719e13174645a605c4838238dc44e53b15f14f93d5efe6c0b917ba51",
+  "tcpt_reference": null
+}

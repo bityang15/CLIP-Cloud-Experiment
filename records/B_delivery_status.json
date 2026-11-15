@@ -1,0 +1,21 @@
+{
+  "status": "complete_and_locally_verified",
+  "verified_at": "2026-11-10T19:52:12.025281+08:00",
+  "formal_runs": 18,
+  "formal_checkpoints": 18,
+  "prediction_exports": 58,
+  "local_manifest_files": 849,
+  "source_files_unchanged": 117,
+  "archive_hashes": {
+    "B_evidence.tar.gz": {
+      "size": 10847545,
+      "sha256": "2feea1678583e372124858e62395bb2bd8ccd7e2141f76b2fc3a5e90106a8654",
+      "passed": true
+    },
+    "B_checkpoints.tar": {
+      "size": 5900953600,
+      "sha256": "68c7cb6d9fea74958fbe376b922dfe7aed9d1a23b6d1f3c7660a094d2dcc50f9",
+      "passed": true
+    }
+  }
+}

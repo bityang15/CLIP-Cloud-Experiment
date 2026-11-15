@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "checked_at": "2026-11-10T19:44:34.755178+08:00",
+  "archives": {
+    "B_evidence.tar.gz": {
+      "size": 10847545,
+      "sha256": "2feea1678583e372124858e62395bb2bd8ccd7e2141f76b2fc3a5e90106a8654",
+      "passed": true
+    },
+    "B_checkpoints.tar": {
+      "size": 5900953600,
+      "sha256": "68c7cb6d9fea74958fbe376b922dfe7aed9d1a23b6d1f3c7660a094d2dcc50f9",
+      "passed": true
+    }
+  },
+  "manifest_files": 849,
+  "formal_checkpoints": 18,
+  "prediction_exports": 58,
+  "B_source_files_checked": 117,
+  "B_source_mismatches": 0,
+  "figures_visually_checked": [
+    "recognition_base_new_h",
+    "new_calibration_raw_vs_temperature",
+    "reliability_seed1_raw",
+    "reliability_seed1_temperature"
+  ]
+}

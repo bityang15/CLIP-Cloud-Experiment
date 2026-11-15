@@ -1,0 +1,102 @@
+{
+  "method": "promptsrc",
+  "seed": 2,
+  "initialization_seconds": 8.421833614818752,
+  "parameter_sha256": "2ac3167964da1e137628faf621121f9273388b7803d50000c41de03871c5b3b6",
+  "rng_sha256": "75fbae6c1086676b0e4c03bae1ff34d307d3cacff841119aed0ac6fbb103dc28",
+  "trainable_parameters": [
+    {
+      "name": "prompt_learner.ctx",
+      "count": 2048,
+      "dtype": "torch.float16"
+    },
+    {
+      "name": "image_encoder.VPT",
+      "count": 3072,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "image_encoder.transformer.resblocks.1.VPT_shallow",
+      "count": 3072,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "image_encoder.transformer.resblocks.2.VPT_shallow",
+      "count": 3072,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "image_encoder.transformer.resblocks.3.VPT_shallow",
+      "count": 3072,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "image_encoder.transformer.resblocks.4.VPT_shallow",
+      "count": 3072,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "image_encoder.transformer.resblocks.5.VPT_shallow",
+      "count": 3072,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "image_encoder.transformer.resblocks.6.VPT_shallow",
+      "count": 3072,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "image_encoder.transformer.resblocks.7.VPT_shallow",
+      "count": 3072,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "image_encoder.transformer.resblocks.8.VPT_shallow",
+      "count": 3072,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "text_encoder.transformer.resblocks.1.VPT_shallow",
+      "count": 2048,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "text_encoder.transformer.resblocks.2.VPT_shallow",
+      "count": 2048,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "text_encoder.transformer.resblocks.3.VPT_shallow",
+      "count": 2048,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "text_encoder.transformer.resblocks.4.VPT_shallow",
+      "count": 2048,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "text_encoder.transformer.resblocks.5.VPT_shallow",
+      "count": 2048,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "text_encoder.transformer.resblocks.6.VPT_shallow",
+      "count": 2048,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "text_encoder.transformer.resblocks.7.VPT_shallow",
+      "count": 2048,
+      "dtype": "torch.float32"
+    },
+    {
+      "name": "text_encoder.transformer.resblocks.8.VPT_shallow",
+      "count": 2048,
+      "dtype": "torch.float32"
+    }
+  ],
+  "trainable_count": 46080,
+  "config_sha256": "bdb8a847dcf559d6fe7a00f05772a8f20850e0233ea2edb9b0df0775473fe75e",
+  "tcpt_reference": null
+}

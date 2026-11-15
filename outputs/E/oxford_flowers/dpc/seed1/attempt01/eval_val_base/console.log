@@ -1,0 +1,343 @@
+Setting fixed seed: 1
+***************
+** Arguments **
+***************
+backbone: 
+config_file: configs/trainers/SPLE/CoOp/vit_b16_ep20.yaml
+dataset_config_file: configs/datasets/oxford_flowers.yaml
+eval_only: True
+head: 
+load_epoch: 20
+model_dir: /root/autodl-tmp/clip-exp/outputs/E/oxford_flowers/dpc/seed1/attempt01
+no_train: False
+opts: ['DATASET.NUM_SHOTS', '16', 'DATASET.SUBSAMPLE_CLASSES', 'base', 'TEST.SPLIT', 'val', 'TEST.NO_TEST', 'True', 'TRAIN.PRINT_FREQ', '50', 'EXPERIMENT.EXPORT_DIR', '/root/autodl-tmp/clip-exp/outputs/E/oxford_flowers/dpc/seed1/attempt01/predictions/val_base', 'SPLE.BACK_CKPT_PATH', '/root/autodl-tmp/clip-exp/outputs/E/oxford_flowers/coop/seed1/attempt01', 'SPLE.BACK_CKPT_EPOCH', '200', 'SPLE.PIC_LIB', '/root/autodl-tmp/clip-exp/datasets/SPLE_Database/oxford_flowers_seed1.json', 'SPLE.STACK.WEIGHT', '0.5', 'SPLE.STACK.WEIGHT_FOR_NEW', '0.0']
+output_dir: /root/autodl-tmp/clip-exp/outputs/E/oxford_flowers/dpc/seed1/attempt01/eval_val_base
+resume: 
+root: /root/autodl-tmp/clip-exp/datasets
+seed: 1
+source_domains: None
+target_domains: None
+trainer: DPCE
+transforms: None
+************
+** Config **
+************
+DATALOADER:
+  K_TRANSFORMS: 1
+  NUM_WORKERS: 1
+  RETURN_IMG0: False
+  TEST:
+    BATCH_SIZE: 100
+    SAMPLER: SequentialSampler
+  TRAIN_U:
+    BATCH_SIZE: 32
+    N_DOMAIN: 0
+    N_INS: 16
+    SAME_AS_X: True
+    SAMPLER: RandomSampler
+  TRAIN_X:
+    BATCH_SIZE: 4
+    N_DOMAIN: 0
+    N_INS: 16
+    SAMPLER: RandomSampler
+DATASET:
+  ALL_AS_UNLABELED: False
+  CIFAR_C_LEVEL: 1
+  CIFAR_C_TYPE: 
+  NAME: OxfordFlowers
+  NUM_LABELED: -1
+  NUM_SHOTS: 16
+  ROOT: /root/autodl-tmp/clip-exp/datasets
+  SOURCE_DOMAINS: ()
+  STL10_FOLD: -1
+  SUBSAMPLE_CLASSES: base
+  TARGET_DOMAINS: ()
+  VAL_PERCENT: 0.1
+EXPERIMENT:
+  EXPORT_DIR: /root/autodl-tmp/clip-exp/outputs/E/oxford_flowers/dpc/seed1/attempt01/predictions/val_base
+INPUT:
+  COLORJITTER_B: 0.4
+  COLORJITTER_C: 0.4
+  COLORJITTER_H: 0.1
+  COLORJITTER_S: 0.4
+  CROP_PADDING: 4
+  CUTOUT_LEN: 16
+  CUTOUT_N: 1
+  GB_K: 21
+  GB_P: 0.5
+  GN_MEAN: 0.0
+  GN_STD: 0.15
+  INTERPOLATION: bicubic
+  NO_TRANSFORM: False
+  PIXEL_MEAN: [0.48145466, 0.4578275, 0.40821073]
+  PIXEL_STD: [0.26862954, 0.26130258, 0.27577711]
+  RANDAUGMENT_M: 10
+  RANDAUGMENT_N: 2
+  RGS_P: 0.2
+  RRCROP_SCALE: (0.08, 1.0)
+  SIZE: (224, 224)
+  TRANSFORMS: ('random_resized_crop', 'random_flip', 'normalize')
+MAO:
+  BACK_CKPT_EPOCH: 10
+  BASE_CKPT: output/MAO_CoOp/base2new/base_task/caltech101/vit_b16_bs4_ep10_lr35_S8/seed1/prompt_learner/model.pth.tar-10
+  INFER_TOPK: 8
+  PIC_LIB: DATA/SPLE_database/SPLE_OxfordFlowers.json
+MODEL:
+  BACKBONE:
+    NAME: ViT-B/16
+    PRETRAINED: True
+  HEAD:
+    ACTIVATION: relu
+    BN: True
+    DROPOUT: 0.0
+    HIDDEN_LAYERS: ()
+    NAME: 
+  INIT_WEIGHTS: 
+OPTIM:
+  ADAM_BETA1: 0.9
+  ADAM_BETA2: 0.999
+  BASE_LR_MULT: 0.1
+  GAMMA: 0.1
+  LR: 0.002
+  LR_SCHEDULER: cosine
+  MAX_EPOCH: 20
+  MOMENTUM: 0.9
+  NAME: sgd
+  NEW_LAYERS: ()
+  RMSPROP_ALPHA: 0.99
+  SGD_DAMPNING: 0
+  SGD_NESTEROV: False
+  STAGED_LR: False
+  STEPSIZE: (-1,)
+  WARMUP_CONS_LR: 1e-05
+  WARMUP_EPOCH: 1
+  WARMUP_MIN_LR: 1e-05
+  WARMUP_RECOUNT: True
+  WARMUP_TYPE: constant
+  WEIGHT_DECAY: 0.0005
+OUTPUT_DIR: /root/autodl-tmp/clip-exp/outputs/E/oxford_flowers/dpc/seed1/attempt01/eval_val_base
+RESUME: 
+SEED: 1
+SPLE:
+  BACK_CKPT_EPOCH: 200
+  BACK_CKPT_PATH: /root/autodl-tmp/clip-exp/outputs/E/oxford_flowers/coop/seed1/attempt01
+  INFER_NONREPEAT: True
+  INFER_TOPK: 8
+  KD_INFER: 
+  LOSS_KD_WEIGHT: 0.5
+  PIC_LIB: /root/autodl-tmp/clip-exp/datasets/SPLE_Database/oxford_flowers_seed1.json
+  SPLE_TRAINER:
+    SPLE_BASE_TRAIN: True
+    SPLE_INIT: True
+  STACK:
+    LOOP_DEPTH: 0
+    MODE: converse
+    WEIGHT: 0.5
+    WEIGHT_FOR_NEW: 0.0
+TEST:
+  COMPUTE_CMAT: False
+  EVALUATOR: Classification
+  FINAL_MODEL: last_step
+  NO_TEST: True
+  PER_CLASS_RESULT: False
+  SPLIT: val
+TRAIN:
+  CHECKPOINT_FREQ: 20
+  COUNT_ITER: train_x
+  PRINT_FREQ: 50
+TRAINER:
+  CDAC:
+    CLASS_LR_MULTI: 10
+    P_THRESH: 0.95
+    RAMPUP_COEF: 30
+    RAMPUP_ITRS: 1000
+    STRONG_TRANSFORMS: ()
+    TOPK_MATCH: 5
+  COCOOP:
+    CTX_INIT: 
+    N_CTX: 16
+    PREC: fp16
+  COOP:
+    CLASS_TOKEN_POSITION: end
+    CSC: False
+    CTX_INIT: 
+    N_CTX: 16
+    PREC: fp16
+  CROSSGRAD:
+    ALPHA_D: 0.5
+    ALPHA_F: 0.5
+    EPS_D: 1.0
+    EPS_F: 1.0
+  DAEL:
+    CONF_THRE: 0.95
+    STRONG_TRANSFORMS: ()
+    WEIGHT_U: 0.5
+  DAELDG:
+    CONF_THRE: 0.95
+    STRONG_TRANSFORMS: ()
+    WEIGHT_U: 0.5
+  DDAIG:
+    ALPHA: 0.5
+    CLAMP: False
+    CLAMP_MAX: 1.0
+    CLAMP_MIN: -1.0
+    G_ARCH: 
+    LMDA: 0.3
+    WARMUP: 0
+  DOMAINMIX:
+    ALPHA: 1.0
+    BETA: 1.0
+    TYPE: crossdomain
+  ENTMIN:
+    LMDA: 0.001
+  FIXMATCH:
+    CONF_THRE: 0.95
+    STRONG_TRANSFORMS: ()
+    WEIGHT_U: 1.0
+  IVLP:
+    CTX_INIT: a photo of a
+    N_CTX_TEXT: 2
+    N_CTX_VISION: 2
+    PREC: fp16
+    PROMPT_DEPTH_TEXT: 9
+    PROMPT_DEPTH_VISION: 9
+  M3SDA:
+    LMDA: 0.5
+    N_STEP_F: 4
+  MAPLE:
+    CTX_INIT: a photo of a
+    N_CTX: 2
+    PREC: fp16
+    PROMPT_DEPTH: 9
+    USE_TCPT: False
+  MCD:
+    N_STEP_F: 4
+  MEANTEACHER:
+    EMA_ALPHA: 0.999
+    RAMPUP: 5
+    WEIGHT_U: 1.0
+  MIXMATCH:
+    MIXUP_BETA: 0.75
+    RAMPUP: 20000
+    TEMP: 2.0
+    WEIGHT_U: 100.0
+  MME:
+    LMDA: 0.1
+  MODAL: base2novel
+  NAME: DPCE
+  PROMPTKD:
+    CE_WEIGHT: 0.0
+    CTX_INIT: a photo of a
+    KD_WEIGHT: 1.0
+    N_CTX_TEXT: 4
+    N_CTX_VISION: 4
+    PREC: fp16
+    PROJECT_LAYER: 2
+    PROMPT_DEPTH_TEXT: 9
+    PROMPT_DEPTH_VISION: 9
+    TEACHER_NAME: ViT-L/14
+    TEMPERATURE: 1.0
+  PROMPTSRC:
+    CTX_INIT: a photo of a
+    GPA_MEAN: 15
+    GPA_STD: 1
+    IMAGE_LOSS_WEIGHT: 10
+    N_CTX_TEXT: 4
+    N_CTX_VISION: 4
+    PREC: fp16
+    PROMPT_DEPTH_TEXT: 9
+    PROMPT_DEPTH_VISION: 9
+    TEXT_LOSS_WEIGHT: 25
+  SE:
+    CONF_THRE: 0.95
+    EMA_ALPHA: 0.999
+    RAMPUP: 300
+USE_CUDA: True
+VERBOSE: True
+VERSION: 1
+Loading trainer: DPCE
+Loading dataset: OxfordFlowers
+Reading split from /root/autodl-tmp/clip-exp/datasets/oxford_flowers/split_zhou_OxfordFlowers.json
+Loading preprocessed few-shot data from /root/autodl-tmp/clip-exp/datasets/oxford_flowers/split_fewshot/shot_16-seed_1.pkl
+SUBSAMPLE BASE CLASSES!
+Building transform_train
++ random resized crop (size=(224, 224), scale=(0.08, 1.0))
++ random flip
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+Building transform_test
++ resize the smaller edge to 224
++ 224x224 center crop
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+---------  -------------
+Dataset    OxfordFlowers
+# classes  51
+# train_x  816
+# val      204
+# test     1,053
+---------  -------------
+self.base2new base
+Loading CLIP (backbone: ViT-B/16)
+Building custom CLIP in ***SPLE*** setting
+Initializing a generic context
+/root/autodl-tmp/clip-exp/code/DPC_expE/trainers/sple_coop.py:91: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  prompt_learner = torch.load(model_path, map_location="cuda")  # 读取权重
+[StackSPLE] Construct ctx prompt in --converse-- mode: use stack prompt for prompt tuning,  and save & use mixed prompt for inference.
+[StackSPLE] Stack method: converse ; Stack weight: 0.5
+[StackSPLE-CoOp] Params to stack: prompt_learner.ctx
+Initial context: "X X X X X X X X X X X X X X X X"
+Number of context words (tokens): 16
+Turning off gradients in both the image and the text encoder
+Parameters to be updated: {'prompt_learner.ctx'}
+Parameters count: 1
+/root/autodl-tmp/clip-exp/env/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+==== [SPLE-CoOp] build a seprate CoOp backbone model for inference ====
+Loading trainer: CoOpStats
+Loading dataset: OxfordFlowers
+Reading split from /root/autodl-tmp/clip-exp/datasets/oxford_flowers/split_zhou_OxfordFlowers.json
+Loading preprocessed few-shot data from /root/autodl-tmp/clip-exp/datasets/oxford_flowers/split_fewshot/shot_16-seed_1.pkl
+SUBSAMPLE BASE CLASSES!
+Building transform_train
++ random resized crop (size=(224, 224), scale=(0.08, 1.0))
++ random flip
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+Building transform_test
++ resize the smaller edge to 224
++ 224x224 center crop
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+---------  -------------
+Dataset    OxfordFlowers
+# classes  51
+# train_x  816
+# val      204
+# test     1,053
+---------  -------------
+Loading CLIP (backbone: ViT-B/16)
+Building custom CLIP
+Initializing a generic context
+Initial context: "X X X X X X X X X X X X X X X X"
+Number of context words (tokens): 16
+Turning off gradients in both the image and the text encoder
+Loading evaluator: Classification
+/root/autodl-tmp/clip-exp/code/DPC_expE/Dassl.pytorch/dassl/utils/torchtools.py:102: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(fpath, map_location=map_location)
+Loading weights to prompt_learner from "/root/autodl-tmp/clip-exp/outputs/E/oxford_flowers/coop/seed1/attempt01/prompt_learner/model.pth.tar-200" (epoch = 200)
+=====logit_scale===== Parameter containing:
+tensor(4.6052, requires_grad=True)
+Loading evaluator: Classification
+Building transform_train
++ random resized crop (size=(224, 224), scale=(0.08, 1.0))
++ random flip
++ to torch tensor of range [0, 1]
++ normalization (mean=[0.48145466, 0.4578275, 0.40821073], std=[0.26862954, 0.26130258, 0.27577711])
+=> result
+* total: 204
+* correct: 196
+* accuracy: 96.08%
+* error: 3.92%
+* macro_f1: 95.99%
+Exported predictions /root/autodl-tmp/clip-exp/outputs/E/oxford_flowers/dpc/seed1/attempt01/predictions/val_base metrics {'accuracy': 96.07843137254902, 'nll': 0.15804733313235136, 'n': 204, 'classes': 51, 'bins': 10, 'ece': 2.4949749971482773, 'counts': [0, 0, 0, 0, 3, 5, 3, 2, 5, 186], 'bin_accuracy': [0.0, 0.0, 0.0, 0.0, 0.3333333333333333, 0.4, 0.3333333333333333, 1.0, 1.0, 0.9946236559139785], 'bin_confidence': [0.0, 0.0, 0.0, 0.0, 0.47852049277673586, 0.558263989455174, 0.6681897126646813, 0.7291569219878313, 0.8580362040082147, 0.9859849822871016]}

@@ -1,0 +1,2 @@
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/md0         50G  6.1G   44G  13% /root/autodl-tmp

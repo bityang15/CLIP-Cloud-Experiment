@@ -1,0 +1,28 @@
+{
+  "status": "experiments_and_local_backups_complete",
+  "verified_at": "2026-11-10T21:24:48.680225+08:00",
+  "formal_training_stages": 30,
+  "final_checkpoints": 30,
+  "test_prediction_exports": 60,
+  "base_validation_exports": 30,
+  "clip_reference_exports": 4,
+  "total_prediction_exports": 94,
+  "temperatures": 30,
+  "local_files_verified": {
+    "B": 849,
+    "E": 880
+  },
+  "source_files_verified": {
+    "B": 117,
+    "E": 331
+  },
+  "report_sha256": {
+    "E_local_backup_checks.json": "fb332e36aae1039ab263f082242aa42f3a9d49933ef37effcf836218181a7222",
+    "E_report_zh.md": "60663db99667684d2e457475999a22d8c1220824299906c9a79a6195d33d7767",
+    "B_report_zh.md": "321ba0145da5b2f919f023f343b14d4ee1202372bb19b53bbef95fadaa3609b5",
+    "B_execution_record_zh.md": "9ccfdb9a0be7108777a6ee2d749090c1aa282bf091529da2cba7dc2237618145",
+    "E_extension_decision.md": "e96e8729eca779dd86e562820c732d99b22b25bff48e26a2672983be1a2eae68"
+  },
+  "server_state": "running",
+  "gpu_status": "1 MiB, 0 %"
+}

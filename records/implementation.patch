@@ -1,0 +1,1272 @@
+--- /dev/null
++++ b/analyze_results.py
+@@ -0,0 +1,253 @@
++import csv
++import json
++import time
++from datetime import datetime
++from pathlib import Path
++
++import matplotlib
++matplotlib.use('Agg')
++import matplotlib.pyplot as plt
++import numpy as np
++
++from experiment import ROOT, file_sha256, write_json
++from experiment_metrics import fit_temperature, metrics
++
++DATASETS = ['dtd', 'oxford_flowers']
++METHODS = ['maple', 'promptsrc', 'tcpt']
++NAMES = dict(maple='MaPLe', promptsrc='PromptSRC', tcpt='MaPLe+TCPT')
++DATASET_NAMES = dict(dtd='DTD', oxford_flowers='Flowers102')
++COLORS = dict(maple='#58718D', promptsrc='#258C7C', tcpt='#C36B3B')
++MEASURES = ['base_accuracy', 'new_accuracy', 'h', 'base_ece', 'new_ece', 'base_nll', 'new_nll']
++OUT = ROOT / 'outputs' / 'B'
++TABLES = OUT / 'tables'
++FIGURES = OUT / 'figures'
++
++
++def write_csv(name, rows):
++    assert rows
++    TABLES.mkdir(parents=True, exist_ok=True)
++    with (TABLES / name).open('w', encoding='utf-8-sig', newline='') as stream:
++        writer = csv.DictWriter(stream, fieldnames=list(rows[0]))
++        writer.writeheader()
++        writer.writerows(rows)
++
++
++def load_predictions(directory):
++    metadata = json.loads((directory / 'metadata.json').read_text())
++    assert metadata['online_offline_check']
++    assert file_sha256(directory / 'predictions.npz') == metadata['predictions_sha256']
++    with np.load(directory / 'predictions.npz', allow_pickle=False) as stored:
++        data = {name: stored[name] for name in stored.files}
++    return data, metadata
++
++
++def run_measures(base, new):
++    denominator = base['accuracy'] + new['accuracy']
++    harmonic = 2 * base['accuracy'] * new['accuracy'] / denominator if denominator else 0.0
++    return dict(base_accuracy=base['accuracy'], new_accuracy=new['accuracy'], h=harmonic,
++                base_ece=base['ece'], new_ece=new['ece'], base_nll=base['nll'], new_nll=new['nll'])
++
++
++def summarize(rows):
++    summary = []
++    for dataset in DATASETS:
++        for method in METHODS:
++            selected = [row for row in rows if row['dataset'] == dataset and row['method'] == method]
++            assert sorted(row['seed'] for row in selected) == [1, 2, 3]
++            row = dict(dataset=dataset, method=method, seeds=3)
++            for measure in MEASURES:
++                values = [entry[measure] for entry in selected]
++                row[measure + '_mean'] = float(np.mean(values))
++                row[measure + '_std'] = float(np.std(values, ddof=1))
++            summary.append(row)
++    return summary
++
++
++def save_figure(figure, name):
++    FIGURES.mkdir(parents=True, exist_ok=True)
++    figure.savefig(FIGURES / (name + '.png'), dpi=180, bbox_inches='tight')
++    figure.savefig(FIGURES / (name + '.pdf'), bbox_inches='tight')
++    plt.close(figure)
++
++
++def plots(raw_summary, scaled_summary, reliability):
++    plt.rcParams.update({'font.size': 10, 'pdf.fonttype': 42, 'axes.spines.top': False,
++                         'axes.spines.right': False})
++    raw_index = {(row['dataset'], row['method']): row for row in raw_summary}
++    scaled_index = {(row['dataset'], row['method']): row for row in scaled_summary}
++    x = np.arange(len(METHODS))
++    figure, axes = plt.subplots(2, 3, figsize=(12, 6.8), constrained_layout=True)
++    for row_index, dataset in enumerate(DATASETS):
++        for column, (measure, label) in enumerate([('base_accuracy', 'Base'), ('new_accuracy', 'New'), ('h', 'H')]):
++            axis = axes[row_index, column]
++            values = [raw_index[dataset, method][measure + '_mean'] for method in METHODS]
++            errors = [raw_index[dataset, method][measure + '_std'] for method in METHODS]
++            axis.bar(x, values, yerr=errors, capsize=4, color=[COLORS[method] for method in METHODS], width=0.62)
++            axis.set_xticks(x, [NAMES[method] for method in METHODS], rotation=12)
++            axis.set_ylim(0, 100)
++            axis.set_ylabel('Accuracy / H (%)')
++            axis.set_title(DATASET_NAMES[dataset] + ' — ' + label)
++            axis.grid(axis='y', alpha=0.18)
++            axis.set_axisbelow(True)
++    figure.suptitle('16-shot Base-to-New recognition, mean and sample SD over three seeds')
++    save_figure(figure, 'recognition_base_new_h')
++
++    figure, axes = plt.subplots(2, 2, figsize=(11, 6.8), constrained_layout=True)
++    for row_index, dataset in enumerate(DATASETS):
++        for column, (measure, label) in enumerate([('new_ece', 'New ECE (%)'), ('new_nll', 'New NLL (nats)')]):
++            axis = axes[row_index, column]
++            for offset, index, color, legend in [(-0.18, raw_index, '#58718D', 'Raw'),
++                                                   (0.18, scaled_index, '#258C7C', 'Temperature scaled')]:
++                values = [index[dataset, method][measure + '_mean'] for method in METHODS]
++                errors = [index[dataset, method][measure + '_std'] for method in METHODS]
++                axis.bar(x + offset, values, yerr=errors, capsize=3, width=0.34, color=color, label=legend)
++            axis.set_xticks(x, [NAMES[method] for method in METHODS])
++            axis.set_ylabel(label)
++            axis.set_title(DATASET_NAMES[dataset])
++            axis.set_ylim(bottom=0)
++            axis.grid(axis='y', alpha=0.18)
++            axis.set_axisbelow(True)
++            axis.legend(frameon=False, fontsize=8)
++    figure.suptitle('Temperature fitted on Base validation, transferred to New test, three seeds')
++    save_figure(figure, 'new_calibration_raw_vs_temperature')
++
++    for version, title in [('raw', 'Raw predictions'), ('temperature', 'Base-validation temperature scaling')]:
++        figure = plt.figure(figsize=(12, 10), layout='constrained')
++        outer = figure.add_gridspec(2, 2)
++        for row_index, dataset in enumerate(DATASETS):
++            for column, group in enumerate(['base', 'new']):
++                inner = outer[row_index, column].subgridspec(2, 1, height_ratios=[3, 1])
++                axis = figure.add_subplot(inner[0])
++                histogram = figure.add_subplot(inner[1])
++                axis.plot([0, 1], [0, 1], color='#A4A4A4', linewidth=1, linestyle='--')
++                for method_index, method in enumerate(METHODS):
++                    result = reliability[dataset, method, group, version]
++                    counts = np.asarray(result['counts'])
++                    valid = counts > 0
++                    axis.plot(np.asarray(result['bin_confidence'])[valid], np.asarray(result['bin_accuracy'])[valid],
++                              color=COLORS[method], marker='o', markersize=4, label=NAMES[method])
++                    centers = (np.arange(10) + 0.5) / 10 + (method_index - 1) * 0.026
++                    histogram.bar(centers, counts, width=0.024, color=COLORS[method])
++                axis.set(xlim=(0, 1), ylim=(0, 1), ylabel='Empirical accuracy',
++                         title=f'{DATASET_NAMES[dataset]} — {group.capitalize()}')
++                axis.grid(alpha=0.15)
++                axis.legend(frameon=False, fontsize=8, loc='upper left')
++                histogram.set(xlim=(0, 1), xlabel='Confidence', ylabel='Samples')
++                histogram.set_xticks(np.linspace(0, 1, 6))
++        figure.suptitle('Seed 1 reliability and bin sample counts — ' + title)
++        save_figure(figure, 'reliability_seed1_' + version)
++
++
++def main():
++    progress = json.loads((ROOT / 'records' / 'B_progress.json').read_text())
++    assert progress['completed'] == 18 and len(progress['clip_references']) == 4
++    raw_rows, temperature_rows, scaled_rows, sensitivity, costs, reliability_rows = [], [], [], [], [], []
++    reliability = {}
++    temperatures = []
++    for dataset in DATASETS:
++        for method in METHODS:
++            for seed in [1, 2, 3]:
++                run = Path(progress['selected_runs'][f'{dataset}/{method}/seed{seed}'])
++                status = json.loads((run / 'run_status.json').read_text())
++                assert status['status'] == 'complete' and status['cross_process_probe_exact']
++                data = {}
++                metadata = {}
++                for group in ['test_base', 'test_new', 'val_base']:
++                    data[group], metadata[group] = load_predictions(run / 'predictions' / group)
++                started = time.perf_counter()
++                temperature = fit_temperature(data['val_base']['logits'], data['val_base']['labels'])
++                fitting_seconds = time.perf_counter() - started
++                temperature.update(dataset=dataset, method=method, seed=seed, run_id=status['run_id'],
++                                   validation_prediction_sha256=metadata['val_base']['predictions_sha256'],
++                                   validation_config_sha256=metadata['val_base']['config_sha256'],
++                                   validation_source='val_base', fitting_seconds=fitting_seconds)
++                raw, scaled = {}, {}
++                top1_checks = {}
++                for group in ['base', 'new']:
++                    prediction = data['test_' + group]
++                    logits, labels = prediction['logits'], prediction['labels']
++                    raw[group] = metrics(logits, labels)
++                    scaled[group] = metrics(logits, labels, temperature=temperature['temperature'])
++                    top1_checks[group] = bool(np.array_equal(logits.argmax(axis=1),
++                                             (logits.astype(np.float64) / temperature['temperature']).argmax(axis=1)))
++                    assert top1_checks[group]
++                    assert raw[group]['accuracy'] == scaled[group]['accuracy']
++                    for bins in [10, 15, 20]:
++                        for version, value in [('raw', 1.0), ('temperature', temperature['temperature'])]:
++                            result = metrics(logits, labels, bins=bins, temperature=value)
++                            sensitivity.append(dict(dataset=dataset, method=method, seed=seed, group=group,
++                                                    version=version, bins=bins, ece=result['ece']))
++                            if seed == 1 and bins == 10:
++                                reliability[dataset, method, group, version] = result
++                                for index in range(10):
++                                    reliability_rows.append(dict(dataset=dataset, method=method, seed=seed, group=group,
++                                        version=version, bin=index + 1, lower=index / 10, upper=(index + 1) / 10,
++                                        count=result['counts'][index], accuracy=result['bin_accuracy'][index],
++                                        confidence=result['bin_confidence'][index]))
++                temperature.update(top1_preserved=top1_checks, test_raw=raw, test_scaled=scaled)
++                write_json(run / 'temperature.json', temperature)
++                temperatures.append(temperature)
++                resources = json.loads((run / 'training_resources.json').read_text())
++                key = dict(dataset=dataset, method=method, seed=seed, run_id=status['run_id'])
++                raw_rows.append(dict(**key, **run_measures(raw['base'], raw['new']),
++                                     training_seconds=resources['training_seconds'],
++                                     initialization_seconds=resources['initialization_seconds'],
++                                     inference_seconds=sum(value['evaluation_seconds'] for value in metadata.values()),
++                                     peak_memory_gib=resources['peak_memory_gib']))
++                scaled_row = dict(**key, **run_measures(scaled['base'], scaled['new']))
++                scaled_rows.append(scaled_row)
++                temperature_rows.append(dict(**key, temperature=temperature['temperature'],
++                    validation_nll_before=temperature['validation_nll_before'],
++                    validation_nll_after=temperature['validation_nll_after'], validation_n=temperature['validation_n'],
++                    boundary_hit=temperature['boundary_hit'], base_top1_preserved=top1_checks['base'],
++                    new_top1_preserved=top1_checks['new'], fitting_seconds=fitting_seconds,
++                    **run_measures(scaled['base'], scaled['new'])))
++                costs.append(dict(**key, training_seconds=resources['training_seconds'],
++                    initialization_seconds=resources['initialization_seconds'],
++                    checkpoint_check_seconds=resources['checkpoint_probe_seconds'],
++                    test_base_seconds=metadata['test_base']['evaluation_seconds'],
++                    test_new_seconds=metadata['test_new']['evaluation_seconds'],
++                    val_base_seconds=metadata['val_base']['evaluation_seconds'], temperature_seconds=fitting_seconds,
++                    peak_training_memory_gib=resources['peak_memory_gib'],
++                    peak_evaluation_memory_gib=max(value['peak_memory_gib'] for value in metadata.values())))
++    raw_summary, scaled_summary = summarize(raw_rows), summarize(scaled_rows)
++    for scaled_row, raw_row in zip(scaled_summary, raw_summary):
++        for measure in ['base_ece', 'new_ece', 'base_nll', 'new_nll']:
++            scaled_row[measure + '_delta_mean'] = scaled_row[measure + '_mean'] - raw_row[measure + '_mean']
++    paired = []
++    for dataset in DATASETS:
++        for seed in [1, 2, 3]:
++            row = dict(dataset=dataset, seed=seed)
++            for version, values in [('raw', raw_rows), ('temperature', scaled_rows)]:
++                subset = {entry['method']: entry for entry in values if entry['dataset'] == dataset and entry['seed'] == seed}
++                for measure in MEASURES:
++                    row[version + '_delta_' + measure] = subset['tcpt'][measure] - subset['maple'][measure]
++            paired.append(row)
++    references = []
++    for key, directory in progress['clip_references'].items():
++        dataset, group = key.split('/')
++        prediction, metadata = load_predictions(Path(directory))
++        result = metrics(prediction['logits'], prediction['labels'])
++        references.append(dict(dataset=dataset, candidate_group=group, template=metadata['text_template'],
++                               n=result['n'], classes=result['classes'], accuracy=result['accuracy'],
++                               ece=result['ece'], nll=result['nll']))
++    for filename, rows in [('runs_raw.csv', raw_rows), ('summary_raw.csv', raw_summary),
++                           ('temperature_runs.csv', temperature_rows), ('summary_temperature.csv', scaled_summary),
++                           ('paired_tcpt_vs_maple.csv', paired), ('clip_reference.csv', references),
++                           ('ece_bins_sensitivity.csv', sensitivity), ('reliability_seed1.csv', reliability_rows),
++                           ('costs.csv', costs)]:
++        write_csv(filename, rows)
++    plots(raw_summary, scaled_summary, reliability)
++    report = dict(passed=True, completed_at=datetime.now().astimezone().isoformat(), formal_runs=18,
++                  raw_test_predictions=36, base_validation_predictions=18, temperatures=18, clip_references=4,
++                  seed_count=3, temperature_top1_checks_passed=True,
++                  temperature_boundary_hits=sum(record['boundary_hit'] for record in temperatures),
++                  summary_raw=raw_summary, summary_temperature=scaled_summary,
++                  training_hours=sum(row['training_seconds'] for row in costs) / 3600,
++                  configuration_sha256=file_sha256(ROOT / 'records' / 'config_manifest.json'))
++    write_json(ROOT / 'records' / 'analysis_checks.json', report)
++    print(json.dumps(report, indent=2), flush=True)
++
++
++if __name__ == '__main__':
++    main()
+--- a/configs/trainers/MaPLe/vit_b16_c2_ep5_batch4_2ctx.yaml
++++ b/configs/trainers/MaPLe/vit_b16_c2_ep5_batch4_2ctx.yaml
+@@ -15,7 +15,7 @@
+ OPTIM:
+   NAME: "sgd"
+   LR: 0.0035
+-  MAX_EPOCH: 2
++  MAX_EPOCH: 5
+   LR_SCHEDULER: "cosine"
+   WARMUP_EPOCH: 1
+   WARMUP_TYPE: "constant"
+@@ -23,6 +23,11 @@
+ 
+ TRAIN:
+   PRINT_FREQ: 20
++  CHECKPOINT_FREQ: 0
++
++TEST:
++  NO_TEST: True
++  FINAL_MODEL: "last_step"
+ 
+ MODEL:
+   BACKBONE:
+--- a/configs/trainers/PromptSRC/vit_b16_c2_ep20_batch4_4+4ctx.yaml
++++ b/configs/trainers/PromptSRC/vit_b16_c2_ep20_batch4_4+4ctx.yaml
+@@ -24,6 +24,11 @@
+ 
+ TRAIN:
+   PRINT_FREQ: 20
++  CHECKPOINT_FREQ: 0
++
++TEST:
++  NO_TEST: True
++  FINAL_MODEL: "last_step"
+ 
+ MODEL:
+   BACKBONE:
+--- /dev/null
++++ b/experiment.py
+@@ -0,0 +1,275 @@
++import hashlib
++import json
++import math
++import random
++import time
++from datetime import datetime
++from pathlib import Path
++
++import numpy as np
++import torch
++from torch.nn import functional as F
++
++from dassl.utils import save_checkpoint
++from experiment_metrics import metrics
++
++ROOT = Path('/root/autodl-tmp/clip-exp')
++
++
++def file_sha256(path):
++    value = hashlib.sha256()
++    with open(path, 'rb') as stream:
++        for block in iter(lambda: stream.read(1024 * 1024), b''):
++            value.update(block)
++    return value.hexdigest()
++
++
++def write_json(path, value):
++    path = Path(path)
++    path.parent.mkdir(parents=True, exist_ok=True)
++    temporary = path.with_name(path.name + '.tmp')
++    temporary.write_text(json.dumps(value, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
++    temporary.replace(path)
++
++
++def tensor_digest(items):
++    value = hashlib.sha256()
++    for name, tensor in items:
++        value.update(name.encode('utf-8'))
++        value.update(tensor.detach().cpu().contiguous().numpy().tobytes())
++    return value.hexdigest()
++
++
++def tcpt_regularizers(logits, labels, text_features, reference):
++    logits = logits.float()
++    labels = labels.long()
++    rows = torch.arange(len(labels), device=labels.device)
++    negative = logits.clone()
++    negative[rows, labels] = -torch.inf
++    margin = logits[rows, labels] - negative.max(dim=1).values
++    margin_loss = -0.1 * margin.mean() + 0.01 * margin.var(unbiased=False)
++    tuned = text_features.float()
++    frozen = reference.float()
++    tuned_mean = tuned.mean(dim=0, keepdim=True)
++    frozen_mean = frozen.mean(dim=0, keepdim=True)
++    tuned_centered = tuned - tuned_mean
++    frozen_centered = frozen - frozen_mean
++    count = len(tuned)
++    tuned_covariance = tuned_centered.t() @ tuned_centered / count
++    frozen_covariance = frozen_centered.t() @ frozen_centered / count
++    moment_loss = F.mse_loss(tuned_mean, frozen_mean, reduction='sum')
++    moment_loss = moment_loss + (tuned_covariance - frozen_covariance).square().sum()
++    return margin_loss, moment_loss
++
++
++def prepare_tcpt_reference(cfg, classnames, device):
++    from clip import clip
++    from trainers.promptsrc import load_clip_to_cpu
++
++    templates = {'DescribableTextures': '{} texture.',
++                 'OxfordFlowers': 'a photo of a {}, a type of flower.'}
++    template = templates[cfg.DATASET.NAME]
++    started = time.perf_counter()
++    with torch.random.fork_rng(devices=[device.index or 0]), torch.no_grad():
++        frozen = load_clip_to_cpu(cfg, zero_shot_model=True).to(device).eval()
++        frozen.requires_grad_(False)
++        tokens = torch.cat([clip.tokenize(template.format(name.replace('_', ' '))) for name in classnames])
++        features = F.normalize(frozen.encode_text(tokens.to(device)).float(), dim=-1)
++    return features.detach(), dict(template=template, classnames=classnames,
++                                   feature_sha256=tensor_digest([('reference', features)]),
++                                   seconds=time.perf_counter() - started, precision='float32',
++                                   evaluation_mode=True, requires_grad=False)
++
++
++class ExperimentMixin:
++    def __init__(self, cfg):
++        started = time.perf_counter()
++        super().__init__(cfg)
++        self.initialization_seconds = time.perf_counter() - started
++        self.method = {'MaPLe': 'tcpt' if cfg.TRAINER.MAPLE.USE_TCPT else 'maple',
++                       'PromptSRC': 'promptsrc', 'ZeroshotCLIP': 'clip'}.get(
++                           cfg.TRAINER.NAME, cfg.TRAINER.NAME.lower())
++        self.trainable_parameters = [(name, parameter) for name, parameter in self.model.named_parameters()
++                                     if parameter.requires_grad]
++        self.initial_parameter_sha256 = tensor_digest(self.trainable_parameters)
++        self.initial_rng_sha256 = tensor_digest([('cpu', torch.get_rng_state()),
++                                                ('cuda', torch.cuda.get_rng_state())])
++        self.experiment_checkpoint = None
++        self.output_path = Path(cfg.OUTPUT_DIR)
++        self.output_path.mkdir(parents=True, exist_ok=True)
++        (self.output_path / 'config.yaml').write_text(cfg.dump(), encoding='utf-8')
++        self.config_sha256 = hashlib.sha256(cfg.dump().encode('utf-8')).hexdigest()
++        self.dataset_key = {'DescribableTextures': 'dtd', 'OxfordFlowers': 'oxford_flowers'}.get(
++            cfg.DATASET.NAME, cfg.DATASET.NAME)
++        write_json(self.output_path / 'initialization.json', dict(
++            method=self.method, seed=cfg.SEED, initialization_seconds=self.initialization_seconds,
++            parameter_sha256=self.initial_parameter_sha256, rng_sha256=self.initial_rng_sha256,
++            trainable_parameters=[dict(name=name, count=parameter.numel(), dtype=str(parameter.dtype))
++                                  for name, parameter in self.trainable_parameters],
++            trainable_count=sum(parameter.numel() for _, parameter in self.trainable_parameters),
++            config_sha256=self.config_sha256,
++            tcpt_reference=getattr(self, 'tcpt_reference_record', None)))
++
++    def set_model_mode(self, mode='train', names=None):
++        super().set_model_mode(mode, names)
++        teacher = getattr(getattr(self.model, 'prompt_learner', None), 'ZS_image_encoder', None)
++        if teacher is not None:
++            teacher.eval()
++
++    def record_update(self, batch, summary):
++        assert all(math.isfinite(float(value)) for value in summary.values()), summary
++        gradients = [parameter.grad for _, parameter in self.trainable_parameters]
++        assert all(gradient is not None for gradient in gradients), 'Missing trainable gradient'
++        assert torch.stack([torch.isfinite(gradient).all() for gradient in gradients]).all().item()
++        assert torch.stack([torch.isfinite(parameter).all() for _, parameter in self.trainable_parameters]).all().item()
++        now = time.perf_counter()
++        record = dict(epoch=self.epoch + 1, batch=self.batch_idx + 1, losses=summary,
++                      seconds=now - getattr(self, '_previous_update', now),
++                      image_ids=[Path(path).relative_to(self.cfg.DATASET.ROOT).as_posix() for path in batch['impath']],
++                      labels=batch['label'].tolist(), gradients_finite=True)
++        if self.epoch == 0 and self.batch_idx < 3:
++            record['input_sha256'] = tensor_digest([('images', batch['img'])])
++        with (self.output_path / 'updates.jsonl').open('a', encoding='utf-8') as stream:
++            stream.write(json.dumps(record) + '\n')
++        self._previous_update = now
++
++    def run_epoch(self):
++        torch.cuda.synchronize()
++        started = time.perf_counter()
++        self._previous_update = started
++        super().run_epoch()
++        torch.cuda.synchronize()
++        record = dict(epoch=self.epoch + 1, seconds=time.perf_counter() - started,
++                      updates=self.num_batches, peak_memory_gib=torch.cuda.max_memory_allocated() / 1024**3)
++        with (self.output_path / 'epochs.jsonl').open('a', encoding='utf-8') as stream:
++            stream.write(json.dumps(record) + '\n')
++
++    def before_train(self):
++        torch.cuda.reset_peak_memory_stats()
++        super().before_train()
++
++    def save_model(self, epoch, directory, is_best=False, val_result=None, model_name=''):
++        for name in self.get_model_names():
++            save_checkpoint(dict(
++                state_dict=self._models[name].state_dict(), epoch=epoch + 1,
++                optimizer=self._optims[name].state_dict() if self._optims[name] is not None else None,
++                scheduler=self._scheds[name].state_dict() if self._scheds[name] is not None else None,
++                val_result=val_result,
++                experiment=dict(classnames=self.dm.dataset.classnames, method=self.method,
++                                config_sha256=self.config_sha256,
++                                checkpoint_type='GPA' if self.method == 'promptsrc' else 'final_epoch'),
++                random_state=dict(python=random.getstate(), numpy=np.random.get_state(),
++                                  torch=torch.get_rng_state(), cuda=torch.cuda.get_rng_state_all())),
++                str(Path(directory) / name), is_best=is_best, model_name=model_name)
++
++    def after_train(self):
++        super().after_train()
++        training_seconds = time.time() - self.time_start
++        training_peak = torch.cuda.max_memory_allocated() / 1024**3
++        torch.backends.cudnn.benchmark = False
++        torch.backends.cudnn.deterministic = True
++        torch.cuda.reset_peak_memory_stats()
++        started = time.perf_counter()
++        self.set_model_mode('eval')
++        batch = next(iter(self.val_loader))
++        images, _ = self.parse_batch_test(batch)
++        with torch.no_grad():
++            before = self.model_inference(images).float().cpu()
++        self.load_model(str(self.output_path), epoch=self.cfg.OPTIM.MAX_EPOCH)
++        self.set_model_mode('eval')
++        with torch.no_grad():
++            after = self.model_inference(images).float().cpu()
++        assert torch.equal(before, after), 'Final checkpoint failed the fixed-batch reload check'
++        np.savez_compressed(self.output_path / 'reload_probe.npz', logits=before.numpy(),
++                            image_ids=np.asarray([Path(path).relative_to(self.cfg.DATASET.ROOT).as_posix()
++                                                  for path in batch['impath']], dtype=np.str_))
++        write_json(self.output_path / 'checkpoint_check.json', dict(
++            passed=True, exact_logit_match=True, max_logit_difference=(before - after).abs().max().item(),
++            samples=len(before), checkpoint_type='GPA' if self.method == 'promptsrc' else 'final_epoch'))
++        write_json(self.output_path / 'training_resources.json', dict(
++            finished_at=datetime.now().astimezone().isoformat(),
++            initialization_seconds=self.initialization_seconds,
++            training_seconds=training_seconds, peak_memory_gib=training_peak,
++            checkpoint_probe_seconds=time.perf_counter() - started,
++            checkpoint_probe_peak_memory_gib=torch.cuda.max_memory_allocated() / 1024**3,
++            peak_memory_method='torch.cuda.max_memory_allocated',
++            epochs=self.cfg.OPTIM.MAX_EPOCH,
++            checkpoint_type='GPA' if self.method == 'promptsrc' else 'final_epoch'))
++
++    @torch.no_grad()
++    def test(self, split=None):
++        if not self.cfg.EXPERIMENT.EXPORT_DIR:
++            return super().test(split)
++        torch.backends.cudnn.benchmark = False
++        torch.backends.cudnn.deterministic = True
++        self.set_model_mode('eval')
++        self.evaluator.reset()
++        split = split or self.cfg.TEST.SPLIT
++        assert split in ['val', 'test']
++        loader = self.val_loader if split == 'val' else self.test_loader
++        assert loader is not None
++        predictions, labels, image_ids = [], [], []
++        torch.cuda.reset_peak_memory_stats()
++        torch.cuda.synchronize()
++        started = time.perf_counter()
++        for batch in loader:
++            image, target = self.parse_batch_test(batch)
++            output = self.model_inference(image).float()
++            assert torch.isfinite(output).all().item()
++            self.evaluator.process(output, target)
++            predictions.append(output.cpu())
++            labels.append(target.cpu())
++            image_ids.extend(Path(path).relative_to(self.cfg.DATASET.ROOT).as_posix() for path in batch['impath'])
++        torch.cuda.synchronize()
++        elapsed = time.perf_counter() - started
++        logits = torch.cat(predictions)
++        targets = torch.cat(labels).long()
++        assert len(image_ids) == len(set(image_ids))
++        online_logits = logits.double()
++        probabilities = online_logits.softmax(dim=1)
++        confidence, predicted = probabilities.max(dim=1)
++        correct = predicted.eq(targets)
++        online_nll = F.cross_entropy(online_logits, targets).item()
++        bins = torch.clamp(torch.ceil(confidence * 10).long() - 1, 0, 9)
++        counts = torch.bincount(bins, minlength=10)
++        confidence_sum = torch.bincount(bins, weights=confidence, minlength=10)
++        correct_sum = torch.bincount(bins, weights=correct.double(), minlength=10)
++        online_ece = 100.0 * (correct_sum - confidence_sum).abs().sum().item() / len(targets)
++        online_accuracy = 100.0 * correct.double().mean().item()
++        offline = metrics(logits.numpy(), targets.numpy())
++        assert counts.tolist() == offline['counts']
++        assert abs(online_nll - offline['nll']) < 1e-10
++        assert abs(online_ece - offline['ece']) < 1e-8
++        assert abs(online_accuracy - offline['accuracy']) < 1e-10
++        framework = self.evaluator.evaluate()
++        assert abs(framework['accuracy'] - online_accuracy) < 1e-8
++        group = self.cfg.DATASET.SUBSAMPLE_CLASSES
++        classnames = self.dm.dataset.classnames
++        expected_path = ROOT / 'records' / 'manifests' / self.dataset_key / f'seed{self.cfg.SEED}' / f'{split}_{group}.json'
++        expected = json.loads(expected_path.read_text(encoding='utf-8'))
++        assert image_ids == [row['image_id'] for row in expected]
++        assert targets.tolist() == [row['label'] for row in expected]
++        assert all(classnames[row['label']] == row['classname'] for row in expected)
++        directory = Path(self.cfg.EXPERIMENT.EXPORT_DIR)
++        directory.mkdir(parents=True, exist_ok=True)
++        temporary = directory / 'predictions.tmp.npz'
++        np.savez_compressed(temporary, logits=logits.numpy().astype(np.float32),
++                            labels=targets.numpy(), image_ids=np.asarray(image_ids, dtype=np.str_),
++                            classnames=np.asarray(classnames, dtype=np.str_))
++        temporary.replace(directory / 'predictions.npz')
++        checkpoint = Path(self.experiment_checkpoint) if self.experiment_checkpoint else ROOT / 'weights' / 'ViT-B-16.pt'
++        write_json(directory / 'metadata.json', dict(
++            dataset=self.dataset_key, method=self.method, seed=self.cfg.SEED,
++            run_id=str(checkpoint.parent.parent.relative_to(ROOT)) if self.experiment_checkpoint else 'frozen_clip',
++            candidate_group=group, split=split, checkpoint=str(checkpoint), checkpoint_sha256=file_sha256(checkpoint),
++            config_sha256=self.config_sha256, data_manifest_sha256=file_sha256(ROOT / 'records' / 'data_manifest.json'),
++            sample_manifest_sha256=file_sha256(expected_path), classnames=classnames,
++            raw_logit_scale=True, logits_dtype='float32', n=len(targets), classes=len(classnames),
++            text_template={'dtd': '{} texture.', 'oxford_flowers': 'a photo of a {}, a type of flower.'}.get(
++                self.dataset_key) if self.method == 'clip' else None,
++            evaluation_seconds=elapsed, online=dict(accuracy=online_accuracy, ece=online_ece, nll=online_nll),
++            peak_memory_gib=torch.cuda.max_memory_allocated() / 1024**3,
++            offline=offline, online_offline_check=True,
++            predictions_sha256=file_sha256(directory / 'predictions.npz')))
++        print('Exported predictions', directory, 'metrics', offline, flush=True)
++        return online_accuracy
+--- /dev/null
++++ b/experiment_metrics.py
+@@ -0,0 +1,59 @@
++import numpy as np
++
++
++def calibration_bins(confidence, correct, bins):
++    confidence = np.asarray(confidence, dtype=np.float64)
++    correct = np.asarray(correct, dtype=np.float64)
++    indices = np.clip(np.ceil(confidence * bins).astype(np.int64) - 1, 0, bins - 1)
++    counts = np.bincount(indices, minlength=bins)
++    confidence_sum = np.bincount(indices, weights=confidence, minlength=bins)
++    correct_sum = np.bincount(indices, weights=correct, minlength=bins)
++    nonempty = np.maximum(counts, 1)
++    accuracy = correct_sum / nonempty
++    mean_confidence = confidence_sum / nonempty
++    ece = np.sum(np.abs(correct_sum - confidence_sum)) / len(confidence)
++    return dict(ece=100.0 * float(ece), counts=counts.tolist(),
++                bin_accuracy=accuracy.tolist(), bin_confidence=mean_confidence.tolist())
++
++
++def metrics(logits, labels, bins=10, temperature=1.0):
++    logits = np.asarray(logits, dtype=np.float64)
++    labels = np.asarray(labels, dtype=np.int64)
++    assert logits.ndim == 2 and len(logits) > 0
++    assert labels.shape == (len(logits),)
++    assert np.isfinite(logits).all() and np.isfinite(temperature) and temperature > 0
++    assert labels.min() >= 0 and labels.max() < logits.shape[1]
++    scaled = logits / temperature
++    shifted = scaled - scaled.max(axis=1, keepdims=True)
++    exponential = np.exp(shifted)
++    normalizer = exponential.sum(axis=1)
++    confidence = exponential.max(axis=1) / normalizer
++    correct = scaled.argmax(axis=1) == labels
++    nll = np.mean(np.log(normalizer) - shifted[np.arange(len(labels)), labels])
++    calibration = calibration_bins(confidence, correct, bins)
++    return dict(accuracy=100.0 * float(correct.mean()), nll=float(nll), n=len(labels),
++                classes=logits.shape[1], bins=bins, **calibration)
++
++
++def fit_temperature(logits, labels):
++    logits = np.asarray(logits, dtype=np.float64)
++    labels = np.asarray(labels, dtype=np.int64)
++    assert len(labels) > 0
++    grid = np.geomspace(0.05, 20.0, 401)
++    grid[np.argmin(np.abs(grid - 1.0))] = 1.0
++    losses = []
++    for temperature in grid:
++        scaled = logits / temperature
++        shifted = scaled - scaled.max(axis=1, keepdims=True)
++        losses.append(np.mean(np.log(np.exp(shifted).sum(axis=1))
++                              - shifted[np.arange(len(labels)), labels]))
++    losses = np.asarray(losses)
++    candidates = np.flatnonzero(losses == losses.min())
++    selected = candidates[np.argmin(np.abs(grid[candidates] - 1.0))]
++    temperature = float(grid[selected])
++    assert np.isfinite(losses).all()
++    return dict(temperature=temperature, validation_nll_before=float(losses[grid == 1.0][0]),
++                validation_nll_after=float(losses[selected]), validation_n=len(labels),
++                grid_min=0.05, grid_max=20.0, grid_points=401,
++                boundary_hit=bool(selected in [0, len(grid) - 1]),
++                grid=grid.tolist(), validation_nll_grid=losses.tolist())
+--- /dev/null
++++ b/preflight.py
+@@ -0,0 +1,232 @@
++import gc
++import json
++from types import SimpleNamespace
++
++import numpy as np
++import torch
++
++from dassl.engine import build_trainer
++from dassl.utils import set_random_seed
++from train import setup_cfg
++from experiment import ROOT, tensor_digest, write_json
++from experiment_metrics import calibration_bins, fit_temperature, metrics
++
++
++CONFIGS = {
++    'maple': ('MaPLe', 'configs/trainers/MaPLe/vit_b16_c2_ep5_batch4_2ctx.yaml'),
++    'tcpt': ('MaPLe', 'configs/trainers/MaPLe/vit_b16_c2_ep5_batch4_2ctx.yaml'),
++    'promptsrc': ('PromptSRC', 'configs/trainers/PromptSRC/vit_b16_c2_ep20_batch4_4+4ctx.yaml'),
++}
++
++
++def configuration(dataset, method, output, group='base', export=''):
++    trainer, config_file = CONFIGS[method]
++    args = SimpleNamespace(root=str(ROOT / 'datasets'), output_dir=str(output), resume='', seed=1,
++                           source_domains=None, target_domains=None, transforms=None,
++                           trainer=trainer, backbone='', head='',
++                           dataset_config_file=f'configs/datasets/{dataset}.yaml', config_file=config_file,
++                           opts=['DATASET.NUM_SHOTS', '16', 'DATASET.SUBSAMPLE_CLASSES', group,
++                                 'TRAINER.MAPLE.USE_TCPT', str(method == 'tcpt'),
++                                 'EXPERIMENT.EXPORT_DIR', export])
++    return setup_cfg(args)
++
++
++def make_trainer(dataset, method, output, group='base', export=''):
++    cfg = configuration(dataset, method, output, group, export)
++    set_random_seed(1)
++    return build_trainer(cfg)
++
++
++def first_batches(trainer):
++    iterator = iter(trainer.train_loader_x)
++    batches = [next(iterator) for _ in range(3)]
++    del iterator
++    return batches
++
++
++def finite_update(trainer, batch, epoch=0, last_batch=False):
++    trainer.epoch = epoch
++    trainer.batch_idx = 0
++    trainer.num_batches = 1 if last_batch else len(trainer.train_loader_x)
++    trainer.set_model_mode('train')
++    summary = trainer.forward_backward(batch)
++    assert all(np.isfinite(value) for value in summary.values())
++    assert all(parameter.grad is None for parameter in trainer.model.parameters() if not parameter.requires_grad)
++    assert all('prompt_learner' in name or 'VPT' in name for name, _ in trainer.trainable_parameters)
++    assert not trainer.model.prompt_learner.ZS_image_encoder.training if trainer.method == 'promptsrc' else True
++    return summary
++
++
++def reload_check(trainer, dataset, method, output, epoch):
++    trainer.save_model(epoch - 1, str(output))
++    trainer.set_model_mode('eval')
++    batch = next(iter(trainer.val_loader))
++    images, _ = trainer.parse_batch_test(batch)
++    with torch.no_grad():
++        before = trainer.model_inference(images).float().cpu()
++    replacement = make_trainer(dataset, method, output / 'reload')
++    replacement.load_model(str(output), epoch=epoch)
++    replacement.set_model_mode('eval')
++    with torch.no_grad():
++        after = replacement.model_inference(images).float().cpu()
++    maximum_error = (before - after).abs().max().item()
++    assert torch.equal(before, after), f'Checkpoint reload mismatch {maximum_error}'
++    del replacement
++    gc.collect()
++    torch.cuda.empty_cache()
++    return dict(passed=True, max_logit_difference=maximum_error, samples=len(before))
++
++
++def regularizer_gradients(trainer, batch):
++    trainer.set_model_mode('train')
++    images, labels = trainer.parse_batch_train(batch)
++    loss = trainer.model(images, labels)
++    terms = trainer.model.loss_terms
++    parameters = [parameter for _, parameter in trainer.trainable_parameters]
++    result = {}
++    for name in ['margin', 'moment']:
++        gradients = torch.autograd.grad(terms[name], parameters, retain_graph=True, allow_unused=True)
++        present = [gradient for gradient in gradients if gradient is not None]
++        assert present and all(torch.isfinite(gradient).all().item() for gradient in present)
++        norm = sum(gradient.float().square().sum().item() for gradient in present) ** 0.5
++        assert norm > 0
++        result[name] = dict(value=terms[name].item(), gradient_norm=norm, finite=True)
++    assert torch.allclose(loss.float(), terms['ce'].float() + terms['margin'] + 5 * terms['moment'])
++    assert not trainer.model.tcpt_reference.requires_grad
++    return result
++
++
++def official_baseline_check(trainer, batch):
++    source_path = ROOT / 'code' / 'PromptSRC' / 'trainers' / 'maple.py'
++    source = source_path.read_text().split('@TRAINER_REGISTRY.register()')[0]
++    namespace = {'__name__': 'official_maple_reference'}
++    exec(compile(source, str(source_path), 'exec'), namespace)
++    with torch.random.fork_rng(devices=[0]):
++        clip_model = namespace['load_clip_to_cpu'](trainer.cfg)
++        reference = namespace['CustomCLIP'](trainer.cfg, trainer.dm.dataset.classnames, clip_model).cuda()
++    reference.load_state_dict(trainer.model.state_dict(), strict=True)
++    images, labels = trainer.parse_batch_train(batch)
++    trainer.set_model_mode('train')
++    reference.train()
++    with torch.no_grad():
++        current_ce = trainer.model(images, labels).float()
++        reference_ce = reference(images, labels).float()
++    assert torch.equal(current_ce, reference_ce)
++    trainer.set_model_mode('eval')
++    reference.eval()
++    with torch.no_grad():
++        current_logits = trainer.model(images).float()
++        reference_logits = reference(images).float()
++    assert torch.equal(current_logits, reference_logits)
++    result = dict(ce_difference=(current_ce - reference_ce).abs().item(),
++                  max_logit_difference=(current_logits - reference_logits).abs().max().item())
++    del reference, clip_model
++    gc.collect()
++    torch.cuda.empty_cache()
++    return result
++
++
++def metric_checks():
++    boundary = calibration_bins(np.array([0.0, 0.1, 0.2, 1.0]), np.array([0, 1, 1, 1]), 10)
++    assert boundary['counts'] == [2, 1, 0, 0, 0, 0, 0, 0, 0, 1]
++    assert abs(boundary['ece'] - 42.5) < 1e-12
++    extreme = metrics(np.array([[10000.0, -10000.0], [-10000.0, 10000.0]]), np.array([0, 1]))
++    assert extreme['nll'] == 0.0
++    uniform_fit = fit_temperature(np.zeros((4, 3)), np.array([0, 1, 2, 0]))
++    assert uniform_fit['temperature'] == 1.0
++    return dict(right_closed_bins=True, confidence_zero_in_first_bin=True,
++                extreme_nll_stable=True, temperature_tie_prefers_one=True)
++
++
++def main():
++    assert json.loads((ROOT / 'records' / 'data_checks.json').read_text())['passed']
++    torch.backends.cudnn.benchmark = True
++    parent = ROOT / 'outputs' / 'B_preflight'
++    numbers = [int(path.name.removeprefix('attempt')) for path in parent.glob('attempt[0-9][0-9]')]
++    base = parent / f'attempt{max(numbers, default=0) + 1:02d}'
++    base.mkdir(parents=True)
++    write_json(base / 'started.json', {'started': True})
++    report = dict(passed=False, preflight_attempt=str(base.relative_to(ROOT)),
++                  metric_checks=metric_checks(), datasets={})
++    for dataset in ['dtd', 'oxford_flowers']:
++        dataset_report = {}
++        baseline_output = base / dataset / 'maple'
++        baseline = make_trainer(dataset, 'maple', baseline_output)
++        initial_sha = baseline.initial_parameter_sha256
++        initial_rng = baseline.initial_rng_sha256
++        batches = first_batches(baseline)
++        batch_ids = [batch['impath'] for batch in batches]
++        batch_hashes = [tensor_digest([('images', batch['img'])]) for batch in batches]
++        dataset_report['official_maple_equivalence'] = official_baseline_check(baseline, batches[0])
++        baseline.set_model_mode('train')
++        images, labels = baseline.parse_batch_train(batches[0])
++        with torch.no_grad():
++            baseline_initial_ce = baseline.model(images, labels).item()
++        dataset_report['maple_update'] = finite_update(baseline, batches[0])
++        dataset_report['maple_reload'] = reload_check(baseline, dataset, 'maple', baseline_output, 5)
++        del baseline, batches, images, labels
++        gc.collect()
++        torch.cuda.empty_cache()
++
++        tcpt_output = base / dataset / 'tcpt'
++        tcpt = make_trainer(dataset, 'tcpt', tcpt_output)
++        assert tcpt.initial_parameter_sha256 == initial_sha
++        assert tcpt.initial_rng_sha256 == initial_rng
++        tcpt_batches = first_batches(tcpt)
++        assert [batch['impath'] for batch in tcpt_batches] == batch_ids
++        assert [tensor_digest([('images', batch['img'])]) for batch in tcpt_batches] == batch_hashes
++        tcpt.set_model_mode('train')
++        images, labels = tcpt.parse_batch_train(tcpt_batches[0])
++        tcpt.model.use_tcpt = False
++        with torch.no_grad():
++            tcpt_disabled_ce = tcpt.model(images, labels).item()
++        assert tcpt_disabled_ce == baseline_initial_ce
++        tcpt.model.use_tcpt = True
++        reference_hash = tensor_digest([('reference', tcpt.model.tcpt_reference)])
++        dataset_report['tcpt_regularizer_gradients'] = regularizer_gradients(tcpt, tcpt_batches[0])
++        dataset_report['tcpt_update'] = finite_update(tcpt, tcpt_batches[0])
++        assert tensor_digest([('reference', tcpt.model.tcpt_reference)]) == reference_hash
++        dataset_report['pairing'] = dict(initial_parameter_sha256=initial_sha, initial_rng_sha256=initial_rng,
++                                         first_three_batch_ids=batch_ids, first_three_input_sha256=batch_hashes,
++                                         disabled_ce_difference=abs(tcpt_disabled_ce - baseline_initial_ce),
++                                         fixed_reference=True, regularizer_precision='float32')
++        dataset_report['tcpt_reload'] = reload_check(tcpt, dataset, 'tcpt', tcpt_output, 5)
++        del tcpt, tcpt_batches, images, labels
++        gc.collect()
++        torch.cuda.empty_cache()
++
++        prompt_output = base / dataset / 'promptsrc'
++        prompt = make_trainer(dataset, 'promptsrc', prompt_output)
++        batch = next(iter(prompt.train_loader_x))
++        for epoch in range(20):
++            dataset_report['promptsrc_last_update'] = finite_update(prompt, batch, epoch, last_batch=True)
++        assert prompt.step_counter == 21
++        assert all(torch.equal(value, prompt.previous_model_gpa[name])
++                   for name, value in prompt.model.state_dict().items())
++        dataset_report['gpa'] = dict(aggregation_passed=True, weights=prompt.gauss.tolist(), epochs=20,
++                                     reload=reload_check(prompt, dataset, 'promptsrc', prompt_output, 20))
++        del prompt, batch
++        gc.collect()
++        torch.cuda.empty_cache()
++        report['datasets'][dataset] = dataset_report
++        write_json(ROOT / 'records' / 'preflight_partial.json', report)
++
++    for group in ['base', 'new']:
++        output = base / 'export_check' / group
++        trainer = make_trainer('dtd', 'maple', output, group=group, export=str(output / 'predictions'))
++        trainer.load_model(str(base / 'dtd' / 'maple'), epoch=5)
++        trainer.experiment_checkpoint = base / 'dtd' / 'maple' / 'MultiModalPromptLearner' / 'model.pth.tar-5'
++        trainer.test()
++        metadata = json.loads((output / 'predictions' / 'metadata.json').read_text())
++        assert metadata['online_offline_check']
++        report.setdefault('exports', {})[group] = metadata
++        del trainer
++        gc.collect()
++        torch.cuda.empty_cache()
++    report['passed'] = True
++    write_json(ROOT / 'records' / 'preflight.json', report)
++    print('All preflight checks passed.', flush=True)
++
++
++if __name__ == '__main__':
++    main()
+--- /dev/null
++++ b/run_matrix.py
+@@ -0,0 +1,207 @@
++import fcntl
++import hashlib
++import itertools
++import json
++import os
++import subprocess
++import sys
++import time
++from datetime import datetime
++from pathlib import Path
++
++import numpy as np
++
++from experiment import ROOT, file_sha256, write_json
++from experiment_metrics import metrics
++
++WORK = Path(__file__).resolve().parent
++CONFIGS = {
++    'maple': ('MaPLe', 'configs/trainers/MaPLe/vit_b16_c2_ep5_batch4_2ctx.yaml', 5),
++    'tcpt': ('MaPLe', 'configs/trainers/MaPLe/vit_b16_c2_ep5_batch4_2ctx.yaml', 5),
++    'promptsrc': ('PromptSRC', 'configs/trainers/PromptSRC/vit_b16_c2_ep20_batch4_4+4ctx.yaml', 20),
++    'clip': ('ZeroshotCLIP', 'configs/trainers/MaPLe/vit_b16_c2_ep5_batch4_2ctx.yaml', 5),
++}
++
++
++def command(dataset, method, seed, output, group='base', split='test', model_dir=None, export_dir=None):
++    trainer, config, epochs = CONFIGS[method]
++    arguments = [sys.executable, 'train.py', '--root', str(ROOT / 'datasets'), '--seed', str(seed),
++                 '--trainer', trainer, '--dataset-config-file', f'configs/datasets/{dataset}.yaml',
++                 '--config-file', config, '--output-dir', str(output)]
++    if model_dir is not None:
++        arguments += ['--eval-only', '--model-dir', str(model_dir), '--load-epoch', str(epochs)]
++    elif method == 'clip':
++        arguments += ['--eval-only']
++    arguments += ['DATASET.NUM_SHOTS', '16', 'DATASET.SUBSAMPLE_CLASSES', group,
++                  'OPTIM.MAX_EPOCH', str(epochs), 'TRAINER.MAPLE.USE_TCPT', str(method == 'tcpt'),
++                  'TEST.SPLIT', split]
++    if export_dir is not None:
++        arguments += ['EXPERIMENT.EXPORT_DIR', str(export_dir)]
++    return arguments
++
++
++def execute(arguments, log_path):
++    log_path.parent.mkdir(parents=True, exist_ok=True)
++    environment = os.environ.copy()
++    environment.update(OMP_NUM_THREADS='8', MKL_NUM_THREADS='8', OPENBLAS_NUM_THREADS='8',
++                       OUTDATED_IGNORE='1', PYTHONUNBUFFERED='1')
++    write_json(log_path.with_suffix('.command.json'), dict(arguments=arguments, cwd=str(WORK)))
++    with log_path.open('w', encoding='utf-8') as stream:
++        result = subprocess.run(arguments, cwd=WORK, env=environment, stdout=stream, stderr=subprocess.STDOUT)
++    log_path.with_suffix('.exit').write_text(str(result.returncode) + '\n')
++    assert result.returncode == 0, f'Command failed, see {log_path}'
++
++
++def validate_export(directory):
++    metadata = json.loads((directory / 'metadata.json').read_text())
++    assert metadata['online_offline_check']
++    assert file_sha256(directory / 'predictions.npz') == metadata['predictions_sha256']
++    with np.load(directory / 'predictions.npz', allow_pickle=False) as data:
++        assert data['logits'].dtype == np.float32
++        assert data['logits'].shape == (metadata['n'], metadata['classes'])
++        assert data['classnames'].tolist() == metadata['classnames']
++        assert len(set(data['image_ids'].tolist())) == metadata['n']
++        result = metrics(data['logits'], data['labels'])
++    for field in ['accuracy', 'ece', 'nll']:
++        assert abs(result[field] - metadata['online'][field]) < 1e-8
++    return metadata
++
++
++def next_attempt(parent):
++    numbers = [int(path.name.removeprefix('attempt')) for path in parent.glob('attempt[0-9][0-9]')]
++    destination = parent / f'attempt{max(numbers, default=0) + 1:02d}'
++    destination.mkdir(parents=True)
++    return destination
++
++
++def paired_check(dataset, seed, selected):
++    baseline = Path(selected[f'{dataset}/maple/seed{seed}'])
++    calibrated = Path(selected[f'{dataset}/tcpt/seed{seed}'])
++    first = json.loads((baseline / 'initialization.json').read_text())
++    second = json.loads((calibrated / 'initialization.json').read_text())
++    assert first['parameter_sha256'] == second['parameter_sha256']
++    assert first['rng_sha256'] == second['rng_sha256']
++    with (baseline / 'updates.jsonl').open() as stream:
++        baseline_batches = [json.loads(line) for line in itertools.islice(stream, 3)]
++    with (calibrated / 'updates.jsonl').open() as stream:
++        calibrated_batches = [json.loads(line) for line in itertools.islice(stream, 3)]
++    for left, right in zip(baseline_batches, calibrated_batches):
++        assert left['image_ids'] == right['image_ids']
++        assert left['input_sha256'] == right['input_sha256']
++    return dict(passed=True, initial_parameter_sha256=first['parameter_sha256'],
++                initial_rng_sha256=first['rng_sha256'], first_three_batches_equal=True)
++
++
++def train_run(dataset, method, seed, recipe_sha):
++    parent = ROOT / 'outputs' / 'B' / dataset / method / f'seed{seed}'
++    for attempt in sorted(parent.glob('attempt[0-9][0-9]')):
++        status_path = attempt / 'run_status.json'
++        if status_path.exists():
++            previous = json.loads(status_path.read_text())
++            if previous['status'] == 'complete' and previous['recipe_sha256'] == recipe_sha:
++                for group in ['test_base', 'test_new', 'val_base']:
++                    validate_export(attempt / 'predictions' / group)
++                return attempt
++            if previous['status'] == 'running':
++                previous.update(status='interrupted', recovery='Started a fresh attempt after acquiring the runner lock')
++                write_json(status_path, previous)
++    attempt = next_attempt(parent)
++    status = dict(status='running', dataset=dataset, method=method, seed=seed,
++                  run_id=str(attempt.relative_to(ROOT)), recipe_sha256=recipe_sha,
++                  implementation_sha256=file_sha256(ROOT / 'records' / 'implementation_files.json'),
++                  started_at=datetime.now().astimezone().isoformat())
++    write_json(attempt / 'run_status.json', status)
++    try:
++        execute(command(dataset, method, seed, attempt), attempt / 'console.log')
++        assert json.loads((attempt / 'checkpoint_check.json').read_text())['passed']
++        for split, group in [('test', 'base'), ('test', 'new'), ('val', 'base')]:
++            export_dir = attempt / 'predictions' / f'{split}_{group}'
++            eval_dir = attempt / f'eval_{split}_{group}'
++            execute(command(dataset, method, seed, eval_dir, group, split,
++                            model_dir=attempt, export_dir=export_dir), eval_dir / 'console.log')
++            validate_export(export_dir)
++        with np.load(attempt / 'reload_probe.npz', allow_pickle=False) as probe:
++            with np.load(attempt / 'predictions' / 'val_base' / 'predictions.npz', allow_pickle=False) as validation:
++                assert validation['image_ids'][:len(probe['image_ids'])].tolist() == probe['image_ids'].tolist()
++                assert np.array_equal(validation['logits'][:len(probe['logits'])], probe['logits']), 'Cross-process reload probe mismatch'
++        status.update(status='complete', finished_at=datetime.now().astimezone().isoformat(),
++                      prediction_exports=3, checkpoint_reload_passed=True, cross_process_probe_exact=True)
++    except Exception as error:
++        status.update(status='failed', error=str(error), finished_at=datetime.now().astimezone().isoformat())
++        write_json(attempt / 'run_status.json', status)
++        raise
++    write_json(attempt / 'run_status.json', status)
++    return attempt
++
++
++def main():
++    lock = (ROOT / 'records' / 'B_runner.lock').open('w')
++    fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
++    assert json.loads((ROOT / 'records' / 'preflight.json').read_text())['passed']
++    assert json.loads((ROOT / 'records' / 'data_checks.json').read_text())['passed']
++    implementation = json.loads((ROOT / 'records' / 'implementation_files.json').read_text())
++    for name, expected in implementation['files'].items():
++        assert file_sha256(WORK / name) == expected, f'Implementation changed: {name}'
++    implementation_sha = file_sha256(ROOT / 'records' / 'implementation_files.json')
++    preflight_code = json.loads((ROOT / 'records' / 'preflight_code_sha256.json').read_text())
++    for name, expected in preflight_code.items():
++        assert file_sha256(WORK / name) == expected, f'Code changed since preflight: {name}'
++    freeze = dict(implementation_sha256=implementation_sha,
++                  data_manifest_sha256=file_sha256(ROOT / 'records' / 'data_manifest.json'),
++                  pretrained_sha256=file_sha256(ROOT / 'weights' / 'ViT-B-16.pt'),
++                  preflight_sha256=file_sha256(ROOT / 'records' / 'preflight.json'),
++                  datasets=['dtd', 'oxford_flowers'], seeds=[1, 2, 3],
++                  methods=['maple', 'tcpt', 'promptsrc'], train_batch=4,
++                  shots=16, precision='fp16', base_validation_shots=4,
++                  calibration_bins=[10, 15, 20], temperature_grid=dict(min=0.05, max=20.0, points=401),
++                  method_configs={method: dict(trainer=spec[0], path=spec[1], epochs=spec[2],
++                                               sha256=file_sha256(WORK / spec[1]))
++                                  for method, spec in CONFIGS.items() if method != 'clip'})
++    recipe_fields = dict(freeze)
++    recipe_fields.pop('preflight_sha256')
++    recipe_sha = hashlib.sha256(json.dumps(recipe_fields, sort_keys=True).encode()).hexdigest()
++    freeze['recipe_sha256'] = recipe_sha
++    write_json(ROOT / 'records' / 'config_manifest.json', freeze)
++    progress = dict(status='running', completed=0, total=18, selected_runs={}, pairing={}, clip_references={})
++    started = time.perf_counter()
++    for seed in [1, 2, 3]:
++        for dataset in ['dtd', 'oxford_flowers']:
++            for method in ['maple', 'tcpt', 'promptsrc']:
++                key = f'{dataset}/{method}/seed{seed}'
++                progress.update(current=key, elapsed_seconds=time.perf_counter() - started)
++                write_json(ROOT / 'records' / 'B_progress.json', progress)
++                print('Starting', key, flush=True)
++                attempt = train_run(dataset, method, seed, recipe_sha)
++                progress['selected_runs'][key] = str(attempt)
++                progress['completed'] = len(progress['selected_runs'])
++                if method == 'tcpt':
++                    progress['pairing'][f'{dataset}/seed{seed}'] = paired_check(dataset, seed, progress['selected_runs'])
++                write_json(ROOT / 'records' / 'B_progress.json', progress)
++                print('Completed', key, progress['completed'], '/18', flush=True)
++        if seed == 1:
++            write_json(ROOT / 'records' / 'seed1_acceptance.json', dict(passed=True, **progress))
++    for dataset in ['dtd', 'oxford_flowers']:
++        for group in ['base', 'new']:
++            directory = ROOT / 'outputs' / 'B' / 'clip_reference' / dataset / group
++            execute(command(dataset, 'clip', 1, directory, group=group,
++                            export_dir=directory / 'predictions'), directory / 'console.log')
++            validate_export(directory / 'predictions')
++            progress['clip_references'][f'{dataset}/{group}'] = str(directory / 'predictions')
++    progress.update(status='training_and_exports_complete', elapsed_seconds=time.perf_counter() - started,
++                    completed_at=datetime.now().astimezone().isoformat())
++    write_json(ROOT / 'records' / 'B_progress.json', progress)
++    print('All 18 runs, 54 prediction exports and 4 CLIP references completed.', flush=True)
++
++
++if __name__ == '__main__':
++    try:
++        main()
++    except BlockingIOError:
++        raise
++    except Exception as error:
++        progress_path = ROOT / 'records' / 'B_progress.json'
++        if progress_path.exists():
++            state = json.loads(progress_path.read_text())
++            state.update(status='failed', error=str(error), failed_at=datetime.now().astimezone().isoformat())
++            write_json(progress_path, state)
++        raise
+--- a/train.py
++++ b/train.py
+@@ -108,6 +108,9 @@
+     cfg.TRAINER.MAPLE.CTX_INIT = "a photo of a"  # initialization words
+     cfg.TRAINER.MAPLE.PREC = "fp16"  # fp16, fp32, amp
+     cfg.TRAINER.MAPLE.PROMPT_DEPTH = 9  # Max 12, minimum 0, for 1 it will act as shallow MaPLe (J=1)
++    cfg.TRAINER.MAPLE.USE_TCPT = False
++    cfg.EXPERIMENT = CN()
++    cfg.EXPERIMENT.EXPORT_DIR = ""
+     cfg.DATASET.SUBSAMPLE_CLASSES = "all"  # all, base or new
+ 
+     # Config for PromptSRC
+@@ -177,6 +180,10 @@
+ 
+     if args.eval_only:
+         trainer.load_model(args.model_dir, epoch=args.load_epoch)
++        if args.model_dir:
++            from pathlib import Path
++            model_file = "model-best.pth.tar" if args.load_epoch is None else f"model.pth.tar-{args.load_epoch}"
++            trainer.experiment_checkpoint = Path(args.model_dir) / trainer.get_model_names()[0] / model_file
+         trainer.test()
+         return
+ 
+--- a/trainers/maple.py
++++ b/trainers/maple.py
+@@ -14,6 +14,7 @@
+ 
+ from clip import clip
+ from clip.simple_tokenizer import SimpleTokenizer as _Tokenizer
++from experiment import ExperimentMixin, prepare_tcpt_reference, tcpt_regularizers
+ 
+ _tokenizer = _Tokenizer()
+ 
+@@ -185,6 +186,8 @@
+         self.text_encoder = TextEncoder(clip_model)
+         self.logit_scale = clip_model.logit_scale
+         self.dtype = clip_model.dtype
++        self.use_tcpt = getattr(cfg.TRAINER.MAPLE, "USE_TCPT", False)
++        self.register_buffer("tcpt_reference", None, persistent=False)
+ 
+     def forward(self, image, label=None):
+         tokenized_prompts = self.tokenized_prompts
+@@ -195,11 +198,19 @@
+         image_features = self.image_encoder(image.type(self.dtype), shared_ctx, deep_compound_prompts_vision)
+ 
+         image_features = image_features / image_features.norm(dim=-1, keepdim=True)
++        raw_text_features = text_features
+         text_features = text_features / text_features.norm(dim=-1, keepdim=True)
+         logits = logit_scale * image_features @ text_features.t()
+ 
+         if self.prompt_learner.training:
+-            return F.cross_entropy(logits, label)
++            ce = F.cross_entropy(logits, label)
++            self.loss_terms = {"ce": ce}
++            if self.use_tcpt:
++                normalized_text = F.normalize(raw_text_features.float(), dim=-1)
++                margin, moment = tcpt_regularizers(logits, label, normalized_text, self.tcpt_reference)
++                self.loss_terms.update(margin=margin, moment=moment)
++                return ce + margin + 5.0 * moment
++            return ce
+ 
+         return logits
+ 
+@@ -209,7 +220,7 @@
+ 
+ 
+ @TRAINER_REGISTRY.register()
+-class MaPLe(TrainerX):
++class MaPLe(ExperimentMixin, TrainerX):
+     def check_cfg(self, cfg):
+         assert cfg.TRAINER.MAPLE.PREC in ["fp16", "fp32", "amp"]
+ 
+@@ -249,6 +260,9 @@
+             load_pretrained_weights(self.model, cfg.MODEL.INIT_WEIGHTS)
+ 
+         self.model.to(self.device)
++        if cfg.TRAINER.MAPLE.USE_TCPT:
++            reference, self.tcpt_reference_record = prepare_tcpt_reference(cfg, classnames, self.device)
++            self.model.tcpt_reference = reference
+         # NOTE: only give prompt_learner to the optimizer
+         self.optim = build_optimizer(self.model, cfg.OPTIM)
+         self.sched = build_lr_scheduler(self.optim, cfg.OPTIM)
+@@ -285,10 +299,12 @@
+             optim.step()
+ 
+         loss_summary = {"loss": loss.item()}
++        loss_summary.update({name: value.item() for name, value in model.loss_terms.items()})
+ 
+         if (self.batch_idx + 1) == self.num_batches:
+             self.update_lr()
+ 
++        self.record_update(batch, loss_summary)
+         return loss_summary
+ 
+     def parse_batch_train(self, batch):
+@@ -322,10 +338,11 @@
+             epoch = checkpoint["epoch"]
+ 
+             # Ignore fixed token vectors
+-            if "prompt_learner.token_prefix" in state_dict:
++            same_classes = checkpoint.get("experiment", {}).get("classnames") == self.dm.dataset.classnames
++            if not same_classes and "prompt_learner.token_prefix" in state_dict:
+                 del state_dict["prompt_learner.token_prefix"]
+ 
+-            if "prompt_learner.token_suffix" in state_dict:
++            if not same_classes and "prompt_learner.token_suffix" in state_dict:
+                 del state_dict["prompt_learner.token_suffix"]
+ 
+             print("Loading weights to {} " 'from "{}" (epoch = {})'.format(name, model_path, epoch))
+--- a/trainers/promptsrc.py
++++ b/trainers/promptsrc.py
+@@ -12,6 +12,7 @@
+ from clip import clip
+ from clip.simple_tokenizer import SimpleTokenizer as _Tokenizer
+ from .imagenet_templates import IMAGENET_TEMPLATES
++from experiment import ExperimentMixin
+ 
+ _tokenizer = _Tokenizer()
+ 
+@@ -212,7 +213,7 @@
+ 
+ 
+ @TRAINER_REGISTRY.register()
+-class PromptSRC(TrainerX):
++class PromptSRC(ExperimentMixin, TrainerX):
+     def check_cfg(self, cfg):
+         assert cfg.TRAINER.PROMPTSRC.PREC in ["fp16", "fp32", "amp"]
+ 
+@@ -316,6 +317,9 @@
+             optim.step()
+ 
+         loss_summary = {"loss": loss.item()}
++        if prec != "amp":
++            loss_summary.update(ce=loss_ce.item(), text=loss_scl_text.item(), image=loss_scl_image.item(),
++                                logits=L_SCL_logits.item())
+ 
+         if (self.batch_idx + 1) == self.num_batches:
+             self.update_lr()
+@@ -333,6 +337,7 @@
+             print("Using GPA model for final inference...")
+             model.load_state_dict(self.previous_model_gpa)
+             self.model.load_state_dict(self.previous_model_gpa)
++        self.record_update(batch, loss_summary)
+         return loss_summary
+ 
+     def state_dict_weighting(self, main_dict, weightage, prompt_only=False):
+@@ -390,12 +395,13 @@
+             epoch = checkpoint["epoch"]
+ 
+             # Ignore fixed token vectors
+-            if "prompt_learner.token_prefix" in state_dict:
++            same_classes = checkpoint.get("experiment", {}).get("classnames") == self.dm.dataset.classnames
++            if not same_classes and "prompt_learner.token_prefix" in state_dict:
+                 del state_dict["prompt_learner.token_prefix"]
+ 
+-            if "prompt_learner.token_suffix" in state_dict:
++            if not same_classes and "prompt_learner.token_suffix" in state_dict:
+                 del state_dict["prompt_learner.token_suffix"]
+ 
+             print("Loading weights to {} " 'from "{}" (epoch = {})'.format(name, model_path, epoch))
+             # set strict=False
+-            self._models[name].load_state_dict(state_dict, strict=False)+            self._models[name].load_state_dict(state_dict, strict=False)
+--- a/trainers/zsclip.py
++++ b/trainers/zsclip.py
+@@ -9,6 +9,7 @@
+ 
+ from .coop import load_clip_to_cpu
+ from .imagenet_templates import IMAGENET_TEMPLATES, IMAGENET_TEMPLATES_SELECT
++from experiment import ExperimentMixin
+ 
+ CUSTOM_TEMPLATES = {
+     "OxfordPets": "a photo of a {}, a type of pet.",
+@@ -30,7 +31,7 @@
+ 
+ 
+ @TRAINER_REGISTRY.register()
+-class ZeroshotCLIP(TrainerX):
++class ZeroshotCLIP(ExperimentMixin, TrainerX):
+     def build_model(self):
+         cfg = self.cfg
+         classnames = self.dm.dataset.classnames
+@@ -51,6 +52,7 @@
+ 
+         self.text_features = text_features
+         self.clip_model = clip_model
++        self.model = clip_model.eval().requires_grad_(False)
+ 
+     def model_inference(self, image):
+         image_features = self.clip_model.encode_image(image)
+@@ -97,3 +99,4 @@
+ 
+         self.text_features = mean_text_features
+         self.clip_model = clip_model
++        self.model = clip_model.eval().requires_grad_(False)

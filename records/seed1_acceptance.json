@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "status": "running",
+  "completed": 6,
+  "total": 18,
+  "selected_runs": {
+    "dtd/maple/seed1": "/root/autodl-tmp/clip-exp/outputs/B/dtd/maple/seed1/attempt01",
+    "dtd/tcpt/seed1": "/root/autodl-tmp/clip-exp/outputs/B/dtd/tcpt/seed1/attempt01",
+    "dtd/promptsrc/seed1": "/root/autodl-tmp/clip-exp/outputs/B/dtd/promptsrc/seed1/attempt01",
+    "oxford_flowers/maple/seed1": "/root/autodl-tmp/clip-exp/outputs/B/oxford_flowers/maple/seed1/attempt01",
+    "oxford_flowers/tcpt/seed1": "/root/autodl-tmp/clip-exp/outputs/B/oxford_flowers/tcpt/seed1/attempt01",
+    "oxford_flowers/promptsrc/seed1": "/root/autodl-tmp/clip-exp/outputs/B/oxford_flowers/promptsrc/seed1/attempt01"
+  },
+  "pairing": {
+    "dtd/seed1": {
+      "passed": true,
+      "initial_parameter_sha256": "b1bb5a9b71ef01884a5baeef43d9e7858b0823778c60b6683df1b30b0678d684",
+      "initial_rng_sha256": "e2454b3a1114f55fb13972d0cbc7c9d24a4c212ceb2bda1a2a91a87cc4cc516c",
+      "first_three_batches_equal": true
+    },
+    "oxford_flowers/seed1": {
+      "passed": true,
+      "initial_parameter_sha256": "b1bb5a9b71ef01884a5baeef43d9e7858b0823778c60b6683df1b30b0678d684",
+      "initial_rng_sha256": "e2454b3a1114f55fb13972d0cbc7c9d24a4c212ceb2bda1a2a91a87cc4cc516c",
+      "first_three_batches_equal": true
+    }
+  },
+  "clip_references": {},
+  "current": "oxford_flowers/promptsrc/seed1",
+  "elapsed_seconds": 528.2829511985183
+}

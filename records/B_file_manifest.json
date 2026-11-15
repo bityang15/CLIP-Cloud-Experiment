@@ -1,0 +1,4252 @@
+{
+  "created_at": "2026-11-10T19:06:09.119434+08:00",
+  "formal_checkpoints": 18,
+  "prediction_exports": 58,
+  "files": {
+    "outputs/B/clip_reference/dtd/base/config.yaml": {
+      "size": 3757,
+      "sha256": "a12eb495a13225b5f2f1da381201e8c6b7651c2d7e5835b80ef6fd4f43f9ed18",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/dtd/base/console.command.json": {
+      "size": 806,
+      "sha256": "88a52fa63e8907f6fa3e1a83d21c43a9dbbd4c2f9b3520b2404ca4668b8e1114",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/dtd/base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/dtd/base/console.log": {
+      "size": 11727,
+      "sha256": "45d505f38a1ef7709e460cf433f907a5763da95086949a937e7c18f6265add40",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/dtd/base/initialization.json": {
+      "size": 424,
+      "sha256": "b53feec89dc370cec782813a08cd3ee30cf45ab939664140ad59e55dcad7448c",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/dtd/base/log.txt": {
+      "size": 11705,
+      "sha256": "4f4dd69fc6f70050edad7d5be227d6ec3959a83228e492a98deee149dca1ff92",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/dtd/base/predictions/metadata.json": {
+      "size": 2235,
+      "sha256": "ea2ce496dcad3cbad81901aed1d0ac1b288016b9a025d1ce21239f8ce4fd5fe7",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/dtd/base/predictions/predictions.npz": {
+      "size": 41670,
+      "sha256": "4c5538ac268d940f705f4aa299c22c69e5489234a4423ac01e2fb41e162fd3b1",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/dtd/new/config.yaml": {
+      "size": 3754,
+      "sha256": "6cd4be41e21370f2bc5a78c0cb34d9997bbdc9bdad348038e14c35ad108a837c",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/dtd/new/console.command.json": {
+      "size": 803,
+      "sha256": "b7fa716702b6c836194684540105707fb09e7a814b6648113b7aeadaedd4b454",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/dtd/new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/dtd/new/console.log": {
+      "size": 11698,
+      "sha256": "18d57efdef3f5251297496926e30173f545b7051e704d4bf435961a5a9a3d96d",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/dtd/new/initialization.json": {
+      "size": 424,
+      "sha256": "dcb35b837bdfe13ff885f6eb2637c61860b6917051232de2e2ab79fbc755c577",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/dtd/new/log.txt": {
+      "size": 11676,
+      "sha256": "02f3d6ae0598863976b5f3da66a1de8a9a14f3a52ec3e8391ff99f77420a2caf",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/dtd/new/predictions/metadata.json": {
+      "size": 2219,
+      "sha256": "d7391689323cd3a16985ff4748a785ce99679369997b4290935a47a45327990e",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/dtd/new/predictions/predictions.npz": {
+      "size": 39087,
+      "sha256": "f1bf17b5d96d13f74045467d3e4e1dec38c5af583e81215feff0b03e010e7b55",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/oxford_flowers/base/config.yaml": {
+      "size": 3773,
+      "sha256": "b0c56a72a404f48b0d26c81a917d6b100279a4d1ef564f53cb421e6a54722138",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/oxford_flowers/base/console.command.json": {
+      "size": 839,
+      "sha256": "62be2c1adc002f9aee96cafa3cf9b2c69fc026b770dd4753f806523fe5348dcd",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/oxford_flowers/base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/oxford_flowers/base/console.log": {
+      "size": 13757,
+      "sha256": "3fa771571cee89401bdde268133a0ddeeac8adfb37ea24198f01b97fefb66869",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/oxford_flowers/base/initialization.json": {
+      "size": 425,
+      "sha256": "7381e2956716ac5d04d20d6614d9861eb650972140a1486305d92aee92e85e4b",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/oxford_flowers/base/log.txt": {
+      "size": 13735,
+      "sha256": "83b133165e953e77f0a2bae5c1ed5f379fda3e2cc3201e7595871a01eba4e6ad",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/oxford_flowers/base/predictions/metadata.json": {
+      "size": 2935,
+      "sha256": "cf621252a03c87ae190273389c421f28c654f1b28865b5785520256e40c615c2",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/oxford_flowers/base/predictions/predictions.npz": {
+      "size": 106164,
+      "sha256": "d2372523f27986dbef59ceb2e39b8eb1cdb63ed2d93f59094000c1f287ef17c4",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/oxford_flowers/new/config.yaml": {
+      "size": 3770,
+      "sha256": "2d4ca255f525cb7c58aba0e5a23631b4e7a3f3ab75a1de8fc7ebb77727153143",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/oxford_flowers/new/console.command.json": {
+      "size": 836,
+      "sha256": "ac684cd79abde814a4cfb9a43be534901fa564e8f58554d960c03ba26da9c655",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/oxford_flowers/new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/oxford_flowers/new/console.log": {
+      "size": 13671,
+      "sha256": "07d3b13c82220951b13f5d819da67e5d9d5711162dd9bb88c3a4602eff34a86a",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/oxford_flowers/new/initialization.json": {
+      "size": 424,
+      "sha256": "5c6c16381b4913a29343301b5bac6ab52c569fe14a1bba558d4eed0008df3715",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/oxford_flowers/new/log.txt": {
+      "size": 13649,
+      "sha256": "b8fe2578232fdf6a70deee68413c36046acb82b804101bf29f8602ae7b3fc566",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/oxford_flowers/new/predictions/metadata.json": {
+      "size": 2853,
+      "sha256": "398525808da410d625274bb395b6f64c6be0095c1f4b8fcc918013edf35c542d",
+      "checkpoint": false
+    },
+    "outputs/B/clip_reference/oxford_flowers/new/predictions/predictions.npz": {
+      "size": 138604,
+      "sha256": "0259ebe3de162f5ec70b7b92b0849edd45a8e8c5a8b632343ac383bf066611f8",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/MultiModalPromptLearner/checkpoint": {
+      "size": 16,
+      "sha256": "cfa9c864ad9357fc4166128d835e2c8fce88f8b17149311129a71aa31ba5fff2",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/MultiModalPromptLearner/model.pth.tar-5": {
+      "size": 278039098,
+      "sha256": "04942722d86732a4cbc308a1104810cd1fbf131232708890d095cd7f8bf25923",
+      "checkpoint": true
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/checkpoint_check.json": {
+      "size": 134,
+      "sha256": "2420f6c74fbbe1d8de3dd7bfb87afde596861ab8f4a20e4385305b440fcfffec",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/config.yaml": {
+      "size": 3683,
+      "sha256": "738888bed02c4743b3a604606b1d3cf48c6ddb6d284af50ba6bd81255cee555c",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/console.command.json": {
+      "size": 674,
+      "sha256": "c3f495a6051da09b3c4ff469b1c458ec7089680bc6dca659962758bbc5a17f00",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/console.log": {
+      "size": 15950,
+      "sha256": "d65770a2bca3693078eee7f9e295321da03ed32d11fff45e31160c327c84d748",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/epochs.jsonl": {
+      "size": 486,
+      "sha256": "d49af28f1a3919884e4f49004c618907f990d6d4730aceeca61df55da4eee98b",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/eval_test_base/config.yaml": {
+      "size": 3779,
+      "sha256": "d25a097f54947e8abfff3bb20234307e59b526dad39482cecea98d807f28b6ba",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/eval_test_base/console.command.json": {
+      "size": 945,
+      "sha256": "16017e6a82961bd32b91e6d19034c2193377cef755c7652fdfbd9ac4e46de4ed",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/eval_test_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/eval_test_base/console.log": {
+      "size": 14070,
+      "sha256": "1de0e9553fc578f6f035806d26e79ea91f728891c7950d6c147ebb19ed31c640",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/eval_test_base/initialization.json": {
+      "size": 3855,
+      "sha256": "28bbe7c7a317da40a40c7e2107fe3136d27b4257954267519562792eaae3a35b",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/eval_test_base/log.txt": {
+      "size": 12829,
+      "sha256": "7673715ee022bcd31f9251ea26961f526ed5e15ffeaeb97abeb84ab53a9458b3",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/eval_test_new/config.yaml": {
+      "size": 3776,
+      "sha256": "6acab19bb53586635a3fa801d8f1a97f2573af0b2f01ac6efd42341bcdeca253",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/eval_test_new/console.command.json": {
+      "size": 942,
+      "sha256": "ba3833efc7b4b0b5f18278fc6620c02b5fca50a830f3516db48c0ba9fc22a3a6",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/eval_test_new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/eval_test_new/console.log": {
+      "size": 14082,
+      "sha256": "5c7c622fbeb6640bcefe05b86bcf2f0024bf5766214c4382181ce7a2f7a3991d",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/eval_test_new/initialization.json": {
+      "size": 3855,
+      "sha256": "e0b5c903e7d94c00ef1f6570614b60989fdbe4b5a4e6f12e5912934601d59ee6",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/eval_test_new/log.txt": {
+      "size": 12841,
+      "sha256": "2b74dfa630edab705b0f4884a7c5fad986b0aa87026d81ab29597871c86a105d",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/eval_val_base/config.yaml": {
+      "size": 3776,
+      "sha256": "61b5d0e381fd820e9aa2a9bd9b1c734e481a9803adaea1d04ccbd0ca7ded1db7",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/eval_val_base/console.command.json": {
+      "size": 942,
+      "sha256": "ed78df3c987afe34717a360cb3aef66cf76c560058670cb53c1965821fca7323",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/eval_val_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/eval_val_base/console.log": {
+      "size": 14030,
+      "sha256": "6849b40b2f89b69fc696c520e3ab82366b9137300b3d4277d366a16a96770535",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/eval_val_base/initialization.json": {
+      "size": 3856,
+      "sha256": "fd22e08873f5c1b37bc69151168965f1c44832685587aaa88e9bda6c9ca36f0d",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/eval_val_base/log.txt": {
+      "size": 12789,
+      "sha256": "40db695741b994567a986f592bc4d89845a87d1d910a0ce10757fed0232bc056",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/initialization.json": {
+      "size": 3856,
+      "sha256": "c88555af1dfc099b713ef84996360352115d5b84d4c3f4cc150487574aa8691f",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/log.txt": {
+      "size": 14709,
+      "sha256": "02a7007d9dffd6baefa4c8a1b6ee270331bc2ea2c25c19f482d83875175ef0e6",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/predictions/test_base/metadata.json": {
+      "size": 2259,
+      "sha256": "cdcb093a696d055ef70479b4fb4b3f30ec3390882190eed8429b9981d457b9eb",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/predictions/test_base/predictions.npz": {
+      "size": 45399,
+      "sha256": "5d42a10c710fcb2d1b8fcdafe44d59f9faa21e6081ce0025a9e0db9d5cef1579",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/predictions/test_new/metadata.json": {
+      "size": 2261,
+      "sha256": "21532917c65f1b290fa9b282b8c10b5f3be6fadb7ce4418d5e2186e95fcbbd21",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/predictions/test_new/predictions.npz": {
+      "size": 42477,
+      "sha256": "333763a2afcf94e9ee88ff1032423767585a01b00c9a59d3995a809376d065b7",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/predictions/val_base/metadata.json": {
+      "size": 2215,
+      "sha256": "32b95c9a219489d62613455a91f4723e3480623051c648c40db31369221cf67d",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/predictions/val_base/predictions.npz": {
+      "size": 6734,
+      "sha256": "f02b75fa82c19a79571974df917b4b900109eaba6f17023db2af26db2411fe4a",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/reload_probe.npz": {
+      "size": 6057,
+      "sha256": "2ab8828ee2408a26e6551d25cde8b2c0bf8233531be4577400a1f7395abba777",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/run_status.json": {
+      "size": 519,
+      "sha256": "b57d57712c6275d6970599389ea27b04b2df278f505990a52174953ce590d838",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/temperature.json": {
+      "size": 23334,
+      "sha256": "5b427b0848a6629b9118dc1aa3326648ea842d8e1ecec3d221cb55dadaf84fdb",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/tensorboard/events.out.tfevents.1794301625.autodl-container-4f41468bb9-58d83b0c.14828.0": {
+      "size": 68338,
+      "sha256": "ddf2ad0a00752530c32849fa7d52bb936439270f05bcb46dc289d2414e1d2235",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/training_resources.json": {
+      "size": 404,
+      "sha256": "96317e0457b43bf841af7c6fb3ebf28e4fe0556fe3370838b37c740da2f61f92",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed1/attempt01/updates.jsonl": {
+      "size": 162955,
+      "sha256": "5eb4adb06db81b9e6641eb629cbe0db4642ad3e513a08021de51b06a75e9f213",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/MultiModalPromptLearner/checkpoint": {
+      "size": 16,
+      "sha256": "cfa9c864ad9357fc4166128d835e2c8fce88f8b17149311129a71aa31ba5fff2",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/MultiModalPromptLearner/model.pth.tar-5": {
+      "size": 278039098,
+      "sha256": "7e4c92ce6e63d571fd331693bf9d59e6a34d75f15a25e1f45b053e2ac1827e2d",
+      "checkpoint": true
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/checkpoint_check.json": {
+      "size": 134,
+      "sha256": "2420f6c74fbbe1d8de3dd7bfb87afde596861ab8f4a20e4385305b440fcfffec",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/config.yaml": {
+      "size": 3683,
+      "sha256": "3f2a049011004987ce2c7eda3d0e3730a83d33a8ca049f39cf133fd04e27d112",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/console.command.json": {
+      "size": 674,
+      "sha256": "65f7883d7af1af758f59dcf50e2a3662599cd5ad12259c53e8eedfbe024ff4e0",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/console.log": {
+      "size": 15950,
+      "sha256": "58ecde3f343963b350f2cfd9ee2c743729be1e2feb268c702a156f65242c6013",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/epochs.jsonl": {
+      "size": 486,
+      "sha256": "0309f1387f1810e9ed5c03d57aefa98894dfef81bc67478d0f448f9909bafa32",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/eval_test_base/config.yaml": {
+      "size": 3779,
+      "sha256": "d1b6ecf9c3964d31f8d464ae42788c843be5de69a06d5491626dd6dd50dc74dd",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/eval_test_base/console.command.json": {
+      "size": 945,
+      "sha256": "d87d8632a2eefd442689feb1cb5dac53214fa631a1c89462e948c3bf1dabc263",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/eval_test_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/eval_test_base/console.log": {
+      "size": 14068,
+      "sha256": "7769ee4084db03573e054f40034969144cb934b22064d928114448255eec9d0e",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/eval_test_base/initialization.json": {
+      "size": 3855,
+      "sha256": "e1e727d8535354c56e196b2fe1cda43126b76528c3a8e2c4985d1988f83dcb99",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/eval_test_base/log.txt": {
+      "size": 12827,
+      "sha256": "bc13e8582efa61d286a17623316c86b8225915e77f90bb40d510a68663a19a37",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/eval_test_new/config.yaml": {
+      "size": 3776,
+      "sha256": "46d66ecd94bf11ef8df54ae59160c5d11d8f58e54e912bf88e591a8c07db3aaa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/eval_test_new/console.command.json": {
+      "size": 942,
+      "sha256": "2c2701ceb7bd102c270cba50f15bc1fc7f65d304082c9fa0dac32f2cd21d9cdb",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/eval_test_new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/eval_test_new/console.log": {
+      "size": 14081,
+      "sha256": "1211109e072a847ddcf12b54eac8fcc74f92d1bfc8a04244ef085a392eb993a8",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/eval_test_new/initialization.json": {
+      "size": 3855,
+      "sha256": "bf925f6791708a90932c60b3fb3f8923c046db3c62d8da77b801f3af77aa2dd1",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/eval_test_new/log.txt": {
+      "size": 12840,
+      "sha256": "8ab7ebaeaa43f6aa28bfd16e3812dae404363cdea9cbeca62ddeadf3cfd6db1c",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/eval_val_base/config.yaml": {
+      "size": 3776,
+      "sha256": "48bbd0af02b6284d4edf6ee29a1432839c73afeb77475450868f2703209a7331",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/eval_val_base/console.command.json": {
+      "size": 942,
+      "sha256": "309db021390dfa93a9897b1ddfd385fb7b1448bfaf2a882f2508975a95848809",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/eval_val_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/eval_val_base/console.log": {
+      "size": 13984,
+      "sha256": "022675c4c00318d7606f46d536f3465377e519e5275c55d61d08c9f16d928d49",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/eval_val_base/initialization.json": {
+      "size": 3855,
+      "sha256": "68fc7dcab684eb19dafb88b2d22fdf0fa4c1bd26eaaf5179064debff820a12e1",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/eval_val_base/log.txt": {
+      "size": 12743,
+      "sha256": "76b26d5e30cd013004a9b3e07b5f921598d6abc93d8796759469f1bbbd7784d9",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/initialization.json": {
+      "size": 3855,
+      "sha256": "43787a967f0ec7743fbc2b0946dbbd6d0ca96bfb5b8ecb8865c2a19274ee5e65",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/log.txt": {
+      "size": 14709,
+      "sha256": "01965db5004a8176ee8bd7162ac62f857763482b60c8c2035835fd70c99cf881",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/predictions/test_base/metadata.json": {
+      "size": 2258,
+      "sha256": "4d396554d8586a2612e3314dde46330628f2c7e2449401dbb36ca80baae3fb8b",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/predictions/test_base/predictions.npz": {
+      "size": 44887,
+      "sha256": "90f9822d77b994c8f7bc1963d3197959013aaafe0f321897ba7511cc81f12c16",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/predictions/test_new/metadata.json": {
+      "size": 2263,
+      "sha256": "fd9fb34c89179a9cd7047e6befafbdd40864fef109c177370e14f64f586e11e3",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/predictions/test_new/predictions.npz": {
+      "size": 41725,
+      "sha256": "12e447e7f79d788a042ca48aea838467e748f4c68c582d2487f79186c952889b",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/predictions/val_base/metadata.json": {
+      "size": 2170,
+      "sha256": "fa474a97aa4b7c2eae062b95682b0c049d03d8a875d56de59577e619ce1d259f",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/predictions/val_base/predictions.npz": {
+      "size": 6622,
+      "sha256": "1c839e577d173e87716db8d28726ad86b3e116abab2fa27f7f41915466095c28",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/reload_probe.npz": {
+      "size": 5945,
+      "sha256": "fb7b6cd36d4eeefa98bd646d0b04220a580dea2da4cbd54ddae9fbe95a35bcd5",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/run_status.json": {
+      "size": 519,
+      "sha256": "fbc24ec7dcb4b6f045a12de584dd62b1d54e01f55e45fe38b61ff33db53f003c",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/temperature.json": {
+      "size": 23337,
+      "sha256": "3dc2d1f244393f3b2ee6e5523e22f0d58ebd115a09b9f303c99ef03c83c8dbc1",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/tensorboard/events.out.tfevents.1794302438.autodl-container-4f41468bb9-58d83b0c.32715.0": {
+      "size": 68338,
+      "sha256": "80237a20d5a09b168f1e93f8ca6cd28b1e0965537d76538a080ff1e73c085621",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/training_resources.json": {
+      "size": 403,
+      "sha256": "d31034faa254989b9b813c122a118d1907b795c768c12f23962c5e29a6db860a",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed2/attempt01/updates.jsonl": {
+      "size": 163027,
+      "sha256": "61ff30f7668184e5ed9ce0c9c11def6ece3cdeef361d1b61790159b006eba4ee",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/MultiModalPromptLearner/checkpoint": {
+      "size": 16,
+      "sha256": "cfa9c864ad9357fc4166128d835e2c8fce88f8b17149311129a71aa31ba5fff2",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/MultiModalPromptLearner/model.pth.tar-5": {
+      "size": 278039098,
+      "sha256": "dfd232735b9d476416cbfc9cbf3ca0eaac0094859142e4ba76ca27aa88708fcd",
+      "checkpoint": true
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/checkpoint_check.json": {
+      "size": 134,
+      "sha256": "2420f6c74fbbe1d8de3dd7bfb87afde596861ab8f4a20e4385305b440fcfffec",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/config.yaml": {
+      "size": 3683,
+      "sha256": "a9a195fc69b62809727c7d76b42868613bbd0cf2950a1cd0e02192c8dbc9393b",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/console.command.json": {
+      "size": 674,
+      "sha256": "068348b80d471262ebab3e39bb08bc5b3abccc31317b55925cb96ebe402d6770",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/console.log": {
+      "size": 15950,
+      "sha256": "7e9424469810c56421baed5c37dea2af49bc67f4f1805d5fde1288272ccbe554",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/epochs.jsonl": {
+      "size": 484,
+      "sha256": "969fc6c14d70313173167a50b3f123a6bd2993998f79b77ce51d15dee03fe269",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/eval_test_base/config.yaml": {
+      "size": 3779,
+      "sha256": "a4beb34cd5a2667f9edb575b40f6d916242f5f89483c1bff7abf7dd2f1fa9b1b",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/eval_test_base/console.command.json": {
+      "size": 945,
+      "sha256": "bac2755dfee6dd41a5ad9df2ab24970524400e242dab4f8035e9e2de9e61e6bb",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/eval_test_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/eval_test_base/console.log": {
+      "size": 14054,
+      "sha256": "dfd9a256cf5583bae2ef3e9142bb0bba0e3c27488daaec97f2b95d7cd2a5d9dd",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/eval_test_base/initialization.json": {
+      "size": 3855,
+      "sha256": "a7d578b3f6fff62f8a325cdce40aea065d3ee4743720a20eb30706b1d3c6bb61",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/eval_test_base/log.txt": {
+      "size": 12813,
+      "sha256": "6568f136a0626adcd9e03afc37358de5faf3c5ebc8c6f8bc3e02c0fbcdd03ad4",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/eval_test_new/config.yaml": {
+      "size": 3776,
+      "sha256": "41f0ad415d9978f7ca98d42fd1ad73f6badb02c2cec35877d854ed09860acf80",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/eval_test_new/console.command.json": {
+      "size": 942,
+      "sha256": "0cbf97bc627d3121c18f3f8687717df4c1b383ce306f707bcbaa953d74f5c792",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/eval_test_new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/eval_test_new/console.log": {
+      "size": 14097,
+      "sha256": "c05c1f0ff8925773b044134d6d2262fd346f4a13823743fe91af1545eda1349a",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/eval_test_new/initialization.json": {
+      "size": 3856,
+      "sha256": "89cbba51eb142e17bdecb85fef8a046ebaf1e763aa2a093b13c37145ed3d36c4",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/eval_test_new/log.txt": {
+      "size": 12856,
+      "sha256": "11a188c744c5097b7bcd3c5ed5e9afb7a1eda8a2d659aeb47659a464841ad1fb",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/eval_val_base/config.yaml": {
+      "size": 3776,
+      "sha256": "9562712954c8f6c66a628d79e9cf5075bb8756c567e409ebda4c757f7d05f7fc",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/eval_val_base/console.command.json": {
+      "size": 942,
+      "sha256": "44f0a6401917663180d277a0cc540399d71bd19f18f8bbdffca473179ad1de15",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/eval_val_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/eval_val_base/console.log": {
+      "size": 14021,
+      "sha256": "3e703f8510c8cd1a20ea3250d5268331218c06530d78baa457ddaaeae692b3cc",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/eval_val_base/initialization.json": {
+      "size": 3856,
+      "sha256": "def694a8483bd148816d7856e6b26b79ecc8e81e026e51817483af1c4e4f171d",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/eval_val_base/log.txt": {
+      "size": 12780,
+      "sha256": "1a75d7282d541c9794bf076d679fafadd21dfc81333393f4d0cb1addafe5f254",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/initialization.json": {
+      "size": 3855,
+      "sha256": "fbc62a54480ad95ac384711555e0e30b8ab954d5b409e63fb798482eb1018829",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/log.txt": {
+      "size": 14709,
+      "sha256": "c61124b7a680909f31176307ce8dfa5775c1fa831dab06a7c4f73c1f67b55e70",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/predictions/test_base/metadata.json": {
+      "size": 2242,
+      "sha256": "11524f0f87b3dc959921a8e6d9a41869f8914593e04f1ca0a1d2814875eadfe2",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/predictions/test_base/predictions.npz": {
+      "size": 45341,
+      "sha256": "6ee7434a08678a6fcc59430ab30ad416a6beb1ddfd1cc8fd17ef08fd676a36ed",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/predictions/test_new/metadata.json": {
+      "size": 2279,
+      "sha256": "a1ebba76e4a23c4de63327d82130f0b116d6ca21fdfde3ed07b545d6a59145f3",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/predictions/test_new/predictions.npz": {
+      "size": 41997,
+      "sha256": "849d852dc2b377c39757f650aaab304b47500d96a090f956916c4ba3dd096100",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/predictions/val_base/metadata.json": {
+      "size": 2217,
+      "sha256": "d26c7ba0dcb5c46f0d5eeb23d2e3935548d395cc3ba77346df77c582c7a970fd",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/predictions/val_base/predictions.npz": {
+      "size": 6723,
+      "sha256": "6ed65df4d50c2881649515448e7db0ae2b6b5682ec1db7b53e21383d767bcc8f",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/reload_probe.npz": {
+      "size": 6046,
+      "sha256": "4fb3e68f9695ada42ada0768cc5e13e8caf3459065c0e234e99f92f6f235fc02",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/run_status.json": {
+      "size": 519,
+      "sha256": "00d532bc5a83be42fd760e831316bb43cd58c30b2168e7189f312f46e20d71fa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/temperature.json": {
+      "size": 23392,
+      "sha256": "e743de4199f363781d72efed09ff72b49384e3758b86eb17f7cf14e7d66183ea",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/tensorboard/events.out.tfevents.1794303249.autodl-container-4f41468bb9-58d83b0c.50585.0": {
+      "size": 68338,
+      "sha256": "afb438a52ad47eb807edf84c6c69459b24bf8f584bca547115ae95cb5840c88f",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/training_resources.json": {
+      "size": 403,
+      "sha256": "073f01022d63749a78644d5f8571607aeb163373ac1a5bff4bfccd198c025439",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/maple/seed3/attempt01/updates.jsonl": {
+      "size": 162775,
+      "sha256": "deb1edca100492fe16c9179cd8f11aa369ca7968bb670aa264230d5dd3e67f0b",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/VLPromptLearner/checkpoint": {
+      "size": 17,
+      "sha256": "39b52e1fe4e3b14f97e01b66f780e0cf0ab5005ccbde5121115a139f1ab250db",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/VLPromptLearner/model.pth.tar-20": {
+      "size": 424324538,
+      "sha256": "7df5aa24a232be574293071d4b2364d3b232bc74c64c36b1f7f1c73b3183f808",
+      "checkpoint": true
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/checkpoint_check.json": {
+      "size": 126,
+      "sha256": "4ed8ff65b73ed6860bb1eddc148742a549d8a582c0a81ca1303370348ad6294f",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/config.yaml": {
+      "size": 3692,
+      "sha256": "64153d9c7333df71453eb6bcf9115d20cb87e27e9ceb55f40e91723764ac931a",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/console.command.json": {
+      "size": 690,
+      "sha256": "dbe81d1b8593228f4aff0c4ace839132da39972e703aad295e723ebd63d1194f",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/console.log": {
+      "size": 29634,
+      "sha256": "54ff758487ea7a96bd4b7131916329ee5dc7f6707b3484fe44f9611e387578eb",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/epochs.jsonl": {
+      "size": 1942,
+      "sha256": "88d2234eb08f97f9e4de11b614dc7cba0739c094b6966b12a540474576c3c884",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/eval_test_base/config.yaml": {
+      "size": 3792,
+      "sha256": "72901393dfcb352ce8e28623d15a944c26c7b651fa3e838de50262a21ed37f9e",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/eval_test_base/console.command.json": {
+      "size": 970,
+      "sha256": "5cccdfbbfabea24f3e217a96ebf024dea208e07b679a3e440f0e32e4198143cd",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/eval_test_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/eval_test_base/console.log": {
+      "size": 14543,
+      "sha256": "164fcd543d3063eb4a72825d1c91acc122b02504c1dcba8d31e46164eb033a72",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/eval_test_base/initialization.json": {
+      "size": 2740,
+      "sha256": "d8ad317bdc90fac9226d1ea374f66c5455619a5dcd2ce0d23e6e5f93e03a1cf8",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/eval_test_base/log.txt": {
+      "size": 13302,
+      "sha256": "ca20396da2b6af0aaeee4fcedba74a85194c050a3ddb4e9729c93a13feee6335",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/eval_test_new/config.yaml": {
+      "size": 3789,
+      "sha256": "0a5295a143772bf87f851fa80635a33303a14eb5a7db7e3f256c92e848fe467c",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/eval_test_new/console.command.json": {
+      "size": 967,
+      "sha256": "00de9dcd24dc812418a482c24e7c5291a00c2431157017090c3eb13a7ed932f8",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/eval_test_new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/eval_test_new/console.log": {
+      "size": 14539,
+      "sha256": "23a8c02329c66a36fc3e620e7c1bc24a452582dac348c145f72fea5d58600c55",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/eval_test_new/initialization.json": {
+      "size": 2740,
+      "sha256": "086a1c4dd7aca1660bbc8d624f74e2e43022f30d22eb6a087e30b871d11e6d1f",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/eval_test_new/log.txt": {
+      "size": 13298,
+      "sha256": "c9700087baab78cab5dcbe23bad023f184b5137fd279a1b8b47412992d6f75ed",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/eval_val_base/config.yaml": {
+      "size": 3789,
+      "sha256": "0158898f1a572d111db22b6262e2e30f6543537a1797893d1963476a3735ee37",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/eval_val_base/console.command.json": {
+      "size": 967,
+      "sha256": "7074b79279cc811b4a3c8e7780e045445ea1797d4d209cc385b9a9283e98e496",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/eval_val_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/eval_val_base/console.log": {
+      "size": 14511,
+      "sha256": "b25c3583891802b3b2a4f715661a3eabfc4a75c827586937ff7f437c6416772f",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/eval_val_base/initialization.json": {
+      "size": 2740,
+      "sha256": "ad885cc6a657074387421bc1251bdeeadfce56397cf61baff8c2a7bf9175baec",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/eval_val_base/log.txt": {
+      "size": 13270,
+      "sha256": "6169e37679dae040e2a89389c7d05c2cd846c93a6f7a7afbacc84b3aefc05e84",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/initialization.json": {
+      "size": 2740,
+      "sha256": "dd63544d400a6fa2bcf6ef00e60ed57e767d866542b3fd6e0b63d6a24bb5d154",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/log.txt": {
+      "size": 28393,
+      "sha256": "6a53ac27c169339256a8f66fe50686f5dda30feeee7de2a6c477e56b957fc87d",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/predictions/test_base/metadata.json": {
+      "size": 2281,
+      "sha256": "32347b8459f4750c90bf11fe70c6297b5dac8d4fa00b255260e3222fce89d8f9",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/predictions/test_base/predictions.npz": {
+      "size": 42841,
+      "sha256": "06540b23c23ec43fe0ac2015d91635403c69e290637749a010c56027e3b350d0",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/predictions/test_new/metadata.json": {
+      "size": 2268,
+      "sha256": "1dce843642028f2f7e68316365e92df5bf349ae7424a4d8fffecca76b66151e8",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/predictions/test_new/predictions.npz": {
+      "size": 39776,
+      "sha256": "09441371c529b96c20aa382605223023c8634fb401fb0c83f94e1f07819fab0f",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/predictions/val_base/metadata.json": {
+      "size": 2255,
+      "sha256": "455f73a2ef679d1458d72755bf84566b1e63ead44cfd49b889b6d68ee2111e9c",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/predictions/val_base/predictions.npz": {
+      "size": 6422,
+      "sha256": "e36becde78d6a4598879fa0d83afe6e5d4fb446eb83c260aaa189d9c7006debf",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/reload_probe.npz": {
+      "size": 5745,
+      "sha256": "554213840bb25935ce3313646daab4fb1267d5b6c7b090a300ac51b460126597",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/run_status.json": {
+      "size": 527,
+      "sha256": "bfadb26bb9f23732a16fa42b592f967bd50485e5ff6aed64d789261ff8196854",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/temperature.json": {
+      "size": 23413,
+      "sha256": "9df7a086ac8d45a9d3cf3ef64e0607fd6745b3b16850c0a373a5caecd3f62d9d",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/tensorboard/events.out.tfevents.1794301786.autodl-container-4f41468bb9-58d83b0c.20378.0": {
+      "size": 561868,
+      "sha256": "97f6d8cc3e4b65753b226526d1d3b73a0666ef8fc0c43644f5c59bf5165f5ebe",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/training_resources.json": {
+      "size": 396,
+      "sha256": "de61b615acb2da77f75bbf71428d92ad0fcfc0a7462d24d4d34fffdd24fe9867",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed1/attempt01/updates.jsonl": {
+      "size": 825616,
+      "sha256": "70ba8bdb8e7f7691e79ac956e8504f934b2f7ad2045a9e65fefe9d28c7532e3f",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/VLPromptLearner/checkpoint": {
+      "size": 17,
+      "sha256": "39b52e1fe4e3b14f97e01b66f780e0cf0ab5005ccbde5121115a139f1ab250db",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/VLPromptLearner/model.pth.tar-20": {
+      "size": 424324538,
+      "sha256": "505417c7eae37e41613f0925f12ecd17c3cbf984246a47304bd9f68457d6ba5f",
+      "checkpoint": true
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/checkpoint_check.json": {
+      "size": 126,
+      "sha256": "4ed8ff65b73ed6860bb1eddc148742a549d8a582c0a81ca1303370348ad6294f",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/config.yaml": {
+      "size": 3692,
+      "sha256": "323cb13de29b848788d0a9784a938fcccd6876778b73e76fe948e02d0ce41a78",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/console.command.json": {
+      "size": 690,
+      "sha256": "69ca0332da6dd7ead91b738cf56ddb0e726b3e4e65839f8f26b21a9c747fe9b3",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/console.log": {
+      "size": 29634,
+      "sha256": "91ebbd41c838812b6bd6a8d4dd95279405e9f1de993d31fbf52c1d2cfaec86b0",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/epochs.jsonl": {
+      "size": 1938,
+      "sha256": "db4e3cd18afdf3fad0a54189b2b59f75c6aba878a29479d067b4e070263e54e2",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/eval_test_base/config.yaml": {
+      "size": 3792,
+      "sha256": "bdb8a847dcf559d6fe7a00f05772a8f20850e0233ea2edb9b0df0775473fe75e",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/eval_test_base/console.command.json": {
+      "size": 970,
+      "sha256": "62b067a03bf32e6bb048a1e2f4b6a85640a8dd699092c7aea82ce6e67dd4affe",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/eval_test_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/eval_test_base/console.log": {
+      "size": 14542,
+      "sha256": "f44fe59ae3b31667191d3881e63a0778bde73a222641bfee2073471fc2b89945",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/eval_test_base/initialization.json": {
+      "size": 2740,
+      "sha256": "6e66184462faac1c9147ef10f019d3f9ba01dc2cdb074f27a6670d7e98360e65",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/eval_test_base/log.txt": {
+      "size": 13301,
+      "sha256": "2ad78e924fa52380cf8a91789ef2d4031aac2f57f1e19770a3e071a4701f75f1",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/eval_test_new/config.yaml": {
+      "size": 3789,
+      "sha256": "34c68f6cba86fde774ff7052be82924dde5070652accfbbad1815e18f1ca0482",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/eval_test_new/console.command.json": {
+      "size": 967,
+      "sha256": "132c6b2620e2f2e2d4e39034c447cb2e30e99789af818d16d7662f7f34255e33",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/eval_test_new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/eval_test_new/console.log": {
+      "size": 14564,
+      "sha256": "cda1138e1ec84a8c4179d5aa74455bd3a72808f5ac6bf2dcc94c456a30f61e28",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/eval_test_new/initialization.json": {
+      "size": 2739,
+      "sha256": "a73c29d422d989520635892b48d9ff2be1bed09aa8b86c3597411fb8db33bee5",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/eval_test_new/log.txt": {
+      "size": 13323,
+      "sha256": "bbb63bc58760096e718355c96ed5176f70ec6f3c25cd3290ee7cb0d5db28e253",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/eval_val_base/config.yaml": {
+      "size": 3789,
+      "sha256": "2048730ac15ddbc7f4b72390075ac0c829a4c2c3d58e15ba21affe54eb8d1628",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/eval_val_base/console.command.json": {
+      "size": 967,
+      "sha256": "611fd0a632241c14fb86614467ce17dbc8e0c312e73e7785c668b3bcdfa4fa07",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/eval_val_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/eval_val_base/console.log": {
+      "size": 14456,
+      "sha256": "7b6a328d4780b271d345bff83fa957377698d6ff22aff566667faa48b3faf763",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/eval_val_base/initialization.json": {
+      "size": 2740,
+      "sha256": "c2c332474d651a17a1da6aa00febd2fb694a2d56df291b84ecf047223b1f079b",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/eval_val_base/log.txt": {
+      "size": 13215,
+      "sha256": "5940f4671128ebf646bf2c33d3d809657defe04bd3c353f9182f0b463b331912",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/initialization.json": {
+      "size": 2739,
+      "sha256": "fd89bc19ab69e47972b0d0f2661032d370b9a82bb87b63693607380396390176",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/log.txt": {
+      "size": 28393,
+      "sha256": "0bfa597d246726d3122f0be32a224b3614c96b540ae3d0f7b11bd6865ac92466",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/predictions/test_base/metadata.json": {
+      "size": 2279,
+      "sha256": "ba5d32afe32414af742aee9ae375b64b9b4ef7c5d38c80c69e23dfcb0fa07e63",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/predictions/test_base/predictions.npz": {
+      "size": 42699,
+      "sha256": "289272137b8c3a239c9ab419f6ae2cb46d6bcd88827df30c41079bc491f07f58",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/predictions/test_new/metadata.json": {
+      "size": 2290,
+      "sha256": "e3bda8392326e42c08b93572ded6079c275d0cffb19af98de4e7d4826dd0f836",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/predictions/test_new/predictions.npz": {
+      "size": 39742,
+      "sha256": "0d9a5d891bfab2a94a0c3ba80ccc2a8a7eb596e1942935620c3ef556f9d7fb5a",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/predictions/val_base/metadata.json": {
+      "size": 2189,
+      "sha256": "415e689a224726756bc7caf75d3d97fe8f412f05c070c4e865a75c7edc1d4184",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/predictions/val_base/predictions.npz": {
+      "size": 6369,
+      "sha256": "b39b9e7813e29233836f9629c9964702ff4298c5491662bd53811bc5de953813",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/reload_probe.npz": {
+      "size": 5692,
+      "sha256": "7fe332c26f63b6c932c6fe0fecad2315fad08f3344ac2177628e9cf74abde1fb",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/run_status.json": {
+      "size": 527,
+      "sha256": "11ac1228bfdd4f4de0b6d0251c4aa9abd2dc20a769862e96c445978bbc5e8bef",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/temperature.json": {
+      "size": 23442,
+      "sha256": "dc1e1db09e2d8ec6ecbc9397969d930888ce89559502c5251e763e6086a51f7a",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/tensorboard/events.out.tfevents.1794302598.autodl-container-4f41468bb9-58d83b0c.38262.0": {
+      "size": 561868,
+      "sha256": "fba8d20030fdfa34c7d5514b1d1566445416119c86d89066c725321aadae0b8d",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/training_resources.json": {
+      "size": 395,
+      "sha256": "9fdd43277f01cfa28c614a5035422eca0e165654118795cc27bdc6b92ecd0656",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed2/attempt01/updates.jsonl": {
+      "size": 825706,
+      "sha256": "ff2be9c4cf5a3cbc47c2013579ba35b0803b1d2ace761e968f4258f5a7253491",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/VLPromptLearner/checkpoint": {
+      "size": 17,
+      "sha256": "39b52e1fe4e3b14f97e01b66f780e0cf0ab5005ccbde5121115a139f1ab250db",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/VLPromptLearner/model.pth.tar-20": {
+      "size": 424324538,
+      "sha256": "f621e3b246a9a5a1b4e0d593ebb6097c8dc9b5d2650565aae34431c90e0b0b1a",
+      "checkpoint": true
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/checkpoint_check.json": {
+      "size": 126,
+      "sha256": "4ed8ff65b73ed6860bb1eddc148742a549d8a582c0a81ca1303370348ad6294f",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/config.yaml": {
+      "size": 3692,
+      "sha256": "4092b2112dc1fdbd463df8051d8c2483e04c515d5b9a357851680582bf74e0da",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/console.command.json": {
+      "size": 690,
+      "sha256": "c78af6c7a1975e0fcb2f61a9fcacaabdc4467e9b6ce455f46969af29d8240127",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/console.log": {
+      "size": 29634,
+      "sha256": "1ac9ee7a343007e253dc8deccad28379f6b4bb91dde53a0e965c4e925889c0a0",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/epochs.jsonl": {
+      "size": 1934,
+      "sha256": "85c7c11d860e725868ffef3b7869a80b3212717823b6cff552a227293eff7c25",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/eval_test_base/config.yaml": {
+      "size": 3792,
+      "sha256": "f5aa56322dd0a3318b59368dc5a164cca03f0094b30c079750857a7ce9811b47",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/eval_test_base/console.command.json": {
+      "size": 970,
+      "sha256": "6487a66e031bf27ad6285accfd1904d1bd3973349bb59718de767e1371bd53cf",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/eval_test_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/eval_test_base/console.log": {
+      "size": 14543,
+      "sha256": "4efebcbc91f4e8c790ab2bb081a6c42fd88f409c14fb7e4319f1c68737516efd",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/eval_test_base/initialization.json": {
+      "size": 2740,
+      "sha256": "466ae4be0faff4357ce45098dfca6f3abb2e03ea1f747fbfcde0cd1b9f7729a3",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/eval_test_base/log.txt": {
+      "size": 13302,
+      "sha256": "4c14c3159c95ac0d8a55decaae34234e2ae2609235c8cbbb87b8310f1ef3bbaf",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/eval_test_new/config.yaml": {
+      "size": 3789,
+      "sha256": "2d0a3ba74368c94acf46618130db2a70aafb0b3499a0347ec56daf1b2f2b1e0c",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/eval_test_new/console.command.json": {
+      "size": 967,
+      "sha256": "938bc43d72b76a8b70c39305a2f13aad5688b79ecbf89c54b57cf591020569b3",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/eval_test_new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/eval_test_new/console.log": {
+      "size": 14519,
+      "sha256": "d0499c81157429278822d172de66c2caeed48f9fa389ffa7edb24de60984f90a",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/eval_test_new/initialization.json": {
+      "size": 2740,
+      "sha256": "d7a5dd6b264f97dbbe0d350910e7e5a638a9594d3e75afe3534ebd44a5651f68",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/eval_test_new/log.txt": {
+      "size": 13278,
+      "sha256": "c0981fda62e61d10aa6733b11406b7c2401920972e7aa5afe5be741e413fb650",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/eval_val_base/config.yaml": {
+      "size": 3789,
+      "sha256": "e2685540000c0897f60771b1617350de3f11793a420688e873be75c206d6769c",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/eval_val_base/console.command.json": {
+      "size": 967,
+      "sha256": "40c81558193dba48033804c61c4cce09ef7b4a51b02b4ffc4696660f00de311b",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/eval_val_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/eval_val_base/console.log": {
+      "size": 14493,
+      "sha256": "3c55e17826a8baeb958d45e2719e4293e7175f0758a245067733e9cb6d78def6",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/eval_val_base/initialization.json": {
+      "size": 2740,
+      "sha256": "19b824fa0702a7f155261488737f87b973953d23299c57fcc4a1514af15a7bbe",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/eval_val_base/log.txt": {
+      "size": 13252,
+      "sha256": "d46fae4c941e378e45be38ed5f5a0549fc1a9d1cf7e132677aacd6ec2bf02acb",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/initialization.json": {
+      "size": 2740,
+      "sha256": "ce8fd34e0582daa35aafa8847c6b2b23e90890f756d1bf22d68b3564e4a7862c",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/log.txt": {
+      "size": 28393,
+      "sha256": "5f3ada584aad577c5b0e8819758471e6626e27e64170a56679e2266bef922d9d",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/predictions/test_base/metadata.json": {
+      "size": 2280,
+      "sha256": "3fcd54e3c99279be02886f966876453717bf595b690d34bae8568877027096ef",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/predictions/test_base/predictions.npz": {
+      "size": 42722,
+      "sha256": "526b351c300a2e7b70bcc02f260dada80d7a31e82c0d31c9f0661d72f5b09dcb",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/predictions/test_new/metadata.json": {
+      "size": 2247,
+      "sha256": "03c4eb07cafc97bd38c45e99704469a33a1534750c9ab2487a1460eb9aced857",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/predictions/test_new/predictions.npz": {
+      "size": 39789,
+      "sha256": "b75b60358076268dd685833f76235afdd74bbbaa03f4b0df3b163d62417ce4b5",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/predictions/val_base/metadata.json": {
+      "size": 2237,
+      "sha256": "3fc557b46ce82b4ff87b7b29d5335d09f13e3a9943a654277d5280308e221ba8",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/predictions/val_base/predictions.npz": {
+      "size": 6406,
+      "sha256": "ef0aee6bcd56ae8a947d8fb2fe62f91999692530160bc04176cc6f298ebb8044",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/reload_probe.npz": {
+      "size": 5729,
+      "sha256": "9a5a6b61599a7e0ff574d2e7b8f9459881efaed3b5e92dfd52b2309a2a8395bd",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/run_status.json": {
+      "size": 527,
+      "sha256": "58c9459491945d1bdbf52a91a093562c61443041113eb09338ebd85c27658608",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/temperature.json": {
+      "size": 23382,
+      "sha256": "0ab727f890b07c9861e3826f032da98a4dcc3381ac2c5d87916e544bb86d6295",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/tensorboard/events.out.tfevents.1794303408.autodl-container-4f41468bb9-58d83b0c.56127.0": {
+      "size": 561868,
+      "sha256": "01df6150a247b988bfe2fbc70dd3daf5e10e8e0d2a3635f889cd53fc3f1012cb",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/training_resources.json": {
+      "size": 396,
+      "sha256": "ba68079ae822645d6a48cbf067597e6e09684adedff7b8aa0a8ed8fcd5dc7a31",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/promptsrc/seed3/attempt01/updates.jsonl": {
+      "size": 825400,
+      "sha256": "ffab6c6b7280dee238211e0846e4c074c2bfa62471b8eec721cc66d53a887a99",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/MultiModalPromptLearner/checkpoint": {
+      "size": 16,
+      "sha256": "cfa9c864ad9357fc4166128d835e2c8fce88f8b17149311129a71aa31ba5fff2",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/MultiModalPromptLearner/model.pth.tar-5": {
+      "size": 278039098,
+      "sha256": "bb42447ad8daccd6619040b8ecb3ad2a80142aa878f41eca2d921607de957558",
+      "checkpoint": true
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/checkpoint_check.json": {
+      "size": 134,
+      "sha256": "2420f6c74fbbe1d8de3dd7bfb87afde596861ab8f4a20e4385305b440fcfffec",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/config.yaml": {
+      "size": 3681,
+      "sha256": "6c37dbd65c622ebc8d9aa545342b122b784dc8778a9c008599c9f8242562b9ab",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/console.command.json": {
+      "size": 672,
+      "sha256": "dd9039bcbbec54d91495fb4d56c2c54f22aa0ce07e5b4283d7fb5bcd5cda0636",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/console.log": {
+      "size": 16901,
+      "sha256": "0a1299d96306a91958b3bf1c77d97e8e68b475ea4fe9833bb13252ce7b6c181b",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/epochs.jsonl": {
+      "size": 485,
+      "sha256": "cc055c55e51d3fe1d253b80f6cd83a905a2a3289f28af0345bdbc1476c524e83",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/eval_test_base/config.yaml": {
+      "size": 3776,
+      "sha256": "68ce85c3072071af53c581f9950de821a369d24ac34b57393f1617e59c81dedb",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/eval_test_base/console.command.json": {
+      "size": 941,
+      "sha256": "82e4fbf3a9aec649b840e09851658ab729f7678c10f48f33d6418416fcf40bac",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/eval_test_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/eval_test_base/console.log": {
+      "size": 14080,
+      "sha256": "7b77204f89c5a21dd649883ebbbdc0da40deb976f7ff82b89f11bf28c656c717",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/eval_test_base/initialization.json": {
+      "size": 4537,
+      "sha256": "7bde42adc0c6e42bc243de0f716b79af78723d55872efc6a0c79f1dbbb8c3d3b",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/eval_test_base/log.txt": {
+      "size": 12839,
+      "sha256": "cb9d3a14b87338ce75b63035c661ddc419e91f719be6a0469cb79d6f9edddb24",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/eval_test_new/config.yaml": {
+      "size": 3773,
+      "sha256": "d9bddda902ac3a57cd1ee7325bdfc615ce578d09d06ed2db702b60e42039313b",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/eval_test_new/console.command.json": {
+      "size": 938,
+      "sha256": "9d712b8c70688bf5a5231c2c9d8f16a90031f76959870000880d4f07f7e74904",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/eval_test_new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/eval_test_new/console.log": {
+      "size": 14081,
+      "sha256": "e704efa99cecda88d905f9eb068289ee66f60510b933d20a2199bbbc36a46545",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/eval_test_new/initialization.json": {
+      "size": 4520,
+      "sha256": "4b8c7f30b91ed9fc1770da362c1dc2024dca3962f11b53a657265ac825907874",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/eval_test_new/log.txt": {
+      "size": 12840,
+      "sha256": "3e321e682def32b0ffd26e3e8be143f8c07b66d1b35c7b603cdb5ba06f27f6ef",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/eval_val_base/config.yaml": {
+      "size": 3773,
+      "sha256": "66d68ed380422a3c1e18a2168cd43e4f4041e1dd0c36da94946b28ca268e55a2",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/eval_val_base/console.command.json": {
+      "size": 938,
+      "sha256": "6cb6f826d0a7a7f9be838120ef6ae93437d93b178705e88a9913a1070cb92a67",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/eval_val_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/eval_val_base/console.log": {
+      "size": 14011,
+      "sha256": "b2f36c4b34ac20476ab607db51c7cf696f68f6cbf13653d7bd7ae7e008cf8ea7",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/eval_val_base/initialization.json": {
+      "size": 4536,
+      "sha256": "098a6ab0900e447eae2ac6c6c81a2083d462b2ade0b8815616b2f3db9d695ed6",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/eval_val_base/log.txt": {
+      "size": 12770,
+      "sha256": "5ef8c544b606b7075ab47d91ff625f044fd63b767f53ef2cf786ee0344a53234",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/initialization.json": {
+      "size": 4538,
+      "sha256": "26b6b9b4f22b344c44daf92dd926fa7db919f406dc875e3c2c40a09c01bef916",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/log.txt": {
+      "size": 15660,
+      "sha256": "41d84da755e9a2962fec8b20ab73f3fccbb5408d0dc0a3557ded484752a6182f",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/predictions/test_base/metadata.json": {
+      "size": 2275,
+      "sha256": "d739ff39e4e782579d77b0c785c3ded9e36e994b143e631fde13a9ef1d235dc2",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/predictions/test_base/predictions.npz": {
+      "size": 43447,
+      "sha256": "e70a28ad99faf13dbf9c8a424da86927e7863d475984ee003dc8bdf70b87fa41",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/predictions/test_new/metadata.json": {
+      "size": 2267,
+      "sha256": "57323f52953b3d18599a4ccf587eb991276617414747ae07b22c621487e34515",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/predictions/test_new/predictions.npz": {
+      "size": 40622,
+      "sha256": "fc108d6a7da6d486e2ed4680963abf9437cc0bbb6b1768559aa0f7e8f2b36d55",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/predictions/val_base/metadata.json": {
+      "size": 2213,
+      "sha256": "67913090316df2345f049f33b2102a46eff9542cbc73255056ce4e78352e519b",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/predictions/val_base/predictions.npz": {
+      "size": 6506,
+      "sha256": "e765e84113a13da9fa438d35ad76c399bc8410e4e3fddedb85ac87d7475701b5",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/reload_probe.npz": {
+      "size": 5829,
+      "sha256": "80f30b751b1d63fb57120901b0466583f950f0d03cedd73e70909b9d10f48aa0",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/run_status.json": {
+      "size": 517,
+      "sha256": "5bec8f049e1515dd0f83c62c1dfb95fd17b1016f3f837906de2898b1b403f55f",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/temperature.json": {
+      "size": 23384,
+      "sha256": "f0bf44b2346b5e056d8016090740b1914109bb54fb6107dd289316e18b8e2478",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/tensorboard/events.out.tfevents.1794301700.autodl-container-4f41468bb9-58d83b0c.17602.0": {
+      "size": 117038,
+      "sha256": "69e9e1181cc08f22612c290599fa3bc9d9ccf792eb6c337e45c4e3acbcbe0a79",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/training_resources.json": {
+      "size": 403,
+      "sha256": "5788f631c95a141fd17d6b22b39ee1839e3c1e0013fabd0e3776e42815299768",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed1/attempt01/updates.jsonl": {
+      "size": 195837,
+      "sha256": "c8b91cfb5cb2695046211e106cee00e876a5161599d48e3fc32e83ff493e65f1",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/MultiModalPromptLearner/checkpoint": {
+      "size": 16,
+      "sha256": "cfa9c864ad9357fc4166128d835e2c8fce88f8b17149311129a71aa31ba5fff2",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/MultiModalPromptLearner/model.pth.tar-5": {
+      "size": 278039098,
+      "sha256": "63d21caab144b403aa0cc84c8bacfbc996df65cb95882ae9b8e58bd4a4114bdb",
+      "checkpoint": true
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/checkpoint_check.json": {
+      "size": 134,
+      "sha256": "2420f6c74fbbe1d8de3dd7bfb87afde596861ab8f4a20e4385305b440fcfffec",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/config.yaml": {
+      "size": 3681,
+      "sha256": "c7d77bfb2ee66361ed2727fc1466d8ffc89b2c84039f74b2a6db3ed40df1882f",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/console.command.json": {
+      "size": 672,
+      "sha256": "8805a01304fbcbf99d24331e5b6082015f2e9a60879717843026494ce8e3fd42",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/console.log": {
+      "size": 16905,
+      "sha256": "2b6207fc92b14d83a0d5efff08fb17b8ae3dccf0903f3f1a01ea2b2f3b3412f1",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/epochs.jsonl": {
+      "size": 486,
+      "sha256": "8c4827665c0bbce0e3cca0776cfed3c34a98ad33a9e6f36e2a8da34445dedcd2",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/eval_test_base/config.yaml": {
+      "size": 3776,
+      "sha256": "1a79d97131e82f9114bf271839d4016909e1fa1446251d326fc3f9278f64af39",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/eval_test_base/console.command.json": {
+      "size": 941,
+      "sha256": "49b0e1438a8d7dcf41299a80bc005914d8f9fe0f8c09a555d1743c24cc8933a6",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/eval_test_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/eval_test_base/console.log": {
+      "size": 14064,
+      "sha256": "0297afd4b63e51f4244c70fbd67818f71a1e46bd3af18bbec79195faa5d586f9",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/eval_test_base/initialization.json": {
+      "size": 4537,
+      "sha256": "bea2f756f1c24e859b3f5b882836bc0ea6d4928aebb4983f40bf8be0b1ad9192",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/eval_test_base/log.txt": {
+      "size": 12823,
+      "sha256": "78015ab2745d22910c99e55ea97844d71d2be7b29024f8af5ea8ffbcfde6a841",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/eval_test_new/config.yaml": {
+      "size": 3773,
+      "sha256": "90cc7bb551b67fe617985c43c8790987c806222a0714de970964d10c39f2eb5f",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/eval_test_new/console.command.json": {
+      "size": 938,
+      "sha256": "18a02a5ad2df7e17a499e45146778a62a3b4b8227ceb3e6e579fdf367f2fad7e",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/eval_test_new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/eval_test_new/console.log": {
+      "size": 14083,
+      "sha256": "58b3241f5881e2eeaf48d886188ac52a740dfccdc7a8eb95668f2a559397b45b",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/eval_test_new/initialization.json": {
+      "size": 4522,
+      "sha256": "313b0dd798d41cdc7463295b162c0652055f995a541c054695490260fd99ed66",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/eval_test_new/log.txt": {
+      "size": 12842,
+      "sha256": "5016b6d7a4c2bbabb977faaeb2f84966a05a88e8cc62b8c318dcb0a1768ff11b",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/eval_val_base/config.yaml": {
+      "size": 3773,
+      "sha256": "66b380da7b04c3fbfa69eff9413fc5ed63a4ab0cef188e44534843a3795e3d94",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/eval_val_base/console.command.json": {
+      "size": 938,
+      "sha256": "f454b5974f6d9012d42cf7b2a8b63db8b297aff2ddfa406850765b2add581eda",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/eval_val_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/eval_val_base/console.log": {
+      "size": 13984,
+      "sha256": "5c7405f5d2a62bfa454aba7fc6aebc26f6d5d8d64c49b9abf0330797eead2a6f",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/eval_val_base/initialization.json": {
+      "size": 4537,
+      "sha256": "5ae646d9faa569442fea815444ba2812bc5319a7c0bd0d865c18b340f05c829a",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/eval_val_base/log.txt": {
+      "size": 12743,
+      "sha256": "2d5b7ef35bb20ff482c93e53404851631c81c6c4f9e7742923e2ceb8dbd3e605",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/initialization.json": {
+      "size": 4537,
+      "sha256": "a0df56c7d83ba155c522f10797aaef6fed7388fcb79b9bb6a43b6b78117197e9",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/log.txt": {
+      "size": 15664,
+      "sha256": "2e713c4a6a3afca96be41c881c65c9eec210831a7ea071dbd12377253f9c270d",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/predictions/test_base/metadata.json": {
+      "size": 2260,
+      "sha256": "136a9f911a62219f4a3d7b86355d05299777c17d92c7131947995fea77777885",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/predictions/test_base/predictions.npz": {
+      "size": 43206,
+      "sha256": "0173174e5290e5cc28b31520da6757e6aadb0943e8179d7041c10973468ed360",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/predictions/test_new/metadata.json": {
+      "size": 2270,
+      "sha256": "7ccf99ad2385c475ae1e62d2b76fb24ced1015ffb0cb2700d393c8c2e50d620f",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/predictions/test_new/predictions.npz": {
+      "size": 40262,
+      "sha256": "2e928354563baae79f568f8a96a40fb0398bde2ce8709af124e91fe3318ac1df",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/predictions/val_base/metadata.json": {
+      "size": 2185,
+      "sha256": "ad438c729d3bf7cb42115528a096591c4dd88f6161e37b078228ca809dd0efea",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/predictions/val_base/predictions.npz": {
+      "size": 6456,
+      "sha256": "ef248e001d4731f995bc115378589fb9cac8455800c5ad43ad1088a1dc4c35d7",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/reload_probe.npz": {
+      "size": 5779,
+      "sha256": "4a552eef5f36dffcd509aa063920ef97b73721cb0e2981e899d23286cdf74673",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/run_status.json": {
+      "size": 517,
+      "sha256": "d03f899cedebac95d3949ab4deb0e6d161ec9db87a568189ffca1e332a129c24",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/temperature.json": {
+      "size": 23379,
+      "sha256": "b81bdc5ef5af911bbfe8b3e72d375dbcb51d81dc8c7fd0e2afeffc9ec2deabb3",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/tensorboard/events.out.tfevents.1794302512.autodl-container-4f41468bb9-58d83b0c.35483.0": {
+      "size": 117038,
+      "sha256": "7bfcfed51c52854e21e7bf7f8278e8060146cd331f648bff41f2fb7f1a5bdcff",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/training_resources.json": {
+      "size": 404,
+      "sha256": "6a9fa626d85c59fb92c600a932ffd448cf9bf7ee2decd52b9377691930403360",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed2/attempt01/updates.jsonl": {
+      "size": 195967,
+      "sha256": "95a7ef6957f50f15eab8c6243d6bf90474823118592a351e4d98dbd615123c24",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/MultiModalPromptLearner/checkpoint": {
+      "size": 16,
+      "sha256": "cfa9c864ad9357fc4166128d835e2c8fce88f8b17149311129a71aa31ba5fff2",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/MultiModalPromptLearner/model.pth.tar-5": {
+      "size": 278039098,
+      "sha256": "e3019e860dd3ce600bf630837044975d9c871b7e560e4eb4bd19de12b71b2397",
+      "checkpoint": true
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/checkpoint_check.json": {
+      "size": 134,
+      "sha256": "2420f6c74fbbe1d8de3dd7bfb87afde596861ab8f4a20e4385305b440fcfffec",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/config.yaml": {
+      "size": 3681,
+      "sha256": "cbb72d74d97b776232eb0f0d982270cb234ea532908d2418565f5eb0f59de994",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/console.command.json": {
+      "size": 672,
+      "sha256": "d735741810f8af614e70a374ce2811846411c4d281303c432016e6dd7549fcbf",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/console.log": {
+      "size": 16896,
+      "sha256": "57d1ad533108bf2ddd9b4d7f0896a9e2dcf0b6e6f6cdb8ce10ca9b450a9ab594",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/epochs.jsonl": {
+      "size": 486,
+      "sha256": "5652a5d2e204fb849da69fc5bfdc92e48c889183f7aa347f1617eda26cac3052",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/eval_test_base/config.yaml": {
+      "size": 3776,
+      "sha256": "2956e6bd59823df9f866a590fd053cf96f7fc57ce952d670367cffc4e01335f1",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/eval_test_base/console.command.json": {
+      "size": 941,
+      "sha256": "c52a7cb25a6abb68f73bdb8b78502d78d1ec715dce14e118938c8b3b2c524539",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/eval_test_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/eval_test_base/console.log": {
+      "size": 14093,
+      "sha256": "49dc47099a488a53b5dfaa044b4b69fff2826582de35897240ac386d72a0285e",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/eval_test_base/initialization.json": {
+      "size": 4538,
+      "sha256": "6191d92857d05af1e323e92d1a1ee96202e1cec4cd5065b6d21e7a1505ca8460",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/eval_test_base/log.txt": {
+      "size": 12852,
+      "sha256": "a97c74d6c97315b7b70c3d4a3be04224a09294f1fbdac7346ebfda5fdd1219c8",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/eval_test_new/config.yaml": {
+      "size": 3773,
+      "sha256": "71f43bdff25cbbbd27b6a328086c10a97abb0131bf81a62b8135cc4591005a10",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/eval_test_new/console.command.json": {
+      "size": 938,
+      "sha256": "20d92f4d096f86485ee53088f08e7625e2bc44e0dfc1de2dbe97c619f3183567",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/eval_test_new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/eval_test_new/console.log": {
+      "size": 14102,
+      "sha256": "2bf0b64c2f808868c01ae36ba8c7f031656a883cbb8568cf82f4a8cb4d92f3e1",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/eval_test_new/initialization.json": {
+      "size": 4522,
+      "sha256": "e485c6e6ebc2cf7572971babb8f4c9c405c2807810d9ce29a27a4fb9665c8be1",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/eval_test_new/log.txt": {
+      "size": 12861,
+      "sha256": "6a11c882f236497ce24dc57f3e88e323782f4ac664d27557b71b39fbc6533eac",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/eval_val_base/config.yaml": {
+      "size": 3773,
+      "sha256": "6cb790f1413256f5024559980a2fb95cba98907087df8fb454bf351fa37a8505",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/eval_val_base/console.command.json": {
+      "size": 938,
+      "sha256": "6be137a173449b6a6f999ffdb2119506d1e3d9a4721a373763141ac4b75b16f2",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/eval_val_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/eval_val_base/console.log": {
+      "size": 14000,
+      "sha256": "63b4e8b109202dded7ea2c9af96ed27f9cd31bf2878f1b66a5e8f2c303b04dd1",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/eval_val_base/initialization.json": {
+      "size": 4538,
+      "sha256": "5a301815a12a50abb3eedeab6c153ab25b46e479760eaa6841f503f57ecf56af",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/eval_val_base/log.txt": {
+      "size": 12759,
+      "sha256": "e15b80a6a4174f21d50056a4df7f6d8a7b9a427d7f45b88b26e2d54ede247c54",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/initialization.json": {
+      "size": 4538,
+      "sha256": "f94b3fdfec189c1eb32a66df306be77f902b552a075c202b3dc22c599ab64576",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/log.txt": {
+      "size": 15655,
+      "sha256": "fc3e614d99eaf72f0e8b048207317ec2ef5ffd1a4440368730ef70972ee618cf",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/predictions/test_base/metadata.json": {
+      "size": 2288,
+      "sha256": "2bd2d46385690db6ec0e6f9f970be17ad26bf9cabe01e5702d9c9149e7962a74",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/predictions/test_base/predictions.npz": {
+      "size": 43100,
+      "sha256": "7a0e91aa82e08add0825a0038f032a8e3f936d5cfafa89995302d00697052a80",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/predictions/test_new/metadata.json": {
+      "size": 2288,
+      "sha256": "2ebce4843ce9d6f669d66bcecd9b86d0a44b4b5d81f17f2f2a6ed839b8f7032a",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/predictions/test_new/predictions.npz": {
+      "size": 40325,
+      "sha256": "15a3a7b86b34b13ade3db888b86c2b72a4a3a924d0c060c9efa9347a07fce103",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/predictions/val_base/metadata.json": {
+      "size": 2201,
+      "sha256": "11b58a6ca7905d249533e65f0c79220353f6239d27c7ffba7688a6211ae3a3c0",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/predictions/val_base/predictions.npz": {
+      "size": 6478,
+      "sha256": "1e6a1054255a6a514065fd25cc281a4ff384e2d24daf8954e0640eed6029ca57",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/reload_probe.npz": {
+      "size": 5801,
+      "sha256": "39a53cc1cd5d377556ed7243f92a586831a80bbc2ec5aba1a43faa92bca61f69",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/run_status.json": {
+      "size": 517,
+      "sha256": "187b8073bd9cd6e35c38338427c438b72f270fc4c7696d08a62524ea029a6d08",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/temperature.json": {
+      "size": 23451,
+      "sha256": "167f932dcb6c6a1c04ad2b07c5d334118b57209026a72ac8193b255c206a6230",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/tensorboard/events.out.tfevents.1794303323.autodl-container-4f41468bb9-58d83b0c.53353.0": {
+      "size": 117038,
+      "sha256": "09452aead7489976bab5bfce8bee7cc6399998b6b5c11cb4b04e22c6445d0959",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/training_resources.json": {
+      "size": 403,
+      "sha256": "dc7470a01c0e0c19f11934eb38cac1471c004e5611ce01e2f9654c4082d82dc2",
+      "checkpoint": false
+    },
+    "outputs/B/dtd/tcpt/seed3/attempt01/updates.jsonl": {
+      "size": 195827,
+      "sha256": "aa30274415715ccbc21456d95ccc417a0be30d975a548b10db6713d83557867e",
+      "checkpoint": false
+    },
+    "outputs/B/figures/new_calibration_raw_vs_temperature.pdf": {
+      "size": 16786,
+      "sha256": "3c50b83d5a62d71d70a814c67495ad68ca25461dc64d7451618b1fb2d962d82e",
+      "checkpoint": false
+    },
+    "outputs/B/figures/new_calibration_raw_vs_temperature.png": {
+      "size": 111350,
+      "sha256": "97418ab4fb69555f827f48b7d015f88ddec809b7ed0bc5e4767e55a03170f2f0",
+      "checkpoint": false
+    },
+    "outputs/B/figures/recognition_base_new_h.pdf": {
+      "size": 16164,
+      "sha256": "69d3a30aaa6ba3da998fa8e017d7cc78b0312a63dba3c44324e8a0d04c9789a7",
+      "checkpoint": false
+    },
+    "outputs/B/figures/recognition_base_new_h.png": {
+      "size": 111073,
+      "sha256": "138deeea1d53a6a9fc2e1b4267382747e64ba0df863cdbb585f3fcf5d8106c72",
+      "checkpoint": false
+    },
+    "outputs/B/figures/reliability_seed1_raw.pdf": {
+      "size": 26695,
+      "sha256": "2c0da966039e589337598163dc67ca3b07c5864a18cde6cb4beb3a0eff40e2a4",
+      "checkpoint": false
+    },
+    "outputs/B/figures/reliability_seed1_raw.png": {
+      "size": 310936,
+      "sha256": "f042b0261c61e776b3c364ae9849f04665c6dc86f46a45de40e522d8289d8862",
+      "checkpoint": false
+    },
+    "outputs/B/figures/reliability_seed1_temperature.pdf": {
+      "size": 27186,
+      "sha256": "227f2f54885a1811b4d1d6db6697a14fc66e2af39fdd1af468a7b17b9529d490",
+      "checkpoint": false
+    },
+    "outputs/B/figures/reliability_seed1_temperature.png": {
+      "size": 322518,
+      "sha256": "605b4ec7ae87ff5bb80c5f88cfb0d9eb558f30f4e5279cef4f9093d039114f16",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/MultiModalPromptLearner/checkpoint": {
+      "size": 16,
+      "sha256": "cfa9c864ad9357fc4166128d835e2c8fce88f8b17149311129a71aa31ba5fff2",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/MultiModalPromptLearner/model.pth.tar-5": {
+      "size": 280113466,
+      "sha256": "02a24d1b26b0a95e2935c4467c850f8e570e8e3e6f408daf41088fea8e96668d",
+      "checkpoint": true
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/checkpoint_check.json": {
+      "size": 135,
+      "sha256": "e54d71643afacab4b13e84273d1a43fe2fb3ba58db24733dbc3a60caa7b6f8ac",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/config.yaml": {
+      "size": 3688,
+      "sha256": "981cc1485cdaa3bc9859e1ac48187a689a00b0839da3ac05cef498e26a6cdc1a",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/console.command.json": {
+      "size": 696,
+      "sha256": "95a94c18597dd6fe85582fde672070c2737ea6401f2b3762214c41fbe8872008",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/console.log": {
+      "size": 19985,
+      "sha256": "5c5dcee5ea946592a4430de10e4b8ad761ff2e8042b543aa90c99877f5a304c2",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/epochs.jsonl": {
+      "size": 484,
+      "sha256": "32afd78f5a153799c47e708e4d201316db7bdeb106869be85bf59635ceb7010e",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/eval_test_base/config.yaml": {
+      "size": 3795,
+      "sha256": "a95f1293470ba8a2f4964ed94d208f5789d499f3aa4b3d59c6948a610ba55768",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/eval_test_base/console.command.json": {
+      "size": 989,
+      "sha256": "b3aee1b0bad645957e22918d49f72fd45ad2e4e412ba78ef22be30c1da8a69e8",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/eval_test_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/eval_test_base/console.log": {
+      "size": 14134,
+      "sha256": "eec2f4c94f41214e58fc3f4699b2575318f4a20cae7ef6d9d31488a033b6eb4a",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/eval_test_base/initialization.json": {
+      "size": 3856,
+      "sha256": "8975a33ae7ec5a5ec94967e33483d026b6bf867d26c34595c0d5da1aceeb7b1f",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/eval_test_base/log.txt": {
+      "size": 12893,
+      "sha256": "1f33945e9a27e4dfb1f801a102121be522c46b598c1c12105d414e7158949abc",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/eval_test_new/config.yaml": {
+      "size": 3792,
+      "sha256": "30daf5610e8db9bf92f47a71d40eb9df56b6974c956f9d0c1640c748ad7bb5e1",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/eval_test_new/console.command.json": {
+      "size": 986,
+      "sha256": "18c56f5b623864af5067f43f19b586ddc8728faad460bf85de062e0777a0a0ca",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/eval_test_new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/eval_test_new/console.log": {
+      "size": 14169,
+      "sha256": "d18c4b2ec1d37ba8f07e1a9e4140ef48b87c6befb2240b1e2c2e7cabd085ec1e",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/eval_test_new/initialization.json": {
+      "size": 3855,
+      "sha256": "34367f72d97ff40f9e4c4890469203515c97e012720bc1265039146683a13c00",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/eval_test_new/log.txt": {
+      "size": 12928,
+      "sha256": "8e5ab8b0f979cd4c6b5094de9c69ec0da112dbbb01ace039364d140037349039",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/eval_val_base/config.yaml": {
+      "size": 3792,
+      "sha256": "84fbdfe5aec21d364874274d695a4008ab95feb523e0fc60917326e59733fc82",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/eval_val_base/console.command.json": {
+      "size": 986,
+      "sha256": "166176dbc5aef73406dc4de314ed2bf02696fda35036d85000a8ea42872ab467",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/eval_val_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/eval_val_base/console.log": {
+      "size": 14088,
+      "sha256": "c3d599067b12a4e206094ba8f9ebbfdfb30bee568284b08bb85a664234baa856",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/eval_val_base/initialization.json": {
+      "size": 3856,
+      "sha256": "134145d5dfc1c6a828059d8b632abda4f208e25d76a5f1456ec7b4330b407d51",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/eval_val_base/log.txt": {
+      "size": 12847,
+      "sha256": "5b6d8f0de5c084a6fab729f56888b4d0881897fb47e55bdd1efa43fdbb9d07b7",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/initialization.json": {
+      "size": 3854,
+      "sha256": "601b771fd11d54dd23c2f81e1a029d9ee85d9436ecb8549b7d095332b1c7bf30",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/log.txt": {
+      "size": 18744,
+      "sha256": "3f441181e2a8f796d835ef4e54cf026095339a4515c833dfb103e96137d56e52",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/predictions/test_base/metadata.json": {
+      "size": 2972,
+      "sha256": "72c990d434bcb34153b6b8a35c0c63b01e10e7f31e17dcd5c656b29c2cf7eee0",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/predictions/test_base/predictions.npz": {
+      "size": 112876,
+      "sha256": "97c7f8ea2a50a380edda4cd5facd7ad6c9f8d6e05a9211eaba310e4d7e9c238d",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/predictions/test_new/metadata.json": {
+      "size": 2899,
+      "sha256": "fca46a8b363282b7797d69c015b9563f59b2ae92d3f575f4262657b0dc4fff45",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/predictions/test_new/predictions.npz": {
+      "size": 148004,
+      "sha256": "c1c1c31d453a9f08f580b01105699c1157021a5d24900fb713ef2cd44f34d614",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/predictions/val_base/metadata.json": {
+      "size": 2935,
+      "sha256": "353fbec74b467d36701bf8c0dbbd23fc6d489f2860f6802eb777056c60727e4b",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/predictions/val_base/predictions.npz": {
+      "size": 23958,
+      "sha256": "de7b03cad2e5b46c7ff48cc575320b87ee92ee6db3aa4fbc0ffabda954e83853",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/reload_probe.npz": {
+      "size": 11590,
+      "sha256": "c54e70ac06b6d85c6965611f26497ac2d5fef75d28579d17cc48bd617e62760d",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/run_status.json": {
+      "size": 541,
+      "sha256": "6a86e773d8fc88858a02a274955645b9267ed2453237582cde319ab08340a227",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/temperature.json": {
+      "size": 23446,
+      "sha256": "eeef4c0911cbe1db1345a76ebaa8f2e549b251937609450a74a4fed585716305",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/tensorboard/events.out.tfevents.1794301956.autodl-container-4f41468bb9-58d83b0c.23728.0": {
+      "size": 145558,
+      "sha256": "dea67a3892ddcd119ff7830cede7fe56c0b19f21e8d4889e8c38a980973dc6d4",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/training_resources.json": {
+      "size": 400,
+      "sha256": "0c1a22631b5aef289b82d5d0a6c337391c330eb7342f8c1e57c166ac4ed4ece2",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed1/attempt01/updates.jsonl": {
+      "size": 341467,
+      "sha256": "693f57e726614fbafa6cb7ca2e782d4d13e75dd5ccd9c3b29a0fb6b34b379474",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/MultiModalPromptLearner/checkpoint": {
+      "size": 16,
+      "sha256": "cfa9c864ad9357fc4166128d835e2c8fce88f8b17149311129a71aa31ba5fff2",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/MultiModalPromptLearner/model.pth.tar-5": {
+      "size": 280113466,
+      "sha256": "0963248783b4b132a1d78d8a196105080dcc429f71b0827d63934a8a04a8ab5e",
+      "checkpoint": true
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/checkpoint_check.json": {
+      "size": 135,
+      "sha256": "e54d71643afacab4b13e84273d1a43fe2fb3ba58db24733dbc3a60caa7b6f8ac",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/config.yaml": {
+      "size": 3688,
+      "sha256": "70a3e258962599b1285d73a415a035b96d8d4fa863c1e93a09325de8f5ed0f0a",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/console.command.json": {
+      "size": 696,
+      "sha256": "771b25949035ee4e3b0eb540cd09042f46fff25057f8cb7b26c0a8a62b5b38c4",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/console.log": {
+      "size": 19985,
+      "sha256": "c05ef3006d69bc3755f7c44b01014a906b2ac8a1478bdc1ed79bbc4cb49e97d4",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/epochs.jsonl": {
+      "size": 484,
+      "sha256": "b8e505a57badcaa0d10fb454389ccce21d0d2207c5c851845e1cadb27b44e671",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/eval_test_base/config.yaml": {
+      "size": 3795,
+      "sha256": "f7874462d987daa65174a05f960189b3ca55f4cb7f86fe0bf29ebb3c652b630b",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/eval_test_base/console.command.json": {
+      "size": 989,
+      "sha256": "fa6862a34a8cf8036d8049e0c638498364e4c4f701ea54ae2beed115da4616a4",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/eval_test_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/eval_test_base/console.log": {
+      "size": 14135,
+      "sha256": "f8a3c339dac168eab68030549c463b4270fb3f863318a21047076df8d07a58be",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/eval_test_base/initialization.json": {
+      "size": 3856,
+      "sha256": "51695216d9e92bef8acd3aad70a4d11dcd3f832e3ad49d980d11ba8eb26a16f9",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/eval_test_base/log.txt": {
+      "size": 12894,
+      "sha256": "d7179d14aff0c4dd8a89b859e3945f505a279ca02acc26d6c891c70dfef42584",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/eval_test_new/config.yaml": {
+      "size": 3792,
+      "sha256": "bf08b19cf210d955325f76f771a64d62f97ed3e9d353235f225e854c46cbfdda",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/eval_test_new/console.command.json": {
+      "size": 986,
+      "sha256": "584736e15376a0d56b666a6f0359dde2caaf6e2ca20c24018b8e495c3ce8e904",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/eval_test_new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/eval_test_new/console.log": {
+      "size": 14136,
+      "sha256": "807faf4e66ba05c807d1c3926bf49273fda0f74027fa3fe9bef10c1e530aa124",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/eval_test_new/initialization.json": {
+      "size": 3856,
+      "sha256": "149162e4f5aeda182d74a46bd23fd0440e79ba039c89bef0eb35d66daa5b4864",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/eval_test_new/log.txt": {
+      "size": 12895,
+      "sha256": "055b529d54677ed28553044b98698c321fa81b7ad76fe0dd18a96ead8d1176fc",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/eval_val_base/config.yaml": {
+      "size": 3792,
+      "sha256": "a2c5858c1365c1886013b21164fb61978744ec028cf104e60b0e990cec5a8e7e",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/eval_val_base/console.command.json": {
+      "size": 986,
+      "sha256": "6f7f9be4c50551b0d2367935722bf4380cb3ef97b142b1fd875a52e6b7a53e41",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/eval_val_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/eval_val_base/console.log": {
+      "size": 14045,
+      "sha256": "92d8cb2579a13bcc3362799618a2d1246ff3aff79f51ac4b65bb74158ce48c6e",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/eval_val_base/initialization.json": {
+      "size": 3855,
+      "sha256": "8c1603eebb735f7858f7a7a2df445c7c7e8b5531613523abffea49c92a003181",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/eval_val_base/log.txt": {
+      "size": 12804,
+      "sha256": "ff076f13ef4d206dffd35b3b7e034706de31793004ffdc613422ce06f8169763",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/initialization.json": {
+      "size": 3856,
+      "sha256": "a118eaf4449c2d7fcc6ed8563cfaa7fde8a14fdff58f8075771839f270230590",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/log.txt": {
+      "size": 18744,
+      "sha256": "e45758763f8eb5a340a580d94fc9d524de792908f27b697c5a43d0fe0bb20bc2",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/predictions/test_base/metadata.json": {
+      "size": 2974,
+      "sha256": "309a062b434a347a42693ef4bcb247e4420bb164b5d0dd1e0dd7c63ae6996db4",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/predictions/test_base/predictions.npz": {
+      "size": 112407,
+      "sha256": "c09b0af619f61f0a909bf0eb87f9b1852115fbf68df68c16d5f0450369af9718",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/predictions/test_new/metadata.json": {
+      "size": 2864,
+      "sha256": "27d589c36f6c8c3b8ae52581d31dd4b874cbc271a91df7a620ce3d32f3ad8f70",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/predictions/test_new/predictions.npz": {
+      "size": 146323,
+      "sha256": "dfd1e4aac6ebc2d947712ab1fe640b26f776d4e2d041d6d9767c98e4064741cb",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/predictions/val_base/metadata.json": {
+      "size": 2893,
+      "sha256": "8e8ec9644eb1270b595a37e0eec75e8c3823897975b0f4c27b660fb89709a99e",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/predictions/val_base/predictions.npz": {
+      "size": 23882,
+      "sha256": "6146b55c8a10eba345c2e19926a2df2de36fbdb792c76e9c3bd2378361d1670a",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/reload_probe.npz": {
+      "size": 11522,
+      "sha256": "4d0d3673b99471aa17a3d300c56f646c4cbf3ecd4a3af7dcc1696ac55f083f6f",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/run_status.json": {
+      "size": 541,
+      "sha256": "286fcbe29a96cbcbe1f1bc179ce1aa29a1b37ca31dead686725a0b2ef57877f0",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/temperature.json": {
+      "size": 23497,
+      "sha256": "95261165614f0163d0b669b228d874b40d2910036344b1eb0e3c21500a86ec72",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/tensorboard/events.out.tfevents.1794302766.autodl-container-4f41468bb9-58d83b0c.41596.0": {
+      "size": 145558,
+      "sha256": "17b481058cd29697fccf3ad0500410e3442c26cb941b3c81f0c678aa4bf5b84d",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/training_resources.json": {
+      "size": 403,
+      "sha256": "20a233d0a2e7fb81ac8e22461ceea7131dfe57bed5fd7792c091fb10d0101bcf",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed2/attempt01/updates.jsonl": {
+      "size": 341455,
+      "sha256": "aa2ec29ddf66f717aabd0c29d6a1d6dd1d0954bd49a759a9006fe7f5fca9840f",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/MultiModalPromptLearner/checkpoint": {
+      "size": 16,
+      "sha256": "cfa9c864ad9357fc4166128d835e2c8fce88f8b17149311129a71aa31ba5fff2",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/MultiModalPromptLearner/model.pth.tar-5": {
+      "size": 280113466,
+      "sha256": "47327e1f24a4ff2afb92941da3d9682364f5650ed2375a93dbd3ea1242458dc7",
+      "checkpoint": true
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/checkpoint_check.json": {
+      "size": 135,
+      "sha256": "e54d71643afacab4b13e84273d1a43fe2fb3ba58db24733dbc3a60caa7b6f8ac",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/config.yaml": {
+      "size": 3688,
+      "sha256": "6a6958c3b4b5cb42ae3e5feb9518a770d0909de40e307f723e68effdf68f0782",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/console.command.json": {
+      "size": 696,
+      "sha256": "d5aeb99e408f6682e63abaecc5c2f695a2f2e9a28ea504ab447f96c932984150",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/console.log": {
+      "size": 19985,
+      "sha256": "46cf70291b7db86ac41910d9fe17a9fa0e84d51b15450e64f5a194312d587cdb",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/epochs.jsonl": {
+      "size": 484,
+      "sha256": "b95f092328513432db48b73194708ed9e5a8ef5338039ebeff6f1ee16c5ad9be",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/eval_test_base/config.yaml": {
+      "size": 3795,
+      "sha256": "b3ffc92a370b332bbd7520f20588226a68c41912fefa8c6af16e4d4d3112642f",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/eval_test_base/console.command.json": {
+      "size": 989,
+      "sha256": "080978643ec05fd373c49e2e76b08b2d0a0aebe809b11f862b8ba74cb4ca8d7e",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/eval_test_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/eval_test_base/console.log": {
+      "size": 14123,
+      "sha256": "d6ee6a5e88a01e78f94e5f7945734c93e1cf5663b39bea3b4659d141a104b402",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/eval_test_base/initialization.json": {
+      "size": 3856,
+      "sha256": "1ae52da7cc813a533240be0ddb77ea8d302e235e22b2e603c4d2643ff95ba6d0",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/eval_test_base/log.txt": {
+      "size": 12882,
+      "sha256": "8646de30cb6107d4b5520b229483645b2c9c16746649014c40d3cfa17d86545c",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/eval_test_new/config.yaml": {
+      "size": 3792,
+      "sha256": "b3ac869264d07c52cdd13dc5b675fdbc8ceb70f4f793839ee1ca095e2de51114",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/eval_test_new/console.command.json": {
+      "size": 986,
+      "sha256": "de7ec28fc928afde6a8b9212b3557f69d71ee7d9ae865de3931762fb6eee4b4a",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/eval_test_new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/eval_test_new/console.log": {
+      "size": 14178,
+      "sha256": "b04e59f928bfdadabff249c67b4a57027f7e139c95fe108e907a4a2f83aa910f",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/eval_test_new/initialization.json": {
+      "size": 3855,
+      "sha256": "9432c3ca813b12b9b73fe79d4d2a3436aa12b8ff63b6d1e85308495e30c93be2",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/eval_test_new/log.txt": {
+      "size": 12937,
+      "sha256": "7a5cbe3c20a66fef86b69dfc0a3627462cac0dcacaf3ff65e77701cc9b2ecfcf",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/eval_val_base/config.yaml": {
+      "size": 3792,
+      "sha256": "8d9ad92a0fc999c66aa017f32481a7d7ebdbcc24990a2c159221159b7257b950",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/eval_val_base/console.command.json": {
+      "size": 986,
+      "sha256": "aafdf78f2f88523c243850f86e30470c47d61ffe279fdcb69036ca1cb0267a7f",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/eval_val_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/eval_val_base/console.log": {
+      "size": 14059,
+      "sha256": "e12f87ff0011d0749fba3c4d2fcd5d0d59cbb8b81c597a820f29d560c56b9c39",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/eval_val_base/initialization.json": {
+      "size": 3856,
+      "sha256": "50f1d71e610d1e4737b78ba4a6ddd4d78227539d2729e746a65fc3960b653162",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/eval_val_base/log.txt": {
+      "size": 12818,
+      "sha256": "c05113e28e0366743e5cca3d85c5ee17a97b8257760dc426406c10153ecee78b",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/initialization.json": {
+      "size": 3856,
+      "sha256": "6c203f32c2ba2ab233a39369cc7047f8f53d15d7ffba71222e2fd33feb2df7d7",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/log.txt": {
+      "size": 18744,
+      "sha256": "9d9eefdc192b3aa3f2410d383e6d4e9d48c45967359599b9bf2ce63331382e88",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/predictions/test_base/metadata.json": {
+      "size": 2960,
+      "sha256": "100e56c5c04e0ac7b6a87e761f2bffd14642cf851f986c0a94351f5a7509878b",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/predictions/test_base/predictions.npz": {
+      "size": 113244,
+      "sha256": "549ac3f16903e13ff369b551abbadedef49878c423f0cc56d5166413648e073a",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/predictions/test_new/metadata.json": {
+      "size": 2910,
+      "sha256": "338c65d62e50c7e672e2d642b86bb057ab41fde0579e6a1733857a91606792b4",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/predictions/test_new/predictions.npz": {
+      "size": 147811,
+      "sha256": "6f5fbfceebb9c25c001f6506ae5f3cbc1efaad0cc800b7387ddfd5de4ab3c7a9",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/predictions/val_base/metadata.json": {
+      "size": 2907,
+      "sha256": "40a50e63d73536608997daea6fab4eddb73ff53a1ea8862ac197ae9f4baa42ff",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/predictions/val_base/predictions.npz": {
+      "size": 24076,
+      "sha256": "afa592b7ce7dacf57d100a2e35ddff4200008b647593eee68b20e0dab21180e8",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/reload_probe.npz": {
+      "size": 11642,
+      "sha256": "f58bcc8d707a497d5484ce338c408671df97babfdfbf99cbbc3bf8415f16d35c",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/run_status.json": {
+      "size": 541,
+      "sha256": "e18603f76770acd1a658f6cc0633424d0be893ffb2e29cfb24767223c0b8d6dc",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/temperature.json": {
+      "size": 23528,
+      "sha256": "72314941766e805d654f297618ebbb20957e313e4595dc50be24909974bf0923",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/tensorboard/events.out.tfevents.1794303579.autodl-container-4f41468bb9-58d83b0c.59467.0": {
+      "size": 145558,
+      "sha256": "72b11ad66f928fd186155487aa3dddb8bb6e03f58ef30b93beb42bab5f3d32ca",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/training_resources.json": {
+      "size": 403,
+      "sha256": "a54e8395ed35973967c0b25605974f267fad5d59649a82868c50d0561999bcd6",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/maple/seed3/attempt01/updates.jsonl": {
+      "size": 341425,
+      "sha256": "a7d6d08db2f50300b63eb3374fdb7ebf2a2c8918b139b02b4ef7ae7a33a9ff30",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/VLPromptLearner/checkpoint": {
+      "size": 17,
+      "sha256": "39b52e1fe4e3b14f97e01b66f780e0cf0ab5005ccbde5121115a139f1ab250db",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/VLPromptLearner/model.pth.tar-20": {
+      "size": 426343610,
+      "sha256": "e426c41d612a39dc83583782d8be39c9363c9d542d96cef31952f4dcb219137c",
+      "checkpoint": true
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/checkpoint_check.json": {
+      "size": 127,
+      "sha256": "20e56143c596405a51ebb368076e53e4c6aa66601dc33fba1a4cd00a60f4f93e",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/config.yaml": {
+      "size": 3697,
+      "sha256": "5f6b96ab54ffa5f025b025db65cfe98c7ea0f7953cdfbc33e6b34ba9c0cd2b06",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/console.command.json": {
+      "size": 712,
+      "sha256": "8aab2fd7a44a611e2cd4131186459e89c9b991d3e6777c6ee49b95dbd602dcbd",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/console.log": {
+      "size": 53715,
+      "sha256": "18bf3e8713015b888c4e22a326e8c33f76a807552dc7845ddb45bd92db8689dd",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/epochs.jsonl": {
+      "size": 1983,
+      "sha256": "e2bd4f7bf3274b695549c9bc2a20f7780611efada1a034ceb630bcb76b8114e1",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/eval_test_base/config.yaml": {
+      "size": 3808,
+      "sha256": "11204a6b55183dd77f0d707c28523ff3c9773c92430cf0546552a1bac52a4e38",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/eval_test_base/console.command.json": {
+      "size": 1014,
+      "sha256": "42f4811d03469c5a7b4df26148171e12ba1e108706cb32983c0ea149a8665c92",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/eval_test_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/eval_test_base/console.log": {
+      "size": 14565,
+      "sha256": "13fe075be59863a5180c5728d1c8862ef130b81617e66c975faf61724a3f9afd",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/eval_test_base/initialization.json": {
+      "size": 2740,
+      "sha256": "430fd8e2e91ad880f660508743a87e6046efcb2770e9f31c579398727b767392",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/eval_test_base/log.txt": {
+      "size": 13324,
+      "sha256": "81e5d28548be99566435f56be00944662350247c6a29e4859245d4e82c25a1cf",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/eval_test_new/config.yaml": {
+      "size": 3805,
+      "sha256": "09e501e0dd5e3df418b1af50903343f7a41491f23a97c929f75bd5ee9eb1933a",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/eval_test_new/console.command.json": {
+      "size": 1011,
+      "sha256": "4111ab627c6e81f74411677b1da989ab08ccae532e53051f7dfdcce33b8b8bf6",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/eval_test_new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/eval_test_new/console.log": {
+      "size": 14622,
+      "sha256": "da9b1ce73f0e5c9b8c74076cf50d4a520a48670492101b5648c00c4bb6530adb",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/eval_test_new/initialization.json": {
+      "size": 2740,
+      "sha256": "f859fffc074ed7caf280ddd8f4fa25641d8d6f5b93f9aa87d9a05b919bfb19ab",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/eval_test_new/log.txt": {
+      "size": 13381,
+      "sha256": "640086117857222b8cec259ba58371ffeb3c2d0f7ed29925e41f9c5dc6628c7f",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/eval_val_base/config.yaml": {
+      "size": 3805,
+      "sha256": "055298e8b713ce8a7a0567557a3decb45a26c266b8f23314b46002da6007f4bc",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/eval_val_base/console.command.json": {
+      "size": 1011,
+      "sha256": "cc1d83c045b78d5d7ec5d767e4f6228761eff2319a50e8bcf38e5aba5184866e",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/eval_val_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/eval_val_base/console.log": {
+      "size": 14520,
+      "sha256": "a6d80405dbe1cbb0405f0ff493c67d491920797d847aa04ca8548b402f95c751",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/eval_val_base/initialization.json": {
+      "size": 2740,
+      "sha256": "7176f03b9f08e3f46ed41190cb205f4272e2eee281a98be43f586eb7e75079ec",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/eval_val_base/log.txt": {
+      "size": 13279,
+      "sha256": "ba904c1521db3192af523b76400e2bdecf3542fed0508aa59d7d42f6461523da",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/initialization.json": {
+      "size": 2740,
+      "sha256": "8a8f4998ec605e597173f6dae112b4034995f67634709e88b133c6bb1454ef1e",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/log.txt": {
+      "size": 52474,
+      "sha256": "784138cbe54a6a16813e76d3b4206faeeab4e8662382f8deda3ce3ad7dbf502c",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/predictions/test_base/metadata.json": {
+      "size": 2950,
+      "sha256": "ce4515aa501c7f1de71fcadcda3738b80e06e22c888047312d18ce3412cf8323",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/predictions/test_base/predictions.npz": {
+      "size": 107986,
+      "sha256": "4b21f19fc7ae0b1190d105441c17d464fa26b452aa30807988612d38e0818c35",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/predictions/test_new/metadata.json": {
+      "size": 2899,
+      "sha256": "ff1ac15f8ce451913658610172ba9fd5237e313bfffd1ae7fc14cd89915e5366",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/predictions/test_new/predictions.npz": {
+      "size": 141629,
+      "sha256": "e28449905ecc0c7d527b35527c4152825cc3f03952b7103e8a0f9dc853713a47",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/predictions/val_base/metadata.json": {
+      "size": 2916,
+      "sha256": "50938c0c7fa11cd954bb85e90c87b471cdbcfaff623578e8d19d26c44f13bd2d",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/predictions/val_base/predictions.npz": {
+      "size": 22915,
+      "sha256": "f492ba0eca647efa4d82df38eb1f33f66babec1f088111882dc06aa22b9a21a9",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/reload_probe.npz": {
+      "size": 11137,
+      "sha256": "2775ac829dc3979df705fde3b173afbc526d90b064113e6c0755133ecf23a4cd",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/run_status.json": {
+      "size": 549,
+      "sha256": "e688ba16f797f7093ad1f54a917113af5c1188b8112c98f0348e6d369d4205ec",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/temperature.json": {
+      "size": 23452,
+      "sha256": "598be065d263ab8cf8b23bca5ad4ded5c25da25dc1b2db43202b4811545cebc9",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/tensorboard/events.out.tfevents.1794302159.autodl-container-4f41468bb9-58d83b0c.29314.0": {
+      "size": 1194748,
+      "sha256": "fa3212299ddcc0780e989134fd69564e2abfefef06ea4e0c6b7f68e0b5500ee9",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/training_resources.json": {
+      "size": 395,
+      "sha256": "f9b224ac149aa34e40ef723c37406ccfcd92b1677693f977bdaad158709c494d",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/updates.jsonl": {
+      "size": 1739620,
+      "sha256": "2d41edbc6d0ae867610b49aadbc0162b5457cbf82133f5ce1baa44ab67f3c75d",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/VLPromptLearner/checkpoint": {
+      "size": 17,
+      "sha256": "39b52e1fe4e3b14f97e01b66f780e0cf0ab5005ccbde5121115a139f1ab250db",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/VLPromptLearner/model.pth.tar-20": {
+      "size": 426343546,
+      "sha256": "9925891096ae9f1edd2e7acdd2e65831e5fd79f4b7221cb2833bb31a02cc7b94",
+      "checkpoint": true
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/checkpoint_check.json": {
+      "size": 127,
+      "sha256": "20e56143c596405a51ebb368076e53e4c6aa66601dc33fba1a4cd00a60f4f93e",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/config.yaml": {
+      "size": 3697,
+      "sha256": "3365b472ac09ffcb9a59ba384cd6bed4a54ff2a8116aa45b2d3e85afe982dcd4",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/console.command.json": {
+      "size": 712,
+      "sha256": "820fcbf80c435ee4294118d360d2de175cf4361b66fafd1a74ada3395fa1997a",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/console.log": {
+      "size": 53715,
+      "sha256": "8934e48b5df5c27e2643c467f1c8d7dcfee63e57ad33a9e6a00d2333593df4a4",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/epochs.jsonl": {
+      "size": 1986,
+      "sha256": "c4b92696f423f5fa71b37bbc5aed829437dea5d2f408ed9531cb1259b6e5776e",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/eval_test_base/config.yaml": {
+      "size": 3808,
+      "sha256": "21f960ed69e64119d56fd6045bda791e7fb0a920d8ca18b1b78d2bbc4d9819d3",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/eval_test_base/console.command.json": {
+      "size": 1014,
+      "sha256": "23dbbf62495ba6f4053f99f8e4249e4f8cc40df7cb62dff8f2e510f4a515c7c2",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/eval_test_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/eval_test_base/console.log": {
+      "size": 14551,
+      "sha256": "63895ff30ecea3801c5d37ec862c3061b459fe34df296ee0ee0268276646c076",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/eval_test_base/initialization.json": {
+      "size": 2740,
+      "sha256": "0102f0a9461a2708c38208d865974416c2977fc8eee8ef45a5a17a48aa2559e2",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/eval_test_base/log.txt": {
+      "size": 13310,
+      "sha256": "8c49ceb6575e9a6a9c156b02ebcaa70ff7ccd8c32564ace92ca70cd89c415416",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/eval_test_new/config.yaml": {
+      "size": 3805,
+      "sha256": "a598b5e19cdc70e5c447342130a031fd2e559c9b87802a9d0acb90caf5c83a47",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/eval_test_new/console.command.json": {
+      "size": 1011,
+      "sha256": "fabc9073a0aaed31e243be830fa55021ee6c1e1d5ddf9a1a0d47e576a5666b92",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/eval_test_new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/eval_test_new/console.log": {
+      "size": 14638,
+      "sha256": "703dbc2f58ee840b1d101c0b13d12e8535335dae538480698eeed13232214e69",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/eval_test_new/initialization.json": {
+      "size": 2740,
+      "sha256": "b7da622dd56ca0998e555d36ce0c11226b3b7fe5bb93dfccf491300b69856547",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/eval_test_new/log.txt": {
+      "size": 13397,
+      "sha256": "d7a3f0a99cc23eb13c5eba2160957a0a6473bd8c87567896c2cd7e0672121ad5",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/eval_val_base/config.yaml": {
+      "size": 3805,
+      "sha256": "b0180a58b35c59983427e774322203e6864d6503d6b757282dac2f87e59ccfce",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/eval_val_base/console.command.json": {
+      "size": 1011,
+      "sha256": "6200043ae1388d00c5c7d11bc80e82e9ecaca3dd1a6773954e1ab1f5e87ed46a",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/eval_val_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/eval_val_base/console.log": {
+      "size": 14470,
+      "sha256": "990778e92187859c198b33ef8d44b761ed531c0958ed6044e2cfd0e258632022",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/eval_val_base/initialization.json": {
+      "size": 2740,
+      "sha256": "13e1cdb369ac256bf38e3b9e0c3cc40a49fef48eb1b6b2b9e8e0b8ca6bebcd4e",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/eval_val_base/log.txt": {
+      "size": 13229,
+      "sha256": "a220b3ab45f80686cc865c7e5afe2d62a1e341bfa101eb098eb3c73064d10235",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/initialization.json": {
+      "size": 2740,
+      "sha256": "aa28c599764ca9c9d29283f0de92946e511be0d6fa7bafd3c8d5bcb5826f2e67",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/log.txt": {
+      "size": 52474,
+      "sha256": "70328cab1a43ad1dfc28beb48e8f9c64888ce269e9a39aae8cd66eb5ba6abe7c",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/predictions/test_base/metadata.json": {
+      "size": 2939,
+      "sha256": "d1d3429a851aa97361066d773294d82142927c01582047d3e9642d0921ef9d04",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/predictions/test_base/predictions.npz": {
+      "size": 107879,
+      "sha256": "d272cd7d2e9620dd0e685c277d8feed1f96bc348c5e9fa3fff595d690d98c625",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/predictions/test_new/metadata.json": {
+      "size": 2912,
+      "sha256": "474ebd39ff3ae7b1ad5a1b78ac5048fd5cc7bc60ab717922192c0f01bde0af2b",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/predictions/test_new/predictions.npz": {
+      "size": 141132,
+      "sha256": "8716501547b77e7e9dc20f4907dcdea563e9fd383d13a1c96879be674b453bb9",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/predictions/val_base/metadata.json": {
+      "size": 2865,
+      "sha256": "5d22874444a7dfd8e3ad82dbb38547dec1cdf1bd60a649158abeb5b33a4ca7d2",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/predictions/val_base/predictions.npz": {
+      "size": 22925,
+      "sha256": "d3937eb907351c71a25736e408fe7c3712a66fa1ee85e8f7ac5ff2936177f213",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/reload_probe.npz": {
+      "size": 11111,
+      "sha256": "7e7bd5afcc9711b0008b567058af020ac3e7215b2030f8a35903b4fb01a9e2ad",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/run_status.json": {
+      "size": 549,
+      "sha256": "2a2ced904b3587f2eb515517b2ad72d51260295279a111c4dd79b925cb7b1a21",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/temperature.json": {
+      "size": 23524,
+      "sha256": "00ce0cb262759d6f58b293668f893600ee49afddc5d6896665631e83278c2318",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/tensorboard/events.out.tfevents.1794302972.autodl-container-4f41468bb9-58d83b0c.47185.0": {
+      "size": 1194748,
+      "sha256": "590339394f8e7dc6afab545ca0990148de3bcb604b45c0a8e08280d55ae3b36a",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/training_resources.json": {
+      "size": 397,
+      "sha256": "695825df0905a976640760a7d93b86382af6dfe18acbc8b7f82924335e27277a",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/updates.jsonl": {
+      "size": 1740219,
+      "sha256": "37c5f7fdeac12a95b005aa0d232898a602ae4d50727e2b283ed50c7f0997517f",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/VLPromptLearner/checkpoint": {
+      "size": 17,
+      "sha256": "39b52e1fe4e3b14f97e01b66f780e0cf0ab5005ccbde5121115a139f1ab250db",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/VLPromptLearner/model.pth.tar-20": {
+      "size": 426343546,
+      "sha256": "286e31d7d222571445874198544ea7de40b17412257ad55531e3fac773225bf1",
+      "checkpoint": true
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/checkpoint_check.json": {
+      "size": 127,
+      "sha256": "20e56143c596405a51ebb368076e53e4c6aa66601dc33fba1a4cd00a60f4f93e",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/config.yaml": {
+      "size": 3697,
+      "sha256": "740a988e7b747ef83c55e298704273aa28d970071450e34de99e6520fbf3623e",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/console.command.json": {
+      "size": 712,
+      "sha256": "a64369a94ea83827818d705889e95eaf9899cb603df5422be656ec446617d8f7",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/console.log": {
+      "size": 53715,
+      "sha256": "df15e3a5e5a5a43553b4c3409409b872d56bbf0a6f79d53a1a7e068be32505c6",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/epochs.jsonl": {
+      "size": 1963,
+      "sha256": "8c2ca988a4eaacffcf7a3699be8ea540f017a7f204eac030bf198e0688aa2b52",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/eval_test_base/config.yaml": {
+      "size": 3808,
+      "sha256": "665ae616ec6b66a9e794ffcc70c7ae826141f50776997677d24797fd9078a940",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/eval_test_base/console.command.json": {
+      "size": 1014,
+      "sha256": "f1d646570757230a08d9f808cf88e64fe2a4cb835b1f6774de5aa4af1a61bdc0",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/eval_test_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/eval_test_base/console.log": {
+      "size": 14577,
+      "sha256": "311e6290d8eda30082b9f5b8ddad712f02fe759d1bd891c2cf52b9b7996cf739",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/eval_test_base/initialization.json": {
+      "size": 2739,
+      "sha256": "dddf1e195be649046dac8535901efa2f2ee9fa9b51e4027b556ff9777fc473fa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/eval_test_base/log.txt": {
+      "size": 13336,
+      "sha256": "ed9149b0efca6b6adca55975a456b847a034d68036bc54fae45c17a957ff436e",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/eval_test_new/config.yaml": {
+      "size": 3805,
+      "sha256": "93cb635f0676acd8923a8008d01e2ada14a3803d818a976dff9b99d0b5a8e337",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/eval_test_new/console.command.json": {
+      "size": 1011,
+      "sha256": "0933c2a8d85774d2ece07ffb86c3f7049d6ebc859dc5b93da73b3532b08c217a",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/eval_test_new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/eval_test_new/console.log": {
+      "size": 14619,
+      "sha256": "574b024daaed91de000b26ce35d9cda515d967d35145c38766492341c5bd7605",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/eval_test_new/initialization.json": {
+      "size": 2740,
+      "sha256": "3f4db85722cd1a16a8b9843d0d68d9a1d938a5787b6b59082e17b2aec5444c78",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/eval_test_new/log.txt": {
+      "size": 13378,
+      "sha256": "682fd5ee72f1e7c47e60bbbb9ee2208fd5b21ac2243be4680b73a91b04be038b",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/eval_val_base/config.yaml": {
+      "size": 3805,
+      "sha256": "60d2e05e54bc4da61469a7067fd001335f3e054ede13936f4f041bdeddb92718",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/eval_val_base/console.command.json": {
+      "size": 1011,
+      "sha256": "a4855bd29882fca7ab6b0a5c029221f510a473294805d506e02194e61b4fe81c",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/eval_val_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/eval_val_base/console.log": {
+      "size": 14484,
+      "sha256": "51696560190d1e9f51c0f2d580bf3b35c247b3b643b35770488b30d945cb3861",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/eval_val_base/initialization.json": {
+      "size": 2740,
+      "sha256": "4e9484929ae9756b1abdf0e8b69bd843792043417f1c146beb5678e70e622d3f",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/eval_val_base/log.txt": {
+      "size": 13243,
+      "sha256": "83d16c00b0c4c26b77a9b3c68ddb9dec144129581b85cc1ac4e9ed4debb21d3e",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/initialization.json": {
+      "size": 2740,
+      "sha256": "73fc5efd4df2c13d9207158f2a1881108ba7eba6bb437dc43d0c3c84cdfb7d06",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/log.txt": {
+      "size": 52474,
+      "sha256": "b88470aefebf4cd87cc415da3752212c8776fc8b35540f9e00c94a11de2a6011",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/predictions/test_base/metadata.json": {
+      "size": 2964,
+      "sha256": "984a172434f5f70892f85442f34926f6f44fa8c005287572e7363cee8b6fe0ca",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/predictions/test_base/predictions.npz": {
+      "size": 107806,
+      "sha256": "3c83effdddba1702ff31135d655e63f9ce05e0b0f5b15ac00bb0a9def8bf32f3",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/predictions/test_new/metadata.json": {
+      "size": 2897,
+      "sha256": "6a30682ae4798f49ba997b24f904aa01ba5edc6671a99102c2f8bde30aea1ef9",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/predictions/test_new/predictions.npz": {
+      "size": 141259,
+      "sha256": "7cc2f8e3bbfa8fb5d3e250c24961f6e04f29f2438d7b07d8eae6f78a4f3b0092",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/predictions/val_base/metadata.json": {
+      "size": 2880,
+      "sha256": "43403fb686c8763abb2f84dd2792d369d64ab509b10d87636d4c4151956c4329",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/predictions/val_base/predictions.npz": {
+      "size": 22921,
+      "sha256": "c7f80e7af737c6c6e00b1c881c01fc4ae337a5333cfa6f22ab533f139c35a25d",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/reload_probe.npz": {
+      "size": 11087,
+      "sha256": "6596354bde84d1136a45e742ec0b1094b0ef3c2e6c0568cf4a63a182eab61daf",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/run_status.json": {
+      "size": 549,
+      "sha256": "ecc335d1844fcda2c9beb1049f5fdd75e6cfcd5b5b4d93d2eb801531a36cf4a7",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/temperature.json": {
+      "size": 23545,
+      "sha256": "10a4e7ee4808a8f8882f317d424604857286bf9f6768fdf2d9b11bc6f383517c",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/tensorboard/events.out.tfevents.1794303782.autodl-container-4f41468bb9-58d83b0c.65051.0": {
+      "size": 1194748,
+      "sha256": "aa89441b9b99c3af62865bf0329fd8c922ec053a7c56fcc3dbcfaeebe1faf1a5",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/training_resources.json": {
+      "size": 396,
+      "sha256": "441a861386d46a58e099b7492bbbbe0a939211ea8804af3a6b6c1b96e5cd960b",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/updates.jsonl": {
+      "size": 1739624,
+      "sha256": "feb73722d18beef3c372b54059dd294a43c570d4565a4ba9f6eef6f63fd225ca",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/MultiModalPromptLearner/checkpoint": {
+      "size": 16,
+      "sha256": "cfa9c864ad9357fc4166128d835e2c8fce88f8b17149311129a71aa31ba5fff2",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/MultiModalPromptLearner/model.pth.tar-5": {
+      "size": 280113466,
+      "sha256": "6e3c3965c28618dfa253dcaea80b4aa328acf41237f8c77910b55f43836fb97e",
+      "checkpoint": true
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/checkpoint_check.json": {
+      "size": 135,
+      "sha256": "e54d71643afacab4b13e84273d1a43fe2fb3ba58db24733dbc3a60caa7b6f8ac",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/config.yaml": {
+      "size": 3686,
+      "sha256": "bb5f8681971e7cf094061ca117a4356a8da19b0737459106016dbbc8a4a12459",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/console.command.json": {
+      "size": 694,
+      "sha256": "fcf351b0a0f3dd8d46d515830f44fb36f8230a90fdcce78bd4bd604c3127d90d",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/console.log": {
+      "size": 22368,
+      "sha256": "c2b12250a841a08a47e7e7794b413c1e34b7ca1485095f45e6e3740134f915d6",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/epochs.jsonl": {
+      "size": 489,
+      "sha256": "5bc24dc7bbdcfe6ba556a5d96b20f3560c7c4e8fd49af897a75c10155e304a3a",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/eval_test_base/config.yaml": {
+      "size": 3792,
+      "sha256": "166ab5943974788c10b0e7bee020bf824c4867d658e49dc46677e4ce9fe36378",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/eval_test_base/console.command.json": {
+      "size": 985,
+      "sha256": "7d372784a51c1b43e2bbac303bf6da5c8614b8421cf4221905ebde4012772329",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/eval_test_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/eval_test_base/console.log": {
+      "size": 14112,
+      "sha256": "9e5ab9436fa7a7dd4173cf1e4567e84ce91fa1534458ec9d6ad858b9c1c3493e",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/eval_test_base/initialization.json": {
+      "size": 5310,
+      "sha256": "630fee82d8072e71964786f8fc6880962e915bd6a7245a8df82b871c7c21be14",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/eval_test_base/log.txt": {
+      "size": 12871,
+      "sha256": "1ee999adda9a924585efe4ea030734ddfadcc7917ea0b364742e9f77979da550",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/eval_test_new/config.yaml": {
+      "size": 3789,
+      "sha256": "2315eb9a82e7de3fde17ef3ecf50a75c2079697510fa5eeeaa448dcdfb1eb6f5",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/eval_test_new/console.command.json": {
+      "size": 982,
+      "sha256": "0804920363323e33240e47bd3a309fd64e92b467f3a09527379d3559caaf125a",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/eval_test_new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/eval_test_new/console.log": {
+      "size": 14155,
+      "sha256": "a2e1eac1ead2e2d439fdcf5457cda45a8d65007501b06165ff917c6e5f4f7f79",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/eval_test_new/initialization.json": {
+      "size": 5195,
+      "sha256": "733ffabfb4b79d045dff88f091d4bfb3251abbcefc6ef147b61704386e574a08",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/eval_test_new/log.txt": {
+      "size": 12914,
+      "sha256": "68b23999964f3624d54ac41528fb43e0db271e94138e73d651519a833b0eafb3",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/eval_val_base/config.yaml": {
+      "size": 3789,
+      "sha256": "88a581312ac8e922b2e9530d3adc91b2e648e2906431a8bacb3f7d8a0b63d292",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/eval_val_base/console.command.json": {
+      "size": 982,
+      "sha256": "368bac9af5cb8f5dfe4c77406c75a6f8e3c99908229a93ddd5d334ea979bc275",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/eval_val_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/eval_val_base/console.log": {
+      "size": 14018,
+      "sha256": "58c1a7565db37ba10d77f5ddc5f797e2960ef9306378cff850c4cf5e2ceb749c",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/eval_val_base/initialization.json": {
+      "size": 5310,
+      "sha256": "ab36617a7eba55324361ff7532c34c7efb4efac59bc50744e928f335a070284e",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/eval_val_base/log.txt": {
+      "size": 12777,
+      "sha256": "c5d327d024c79ee7d76e9f48086c8c5608b80e87b6640fd2a4ea134cc36b9025",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/initialization.json": {
+      "size": 5310,
+      "sha256": "eb2af301a5f51008572c805a44c93b8e1e4d76f0a2ee15244c1af8982a9032f0",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/log.txt": {
+      "size": 21127,
+      "sha256": "ba75051d5ed9646d5a4228c5b43908dee7045e5afaa31506aa1e7f8b01221393",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/predictions/test_base/metadata.json": {
+      "size": 2957,
+      "sha256": "877c3af7f4b17d53a2f5dfa8cc9bdc087458e384bf9609550d210bb047c25604",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/predictions/test_base/predictions.npz": {
+      "size": 110943,
+      "sha256": "75ddd8be3209d7c4090ee39eca63e2d2446db5f44ca20805db719f804ad60654",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/predictions/test_new/metadata.json": {
+      "size": 2889,
+      "sha256": "691f2e5345247e500337fea37dc08ff60d0f1e40736b54c646f7e40ce6bc8942",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/predictions/test_new/predictions.npz": {
+      "size": 144724,
+      "sha256": "1ca64f5e193eb09bfb4d7a9ea4c3064ed0e83536b831f09c17299ec7d805db70",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/predictions/val_base/metadata.json": {
+      "size": 2871,
+      "sha256": "68635c57f36a0252e7d332cd87c3a4612a4d659bb546574d0e1990918d73c8c8",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/predictions/val_base/predictions.npz": {
+      "size": 23558,
+      "sha256": "53639177b878cfccfdaff8d143791220ee381cdfb8f803aa957e0ea3da4e9c4a",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/reload_probe.npz": {
+      "size": 11421,
+      "sha256": "08e6c640f15edaa12e697892ea046a5992a7246af868405bad981c126894b152",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/run_status.json": {
+      "size": 539,
+      "sha256": "78f81ccccab5de85159578bd4f2791b3345f17ea26423f0b9a03e3461cac485a",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/temperature.json": {
+      "size": 23480,
+      "sha256": "cdf8fb1cb3b4de96d250dd05b4a064569b3e25555a76f2aa1cef12b2178926f1",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/tensorboard/events.out.tfevents.1794302052.autodl-container-4f41468bb9-58d83b0c.26516.0": {
+      "size": 249338,
+      "sha256": "cd111adb960eee56e0bf3542a9719402cc69a219ce480d67e6babf47f65fd3ab",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/training_resources.json": {
+      "size": 403,
+      "sha256": "a90bbae2d16e5bb3335960508942020f0c9f1679cfa45782b908c1b71594024f",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed1/attempt01/updates.jsonl": {
+      "size": 411445,
+      "sha256": "01e6b68854f792cca18be47b0a8ec651beaa9edb2fffe7aa6e409003317835b2",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/MultiModalPromptLearner/checkpoint": {
+      "size": 16,
+      "sha256": "cfa9c864ad9357fc4166128d835e2c8fce88f8b17149311129a71aa31ba5fff2",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/MultiModalPromptLearner/model.pth.tar-5": {
+      "size": 280113466,
+      "sha256": "c03c740938365c065f143c8a7af044e1265876e5da9fe13f395cba483ff9b6e1",
+      "checkpoint": true
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/checkpoint_check.json": {
+      "size": 135,
+      "sha256": "e54d71643afacab4b13e84273d1a43fe2fb3ba58db24733dbc3a60caa7b6f8ac",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/config.yaml": {
+      "size": 3686,
+      "sha256": "210f0e39d2f8f0bace7072d977107c7a33abba0041467cded81663524882eb21",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/console.command.json": {
+      "size": 694,
+      "sha256": "ed1d2a39a1bdede83556c06e62bac62953ece5c01d1f1e4add5a3b9e93329aa1",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/console.log": {
+      "size": 22381,
+      "sha256": "dd7bc072aafb54c25c9c2b55958ddf6420f6a0a94f0c8e2c86477ec19460bfec",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/epochs.jsonl": {
+      "size": 489,
+      "sha256": "6f62278fd577a79d2201feb5e68e522f47e097859aab3f51e8cf05c5754b36fe",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/eval_test_base/config.yaml": {
+      "size": 3792,
+      "sha256": "e7e723ebf008cd3733a2fe6951e59cd2d6acd7b03ad14ca638a178457d82b66b",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/eval_test_base/console.command.json": {
+      "size": 985,
+      "sha256": "f249951163cd55886363ef2dc73d46a746aa7b34befcecd429787dd47d51ed90",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/eval_test_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/eval_test_base/console.log": {
+      "size": 14110,
+      "sha256": "1038906cbbbc2d94e863ae0a42765421428348d1416c2337ef3dbfccf5117ad5",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/eval_test_base/initialization.json": {
+      "size": 5310,
+      "sha256": "1f3b4f3daff9bb86b4b516c303c9aebe07736ffa660e354b30dde9be38a5bb31",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/eval_test_base/log.txt": {
+      "size": 12869,
+      "sha256": "6f7d7b6e4cad5ac2d4dbc1d06a69d10784e1bc10b8fb7e04d93c05ef13f13631",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/eval_test_new/config.yaml": {
+      "size": 3789,
+      "sha256": "9ea4a5d807e4cdf8333e74e852fb0b4bac49a95c76201a18ed644f492d809e1a",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/eval_test_new/console.command.json": {
+      "size": 982,
+      "sha256": "c717b758138278c913e21459ad4d36ba2b9a6ba317a09aba6e3392fe85d71c29",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/eval_test_new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/eval_test_new/console.log": {
+      "size": 14151,
+      "sha256": "e4518eba3d490c071e7d6b40297797b21b698421c6a343a68ef55eb167270505",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/eval_test_new/initialization.json": {
+      "size": 5196,
+      "sha256": "8053625204df62e165a46ad112336f4045e46efaa82a2d6f7f33eb5c854e2b97",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/eval_test_new/log.txt": {
+      "size": 12910,
+      "sha256": "5ea55ff073a5adaf72dc938bdf0cf56a6f8f317f556054dd8323efe84ac2747e",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/eval_val_base/config.yaml": {
+      "size": 3789,
+      "sha256": "c787c46933c4bef74928147649d0aeef60cf5b65b5f0211e8d9b48d31a450bce",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/eval_val_base/console.command.json": {
+      "size": 982,
+      "sha256": "1c9b117cc1b27bfc79bbd5d5cba411750125c936773adbd03bc73dd6c1b07f91",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/eval_val_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/eval_val_base/console.log": {
+      "size": 14021,
+      "sha256": "3148ab8b81b134ddb5bc01d71a6f111fb0147f9384323264bd09079a7e717af7",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/eval_val_base/initialization.json": {
+      "size": 5309,
+      "sha256": "2e3b5657bb1d60fefdbb22a2328fb03c265a95611433d64775d1fb3569e4cf5d",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/eval_val_base/log.txt": {
+      "size": 12780,
+      "sha256": "3238c28df5007820b8a486e754a8274ab28b87458bdc3ef9541ee3cfa0ee05e6",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/initialization.json": {
+      "size": 5309,
+      "sha256": "da430a885f198397189f663ce782747ef08a1b84632dbea848b6e9163a33e49b",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/log.txt": {
+      "size": 21140,
+      "sha256": "e716068afa2394101c4f47369118c0257d10bcd73b8ee57860f3f1ab6f44ec9f",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/predictions/test_base/metadata.json": {
+      "size": 2954,
+      "sha256": "da973c1eb0e8a420673c7e9a920bd1f377deed233b5a6b82f6bc0944c4dfcc35",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/predictions/test_base/predictions.npz": {
+      "size": 113524,
+      "sha256": "33acc452d24c14fa0685789e110cf3c237f565b8791d116ff6512099220734a4",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/predictions/test_new/metadata.json": {
+      "size": 2887,
+      "sha256": "c717e352870da65cc217bc39dfec63c2cdbcd5087acf3faf57f37ecb77692efb",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/predictions/test_new/predictions.npz": {
+      "size": 148911,
+      "sha256": "e23a62ae9a0a77379d014c088d550ee62dddc3c2eb66bf1dfebd8f0eeb433e90",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/predictions/val_base/metadata.json": {
+      "size": 2875,
+      "sha256": "f2d2d17888f3ffe790b050835f2162f9d6820bf172ff82574518391aa34bf566",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/predictions/val_base/predictions.npz": {
+      "size": 24089,
+      "sha256": "5a6b31c14705ac1633feeec26a1d28dfbc56526a36fcc9afdcdc82bb8d1d1630",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/reload_probe.npz": {
+      "size": 11690,
+      "sha256": "dd6d330bc0de3f30ada0c72c6eae7d27db37c383af93b9e9b6f3b0821979f283",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/run_status.json": {
+      "size": 539,
+      "sha256": "fecdc402670d671fe7a5af58a71f26780fb0023515fd9ec09739501611bd4c03",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/temperature.json": {
+      "size": 23448,
+      "sha256": "a432e1262e380ecbada49188cadd665f15a38a71435452b0fad5b436cf1cb4d3",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/tensorboard/events.out.tfevents.1794302863.autodl-container-4f41468bb9-58d83b0c.44389.0": {
+      "size": 249338,
+      "sha256": "ff44ced5e8a6333fca26869cb4bcdaec552051cf9619a51b30c17fff6990973f",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/training_resources.json": {
+      "size": 403,
+      "sha256": "347dd845fce559f9dd614a78992d0771f0bc2bbd794c930fb29938ae65ca0365",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed2/attempt01/updates.jsonl": {
+      "size": 411542,
+      "sha256": "e03e58f884223fd2e3c62ed165c65ae11ca507648a84548f97e224bae0a4d331",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/MultiModalPromptLearner/checkpoint": {
+      "size": 16,
+      "sha256": "cfa9c864ad9357fc4166128d835e2c8fce88f8b17149311129a71aa31ba5fff2",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/MultiModalPromptLearner/model.pth.tar-5": {
+      "size": 280113466,
+      "sha256": "97abbb3eda82ed9d8a5599cebce191504c679ffbe9a88a1d70e401b8eb5e21ca",
+      "checkpoint": true
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/checkpoint_check.json": {
+      "size": 135,
+      "sha256": "e54d71643afacab4b13e84273d1a43fe2fb3ba58db24733dbc3a60caa7b6f8ac",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/config.yaml": {
+      "size": 3686,
+      "sha256": "cafef55242dc970ad0a6590b82d3e04ac2c2915bb319d3ee70df1a1b323a884c",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/console.command.json": {
+      "size": 694,
+      "sha256": "f64cc358cedffb0ed19210506475b9d47254dec0b593749f01b79176000e2a14",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/console.log": {
+      "size": 22383,
+      "sha256": "6e26954e9c47c1c0f0d0afb86ff560ff674780580337b15ee68c85e27a5f4186",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/epochs.jsonl": {
+      "size": 489,
+      "sha256": "5ce1225a36e39c313dd5afe500ac7fb6c2c9803e9338b009c475cb8d429ecdb8",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/eval_test_base/config.yaml": {
+      "size": 3792,
+      "sha256": "1b5e98ed0d62a661bf8bed9dca99eded9d649d9d707dfba871294ad465c783f2",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/eval_test_base/console.command.json": {
+      "size": 985,
+      "sha256": "251cf3fe5d123cf04a9f82800282bd4920fadb977ac4d53c1b488c9ec3153fd8",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/eval_test_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/eval_test_base/console.log": {
+      "size": 14139,
+      "sha256": "5a9d0842fcd83a4fac2599a5f028cef48347bda11f7a6333a2aa9a64b1797db2",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/eval_test_base/initialization.json": {
+      "size": 5311,
+      "sha256": "2a90f84740de9a64571e2ccddbaa792573ef28500709f12a700419cb27e37e3c",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/eval_test_base/log.txt": {
+      "size": 12898,
+      "sha256": "bd223d48c0566598e1088812db393cd4f409d3561188a9c22b2a2de2462a3768",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/eval_test_new/config.yaml": {
+      "size": 3789,
+      "sha256": "ae411a034a8cabcc3882f8bf9385ba28757e268233cf249cd362b6243fae9d5c",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/eval_test_new/console.command.json": {
+      "size": 982,
+      "sha256": "16cebf6796843700bdc61b9585816ea0762b2e8341272a78d03732fd81248553",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/eval_test_new/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/eval_test_new/console.log": {
+      "size": 14143,
+      "sha256": "fd0d1421204f4328497abbb44bd37ad0610d5dfdb76420ab031e1ffdde3ed06c",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/eval_test_new/initialization.json": {
+      "size": 5195,
+      "sha256": "a816b417be962ba41b471d3ad6e53ecf2670e67d7ed2b36d2c53b18b96bfa89b",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/eval_test_new/log.txt": {
+      "size": 12902,
+      "sha256": "be920bcf3deeb34bb335bf2609da38f0c3c5e15cb808452135d20bc9e982b22a",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/eval_val_base/config.yaml": {
+      "size": 3789,
+      "sha256": "d813dbd78a6035f1e8ac25d6a16c98a235eb640bbe5f861c9f95f0bd4a738c16",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/eval_val_base/console.command.json": {
+      "size": 982,
+      "sha256": "a9181ac238c6b83e07f0cebcceebb5fe0b16c4a9171fcf256f1c521c782bfa94",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/eval_val_base/console.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/eval_val_base/console.log": {
+      "size": 14049,
+      "sha256": "96bd9fc0c453d9764b7589e87baedf432caf09e6bc90d668072802f58e3df37a",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/eval_val_base/initialization.json": {
+      "size": 5309,
+      "sha256": "52653e53acfee5f8ebbe5d366ed5c60686cd60e87993cb99090ae1104880f5de",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/eval_val_base/log.txt": {
+      "size": 12808,
+      "sha256": "b4bbdd31fc0ea6059c66f2fbc1ea3555c01ba44f60b8e958b834d8531732d65e",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/initialization.json": {
+      "size": 5310,
+      "sha256": "b2ecf17edea4a1b95d769b12c3d7caf914698bd3671f4716684ef3add0630917",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/log.txt": {
+      "size": 21142,
+      "sha256": "f961bc0c9e6af467c71c641311f3c8c55548ecd24f94d291c5c3052c1ff0f51c",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/predictions/test_base/metadata.json": {
+      "size": 2983,
+      "sha256": "e3417a40010bb0655ebd3ae70168671c3be86de02e697fd1886ac34f442afa11",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/predictions/test_base/predictions.npz": {
+      "size": 110729,
+      "sha256": "a25e2783a518e711f1ade9fa402df17cee4393640cdaa4095a274601647fb709",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/predictions/test_new/metadata.json": {
+      "size": 2879,
+      "sha256": "340a45560b1a1d5b92762de4d953217d1c193b3f90588521d66a4d0d3e522527",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/predictions/test_new/predictions.npz": {
+      "size": 145085,
+      "sha256": "e0aa8739d50812c19243e8a1da81ea43d281723b0203da61ef203f81ca32a2a7",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/predictions/val_base/metadata.json": {
+      "size": 2901,
+      "sha256": "373e08d2fbc2715db363d5018a791ac4f676575bd59bcf4c4d662e0b3138b138",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/predictions/val_base/predictions.npz": {
+      "size": 23457,
+      "sha256": "5ad52a1626fabd0f56502d13958fc33fdb79948dad4fb36573c6850241bdb0ee",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/reload_probe.npz": {
+      "size": 11361,
+      "sha256": "ea4cdca0fbdcea9eff9c5d2e5e89d36747ebba90c1b3571f15848afa8545e95d",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/run_status.json": {
+      "size": 539,
+      "sha256": "513023dd81eb0d99d9be3ea7684684e82c6c1e4e72ce55f2984084e2ed1a94d2",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/temperature.json": {
+      "size": 23464,
+      "sha256": "9f1bc989b1b127888bb5dff89c2ad9b765695366ef6e50a582926e6f54c97da5",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/tensorboard/events.out.tfevents.1794303675.autodl-container-4f41468bb9-58d83b0c.62255.0": {
+      "size": 249338,
+      "sha256": "d6dae86b627016453ea6d831d285fc05542497c43428d603b86e029dc22ac601",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/training_resources.json": {
+      "size": 405,
+      "sha256": "22891f0b8efa0e997b84a8029bfb0fc893c9d00c30085ad4fe4525deb8307b0c",
+      "checkpoint": false
+    },
+    "outputs/B/oxford_flowers/tcpt/seed3/attempt01/updates.jsonl": {
+      "size": 411386,
+      "sha256": "cebdcf85e57f3cd809f8718132fce08d82673159066f516eb166f201d96ce295",
+      "checkpoint": false
+    },
+    "outputs/B/tables/clip_reference.csv": {
+      "size": 469,
+      "sha256": "db1d7e66a23b1a9265a0dffa630711e4c66357c980401c644d2fad04d38d1376",
+      "checkpoint": false
+    },
+    "outputs/B/tables/costs.csv": {
+      "size": 4387,
+      "sha256": "2c27fa5edf8d98ac5b06871347dc12618b48ddd2d9201434d3b104434ba5061a",
+      "checkpoint": false
+    },
+    "outputs/B/tables/ece_bins_sensitivity.csv": {
+      "size": 11584,
+      "sha256": "b31043236a97f9573f45ea53752d4362a548d451c41e86f21bfffbfbcc2c641e",
+      "checkpoint": false
+    },
+    "outputs/B/tables/paired_tcpt_vs_maple.csv": {
+      "size": 2066,
+      "sha256": "d9e8d7b6092c2a2c6a0fc89af9c4f8f4c69f04f338a62c0e82abb22a18827980",
+      "checkpoint": false
+    },
+    "outputs/B/tables/reliability_seed1.csv": {
+      "size": 18409,
+      "sha256": "58030e88692856bfd3f31b1f05bd0480e5f119f933257bd5e6afd8ce5ef8dee9",
+      "checkpoint": false
+    },
+    "outputs/B/tables/runs_raw.csv": {
+      "size": 4906,
+      "sha256": "8e796c71b44f84e9071a11dd4515c01e2bf67b3698149ac5b439279140c28874",
+      "checkpoint": false
+    },
+    "outputs/B/tables/summary_raw.csv": {
+      "size": 1915,
+      "sha256": "2d1740db32de94bdf5fd93ef1ecafbc0b969e594c41c951d98e5f125c1d0160d",
+      "checkpoint": false
+    },
+    "outputs/B/tables/summary_temperature.csv": {
+      "size": 2472,
+      "sha256": "0107e5aa211971586df7d64350f994a777e65915bcf06202ff7d725fc3e8f52e",
+      "checkpoint": false
+    },
+    "outputs/B/tables/temperature_runs.csv": {
+      "size": 5408,
+      "sha256": "cce1bfe27a1dbab10b8cf77536aa604e08013b58cd4e6465147b4879f79d831a",
+      "checkpoint": false
+    },
+    "records/B_analysis.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "records/B_analysis.log": {
+      "size": 9821,
+      "sha256": "ab82eaee98ead669ef0e3c186ad1044d8e8de8c72f9f1787572d80ba69843305",
+      "checkpoint": false
+    },
+    "records/B_execution_plan.md": {
+      "size": 31994,
+      "sha256": "eb8ad2a27965366003e1509c064ed6e4a1a13f8891321fb6323c24c3365f11ad",
+      "checkpoint": false
+    },
+    "records/B_execution_plan.sha256": {
+      "size": 120,
+      "sha256": "0d8c8dc3ee80edc361ceccf2a07efa756548ca3b239eefbc3e87a96467b60156",
+      "checkpoint": false
+    },
+    "records/B_matrix.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "records/B_matrix.log": {
+      "size": 1337,
+      "sha256": "e087a15a1557cfb7ee3f38def75f735fc9219d7823c27f4864aa40ee76aef670",
+      "checkpoint": false
+    },
+    "records/B_progress.json": {
+      "size": 4266,
+      "sha256": "2e7a606b08119f08205c86000d3fa8fa6a8cd31aa00dafc3550e8a88572a325f",
+      "checkpoint": false
+    },
+    "records/B_runner.lock": {
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "checkpoint": false
+    },
+    "records/B_stage1/audit.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "records/B_stage1/audit.log": {
+      "size": 5564,
+      "sha256": "1449f8ad454a187a2409b0d6abdbc3fac522490944888f322db54fb2b3b0c535",
+      "checkpoint": false
+    },
+    "records/B_stage1/download.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "records/B_stage1/download.log": {
+      "size": 3117,
+      "sha256": "1c94a5c23497dcbc7cae0dae75b6a725137779ccfcccf979cf4d52dbf27eb7aa",
+      "checkpoint": false
+    },
+    "records/B_stage1/download_attempt1_single.log": {
+      "size": 51377,
+      "sha256": "0f64603f8864c151e05a2bdf3061b2a8aaad821023b62f576b0ccb38ceaea7cf",
+      "checkpoint": false
+    },
+    "records/B_stage1/gdrive_probe.exit": {
+      "size": 2,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+      "checkpoint": false
+    },
+    "records/B_stage1/gdrive_probe.log": {
+      "size": 163,
+      "sha256": "122c5459524223373679ac30b84dc6d15d3d5086ec80426b1897d8a8e3082cbe",
+      "checkpoint": false
+    },
+    "records/B_stage1/resource_check.log": {
+      "size": 1034,
+      "sha256": "2d41a8236cb5d10e42beb017074138a8838ed8f581e6f5d9c544e8a9b7e043d8",
+      "checkpoint": false
+    },
+    "records/B_stage2/preflight.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "records/B_stage2/preflight.log": {
+      "size": 42617,
+      "sha256": "50a75aa10606eed267320f706c7deedc92958cb8ea26434cadff3552820b5070",
+      "checkpoint": false
+    },
+    "records/B_stage2/preflight_attempt01_metric_field.log": {
+      "size": 745,
+      "sha256": "f7549939694d1895aadea62406c62ff8add97384d54af0a96a96bcc42c4e2168",
+      "checkpoint": false
+    },
+    "records/B_stage2/preflight_attempt02_passed.json": {
+      "size": 13375,
+      "sha256": "b9c5ea7e61687f7671d131bebb05d41b2f84a60c6d6a096d90ec9483d95329ea",
+      "checkpoint": false
+    },
+    "records/B_stage2/preflight_attempt02_passed.log": {
+      "size": 42617,
+      "sha256": "4b172dc25cd885afd97980e177cb52d8d0825372905a49ce881e7b412a1099a3",
+      "checkpoint": false
+    },
+    "records/analysis_checks.json": {
+      "size": 9821,
+      "sha256": "ab82eaee98ead669ef0e3c186ad1044d8e8de8c72f9f1787572d80ba69843305",
+      "checkpoint": false
+    },
+    "records/bootstrap.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "records/bootstrap.log": {
+      "size": 26660,
+      "sha256": "d6008f56eee091394e51b08b8871c729d1c6d9d9974b91e65f926ce8198f4fbc",
+      "checkpoint": false
+    },
+    "records/bootstrap_attempt1_pypi.log": {
+      "size": 2179,
+      "sha256": "f7c770845c4a553ba9d750ae55579c8e607a164c0fee5e50d27beca50053538e",
+      "checkpoint": false
+    },
+    "records/bootstrap_attempt2_missing_tb_nightly.log": {
+      "size": 19551,
+      "sha256": "9f2ac0b64596b1a2b4c9ff6147622056e4950aa1ecf48b97a03a560ad4df7bd5",
+      "checkpoint": false
+    },
+    "records/conda_create.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "records/conda_create.log": {
+      "size": 827,
+      "sha256": "13c9c4a3590ec4fdae80209ca658d2034f0dd9c5fd36b1d21a56a03d8ca6cb2f",
+      "checkpoint": false
+    },
+    "records/conda_create_attempt2.log": {
+      "size": 7381,
+      "sha256": "8bfa84f3e37c7d8f5f2f21b1a11c2cdedb72858014b4b64b8e4fb1b39d723baf",
+      "checkpoint": false
+    },
+    "records/conda_explicit.txt": {
+      "size": 3257,
+      "sha256": "f5d97d059921cf2d28ba6a211d1dae70d6b708f25bed622ea6f7c775dd75f494",
+      "checkpoint": false
+    },
+    "records/config_manifest.json": {
+      "size": 1540,
+      "sha256": "0c5e92e4a42cc3f3fcac7e5af83bdfaa45f5435188cba637115869e2bc5ea67c",
+      "checkpoint": false
+    },
+    "records/dassl_dependency.patch": {
+      "size": 244,
+      "sha256": "f0900df04a5d00abf6ee697b592e753785890d7bc2f98b8bb4a2ff605cca85d0",
+      "checkpoint": false
+    },
+    "records/data_checks.json": {
+      "size": 5227,
+      "sha256": "4ebcdf99d0e038cc9846aee2b288519d737818b8479fc50da46b31689a1e9337",
+      "checkpoint": false
+    },
+    "records/data_manifest.json": {
+      "size": 2378994,
+      "sha256": "7e83bccedc996d8e0e67f2cca3bf46b7c84e7522985f4c122b5992a7f4739b44",
+      "checkpoint": false
+    },
+    "records/disk_usage.txt": {
+      "size": 104,
+      "sha256": "d6928727162f9731685e6ba135534f697e1908a9d69c5b9b614f591aa23c2553",
+      "checkpoint": false
+    },
+    "records/environment_check.json": {
+      "size": 759,
+      "sha256": "726805d3e521dbdb967871d3c8e8a67b153d34688caff5282175ec3976541fd2",
+      "checkpoint": false
+    },
+    "records/gpu_verification.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "records/gpu_verification.log": {
+      "size": 759,
+      "sha256": "5ba1694809c214377b0daf6af30a1dd8840bb30d9ec8145971aae7ae2c26e363",
+      "checkpoint": false
+    },
+    "records/implementation.patch": {
+      "size": 67596,
+      "sha256": "b94fcf749f0e6241a4cf6c8c22a49dbb31431a9d65481222528db227313d58d5",
+      "checkpoint": false
+    },
+    "records/implementation_files.json": {
+      "size": 12563,
+      "sha256": "718d569f14cf5ec7dba56feaeb473cf7a78df29a48d0fceaba2221395a7816f1",
+      "checkpoint": false
+    },
+    "records/initial_environment.txt": {
+      "size": 3831,
+      "sha256": "1331eb25e5a59ee2a920134016206dde9bb8321ba04f8f81eeb067b8ee8b1b4c",
+      "checkpoint": false
+    },
+    "records/manifests/dtd/classes.json": {
+      "size": 5215,
+      "sha256": "f341eb54cdf5f6761c21950838f668f1eb69a3437be2d5b82032b7caf2bd0cbd",
+      "checkpoint": false
+    },
+    "records/manifests/dtd/seed1/test_base.json": {
+      "size": 93927,
+      "sha256": "804e2eaefcffd198eb702e0eb77a588903546fe793f579258279a77ce00e28a8",
+      "checkpoint": false
+    },
+    "records/manifests/dtd/seed1/test_new.json": {
+      "size": 90039,
+      "sha256": "aa4cc4181491806bce01f40856e7757e1c1c80551883bfd28910d80ad25ba683",
+      "checkpoint": false
+    },
+    "records/manifests/dtd/seed1/train_base.json": {
+      "size": 41747,
+      "sha256": "d83ec4ca2975ea5d09e80b8d96f3a4e237fdfadcee8a49aef509b11063bdd859",
+      "checkpoint": false
+    },
+    "records/manifests/dtd/seed1/val_base.json": {
+      "size": 10439,
+      "sha256": "9bea99768b3e2ba6ab92cfd83807cf73746dbf04f27c9535774f8add26773564",
+      "checkpoint": false
+    },
+    "records/manifests/dtd/seed2/test_base.json": {
+      "size": 93927,
+      "sha256": "804e2eaefcffd198eb702e0eb77a588903546fe793f579258279a77ce00e28a8",
+      "checkpoint": false
+    },
+    "records/manifests/dtd/seed2/test_new.json": {
+      "size": 90039,
+      "sha256": "aa4cc4181491806bce01f40856e7757e1c1c80551883bfd28910d80ad25ba683",
+      "checkpoint": false
+    },
+    "records/manifests/dtd/seed2/train_base.json": {
+      "size": 41747,
+      "sha256": "07412ec762135d0b90c02239dd30e59ecace3ebe5b18e4ff1ee7e75dd54846a1",
+      "checkpoint": false
+    },
+    "records/manifests/dtd/seed2/val_base.json": {
+      "size": 10439,
+      "sha256": "48cc8d2c2e333650caeb14e765d2afd8f1a085bc14456a25e3f88c302de3a8cb",
+      "checkpoint": false
+    },
+    "records/manifests/dtd/seed3/test_base.json": {
+      "size": 93927,
+      "sha256": "804e2eaefcffd198eb702e0eb77a588903546fe793f579258279a77ce00e28a8",
+      "checkpoint": false
+    },
+    "records/manifests/dtd/seed3/test_new.json": {
+      "size": 90039,
+      "sha256": "aa4cc4181491806bce01f40856e7757e1c1c80551883bfd28910d80ad25ba683",
+      "checkpoint": false
+    },
+    "records/manifests/dtd/seed3/train_base.json": {
+      "size": 41747,
+      "sha256": "82740189d620b43da9d232ad52b78317bce761c19dc43c500df503001aa12f9c",
+      "checkpoint": false
+    },
+    "records/manifests/dtd/seed3/val_base.json": {
+      "size": 10439,
+      "sha256": "10749b42c2ed90ca048056d706dc6c3566ef828457dd7711bf42ba9f28913198",
+      "checkpoint": false
+    },
+    "records/manifests/oxford_flowers/classes.json": {
+      "size": 12201,
+      "sha256": "64b460dd02924b1f1648ae4bf7118d1dd6a20699f6106a81cbab10766b00c8f0",
+      "checkpoint": false
+    },
+    "records/manifests/oxford_flowers/seed1/test_base.json": {
+      "size": 118140,
+      "sha256": "85b67a8f01e91d91dbb65ce0abd4b607a0e34696c23dba175c9104348f058cd5",
+      "checkpoint": false
+    },
+    "records/manifests/oxford_flowers/seed1/test_new.json": {
+      "size": 155376,
+      "sha256": "e3c50bf27923670959a115a318b02fb24364a51da3c800a44c65e06acc1057d4",
+      "checkpoint": false
+    },
+    "records/manifests/oxford_flowers/seed1/train_base.json": {
+      "size": 91939,
+      "sha256": "fe5d10a41feb2a381860067d4cc6c14781ee66320acabdea8711853f3cc36b98",
+      "checkpoint": false
+    },
+    "records/manifests/oxford_flowers/seed1/val_base.json": {
+      "size": 22987,
+      "sha256": "7920430da5d7a6a8dd35a2e43b466cdb35709cd43c3a9c75cc964b9e8e87e415",
+      "checkpoint": false
+    },
+    "records/manifests/oxford_flowers/seed2/test_base.json": {
+      "size": 118140,
+      "sha256": "85b67a8f01e91d91dbb65ce0abd4b607a0e34696c23dba175c9104348f058cd5",
+      "checkpoint": false
+    },
+    "records/manifests/oxford_flowers/seed2/test_new.json": {
+      "size": 155376,
+      "sha256": "e3c50bf27923670959a115a318b02fb24364a51da3c800a44c65e06acc1057d4",
+      "checkpoint": false
+    },
+    "records/manifests/oxford_flowers/seed2/train_base.json": {
+      "size": 91939,
+      "sha256": "cedd565e86f9adddce641c450ed4f05889855ba1e03673f15e9ddefeb75ecb00",
+      "checkpoint": false
+    },
+    "records/manifests/oxford_flowers/seed2/val_base.json": {
+      "size": 22987,
+      "sha256": "a6df652802bfaf1a484f497f7ec25925dfb94f284127f3da16f9b8492808f815",
+      "checkpoint": false
+    },
+    "records/manifests/oxford_flowers/seed3/test_base.json": {
+      "size": 118140,
+      "sha256": "85b67a8f01e91d91dbb65ce0abd4b607a0e34696c23dba175c9104348f058cd5",
+      "checkpoint": false
+    },
+    "records/manifests/oxford_flowers/seed3/test_new.json": {
+      "size": 155376,
+      "sha256": "e3c50bf27923670959a115a318b02fb24364a51da3c800a44c65e06acc1057d4",
+      "checkpoint": false
+    },
+    "records/manifests/oxford_flowers/seed3/train_base.json": {
+      "size": 91939,
+      "sha256": "03260eb65fa7964f6910aeb969f5563d4c41d4343868b733e77be6b114fa33ea",
+      "checkpoint": false
+    },
+    "records/manifests/oxford_flowers/seed3/val_base.json": {
+      "size": 22987,
+      "sha256": "6dd262713b02043adbd9693a5dc184673da855942447604da51cf0d4f8bd305f",
+      "checkpoint": false
+    },
+    "records/pip_check.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "records/pip_check.txt": {
+      "size": 30,
+      "sha256": "9261363b733079a641c2e4cc9bc46ffa1d8336945a87f807b6cf68847dbc9b09",
+      "checkpoint": false
+    },
+    "records/pip_freeze.txt": {
+      "size": 1536,
+      "sha256": "959151f9f7b0784920d008ad6c32ff989936d5bdcefa97af4f4bc232b6999b77",
+      "checkpoint": false
+    },
+    "records/preflight.json": {
+      "size": 13375,
+      "sha256": "e42840469b756bf469f71220d614554b1dbfaf06de1a407a22e3200f2be8b619",
+      "checkpoint": false
+    },
+    "records/preflight_code_sha256.json": {
+      "size": 12040,
+      "sha256": "9fe20eba20e0a7ed86a115c8cf4474db534194ca8227107451dbd6b8c8724768",
+      "checkpoint": false
+    },
+    "records/preflight_partial.json": {
+      "size": 7951,
+      "sha256": "3001f47373aea4e72b7f2c894910126ae787ea9de4350ee1a8ab93863aa81de7",
+      "checkpoint": false
+    },
+    "records/promptsrc_help.txt": {
+      "size": 1913,
+      "sha256": "b4f0d9f0390f46cd11e0f86797394f889ec0de1063fb26d0e8d29775868e79a8",
+      "checkpoint": false
+    },
+    "records/seed1_acceptance.json": {
+      "size": 1422,
+      "sha256": "b9d8b03eb6d78e1debac7068f852baa0aacba2fd935b14d8a0cfcd49d3b67d04",
+      "checkpoint": false
+    },
+    "records/source_integrity.exit": {
+      "size": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "checkpoint": false
+    },
+    "records/source_revisions.json": {
+      "size": 166,
+      "sha256": "be353dc9a3949b1897c56a9fc6a261845babd17d3ab32540e29b9d85926c5f03",
+      "checkpoint": false
+    },
+    "records/source_sha256_before.txt": {
+      "size": 35634,
+      "sha256": "ba36681e189501940fd34c508d49b676e5ca877a3a8f73b32883d57c3f380175",
+      "checkpoint": false
+    },
+    "records/tcpt_help.txt": {
+      "size": 1913,
+      "sha256": "b4f0d9f0390f46cd11e0f86797394f889ec0de1063fb26d0e8d29775868e79a8",
+      "checkpoint": false
+    },
+    "records/weight_sha256.txt": {
+      "size": 112,
+      "sha256": "05723bafe65d58710bd0fcf5cfa69203e146942747d5336e75893afc9888ff3e",
+      "checkpoint": false
+    }
+  }
+}

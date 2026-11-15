@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-11-10T15:47:08.116830+08:00",
+  "python": "3.10.22",
+  "packages": {
+    "torch": "2.4.1",
+    "torchvision": "0.19.1",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "scikit-learn": "1.5.2",
+    "pandas": "2.2.3",
+    "pillow": "10.4.0",
+    "matplotlib": "3.9.2",
+    "ftfy": "6.1.1",
+    "yacs": "0.1.8",
+    "wilds": "1.2.2",
+    "tensorboard": "2.18.0",
+    "dassl": "0.6.3"
+  },
+  "pytorch_cuda_runtime": "12.1",
+  "gpu": "NVIDIA GeForce RTX 4090 D",
+  "gpu_memory_bytes": 25252724736,
+  "fp16_forward_backward_and_sgd": "passed",
+  "torchvision_cuda_nms": "passed",
+  "synthetic_loss": 0.3428809344768524,
+  "scope": "Synthetic GPU operations and training-entry imports. Dataset training is a subsequent validation stage."
+}

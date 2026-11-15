@@ -1,0 +1,37 @@
+Starting dtd/maple/seed1
+Completed dtd/maple/seed1 1 /18
+Starting dtd/tcpt/seed1
+Completed dtd/tcpt/seed1 2 /18
+Starting dtd/promptsrc/seed1
+Completed dtd/promptsrc/seed1 3 /18
+Starting oxford_flowers/maple/seed1
+Completed oxford_flowers/maple/seed1 4 /18
+Starting oxford_flowers/tcpt/seed1
+Completed oxford_flowers/tcpt/seed1 5 /18
+Starting oxford_flowers/promptsrc/seed1
+Completed oxford_flowers/promptsrc/seed1 6 /18
+Starting dtd/maple/seed2
+Completed dtd/maple/seed2 7 /18
+Starting dtd/tcpt/seed2
+Completed dtd/tcpt/seed2 8 /18
+Starting dtd/promptsrc/seed2
+Completed dtd/promptsrc/seed2 9 /18
+Starting oxford_flowers/maple/seed2
+Completed oxford_flowers/maple/seed2 10 /18
+Starting oxford_flowers/tcpt/seed2
+Completed oxford_flowers/tcpt/seed2 11 /18
+Starting oxford_flowers/promptsrc/seed2
+Completed oxford_flowers/promptsrc/seed2 12 /18
+Starting dtd/maple/seed3
+Completed dtd/maple/seed3 13 /18
+Starting dtd/tcpt/seed3
+Completed dtd/tcpt/seed3 14 /18
+Starting dtd/promptsrc/seed3
+Completed dtd/promptsrc/seed3 15 /18
+Starting oxford_flowers/maple/seed3
+Completed oxford_flowers/maple/seed3 16 /18
+Starting oxford_flowers/tcpt/seed3
+Completed oxford_flowers/tcpt/seed3 17 /18
+Starting oxford_flowers/promptsrc/seed3
+Completed oxford_flowers/promptsrc/seed3 18 /18
+All 18 runs, 54 prediction exports and 4 CLIP references completed.
