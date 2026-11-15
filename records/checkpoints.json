@@ -3,180 +3,180 @@
     "path": "outputs/B/dtd/maple/seed1/attempt01/MultiModalPromptLearner/model.pth.tar-5",
     "bytes": 278039098,
     "sha256": "04942722d86732a4cbc308a1104810cd1fbf131232708890d095cd7f8bf25923",
-    "storage": "git-lfs"
+    "storage": "local-only"
   },
   {
     "path": "outputs/B/dtd/maple/seed2/attempt01/MultiModalPromptLearner/model.pth.tar-5",
     "bytes": 278039098,
     "sha256": "7e4c92ce6e63d571fd331693bf9d59e6a34d75f15a25e1f45b053e2ac1827e2d",
-    "storage": "git-lfs"
+    "storage": "local-only"
   },
   {
     "path": "outputs/B/dtd/maple/seed3/attempt01/MultiModalPromptLearner/model.pth.tar-5",
     "bytes": 278039098,
     "sha256": "dfd232735b9d476416cbfc9cbf3ca0eaac0094859142e4ba76ca27aa88708fcd",
-    "storage": "git-lfs"
+    "storage": "local-only"
   },
   {
     "path": "outputs/B/dtd/promptsrc/seed1/attempt01/VLPromptLearner/model.pth.tar-20",
     "bytes": 424324538,
     "sha256": "7df5aa24a232be574293071d4b2364d3b232bc74c64c36b1f7f1c73b3183f808",
-    "storage": "git-lfs"
+    "storage": "local-only"
   },
   {
     "path": "outputs/B/dtd/promptsrc/seed2/attempt01/VLPromptLearner/model.pth.tar-20",
     "bytes": 424324538,
     "sha256": "505417c7eae37e41613f0925f12ecd17c3cbf984246a47304bd9f68457d6ba5f",
-    "storage": "git-lfs"
+    "storage": "local-only"
   },
   {
     "path": "outputs/B/dtd/promptsrc/seed3/attempt01/VLPromptLearner/model.pth.tar-20",
     "bytes": 424324538,
     "sha256": "f621e3b246a9a5a1b4e0d593ebb6097c8dc9b5d2650565aae34431c90e0b0b1a",
-    "storage": "git-lfs"
+    "storage": "local-only"
   },
   {
     "path": "outputs/B/dtd/tcpt/seed1/attempt01/MultiModalPromptLearner/model.pth.tar-5",
     "bytes": 278039098,
     "sha256": "bb42447ad8daccd6619040b8ecb3ad2a80142aa878f41eca2d921607de957558",
-    "storage": "git-lfs"
+    "storage": "local-only"
   },
   {
     "path": "outputs/B/dtd/tcpt/seed2/attempt01/MultiModalPromptLearner/model.pth.tar-5",
     "bytes": 278039098,
     "sha256": "63d21caab144b403aa0cc84c8bacfbc996df65cb95882ae9b8e58bd4a4114bdb",
-    "storage": "git-lfs"
+    "storage": "local-only"
   },
   {
     "path": "outputs/B/dtd/tcpt/seed3/attempt01/MultiModalPromptLearner/model.pth.tar-5",
     "bytes": 278039098,
     "sha256": "e3019e860dd3ce600bf630837044975d9c871b7e560e4eb4bd19de12b71b2397",
-    "storage": "git-lfs"
+    "storage": "local-only"
   },
   {
     "path": "outputs/B/oxford_flowers/maple/seed1/attempt01/MultiModalPromptLearner/model.pth.tar-5",
     "bytes": 280113466,
     "sha256": "02a24d1b26b0a95e2935c4467c850f8e570e8e3e6f408daf41088fea8e96668d",
-    "storage": "git-lfs"
+    "storage": "local-only"
   },
   {
     "path": "outputs/B/oxford_flowers/maple/seed2/attempt01/MultiModalPromptLearner/model.pth.tar-5",
     "bytes": 280113466,
     "sha256": "0963248783b4b132a1d78d8a196105080dcc429f71b0827d63934a8a04a8ab5e",
-    "storage": "git-lfs"
+    "storage": "local-only"
   },
   {
     "path": "outputs/B/oxford_flowers/maple/seed3/attempt01/MultiModalPromptLearner/model.pth.tar-5",
     "bytes": 280113466,
     "sha256": "47327e1f24a4ff2afb92941da3d9682364f5650ed2375a93dbd3ea1242458dc7",
-    "storage": "git-lfs"
+    "storage": "local-only"
   },
   {
     "path": "outputs/B/oxford_flowers/promptsrc/seed1/attempt01/VLPromptLearner/model.pth.tar-20",
     "bytes": 426343610,
     "sha256": "e426c41d612a39dc83583782d8be39c9363c9d542d96cef31952f4dcb219137c",
-    "storage": "git-lfs"
+    "storage": "local-only"
   },
   {
     "path": "outputs/B/oxford_flowers/promptsrc/seed2/attempt01/VLPromptLearner/model.pth.tar-20",
     "bytes": 426343546,
     "sha256": "9925891096ae9f1edd2e7acdd2e65831e5fd79f4b7221cb2833bb31a02cc7b94",
-    "storage": "git-lfs"
+    "storage": "local-only"
   },
   {
     "path": "outputs/B/oxford_flowers/promptsrc/seed3/attempt01/VLPromptLearner/model.pth.tar-20",
     "bytes": 426343546,
     "sha256": "286e31d7d222571445874198544ea7de40b17412257ad55531e3fac773225bf1",
-    "storage": "git-lfs"
+    "storage": "local-only"
   },
   {
     "path": "outputs/B/oxford_flowers/tcpt/seed1/attempt01/MultiModalPromptLearner/model.pth.tar-5",
     "bytes": 280113466,
     "sha256": "6e3c3965c28618dfa253dcaea80b4aa328acf41237f8c77910b55f43836fb97e",
-    "storage": "git-lfs"
+    "storage": "local-only"
   },
   {
     "path": "outputs/B/oxford_flowers/tcpt/seed2/attempt01/MultiModalPromptLearner/model.pth.tar-5",
     "bytes": 280113466,
     "sha256": "c03c740938365c065f143c8a7af044e1265876e5da9fe13f395cba483ff9b6e1",
-    "storage": "git-lfs"
+    "storage": "local-only"
   },
   {
     "path": "outputs/B/oxford_flowers/tcpt/seed3/attempt01/MultiModalPromptLearner/model.pth.tar-5",
     "bytes": 280113466,
     "sha256": "97abbb3eda82ed9d8a5599cebce191504c679ffbe9a88a1d70e401b8eb5e21ca",
-    "storage": "git-lfs"
+    "storage": "local-only"
   },
   {
     "path": "outputs/E/dtd/coop/seed1/attempt01/prompt_learner/model.pth.tar-200",
     "bytes": 1548956,
     "sha256": "10bd6505b24bc63390f48607d959d0fd9ba69903712302f85bcb874bfb260aab",
-    "storage": "git-lfs"
+    "storage": "local-only"
   },
   {
     "path": "outputs/E/dtd/coop/seed2/attempt01/prompt_learner/model.pth.tar-200",
     "bytes": 1548892,
     "sha256": "b83d2a709f17217df572fe4406da11c476d51dd3185f0bc7e59b4d984736e1b0",
-    "storage": "git-lfs"
+    "storage": "local-only"
   },
   {
     "path": "outputs/E/dtd/coop/seed3/attempt01/prompt_learner/model.pth.tar-200",
     "bytes": 1548892,
     "sha256": "231598d25017462173dd85dba5662b7563a585be7420e7cecb2e657b12ce7b93",
-    "storage": "git-lfs"
+    "storage": "local-only"
   },
   {
     "path": "outputs/E/dtd/dpc/seed1/attempt01/prompt_learner/model.pth.tar-20",
     "bytes": 250803258,
     "sha256": "520482ef7b7af4cb931df19619901ead5e2e92c32ba8b5ae3f6cf8917d7baee6",
-    "storage": "git-lfs"
+    "storage": "local-only"
   },
   {
     "path": "outputs/E/dtd/dpc/seed2/attempt01/prompt_learner/model.pth.tar-20",
     "bytes": 250803258,
     "sha256": "79b04231e4b40f0516624b1ade83c3ebb20620e6ef792353a7c0278798c31dc3",
-    "storage": "git-lfs"
+    "storage": "local-only"
   },
   {
     "path": "outputs/E/dtd/dpc/seed3/attempt01/prompt_learner/model.pth.tar-20",
     "bytes": 250803258,
     "sha256": "105867cc318504ea945275d889aa842dd3acc2553ad40ac4b189ebc1addf0450",
-    "storage": "git-lfs"
+    "storage": "local-only"
   },
   {
     "path": "outputs/E/oxford_flowers/coop/seed1/attempt01/prompt_learner/model.pth.tar-200",
     "bytes": 3236124,
     "sha256": "74c6e57b28ee9b788eb5d2c8dd1e3b06a3a6a2373bbd2aa33f8433c5e6594a1a",
-    "storage": "git-lfs"
+    "storage": "local-only"
   },
   {
     "path": "outputs/E/oxford_flowers/coop/seed2/attempt01/prompt_learner/model.pth.tar-200",
     "bytes": 3236124,
     "sha256": "769c738f0f050461699c71561c7ab7601eca7db39c008327ce50ac0f19ed8b27",
-    "storage": "git-lfs"
+    "storage": "local-only"
   },
   {
     "path": "outputs/E/oxford_flowers/coop/seed3/attempt01/prompt_learner/model.pth.tar-200",
     "bytes": 3236124,
     "sha256": "0c24c5947cae94ea454a51f84aab58e7871a32693cbc2fe73688f1c00b5b6d5a",
-    "storage": "git-lfs"
+    "storage": "local-only"
   },
   {
     "path": "outputs/E/oxford_flowers/dpc/seed1/attempt01/prompt_learner/model.pth.tar-20",
     "bytes": 252490554,
     "sha256": "584f342ccefe566de825e9a54732943f9e38cb78405a68b6bd6fb2f356f5720b",
-    "storage": "git-lfs"
+    "storage": "local-only"
   },
   {
     "path": "outputs/E/oxford_flowers/dpc/seed2/attempt01/prompt_learner/model.pth.tar-20",
     "bytes": 252490490,
     "sha256": "3a26df51dbb16ebf690ebbb3384abd51ee24c689a0605dbb08baa4382d38aad8",
-    "storage": "git-lfs"
+    "storage": "local-only"
   },
   {
     "path": "outputs/E/oxford_flowers/dpc/seed3/attempt01/prompt_learner/model.pth.tar-20",
     "bytes": 252490490,
     "sha256": "a1ca711f24a8707015e38d40f384509fd5c125d422fe8fccc3415736226b885a",
-    "storage": "git-lfs"
+    "storage": "local-only"
   }
 ]

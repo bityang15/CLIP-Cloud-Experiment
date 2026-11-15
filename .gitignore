@@ -12,3 +12,4 @@ datasets/oxford_flowers/imagelabels.mat
 datasets/**/split_fewshot/
 downloads/*.tgz
 downloads/*.tar.gz
+**/model.pth.tar-*

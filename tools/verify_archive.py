@@ -52,5 +52,5 @@ def verify(include_checkpoints):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Verify the archived cloud experiment files.')
-    parser.add_argument('--with-checkpoints', action='store_true', help='Also verify all downloaded Git LFS checkpoints.')
+    parser.add_argument('--with-checkpoints', action='store_true', help='Also verify the 30 locally retained checkpoints.')
     raise SystemExit(0 if verify(parser.parse_args().with_checkpoints) else 1)

@@ -11,7 +11,7 @@ python tools/verify_archive.py
 python tools/verify_archive.py --with-checkpoints
 ```
 
-第二条命令需要先下载全部 Git LFS 检查点。原始清单分别有 849、880 个文件，正式工作副本分别有 117、331 个文件。清单中重复出现的共享模块按原路径保留。
+第二条命令需要将保存在本地的 30 个检查点放回清单所示路径。原始清单分别有 849、880 个文件，正式工作副本分别有 117、331 个文件。清单中重复出现的共享模块按原路径保留。默认核查会跳过检查点。[本地检查点清单](../records/checkpoints.json)
 
 ## 原始运行环境
 
@@ -45,7 +45,7 @@ python scripts/audit_data.py
 
 ## 原有运行入口
 
-下列入口使用归档实现与固定配方。训练队列会创建新的 attempt，运行状态、训练日志与结果表会随执行更新。需要保留本次备份时，在独立副本中运行。
+下列入口使用归档实现与固定配方。B 队列会复用通过校验的同配方已完成运行，E 队列会创建新的 attempt。运行状态、训练日志与结果表会随执行更新。需要保留本次备份时，在独立副本中运行。
 
 ```bash
 cd /root/autodl-tmp/clip-exp/code/PromptSRC_expB
@@ -65,4 +65,4 @@ python /root/autodl-tmp/clip-exp/scripts/analyze_e.py
 
 2026 年 11 月 15 日的整理依据为本地已通过哈希校验的云端备份。B、E 的代码、预测、日志和正式检查点按原始清单重新核对。报告中的 Windows 绝对链接转换为仓库相对链接，B 协议中的前期备选路线引用已从整理副本移除。
 
-原有 `B_evidence.tar.gz`、`B_checkpoints.tar`、`E_evidence.tar.gz` 中的内容以可浏览目录保存，压缩包原始哈希仍见备份验收记录。新增的 Dassl 依赖通过固定提交恢复，其余正式工作副本保留原有逐文件哈希。[B 本地备份验收](../records/B_local_backup_checks.json) · [E 本地备份验收](../records/E_local_backup_checks.json) · [本次仓库核查](../records/repository_checks.json)
+原有证据压缩包中的代码、日志、预测和图表以可浏览目录保存，压缩包原始哈希仍见备份验收记录。30 个检查点按用户选择保留在本地，仓库保存其路径、大小与 SHA256。新增的 Dassl 依赖通过固定提交恢复，其余正式工作副本保留原有逐文件哈希。[B 本地备份验收](../records/B_local_backup_checks.json) · [E 本地备份验收](../records/E_local_backup_checks.json) · [本次仓库核查](../records/repository_checks.json)

@@ -15,5 +15,12 @@
   "archival_source": "本地已校验的 2026-11-10 云端实验备份",
   "report_links_converted": true,
   "initial_cloud_source_files_checked": 261,
-  "dassl_restored_commit": "c61a1b570ac6333bd50fb5ae06aea59002fb20bb"
+  "dassl_restored_commit": "c61a1b570ac6333bd50fb5ae06aea59002fb20bb",
+  "checkpoint_storage": "local-only",
+  "published_checkpoints": 0,
+  "published_prediction_exports": 94,
+  "unique_files_verified_with_checkpoints": 2104,
+  "unique_files_verified_without_checkpoints": 2074,
+  "report_navigation_checked": true,
+  "organized_on": "2026-11-15"
 }

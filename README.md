@@ -15,7 +15,7 @@
 | 逐次结果、温度与配对差值 | [B 结果表](outputs/B/tables) · [E 结果表](outputs/E/tables) |
 | PNG 与 PDF 图 | [B 图表](outputs/B/figures) · [E 主比较图](outputs/E/figures/main_comparison) |
 | 训练代码 | [B 工作副本](code/PromptSRC_expB) · [E 工作副本](code/DPC_expE) |
-| 完整性记录 | [仓库核查](records/repository_checks.json) · [检查点清单](records/checkpoints.json) |
+| 完整性记录与本地检查点索引 | [仓库核查](records/repository_checks.json) · [检查点清单](records/checkpoints.json) |
 
 ## 实验规模
 
@@ -48,27 +48,15 @@ B 比较 MaPLe、PromptSRC、MaPLe+TCPT。E 增加 CoOp 与 DPC，每个种子�
 
 ## 下载
 
-浏览报告、代码、CSV 和图片可以直接使用上面的入口。下载代码、记录及预测时，可先跳过 Git LFS 检查点。
+浏览报告、代码、CSV 和图片可以直接使用上面的入口。克隆仓库可以获得代码、环境配置、训练日志、94 份预测及结果图表。
 
 ```bash
-GIT_LFS_SKIP_SMUDGE=1 git clone git@github.com:bityang15/CLIP-Cloud-Experiment.git
+git clone git@github.com:bityang15/CLIP-Cloud-Experiment.git
 cd CLIP-Cloud-Experiment
 python tools/verify_archive.py
 ```
 
-30 个最终检查点通过 Git LFS 保存，路径与各次运行对应，文件大小和 SHA256 见检查点清单。安装 Git LFS 后，可以按需拉取单个模型。
-
-```bash
-git lfs install --local
-git lfs pull --include="outputs/E/dtd/dpc/seed1/attempt01/prompt_learner/model.pth.tar-20"
-```
-
-拉取全部检查点后，可以核对完整备份。
-
-```bash
-git lfs pull
-python tools/verify_archive.py --with-checkpoints
-```
+30 个最终检查点合计 7,425,156,120 字节，按用户选择保留在本地。检查点清单记录相对于仓库根目录的路径、大小和 SHA256，便于对应各次训练。将本地检查点放回清单所示位置后，可运行 `python tools/verify_archive.py --with-checkpoints` 核对完整备份。[检查点清单](records/checkpoints.json)
 
 ## 目录
 
@@ -76,8 +64,8 @@ python tools/verify_archive.py --with-checkpoints
 code/         正式实验工作副本、Dassl 依赖与 DePT 适配参考
 datasets/     官方划分、类别名与 SPLE 标注
 downloads/    原始 SPLE 标注包
-outputs/B/    B 训练日志、配置、检查点、预测、CSV 与图
-outputs/E/    E 训练日志、配置、检查点、预测、CSV 与图
+outputs/B/    B 训练日志、配置、预测、CSV 与图
+outputs/E/    E 训练日志、配置、预测、CSV 与图
 records/      原始验收、来源、逐样本清单、哈希、运行状态
 reports/      实验报告与执行记录
 scripts/      数据准备、环境检查、分析及归档脚本
