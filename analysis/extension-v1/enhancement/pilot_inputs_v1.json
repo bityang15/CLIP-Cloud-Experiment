@@ -1,0 +1,454 @@
+{
+  "formal_manifest_sha256": "1fd2de7eb05b5b78293177441680730c53cdad1be13069a5de959b8959f9f03c",
+  "historical_records": {
+    "records/checkpoints.json": "8f59d36287f9d32e32dac3878e5332817afbe07ae8ac4a52f602276d2b666491",
+    "records/config_manifest.json": "0c5e92e4a42cc3f3fcac7e5af83bdfaa45f5435188cba637115869e2bc5ea67c",
+    "records/data_manifest.json": "7e83bccedc996d8e0e67f2cca3bf46b7c84e7522985f4c122b5992a7f4739b44",
+    "records/manifests/dtd/classes.json": "f341eb54cdf5f6761c21950838f668f1eb69a3437be2d5b82032b7caf2bd0cbd",
+    "records/manifests/oxford_flowers/classes.json": "64b460dd02924b1f1648ae4bf7118d1dd6a20699f6106a81cbab10766b00c8f0"
+  },
+  "samples": {
+    "dtd": {
+      "base": {
+        "manifest_sha256": "804e2eaefcffd198eb702e0eb77a588903546fe793f579258279a77ce00e28a8",
+        "image_ids": [
+          "dtd/images/banded/banded_0060.jpg",
+          "dtd/images/banded/banded_0135.jpg",
+          "dtd/images/banded/banded_0136.jpg",
+          "dtd/images/blotchy/blotchy_0016.jpg",
+          "dtd/images/blotchy/blotchy_0079.jpg",
+          "dtd/images/blotchy/blotchy_0098.jpg",
+          "dtd/images/braided/braided_0193.jpg",
+          "dtd/images/braided/braided_0130.jpg"
+        ]
+      },
+      "new": {
+        "manifest_sha256": "aa4cc4181491806bce01f40856e7757e1c1c80551883bfd28910d80ad25ba683",
+        "image_ids": [
+          "dtd/images/matted/matted_0105.jpg",
+          "dtd/images/matted/matted_0134.jpg",
+          "dtd/images/matted/matted_0030.jpg",
+          "dtd/images/meshed/meshed_0113.jpg",
+          "dtd/images/meshed/meshed_0179.jpg",
+          "dtd/images/meshed/meshed_0136.jpg",
+          "dtd/images/paisley/paisley_0115.jpg",
+          "dtd/images/paisley/paisley_0106.jpg"
+        ]
+      }
+    },
+    "oxford_flowers": {
+      "base": {
+        "manifest_sha256": "85b67a8f01e91d91dbb65ce0abd4b607a0e34696c23dba175c9104348f058cd5",
+        "image_ids": [
+          "oxford_flowers/jpg/image_01030.jpg",
+          "oxford_flowers/jpg/image_01027.jpg",
+          "oxford_flowers/jpg/image_00992.jpg",
+          "oxford_flowers/jpg/image_01137.jpg",
+          "oxford_flowers/jpg/image_01109.jpg",
+          "oxford_flowers/jpg/image_01375.jpg",
+          "oxford_flowers/jpg/image_01352.jpg",
+          "oxford_flowers/jpg/image_03916.jpg"
+        ]
+      },
+      "new": {
+        "manifest_sha256": "e3c50bf27923670959a115a318b02fb24364a51da3c800a44c65e06acc1057d4",
+        "image_ids": [
+          "oxford_flowers/jpg/image_00172.jpg",
+          "oxford_flowers/jpg/image_00075.jpg",
+          "oxford_flowers/jpg/image_00186.jpg",
+          "oxford_flowers/jpg/image_00059.jpg",
+          "oxford_flowers/jpg/image_00008.jpg",
+          "oxford_flowers/jpg/image_00196.jpg",
+          "oxford_flowers/jpg/image_00413.jpg",
+          "oxford_flowers/jpg/image_00338.jpg"
+        ]
+      }
+    }
+  },
+  "references": {
+    "dtd/clip/seed1/base/gamma_darkening_L2": {
+      "metadata_sha256": "61dfbcfeb87b5297a169ca84a242a7224b10660c88b715cca6697698e86104d9",
+      "predictions_sha256": "37686e5d9372434f2e3f182e7957dc16162402020461733758f025c23be77231"
+    },
+    "dtd/clip/seed1/base/gamma_darkening_L3": {
+      "metadata_sha256": "fd97730ca76c91af4fdeac988d4f867d319f05bc25ec789d2098d035d6171e6b",
+      "predictions_sha256": "daf4222db34e4a7155598dbc81848c759efd25e947eb834b06881383f2de5842"
+    },
+    "dtd/clip/seed1/base/gaussian_blur_L2": {
+      "metadata_sha256": "4582effde4487aef06c654a06475490eb994618be2842da2ac6dcf548ae0dd4d",
+      "predictions_sha256": "7e9825e3ab9f209d47753642fe45f63ca4df500b92ca3baa6d11c7f242c9ecde"
+    },
+    "dtd/clip/seed1/base/gaussian_blur_L3": {
+      "metadata_sha256": "8240ed9528d2579a53adf43456525a32d20f1f993e4c5be80d0bf68ca9b60214",
+      "predictions_sha256": "d99c0e81a55e878c5ec050394ad17583f2c3ebc16f46c48b4736bf37121b3a08"
+    },
+    "dtd/clip/seed1/base/gaussian_noise_L2": {
+      "metadata_sha256": "221f38369df46d6c3fdc4953bc4f849104fa18e84099f4e1d8d1a56c59ae2203",
+      "predictions_sha256": "c1c007971d6600fa72ac4ea9c514ae738651cd6cd1ef9963b0db176b29a1eca0"
+    },
+    "dtd/clip/seed1/base/gaussian_noise_L3": {
+      "metadata_sha256": "5233b60da247d6c3bb139ef205e6a5607b717e806c8ab09adf1b87e9c7cfa331",
+      "predictions_sha256": "a5b239e3ce6829bc38808aecf693d7c798b3047d0adbadf86119efa79f408f4a"
+    },
+    "dtd/clip/seed1/new/gamma_darkening_L2": {
+      "metadata_sha256": "7ed316f435d5ed989f50b61d763660cbdab97279c93b9cb19ec4a866abd75ef3",
+      "predictions_sha256": "8a39980f253901705ad10c5d8d3fa0de3379da331f637ff1b5882d6a8f3788c9"
+    },
+    "dtd/clip/seed1/new/gamma_darkening_L3": {
+      "metadata_sha256": "7dcdd04bca8eec5a2b04c0adf178f65e7c22c07b713983b29ad9f0004d238a39",
+      "predictions_sha256": "badc98c5139ce2c03f8c1851cafaf04395c94d817a14303101de9a8ae75d5b03"
+    },
+    "dtd/clip/seed1/new/gaussian_blur_L2": {
+      "metadata_sha256": "1283cab1f1d625fe0236ec0fb88333f01c3e42d27dc745996d9cb85f748258ee",
+      "predictions_sha256": "1d22a57e24e2213c462434714aecf8064df6f02f53f894ef8cd1e0e009c93f5a"
+    },
+    "dtd/clip/seed1/new/gaussian_blur_L3": {
+      "metadata_sha256": "55b260c39c28bc42c14505bbfa9cda4f9a8c18135f8a83e3a829ab9af88813cb",
+      "predictions_sha256": "bac37c94e5a99998a81089b59d0c6187cbb97586a3829048d94bdb00a87fb3cb"
+    },
+    "dtd/clip/seed1/new/gaussian_noise_L2": {
+      "metadata_sha256": "1bef5dd2679da0bc204f2a01b282cf07572d00718b6674b903cc468225706b47",
+      "predictions_sha256": "a0b07d762e09508d220f79306ea7ba77b8307205b7fd3b6071375cf93aab36da"
+    },
+    "dtd/clip/seed1/new/gaussian_noise_L3": {
+      "metadata_sha256": "7a55260d8fddeae7fbe12e9526def6b560c42b78a6d630df68738af5bc1e0168",
+      "predictions_sha256": "f9ca4538d20f643037d924aef17efb65c3d5d17f742666635aef2b4a74a1b98b"
+    },
+    "dtd/maple/seed1/base/gamma_darkening_L2": {
+      "metadata_sha256": "b3470d6c0edd552b2f2279372fee48b6e9696c125552723e8f698c1d41ca6815",
+      "predictions_sha256": "9d5d60787934c7b91e523f67e15f96d4d267787ae82b195ff5e7048ecd2c683f"
+    },
+    "dtd/maple/seed1/base/gamma_darkening_L3": {
+      "metadata_sha256": "b61b13a0eab7f578480c03b4cee886d181cf2b88790bb8c1e58e13e181aa4d1b",
+      "predictions_sha256": "57b3deaa89847745d043021bfdb76ae3e4fd2d6157e21654dec2c7c9b551857a"
+    },
+    "dtd/maple/seed1/base/gaussian_blur_L2": {
+      "metadata_sha256": "37c71f735ef3bfda45f672bcd3d07b922fe946d34f262e3cf9447802543eb527",
+      "predictions_sha256": "f00fc49b3892c90d76acfd34458247ccaa79bc7754bf8932d286116e444c7a1e"
+    },
+    "dtd/maple/seed1/base/gaussian_blur_L3": {
+      "metadata_sha256": "2460a9c34f5617c3b34bbaf3ddf0537b6dd1a7fb22cbd87fe11a5b4dbc38770a",
+      "predictions_sha256": "41370963e30077d9454fa1510b27690775370b6c8399d23353367e92b91776ea"
+    },
+    "dtd/maple/seed1/base/gaussian_noise_L2": {
+      "metadata_sha256": "6aa345f2085380890c1dd655a15c6b7084a636b4012956c64a1b979bc1d4cd77",
+      "predictions_sha256": "e234211728c891e7866492ac687ce9496613b6fd8c1cc809d7217647630b742d"
+    },
+    "dtd/maple/seed1/base/gaussian_noise_L3": {
+      "metadata_sha256": "102bdaab6be1509175a2f6a71cda1db74d2f876094f568011722ceb7b5c7ae9a",
+      "predictions_sha256": "0d47108bd1e64757457c685841cddef51d0f6064ed65a24ebc2be2c45baee784"
+    },
+    "dtd/maple/seed1/new/gamma_darkening_L2": {
+      "metadata_sha256": "f3b1f8a9c623b06d149d1b825dd1abf6d73191d106384dea89542c4661bc21e4",
+      "predictions_sha256": "0f631932c65d0492d79daf843d4069f951f92522a28c1697b15194c83c56e82e"
+    },
+    "dtd/maple/seed1/new/gamma_darkening_L3": {
+      "metadata_sha256": "01bb8c9347b0838419626032769b91bac2c02ecd86fe6769e301590ade649fad",
+      "predictions_sha256": "9c3dfb1cbcac791afa86b26d849f37dbf77eb0f1feb3d7419681db04e4f50f02"
+    },
+    "dtd/maple/seed1/new/gaussian_blur_L2": {
+      "metadata_sha256": "689ec6f3cec48ce465478c69ad0cbacf7cd84b7b74747be7bbffdb632e1109b4",
+      "predictions_sha256": "851ba1203a59092443e6e8208b008925b6087e7772a8c5d36d1a12bd2ca036dc"
+    },
+    "dtd/maple/seed1/new/gaussian_blur_L3": {
+      "metadata_sha256": "0a127a8bef0b2378abd251ca64d6928eb3678f10432f1205298af36cb3793892",
+      "predictions_sha256": "3ae2c78dcaa03372c26f27a8f2249e0d6f2e65a394e15b29626ee882fd209d5a"
+    },
+    "dtd/maple/seed1/new/gaussian_noise_L2": {
+      "metadata_sha256": "74a4574e944f9498a9acaf05609bb09a003e24a968a578353b4e25605744533f",
+      "predictions_sha256": "9cafde692b812b6305617982b21e048c2a9b8c4d6e5ccd2f2a7f3aaaa7d8dd71"
+    },
+    "dtd/maple/seed1/new/gaussian_noise_L3": {
+      "metadata_sha256": "4c5ab90ef0899dc1abc852ac87930d88a44b29685a0cba4ba3937c6f61970641",
+      "predictions_sha256": "0195e74284a40aaf157f85cf993d50b05394f8f332253ca5ebaeb2543f8c0426"
+    },
+    "dtd/promptsrc/seed1/base/gamma_darkening_L2": {
+      "metadata_sha256": "65cc82d548b27482af1d8581889c427f2c69cee77b0643ea4a49d363c4ffba37",
+      "predictions_sha256": "f1e075bbd8957d85689d692e754c3ca549207e7fc51416fd6cf5da6eb7ace2c8"
+    },
+    "dtd/promptsrc/seed1/base/gamma_darkening_L3": {
+      "metadata_sha256": "5fe5471c777720a99cf777f45828eaccaa58963d372c14c0340d53df754398ee",
+      "predictions_sha256": "21b635a32e76fe0736163458b76bdffad73578ff929d560904087ba7ba1e04e3"
+    },
+    "dtd/promptsrc/seed1/base/gaussian_blur_L2": {
+      "metadata_sha256": "ad555579455f9a6dd3442c239a99335bf2c15a4aebdae03e2fc6e395e724512f",
+      "predictions_sha256": "939f016b04e4abd8ebdf1867933734b7c9be8fefd0bcbb53f449c26fda078df0"
+    },
+    "dtd/promptsrc/seed1/base/gaussian_blur_L3": {
+      "metadata_sha256": "8f90c1a745e5d1b68a4c1b4022f442bd5be9a4788855e1faaff3714465205969",
+      "predictions_sha256": "2c877ef69b58dc660d924d398a19c52cfe10e36e27fbfcfbb6395a191d756aef"
+    },
+    "dtd/promptsrc/seed1/base/gaussian_noise_L2": {
+      "metadata_sha256": "5bceba6528ecacf2f123050c0914283ed546c6c3b8065ea5b7c7ce19c3f94dea",
+      "predictions_sha256": "78199c0b042722382865a00b2b9ee743cca60e824371018f4cde21bf7bb03c07"
+    },
+    "dtd/promptsrc/seed1/base/gaussian_noise_L3": {
+      "metadata_sha256": "c7427946cedecc9e7eea93b05372bbde341c526e7a7d19cc9cea4d58b47e4437",
+      "predictions_sha256": "bd76c1accae27e03206060bd7616f5d5251bbe60a5342fdd995be99a9a091e22"
+    },
+    "dtd/promptsrc/seed1/new/gamma_darkening_L2": {
+      "metadata_sha256": "1b6e111a3934d8334bcb49bc32e10cabb5da31afcfa12c6f4f7faffaf1db83c9",
+      "predictions_sha256": "b8c6d855c20330d381b6b086f9e9d9d0163c2f6aa1598d6bcc38782e1553ff90"
+    },
+    "dtd/promptsrc/seed1/new/gamma_darkening_L3": {
+      "metadata_sha256": "f0c9510b0e99b10afad0e43feecaa1b51023b2ae63cdf6b6bc06b5ef03da8c79",
+      "predictions_sha256": "7fae091310173cbb554f9c069ff0a3fb61883128f314a4b678add762552604b7"
+    },
+    "dtd/promptsrc/seed1/new/gaussian_blur_L2": {
+      "metadata_sha256": "be3f2fc912c621798ab9d227d3d9184289a9bfe6e2a489a04cf2282f21a057c3",
+      "predictions_sha256": "291717ce8c8df01f14222d5088cbe3df728829d766067231e49312aeffb41f82"
+    },
+    "dtd/promptsrc/seed1/new/gaussian_blur_L3": {
+      "metadata_sha256": "aeb3281ab2d982a3eacb80fe9e1935787a94af471bca055a17430946aa473376",
+      "predictions_sha256": "3f8f6790f351a40cbd057cfe9d8f57932f19abd51792976d7580bb01c5a2f4dd"
+    },
+    "dtd/promptsrc/seed1/new/gaussian_noise_L2": {
+      "metadata_sha256": "52632e13e29749bf7f48fc34ca302ac9c8efd7326068622f76b1f5bc4337f73c",
+      "predictions_sha256": "47854ce3d911182cf7e3852f251170fb8f79843c50c6b843878403303616ae65"
+    },
+    "dtd/promptsrc/seed1/new/gaussian_noise_L3": {
+      "metadata_sha256": "71e68eebb105460c0ed43d904f8c67fef5cd20666d1a5df8274367f5fd2e5d7d",
+      "predictions_sha256": "2a75ff90510ef1bfacd0115ea03e66b6e93d8ca4d7090592fafbba0a16dbe29e"
+    },
+    "dtd/tcpt/seed1/base/gamma_darkening_L2": {
+      "metadata_sha256": "51fe48ea2a1492f9d0c4440cb93b6d14a9ca8e244ea7c89b8f2d5c36b2469fb2",
+      "predictions_sha256": "5f59fab3db09ff1c1a3e2b8024fca53ea38cc58ff44c52708d4fac4f45db1e2c"
+    },
+    "dtd/tcpt/seed1/base/gamma_darkening_L3": {
+      "metadata_sha256": "47b8a99cfe00b08495ae866fdb7a5ea6f0448f529fd0123a15f57ef63e0dd7fc",
+      "predictions_sha256": "e6792827a95dfb291c7d0b0f94f3d470b361f57457805e6c65532fc744718f92"
+    },
+    "dtd/tcpt/seed1/base/gaussian_blur_L2": {
+      "metadata_sha256": "5cd2ca979a1a4850396639cd520028bac0943efee1ffd6ae8df1a6db958d37ad",
+      "predictions_sha256": "682eb96b11152cd2ba71f43efbaa4013214a48ac8975f060e9533027c964016b"
+    },
+    "dtd/tcpt/seed1/base/gaussian_blur_L3": {
+      "metadata_sha256": "9f37c6f4e40d0e242052d724f5aec1fb33ee79c537202144bc212ce2129df7aa",
+      "predictions_sha256": "654b5e141b8b5e8f66e7332d2127f054036e6c246548f0fe460b4ffed3d32a9b"
+    },
+    "dtd/tcpt/seed1/base/gaussian_noise_L2": {
+      "metadata_sha256": "8847c00a8d1045cb028d9327c7a7a8002c0cb9a770f492b4aa152e1338ac8776",
+      "predictions_sha256": "8c69ed9e3e10589b308d8ede3b2b05aa452720e8d04f876b7c8a8bb4d3040572"
+    },
+    "dtd/tcpt/seed1/base/gaussian_noise_L3": {
+      "metadata_sha256": "324b4f16f67379b013d774a61be352683924f92ec39a55f0a2ee492a83bd19b0",
+      "predictions_sha256": "f44eda787753516f467e6f088d1202002fac479543e7fe0e0cfb698146e8c440"
+    },
+    "dtd/tcpt/seed1/new/gamma_darkening_L2": {
+      "metadata_sha256": "12aaa528541277e45a75d7974938b2dccb97f7bef0da775983c1f8c326fc32a0",
+      "predictions_sha256": "ab9b928b4592ae32293723665cdf783e362d6cda387af71fd46023b286a832c9"
+    },
+    "dtd/tcpt/seed1/new/gamma_darkening_L3": {
+      "metadata_sha256": "a781c0635deac24d11d58b6d480188160aba5248e0ec3176854e6e1d19ca1a17",
+      "predictions_sha256": "7193ee2a3d56ad4e2dc0aa1f87ee8e5f5d21dc2c862af932ba8ae684302c21f6"
+    },
+    "dtd/tcpt/seed1/new/gaussian_blur_L2": {
+      "metadata_sha256": "03ecce973963d33210a55799704f1833e63bdd8c4f9703d47a43b79aa86bc1e6",
+      "predictions_sha256": "15ac4cd4dce1ffbca61d5d645d030e7a6642a52fb75b65b375e6ec3ed3880914"
+    },
+    "dtd/tcpt/seed1/new/gaussian_blur_L3": {
+      "metadata_sha256": "0e0c87d41f1adf8cb360636eadcda87ca64807bff244430759ad8f0c2e01329e",
+      "predictions_sha256": "1fd821710cd174560ac1018c683cba22df0ff645ae855b2475a67bab8efd61bc"
+    },
+    "dtd/tcpt/seed1/new/gaussian_noise_L2": {
+      "metadata_sha256": "7813935208e943cec8a8b0a158babbd659256df5d2478ece1f44276244043e9a",
+      "predictions_sha256": "56815aab4707e3ad17d07fb2a2123bb33b43d0b2956304c200a79fc8d64a38fd"
+    },
+    "dtd/tcpt/seed1/new/gaussian_noise_L3": {
+      "metadata_sha256": "f90a1a7df3da90c7c6352a67aa250690f081c89aeb7acf898b72aef167b90efb",
+      "predictions_sha256": "17e0bb0df49ac365eaf0659c9b81beb8acf196d990c5a0b64a257e93c60a9f78"
+    },
+    "oxford_flowers/clip/seed1/base/gamma_darkening_L2": {
+      "metadata_sha256": "e54886404ea5abd4d9bea906092779222a168ae40e144ac79814fb97db472c91",
+      "predictions_sha256": "cdced015179aedcaf1832846fb2fdb732e4057e1bca616481753294a279a492d"
+    },
+    "oxford_flowers/clip/seed1/base/gamma_darkening_L3": {
+      "metadata_sha256": "52dc0e5b7611af0856f7d9d6f4f632a6ee3228599c32f7111014086381432e63",
+      "predictions_sha256": "d71d600c3a56bda35761898bc73a071dce849ece799e0984a4a7ed1e014228bf"
+    },
+    "oxford_flowers/clip/seed1/base/gaussian_blur_L2": {
+      "metadata_sha256": "81f8d308b0f4016fd12d02114ef70f82e6bc9bed5a4adf1a87c8d2cfbc823841",
+      "predictions_sha256": "713d9fe2075ce67896270f5ef5d6caecbca76e6087f5b300ad4441c861fe8f9c"
+    },
+    "oxford_flowers/clip/seed1/base/gaussian_blur_L3": {
+      "metadata_sha256": "17c7092a6405bae11246b1d95d2bf3560091bbd32e0e2b5f280a59f9fa3cd00d",
+      "predictions_sha256": "f73c0846a368c4bdbd0567d9e84ffa056fae7bb55205fb569ddc00a68e8b303d"
+    },
+    "oxford_flowers/clip/seed1/base/gaussian_noise_L2": {
+      "metadata_sha256": "4286bea2e48c4d52aacf86985723ba0c62834f165f6c1e849f1c91f0409717f0",
+      "predictions_sha256": "59a8af471d943113b0a45e457a95f6353c92ffc8097df244750816692dbfd70b"
+    },
+    "oxford_flowers/clip/seed1/base/gaussian_noise_L3": {
+      "metadata_sha256": "23c6bfa4bb9135ab0dabdee80e64d152ebba3fe3fe3504e8ac258ed8d05d0528",
+      "predictions_sha256": "10bf103817b4d998f0138f05ba8b773425e60e843045c7114d29eebbea835e7a"
+    },
+    "oxford_flowers/clip/seed1/new/gamma_darkening_L2": {
+      "metadata_sha256": "92edc4c6c372b16f955dc00d89326336f019f8cf504d85bb5fcf926c6a370330",
+      "predictions_sha256": "c03f823af0327556c9aec8cbda49e2bce15c2253806b02041bb70e0df0bd57e7"
+    },
+    "oxford_flowers/clip/seed1/new/gamma_darkening_L3": {
+      "metadata_sha256": "16c00bcadc31b9eb7f1681a1e029e69fe288254f28fff4d430868555881e5740",
+      "predictions_sha256": "4d90a85c28eb4d0f1bd41d97a195ea836c1aa41af795acc09520538b2a47598a"
+    },
+    "oxford_flowers/clip/seed1/new/gaussian_blur_L2": {
+      "metadata_sha256": "20eb32e2eccc053b81c90080001eda3ff987e8dcb8425734c2ad9011cf7af767",
+      "predictions_sha256": "3dff319bb40bbd6920aedc6a8228b314a18bc252a4178aefa2998dca6bfbb3b8"
+    },
+    "oxford_flowers/clip/seed1/new/gaussian_blur_L3": {
+      "metadata_sha256": "1dd3a6879dffd2fadea4378dc1761b309a7a44160ab0f8db431bf120c27a1938",
+      "predictions_sha256": "920a66ab1c2c6870619889a9e4c63bb86b49384bc75fabd7910abf5fc84d0f8b"
+    },
+    "oxford_flowers/clip/seed1/new/gaussian_noise_L2": {
+      "metadata_sha256": "1e74352678d032e105e1406b16ef56d993a7a97b816bdc926cbde1344f70131b",
+      "predictions_sha256": "c8e56aa728b39bc3a5583d97ad654f4032bbf40a3bed8545f1753b164f372e23"
+    },
+    "oxford_flowers/clip/seed1/new/gaussian_noise_L3": {
+      "metadata_sha256": "ffb08a42455232aa2251a975fb742bbfb5aa771ef3fa1e64d0c76a7f96e7d0e2",
+      "predictions_sha256": "118772470198e7055714b0789ca1e53b80f3b196a6fce8486f42a4458ac1d9ca"
+    },
+    "oxford_flowers/maple/seed1/base/gamma_darkening_L2": {
+      "metadata_sha256": "acae0207865007393e60f95c8e944f6d3c590af6370a1050744f0b5fa7a4963a",
+      "predictions_sha256": "63222350f7de3e85749d7df34ea7a81094aaad44beba9e54f3d44fa2eea744b7"
+    },
+    "oxford_flowers/maple/seed1/base/gamma_darkening_L3": {
+      "metadata_sha256": "e6555f0a138f38357242492ec55f02ef42ecf3769e3a25473896578c091a1b1b",
+      "predictions_sha256": "faff7be6f438d95c440c756b8913356b84c19698fd8a560e29667b9290882fa2"
+    },
+    "oxford_flowers/maple/seed1/base/gaussian_blur_L2": {
+      "metadata_sha256": "4975866ef1a1982ac1adcc00bcc7469a8735889877057870a74d2444743a5c1f",
+      "predictions_sha256": "1d7f2f9402dc2292affd2e038f21d11c8c4f5f58c4f1c6b43d0c62f9fb322b98"
+    },
+    "oxford_flowers/maple/seed1/base/gaussian_blur_L3": {
+      "metadata_sha256": "c77feee33fe54853075ceb4de315294a0c056f3fed8473fe4a1d74c078b9fa20",
+      "predictions_sha256": "ff02177f8a1ca386b9cc4414e6063e991937fbc3dd8532dea59f412e6698a746"
+    },
+    "oxford_flowers/maple/seed1/base/gaussian_noise_L2": {
+      "metadata_sha256": "9f249307895e90bf6170de282367b59406393ed1b948837b17ba8cb42374b41e",
+      "predictions_sha256": "f8a14de9ee7d257ecf6abbb258c3135f9c84b40a44d0b4ae7a692f916560712f"
+    },
+    "oxford_flowers/maple/seed1/base/gaussian_noise_L3": {
+      "metadata_sha256": "134d6097d1a6ae2dc1a24abb336ce864f8dde51c5b1f0cb31a7304e4f99c30c2",
+      "predictions_sha256": "8db9dad028078b132927d4494ddb26857d946e091318990f01afc428ea0bff80"
+    },
+    "oxford_flowers/maple/seed1/new/gamma_darkening_L2": {
+      "metadata_sha256": "4750ee69c3e3480a35371c9e76b9c105c29289ae153e04d574ce7077d7badc17",
+      "predictions_sha256": "d98d4c347b22379c0beaf69e9a0f344caf1215475b7195af2fe201fbdbb064c0"
+    },
+    "oxford_flowers/maple/seed1/new/gamma_darkening_L3": {
+      "metadata_sha256": "3afd8b35ab63ed937c64fe4f83c66c20636d789791dc111cfff2484cbf97a923",
+      "predictions_sha256": "e3832af5da6e5fc3f71f11472b014a228653971e122345f51e1a1ea0caefd4f3"
+    },
+    "oxford_flowers/maple/seed1/new/gaussian_blur_L2": {
+      "metadata_sha256": "5c88f148b6606bf9cc907807cedd7de243f4db0eee12b7a11d196f7b4759f9b4",
+      "predictions_sha256": "a4cd1e24503636842731d0157efe9280818e6cdfeeb374a2049ae7e0a02b3c27"
+    },
+    "oxford_flowers/maple/seed1/new/gaussian_blur_L3": {
+      "metadata_sha256": "7c86ab96df1223ee12e6fbc8e3e365e304e1a9cdd2a73e0caa5f15a971cc6848",
+      "predictions_sha256": "e93f28ef3267f11060d17b4fb02aaf44bfd6c7156340090402b77e6146c11a4a"
+    },
+    "oxford_flowers/maple/seed1/new/gaussian_noise_L2": {
+      "metadata_sha256": "9ec247c7c2b6bafe597b82a06f1adab18055c264d7f160e5c016f809133b466c",
+      "predictions_sha256": "f9eba8d3cdb28c6681f4ab556667d8d70fd96a92f64a0a7a3481dcff6b5cb096"
+    },
+    "oxford_flowers/maple/seed1/new/gaussian_noise_L3": {
+      "metadata_sha256": "1e3cf6db32eba4a2eb69063641fd2fd5c2856223f4287474299d1c507cae4cce",
+      "predictions_sha256": "026db4cac7979b5644420a105eff7ea135a707d0af938ddf5a0e53fdf71283f2"
+    },
+    "oxford_flowers/promptsrc/seed1/base/gamma_darkening_L2": {
+      "metadata_sha256": "6ac4817a03ca9849335c552e75ea6f3389c0227d021c8a5a7cf0bb4922e52eba",
+      "predictions_sha256": "b622e5764c9285fe2b2c241f0b000cc1d708407f370cfce43cc5397d6aeab03f"
+    },
+    "oxford_flowers/promptsrc/seed1/base/gamma_darkening_L3": {
+      "metadata_sha256": "66ca8bcc0c60136066eb9ce51c571c64efc9ea68588bd482b93dee0dfa94592e",
+      "predictions_sha256": "8e52a387573dd9c9a65a4aeae173634fd21e9a644fe69042d4c8f0a2fa58fc04"
+    },
+    "oxford_flowers/promptsrc/seed1/base/gaussian_blur_L2": {
+      "metadata_sha256": "25069c2070765613120d796839dfb4171d702523d2b4ab0fb29c8d3f66264598",
+      "predictions_sha256": "67a92994fe8b4244ab985061c35d6e31e71fc1ee0252ecb7e9572401be972437"
+    },
+    "oxford_flowers/promptsrc/seed1/base/gaussian_blur_L3": {
+      "metadata_sha256": "ea46486150c84181aeb9522d64d5e033559299ba8f34e0174cc9140ce75757f4",
+      "predictions_sha256": "af34ebf7c49edf7c1246ad4b2f7894cb6f8faee1666462ed5de201eb071283c8"
+    },
+    "oxford_flowers/promptsrc/seed1/base/gaussian_noise_L2": {
+      "metadata_sha256": "a3a4d112da3f8b6f1724d45145de8a3f96c090d8d8d5c698cf2d7c000280593c",
+      "predictions_sha256": "8069b457888e97efd74e2afb7610ffd822fd2739701ddd27a547d3c6583aea1e"
+    },
+    "oxford_flowers/promptsrc/seed1/base/gaussian_noise_L3": {
+      "metadata_sha256": "51fb43a8faba56231d77c2fc4fd2a4f70e841f34151595f56249805cae22679b",
+      "predictions_sha256": "dc7b259f8b31935fcb93df10bfe1fa7560901fa74845db7c7ebca3c049e65fca"
+    },
+    "oxford_flowers/promptsrc/seed1/new/gamma_darkening_L2": {
+      "metadata_sha256": "3ee09c90bbd9bd4723ccfd1d44b94602bbb44e3439553bfc29f84cb9352eab16",
+      "predictions_sha256": "2ab9d7ef6fc387e9871a5740565dba9b3e422646a8cfe8692b5dfb254fddd8c1"
+    },
+    "oxford_flowers/promptsrc/seed1/new/gamma_darkening_L3": {
+      "metadata_sha256": "e60e4d2011061d515f0414008116b1ab361ffa562bb18c1dc393d7613885616c",
+      "predictions_sha256": "66a9fffbee3951d134b1c4cfba6de810ea6d46d9bdd8aa91be5d5a9a17ec7b08"
+    },
+    "oxford_flowers/promptsrc/seed1/new/gaussian_blur_L2": {
+      "metadata_sha256": "ff717db2488c8ba015f50ecd3912299e8785a55f83aca629f13db4a58d70908e",
+      "predictions_sha256": "378047cf374c34fea31860e450224df119c1b7501355d4d429cc4013c60291c1"
+    },
+    "oxford_flowers/promptsrc/seed1/new/gaussian_blur_L3": {
+      "metadata_sha256": "36244a61090fc56188f1f91087922227f133234551eb32701c50181cce1caf96",
+      "predictions_sha256": "ac1a9e2a94f8144fdac5ec46e25e24e53ebd3b777178c8ea8a732c7c23d30bdb"
+    },
+    "oxford_flowers/promptsrc/seed1/new/gaussian_noise_L2": {
+      "metadata_sha256": "6a76d3261c67050c413f624f20755b9e03ef9291cee3ba40e7dedc8defee7b9d",
+      "predictions_sha256": "177495a5d6c6df94bd5d522f581a9a8faea6e94535f13b1fcab49668b9c1bd82"
+    },
+    "oxford_flowers/promptsrc/seed1/new/gaussian_noise_L3": {
+      "metadata_sha256": "8aa54dee567a4af0f4e9f11761de83ec871805d93ccb0605a561456e3247db61",
+      "predictions_sha256": "fbab2170ba71cdd34b5f90324a52717a5ae5ae0407ef45a7bfea5ccf0408d444"
+    },
+    "oxford_flowers/tcpt/seed1/base/gamma_darkening_L2": {
+      "metadata_sha256": "c265b983f351ba5dddf3c0037614a395a4519d8cd4889c3b46bb7da17ef083a1",
+      "predictions_sha256": "91c71b75cadc9c5db4d0d4bec3f5c6f8e449799e8aff29eb38dec70e2bc25bd0"
+    },
+    "oxford_flowers/tcpt/seed1/base/gamma_darkening_L3": {
+      "metadata_sha256": "04ce62f598b626e1ceff9794aaabd7e6233e317e184dc395aecb08af4ea3c3ac",
+      "predictions_sha256": "b315e49503ae108f55d948f20eb74b1e9fa1f80f9b89e12687a4d4c787028e8f"
+    },
+    "oxford_flowers/tcpt/seed1/base/gaussian_blur_L2": {
+      "metadata_sha256": "a8ae6e5ab871472ede703ba41a4b5324917d7d4902d4ed8445710a9a710cc6cf",
+      "predictions_sha256": "528e99972e56d2a0875258afc88c411560d53acc9f698dd08db52b58a9dd0acc"
+    },
+    "oxford_flowers/tcpt/seed1/base/gaussian_blur_L3": {
+      "metadata_sha256": "13ba2f24fc150680c3c06aad91170aaeaa9dc6ad0b48145eab0e7475de75e081",
+      "predictions_sha256": "f1f1efd17cf3c876c4d68aefc67f537223f7e6b5d48e7895b8272318c0e5a563"
+    },
+    "oxford_flowers/tcpt/seed1/base/gaussian_noise_L2": {
+      "metadata_sha256": "1d46b8240b84c7e9e37d25c95af6fcc51122a93ca25d067b968ee5ea63367a30",
+      "predictions_sha256": "93bab2f41a9cdbec35f9a657ca31d65420fb34a43becaf70cc1b57f46912a859"
+    },
+    "oxford_flowers/tcpt/seed1/base/gaussian_noise_L3": {
+      "metadata_sha256": "26e74ba8f48f85abd6194dce91bd0179b6948319a99cd5415cac967783f75f9a",
+      "predictions_sha256": "d54ceceacb7ba24c7df6dffde680de6c16e38a5be84a191b0ef9af54f486feaf"
+    },
+    "oxford_flowers/tcpt/seed1/new/gamma_darkening_L2": {
+      "metadata_sha256": "63d64a7c00853c274e2e255d726dd96ffb1d70f59791b4a7faa89cb1980c9538",
+      "predictions_sha256": "5013b6f9ed6d3f1519ee43b163ed434568e2b230339e324d62a0dbfc593b3940"
+    },
+    "oxford_flowers/tcpt/seed1/new/gamma_darkening_L3": {
+      "metadata_sha256": "da09416d87f7a969009f0015da93441cfc72ddac37a93966e83d873a24728f48",
+      "predictions_sha256": "d30aa565c2d472147062c972dfc7c62da700e3b14ffa1a5026089ed6c9222da9"
+    },
+    "oxford_flowers/tcpt/seed1/new/gaussian_blur_L2": {
+      "metadata_sha256": "a24301b83ffc308c922fdfdb8dc9a1fc93037cd86decee3465fa2e37b9ff24c3",
+      "predictions_sha256": "b25a6d86fc0db80b4b6acb308d883ea466e8325f61f179a4db08d10ee44ba564"
+    },
+    "oxford_flowers/tcpt/seed1/new/gaussian_blur_L3": {
+      "metadata_sha256": "82f09918c5c6421495cbaae19296d26b6e052439613842e297af779a6d179cbf",
+      "predictions_sha256": "0a797178260455229f2e2b0ec805019f66d74226a6ab587c75a74ced2ef3a591"
+    },
+    "oxford_flowers/tcpt/seed1/new/gaussian_noise_L2": {
+      "metadata_sha256": "fd347ca6008daf1a1b3cbecf01bda03e1b5962947db4b74978da7446bd64bb99",
+      "predictions_sha256": "ab23d1881f22e24384f66f3c3497add5178d3679c4014ee6e5c450b2d44e7dab"
+    },
+    "oxford_flowers/tcpt/seed1/new/gaussian_noise_L3": {
+      "metadata_sha256": "823d83f819dcd324ae10f0860bf68dc1e903480df1d9e364821334cbc6242950",
+      "predictions_sha256": "278c3fc0da29928bdf6edcb850a24b0f3d94ce9d168e5aaaf688ade2d85d5586"
+    }
+  }
+}

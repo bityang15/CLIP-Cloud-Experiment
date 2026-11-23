@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "corruption_protocol": "1.0",
+  "reference_run": "formal-v1-confirmed-01",
+  "image_shape": [224, 224, 3],
+  "levels": [2, 3],
+  "algorithms": {
+    "gaussian_noise": {"name": "bilateral", "d": 5, "sigmaColor": 50, "sigmaSpace": 5, "borderType": "BORDER_REFLECT_101"},
+    "gaussian_blur": {"name": "unsharp_mask", "profile": "candidate"},
+    "gamma_darkening": {"name": "clahe", "color_space": "OpenCV 8-bit Lab", "channel": "L", "clipLimit": 2.0, "tileGridSize": [8, 8]}
+  },
+  "unsharp_profiles": {
+    "original": {"radius": 1.5, "percent": 120, "threshold": 3},
+    "candidate": {"radius": 3.0, "percent": 150, "threshold": 0}
+  },
+  "dependencies": {"opencv-python-headless": "4.11.0.86"},
+  "pilot": {
+    "datasets": ["dtd", "oxford_flowers"],
+    "methods": ["clip", "maple", "tcpt", "promptsrc"],
+    "groups": ["base", "new"],
+    "seed": 1,
+    "images_per_group": 8,
+    "historical_batch_size": 100,
+    "sample_positions": [0, 14, 28, 42, 56, 70, 84, 99],
+    "padding": "repeat_first_selected_image_tensor_in_unselected_historical_batch_slots"
+  },
+  "planned_formal_seeds": {"clip": [1], "maple": [1, 2, 3], "tcpt": [1, 2, 3], "promptsrc": [1, 2, 3]}
+}
