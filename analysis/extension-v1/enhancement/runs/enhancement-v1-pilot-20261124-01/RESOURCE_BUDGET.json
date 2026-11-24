@@ -1,0 +1,43 @@
+{
+  "pilot_exports": 192,
+  "pilot_output_rows": 1536,
+  "pilot_forward_slots_including_padding": 19200,
+  "peak_allocated_gib": 0.9747605323791504,
+  "peak_reserved_gib": 1.52734375,
+  "peak_initialization_allocated_gib": 0.8243265151977539,
+  "formal_estimates": {
+    "corrupted": {
+      "estimated_forward_seconds": 163.8221100082397,
+      "estimated_preprocessing_and_transfer_seconds": 2396.8187305946885,
+      "estimated_fixed_export_seconds": 71.56059286743402,
+      "rough_output_bytes": 489786614
+    },
+    "enhanced": {
+      "estimated_forward_seconds": 160.84608781814575,
+      "estimated_preprocessing_and_transfer_seconds": 2842.7324398821074,
+      "estimated_fixed_export_seconds": 68.14156855270267,
+      "rough_output_bytes": 513595414
+    }
+  },
+  "estimated_shared_initialization_seconds": 134.54470320045948,
+  "basis": "Scale padded 100-slot CUDA-event timing by the full batch count and other evaluation time by image count. Treat export overhead as fixed and scale compressed output volume by image count. Estimates are approximate.",
+  "formal_scope": {
+    "distinct_method_seed_pairs": 10,
+    "exports_per_variant": 240,
+    "prediction_rows_per_variant": 249300
+  },
+  "initialization_counted_once": true,
+  "scenario_totals": {
+    "enhanced_only_with_archived_controls": {
+      "estimated_seconds": 3206.2647994534154,
+      "estimated_output_bytes": 513595414
+    },
+    "enhanced_plus_corrupted_rerun": {
+      "estimated_seconds": 5838.466232923778,
+      "estimated_output_bytes": 1003382028
+    }
+  },
+  "source_run_id": "enhancement-v1-pilot-20261124-01",
+  "wall_clock_seconds_observed": 156,
+  "runtime_commit": "23261793e4cfcab95ab82d4c23687c255c7d3c5a"
+}

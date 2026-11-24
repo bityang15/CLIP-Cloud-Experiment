@@ -1,0 +1,156 @@
+{
+  "run_id": "enhancement-v1-pilot-20261124-01",
+  "passed": true,
+  "runtime_commit": "23261793e4cfcab95ab82d4c23687c255c7d3c5a",
+  "reference_run": "formal-v1-confirmed-01",
+  "reference_manifest_sha256": "1fd2de7eb05b5b78293177441680730c53cdad1be13069a5de959b8959f9f03c",
+  "protocol_sha256": "3d869d46ab0b75a6a1e5535227685edd4a1c8e9cc18912428363c71edadca8fe",
+  "inputs_sha256": "20a5febf8de8bed92fe953b4642150ec4fcce4596ad8796e2be535c59d45bc7c",
+  "source_sha256": {
+    "analysis/extension-v1/enhancement/pilot.py": "45ac7e641a3934281516e3f4645f95120f8d6aca46d8d5b2a9f575784fe414c8",
+    "analysis/extension-v1/enhancement/pilot_inputs.py": "12f146502064a9ca0a7a0a57efdfd45dd031d80af688b3b2e813070f6cd12cb4",
+    "analysis/extension-v1/enhancement/enhancement_v1.py": "d4a389147bf4689eb58546bc0b61ef38a2e60ea5ef32c2ec1454cc9c504819c4",
+    "analysis/extension-v1/enhancement/enhancement_protocol_v1.json": "3d869d46ab0b75a6a1e5535227685edd4a1c8e9cc18912428363c71edadca8fe",
+    "analysis/extension-v1/enhancement/pilot_inputs_v1.json": "20a5febf8de8bed92fe953b4642150ec4fcce4596ad8796e2be535c59d45bc7c"
+  },
+  "checked_out_via": "GitHub HTTPS sparse clone with HTTP/1.1",
+  "started_at_utc": "2026-11-24T09:05:01.069746+00:00",
+  "finished_at_utc": "2026-11-24T09:07:35.002844+00:00",
+  "pilot_configuration": {
+    "datasets": [
+      "dtd",
+      "oxford_flowers"
+    ],
+    "methods": [
+      "clip",
+      "maple",
+      "tcpt",
+      "promptsrc"
+    ],
+    "groups": [
+      "base",
+      "new"
+    ],
+    "seed": 1,
+    "images_per_group": 8,
+    "historical_batch_size": 100,
+    "sample_positions": [
+      0,
+      14,
+      28,
+      42,
+      56,
+      70,
+      84,
+      99
+    ],
+    "padding": "repeat_first_selected_image_tensor_in_unselected_historical_batch_slots"
+  },
+  "enhancements": {
+    "gaussian_noise": {
+      "name": "bilateral",
+      "d": 5,
+      "sigmaColor": 50,
+      "sigmaSpace": 5,
+      "borderType": "BORDER_REFLECT_101"
+    },
+    "gaussian_blur": {
+      "name": "unsharp_mask",
+      "profile": "candidate",
+      "radius": 3.0,
+      "percent": 150,
+      "threshold": 0
+    },
+    "gamma_darkening": {
+      "name": "clahe",
+      "color_space": "OpenCV 8-bit Lab",
+      "channel": "L",
+      "clipLimit": 2.0,
+      "tileGridSize": [
+        8,
+        8
+      ]
+    }
+  },
+  "environment": {
+    "python": "3.10.22",
+    "packages": {
+      "numpy": "1.26.4",
+      "torch": "2.4.1",
+      "torchvision": "0.19.1",
+      "Pillow": "10.4.0",
+      "scipy": "1.13.1",
+      "yacs": "0.1.8",
+      "ftfy": "6.1.1",
+      "opencv-python-headless": "4.11.0.86"
+    },
+    "cuda": "12.1",
+    "cudnn": 90100,
+    "cuda_available": true,
+    "cv2": "4.11.0"
+  },
+  "environment_packages_before": {
+    "numpy": "1.26.4",
+    "torch": "2.4.1",
+    "torchvision": "0.19.1",
+    "Pillow": "10.4.0",
+    "scipy": "1.13.1",
+    "yacs": "0.1.8",
+    "ftfy": "6.1.1",
+    "opencv-python-headless": null
+  },
+  "dependency_check_before": "passed",
+  "dependency_check_after": "passed",
+  "gpu": "NVIDIA GeForce RTX 4090 D",
+  "gpu_total_memory_bytes": 25252724736,
+  "gpu_driver": "595.71.05",
+  "dataset_inventory": {
+    "dtd": {
+      "test_images_expected": 1692,
+      "present": 1692,
+      "pilot_hashes_checked": 16
+    },
+    "oxford_flowers": {
+      "test_images_expected": 2463,
+      "present": 2463,
+      "pilot_hashes_checked": 16
+    }
+  },
+  "prompt_checkpoint_files_present": 18,
+  "prompt_checkpoint_sha256_verified": 6,
+  "frozen_corrupted_references_verified": 96,
+  "archived_corrupted_rows_matched": 768,
+  "max_abs_corrupted_logit_error": 0.0,
+  "min_corrupted_top1_agreement": 1.0,
+  "max_corrupted_metric_errors": {
+    "accuracy": 0.0,
+    "ece_10": 0.0,
+    "ece_15": 0.0,
+    "ece_20": 0.0,
+    "nll": 0.0
+  },
+  "enhanced_unique_inputs": 192,
+  "predictions": 192,
+  "independently_verified_input_records": 1536,
+  "archive_bytes": 622715,
+  "archive_sha256": "6f3eba5e77ec0229b17475f9dc8d1d17ae950daccd604967ddd7c00389d46276",
+  "run_inventory_sha256": "589a6da4c9fbe66595ace4725014e6e6b72695c02c90b81c304aebeb6e5dc93d",
+  "external_log_sha256": "7685dfdaef532dd03b4a362fe9505c179806a1c96fe58769b691dd5dbe68b01c",
+  "standalone_preflight_sha256": "ce9edebef7bbe4ec73c07af4643bbf6d48b3c48a4d09848f6d96741289b14963",
+  "inventory_verified_files": 869,
+  "local_archive_relative_path": "env/stage3-backups/enhancement-v1-pilot-20261124-01/enhancement-v1-pilot-20261124-01-results.tar.gz",
+  "variant_timing_totals": {
+    "corrupted": {
+      "evaluation_seconds": 13.499851834960282,
+      "forward_seconds": 6.106857543945313,
+      "wall_seconds": 42.238499839790165,
+      "export_bytes": 1486947.0
+    },
+    "enhanced": {
+      "evaluation_seconds": 14.562740405090153,
+      "forward_seconds": 5.779289470672609,
+      "wall_seconds": 41.96883704978973,
+      "export_bytes": 1561035.0
+    }
+  }
+}
