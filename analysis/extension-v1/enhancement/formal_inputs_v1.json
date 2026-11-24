@@ -1,0 +1,1229 @@
+{
+  "base_commit": "23261793e4cfcab95ab82d4c23687c255c7d3c5a",
+  "pilot_record_commit": "750428396c581f34768bb0465020ce4fb5066c1d",
+  "pilot_record_sha256": "7e52b27c6a73c166be041e9f7957f7a275c10a1e545c2dd30e34145000bf4804",
+  "audit_index_sha256": "ea370f7b26db8d1b0e8db5d2f7a9f904192ec07960fb4e715d0d1aa94777b89c",
+  "formal_manifest_sha256": "1fd2de7eb05b5b78293177441680730c53cdad1be13069a5de959b8959f9f03c",
+  "references": {
+    "dtd/clip/seed1/base/clean_L0": [
+      "d4aa2fe8964bc6d47635dec15c7fc509573d9d8c938d881f5de44cc37303318d",
+      "4c5538ac268d940f705f4aa299c22c69e5489234a4423ac01e2fb41e162fd3b1",
+      864
+    ],
+    "dtd/clip/seed1/base/gamma_darkening_L2": [
+      "61dfbcfeb87b5297a169ca84a242a7224b10660c88b715cca6697698e86104d9",
+      "37686e5d9372434f2e3f182e7957dc16162402020461733758f025c23be77231",
+      864
+    ],
+    "dtd/clip/seed1/base/gamma_darkening_L3": [
+      "fd97730ca76c91af4fdeac988d4f867d319f05bc25ec789d2098d035d6171e6b",
+      "daf4222db34e4a7155598dbc81848c759efd25e947eb834b06881383f2de5842",
+      864
+    ],
+    "dtd/clip/seed1/base/gaussian_blur_L2": [
+      "4582effde4487aef06c654a06475490eb994618be2842da2ac6dcf548ae0dd4d",
+      "7e9825e3ab9f209d47753642fe45f63ca4df500b92ca3baa6d11c7f242c9ecde",
+      864
+    ],
+    "dtd/clip/seed1/base/gaussian_blur_L3": [
+      "8240ed9528d2579a53adf43456525a32d20f1f993e4c5be80d0bf68ca9b60214",
+      "d99c0e81a55e878c5ec050394ad17583f2c3ebc16f46c48b4736bf37121b3a08",
+      864
+    ],
+    "dtd/clip/seed1/base/gaussian_noise_L2": [
+      "221f38369df46d6c3fdc4953bc4f849104fa18e84099f4e1d8d1a56c59ae2203",
+      "c1c007971d6600fa72ac4ea9c514ae738651cd6cd1ef9963b0db176b29a1eca0",
+      864
+    ],
+    "dtd/clip/seed1/base/gaussian_noise_L3": [
+      "5233b60da247d6c3bb139ef205e6a5607b717e806c8ab09adf1b87e9c7cfa331",
+      "a5b239e3ce6829bc38808aecf693d7c798b3047d0adbadf86119efa79f408f4a",
+      864
+    ],
+    "dtd/clip/seed1/new/clean_L0": [
+      "48be3dfdb90a7e7108a44912d82eca3e9eeedeb790f7434ff8f15ecebdfc19e2",
+      "f1bf17b5d96d13f74045467d3e4e1dec38c5af583e81215feff0b03e010e7b55",
+      828
+    ],
+    "dtd/clip/seed1/new/gamma_darkening_L2": [
+      "7ed316f435d5ed989f50b61d763660cbdab97279c93b9cb19ec4a866abd75ef3",
+      "8a39980f253901705ad10c5d8d3fa0de3379da331f637ff1b5882d6a8f3788c9",
+      828
+    ],
+    "dtd/clip/seed1/new/gamma_darkening_L3": [
+      "7dcdd04bca8eec5a2b04c0adf178f65e7c22c07b713983b29ad9f0004d238a39",
+      "badc98c5139ce2c03f8c1851cafaf04395c94d817a14303101de9a8ae75d5b03",
+      828
+    ],
+    "dtd/clip/seed1/new/gaussian_blur_L2": [
+      "1283cab1f1d625fe0236ec0fb88333f01c3e42d27dc745996d9cb85f748258ee",
+      "1d22a57e24e2213c462434714aecf8064df6f02f53f894ef8cd1e0e009c93f5a",
+      828
+    ],
+    "dtd/clip/seed1/new/gaussian_blur_L3": [
+      "55b260c39c28bc42c14505bbfa9cda4f9a8c18135f8a83e3a829ab9af88813cb",
+      "bac37c94e5a99998a81089b59d0c6187cbb97586a3829048d94bdb00a87fb3cb",
+      828
+    ],
+    "dtd/clip/seed1/new/gaussian_noise_L2": [
+      "1bef5dd2679da0bc204f2a01b282cf07572d00718b6674b903cc468225706b47",
+      "a0b07d762e09508d220f79306ea7ba77b8307205b7fd3b6071375cf93aab36da",
+      828
+    ],
+    "dtd/clip/seed1/new/gaussian_noise_L3": [
+      "7a55260d8fddeae7fbe12e9526def6b560c42b78a6d630df68738af5bc1e0168",
+      "f9ca4538d20f643037d924aef17efb65c3d5d17f742666635aef2b4a74a1b98b",
+      828
+    ],
+    "dtd/maple/seed1/base/gamma_darkening_L2": [
+      "b3470d6c0edd552b2f2279372fee48b6e9696c125552723e8f698c1d41ca6815",
+      "9d5d60787934c7b91e523f67e15f96d4d267787ae82b195ff5e7048ecd2c683f",
+      864
+    ],
+    "dtd/maple/seed1/base/gamma_darkening_L3": [
+      "b61b13a0eab7f578480c03b4cee886d181cf2b88790bb8c1e58e13e181aa4d1b",
+      "57b3deaa89847745d043021bfdb76ae3e4fd2d6157e21654dec2c7c9b551857a",
+      864
+    ],
+    "dtd/maple/seed1/base/gaussian_blur_L2": [
+      "37c71f735ef3bfda45f672bcd3d07b922fe946d34f262e3cf9447802543eb527",
+      "f00fc49b3892c90d76acfd34458247ccaa79bc7754bf8932d286116e444c7a1e",
+      864
+    ],
+    "dtd/maple/seed1/base/gaussian_blur_L3": [
+      "2460a9c34f5617c3b34bbaf3ddf0537b6dd1a7fb22cbd87fe11a5b4dbc38770a",
+      "41370963e30077d9454fa1510b27690775370b6c8399d23353367e92b91776ea",
+      864
+    ],
+    "dtd/maple/seed1/base/gaussian_noise_L2": [
+      "6aa345f2085380890c1dd655a15c6b7084a636b4012956c64a1b979bc1d4cd77",
+      "e234211728c891e7866492ac687ce9496613b6fd8c1cc809d7217647630b742d",
+      864
+    ],
+    "dtd/maple/seed1/base/gaussian_noise_L3": [
+      "102bdaab6be1509175a2f6a71cda1db74d2f876094f568011722ceb7b5c7ae9a",
+      "0d47108bd1e64757457c685841cddef51d0f6064ed65a24ebc2be2c45baee784",
+      864
+    ],
+    "dtd/maple/seed1/new/gamma_darkening_L2": [
+      "f3b1f8a9c623b06d149d1b825dd1abf6d73191d106384dea89542c4661bc21e4",
+      "0f631932c65d0492d79daf843d4069f951f92522a28c1697b15194c83c56e82e",
+      828
+    ],
+    "dtd/maple/seed1/new/gamma_darkening_L3": [
+      "01bb8c9347b0838419626032769b91bac2c02ecd86fe6769e301590ade649fad",
+      "9c3dfb1cbcac791afa86b26d849f37dbf77eb0f1feb3d7419681db04e4f50f02",
+      828
+    ],
+    "dtd/maple/seed1/new/gaussian_blur_L2": [
+      "689ec6f3cec48ce465478c69ad0cbacf7cd84b7b74747be7bbffdb632e1109b4",
+      "851ba1203a59092443e6e8208b008925b6087e7772a8c5d36d1a12bd2ca036dc",
+      828
+    ],
+    "dtd/maple/seed1/new/gaussian_blur_L3": [
+      "0a127a8bef0b2378abd251ca64d6928eb3678f10432f1205298af36cb3793892",
+      "3ae2c78dcaa03372c26f27a8f2249e0d6f2e65a394e15b29626ee882fd209d5a",
+      828
+    ],
+    "dtd/maple/seed1/new/gaussian_noise_L2": [
+      "74a4574e944f9498a9acaf05609bb09a003e24a968a578353b4e25605744533f",
+      "9cafde692b812b6305617982b21e048c2a9b8c4d6e5ccd2f2a7f3aaaa7d8dd71",
+      828
+    ],
+    "dtd/maple/seed1/new/gaussian_noise_L3": [
+      "4c5ab90ef0899dc1abc852ac87930d88a44b29685a0cba4ba3937c6f61970641",
+      "0195e74284a40aaf157f85cf993d50b05394f8f332253ca5ebaeb2543f8c0426",
+      828
+    ],
+    "dtd/maple/seed2/base/gamma_darkening_L2": [
+      "2d46e7f0b7b1b6bf187050d0cfc3b27983e3c6673955bdca5362c7c1a98b43e2",
+      "e63675ece19abb98fcb2a34ce2ba1793a14360c42c15760d5aef5ffdfd147bfd",
+      864
+    ],
+    "dtd/maple/seed2/base/gamma_darkening_L3": [
+      "4e93b6d620734816af4364763083d2f6f8acdf6d339a8b5c94e1c6d7e5430e83",
+      "98a1e2793752cbea9e3a8ae439a0128b4574815fe37a292b65d782dbf342cc64",
+      864
+    ],
+    "dtd/maple/seed2/base/gaussian_blur_L2": [
+      "554e49a6786d0cf65aea10090f802d145ed24dbecd9a26da9fc5c0989d7d56f4",
+      "fdc850924bda17caab124c0097db7c988a2d1155247f76cf259d48059bf84c83",
+      864
+    ],
+    "dtd/maple/seed2/base/gaussian_blur_L3": [
+      "69757eb5e62e12939c7e184fc9a9cff8668f282ef28d3f10a39bcfa3521d10e7",
+      "2db2bd5cc271034e66e0e4fd5d81cf9e5324192e7184d46eb5fba31f59883867",
+      864
+    ],
+    "dtd/maple/seed2/base/gaussian_noise_L2": [
+      "a6163b9d98e7429243bacf2e7ff2b75b696584eb41fae0e6b268e8672316ee60",
+      "bb227fbce1e6a4b19fcc676744412297c7725ba2fa3fff1b32c6ecd0c89ce042",
+      864
+    ],
+    "dtd/maple/seed2/base/gaussian_noise_L3": [
+      "891a7acc14dbc27f65d1ee92b24f7ff9854e81f116f30549d9eea6df85e2a6cc",
+      "6d3fbf7d7416047f2378075020d5e77ef859fe6c61fcce10347d5a58a05e999f",
+      864
+    ],
+    "dtd/maple/seed2/new/gamma_darkening_L2": [
+      "0deadb6c2f7ed994ecc30e5b4277ff35433ff6c90ff28e423ebfffdd5ed50953",
+      "7bcacb10dbb49d50ed623841dafadab6279f52968c1f099a4b227a82116d4e2a",
+      828
+    ],
+    "dtd/maple/seed2/new/gamma_darkening_L3": [
+      "5ed8ffad881a92f7b35d5e9f45c8d7a952333e1228eaa1378222eaef717f7ab8",
+      "86cbbedc00b36fe2f036b660c5c7006c6376f3f468b260e6b0c8f707fe632978",
+      828
+    ],
+    "dtd/maple/seed2/new/gaussian_blur_L2": [
+      "0c29bf2ead40421f03656f3b195282bf55e11cd5db5c158723bfaf4471c64ba6",
+      "4f9bc8af7addb1e19ea7716beb7f7c2738551b37e87b29ba3452069c39215122",
+      828
+    ],
+    "dtd/maple/seed2/new/gaussian_blur_L3": [
+      "3a41d07abda4014a1f0defebf0a7efde786219aa535fc9cd61065ec8b04ad31f",
+      "b65156425e5d39479abd8fef3e2d024302d7473e055bde4b7adf03cbbfe77a68",
+      828
+    ],
+    "dtd/maple/seed2/new/gaussian_noise_L2": [
+      "d05960c3ecdaecefbd2f1736e170057cc9692f36b4445b4585b826e55114eaa8",
+      "0a6aa3eba1427f528f13397f9c5031b98de3934a98ccbdfba3231c49931d9c43",
+      828
+    ],
+    "dtd/maple/seed2/new/gaussian_noise_L3": [
+      "29ba9ef01570658d1d7f7d584a4317721ddec81c753cc2e4221ce549317407f0",
+      "f6805b4eb5d2c8e77e04ded6b4382aa909ca1484ea3225a66c956b8151809da2",
+      828
+    ],
+    "dtd/maple/seed3/base/gamma_darkening_L2": [
+      "cf6f0c4f5be7f2447d8a30ea8baa5bc5ff7df0defff539f0529cd024ce21b0a4",
+      "170b398d19a6d507c2d6ebc6fd13be5c08dba2f2d45a39cf1d022f8ba794e22d",
+      864
+    ],
+    "dtd/maple/seed3/base/gamma_darkening_L3": [
+      "66bbf9e9a3220c61de6b33fec076e797cb1e1f468cf27ba8429540e4f519bb9d",
+      "0cecef9ff26a6d044ea3aefc127a09c6e3d2f9d6a9cb6f8f7abb368bbe4507b9",
+      864
+    ],
+    "dtd/maple/seed3/base/gaussian_blur_L2": [
+      "23ef835320203b32dab04836d8a1b2c1a819e6e33c79b8ef22b822dc07aaf805",
+      "d84858c646c9930f9b3954ebd34f103cc1477a02f1c41cbf3d89f039905a82c0",
+      864
+    ],
+    "dtd/maple/seed3/base/gaussian_blur_L3": [
+      "8d9b22aa9380f3c77dc394289bb73300eaf56ec4089be8e9d18b1a0005017909",
+      "d3c4036fd103311da92c986f6997d6489a7bc5af3a5a728e6b8b0c56c8fc9a77",
+      864
+    ],
+    "dtd/maple/seed3/base/gaussian_noise_L2": [
+      "66c0ae8db5e455a7b021e367bf924dd88b1300264909ed01b9423b0a2f235f2a",
+      "b8240166b0ef5a6a2d286a4487ea20a40e56b31d10b3687535c1288adbbe680c",
+      864
+    ],
+    "dtd/maple/seed3/base/gaussian_noise_L3": [
+      "daf970e17d68057e9b0194ee9826add734870aba31d935b87d7eacd6b3688de4",
+      "81569789c8aabcdbf510dfaad38f3a5bbcce4410206a30016f7f43960d7a6ec6",
+      864
+    ],
+    "dtd/maple/seed3/new/gamma_darkening_L2": [
+      "a712c7874cb132efca3615c1b25a26472b99ce151ac264f67501117efd996bfd",
+      "c1b9126ef51df555ff0d3f316667d6a2ce55a5c005b0feb52efb6e1867882aed",
+      828
+    ],
+    "dtd/maple/seed3/new/gamma_darkening_L3": [
+      "3b5d6b1b05695b8676b0b2f8c17f4648d3a161b21df5d7aace78ce23300db231",
+      "8ae5d79c0a4a6d7d55c97c36824566bdf7b3188016cf2f383409be9492ba25d0",
+      828
+    ],
+    "dtd/maple/seed3/new/gaussian_blur_L2": [
+      "67b258a257aba096a6c4967acd0378fabb40e0c11eb0876b96b256311ddf08f4",
+      "488f9846927b290f754468334949e4bf7ea9f2db5629a87a8d2a14e69ec91cef",
+      828
+    ],
+    "dtd/maple/seed3/new/gaussian_blur_L3": [
+      "1a19857a57f25b6158cfe861be5eb64d1fb1147305572291947f0030463d0f0f",
+      "dc026147a9c070c6fc2e56dd184a82996faec25bd857500f445a20fc6f5c0534",
+      828
+    ],
+    "dtd/maple/seed3/new/gaussian_noise_L2": [
+      "7483241dee4f1d1b67b2013c19344b6f0ee653100eb61f568733c6e5f7e6559d",
+      "f370a63106a2f7335f1020f832466d6cb3f56042392022d3566a426189f1713d",
+      828
+    ],
+    "dtd/maple/seed3/new/gaussian_noise_L3": [
+      "bd970cce7aa7f6bd5ee420ee2c8a50f3ccb1155af78763be8199112f0d6c4697",
+      "9384990f03d6ab28b34cfcb9c38c4b06c95dc897665a0e9a6ccf8a038f10e96a",
+      828
+    ],
+    "dtd/promptsrc/seed1/base/gamma_darkening_L2": [
+      "65cc82d548b27482af1d8581889c427f2c69cee77b0643ea4a49d363c4ffba37",
+      "f1e075bbd8957d85689d692e754c3ca549207e7fc51416fd6cf5da6eb7ace2c8",
+      864
+    ],
+    "dtd/promptsrc/seed1/base/gamma_darkening_L3": [
+      "5fe5471c777720a99cf777f45828eaccaa58963d372c14c0340d53df754398ee",
+      "21b635a32e76fe0736163458b76bdffad73578ff929d560904087ba7ba1e04e3",
+      864
+    ],
+    "dtd/promptsrc/seed1/base/gaussian_blur_L2": [
+      "ad555579455f9a6dd3442c239a99335bf2c15a4aebdae03e2fc6e395e724512f",
+      "939f016b04e4abd8ebdf1867933734b7c9be8fefd0bcbb53f449c26fda078df0",
+      864
+    ],
+    "dtd/promptsrc/seed1/base/gaussian_blur_L3": [
+      "8f90c1a745e5d1b68a4c1b4022f442bd5be9a4788855e1faaff3714465205969",
+      "2c877ef69b58dc660d924d398a19c52cfe10e36e27fbfcfbb6395a191d756aef",
+      864
+    ],
+    "dtd/promptsrc/seed1/base/gaussian_noise_L2": [
+      "5bceba6528ecacf2f123050c0914283ed546c6c3b8065ea5b7c7ce19c3f94dea",
+      "78199c0b042722382865a00b2b9ee743cca60e824371018f4cde21bf7bb03c07",
+      864
+    ],
+    "dtd/promptsrc/seed1/base/gaussian_noise_L3": [
+      "c7427946cedecc9e7eea93b05372bbde341c526e7a7d19cc9cea4d58b47e4437",
+      "bd76c1accae27e03206060bd7616f5d5251bbe60a5342fdd995be99a9a091e22",
+      864
+    ],
+    "dtd/promptsrc/seed1/new/gamma_darkening_L2": [
+      "1b6e111a3934d8334bcb49bc32e10cabb5da31afcfa12c6f4f7faffaf1db83c9",
+      "b8c6d855c20330d381b6b086f9e9d9d0163c2f6aa1598d6bcc38782e1553ff90",
+      828
+    ],
+    "dtd/promptsrc/seed1/new/gamma_darkening_L3": [
+      "f0c9510b0e99b10afad0e43feecaa1b51023b2ae63cdf6b6bc06b5ef03da8c79",
+      "7fae091310173cbb554f9c069ff0a3fb61883128f314a4b678add762552604b7",
+      828
+    ],
+    "dtd/promptsrc/seed1/new/gaussian_blur_L2": [
+      "be3f2fc912c621798ab9d227d3d9184289a9bfe6e2a489a04cf2282f21a057c3",
+      "291717ce8c8df01f14222d5088cbe3df728829d766067231e49312aeffb41f82",
+      828
+    ],
+    "dtd/promptsrc/seed1/new/gaussian_blur_L3": [
+      "aeb3281ab2d982a3eacb80fe9e1935787a94af471bca055a17430946aa473376",
+      "3f8f6790f351a40cbd057cfe9d8f57932f19abd51792976d7580bb01c5a2f4dd",
+      828
+    ],
+    "dtd/promptsrc/seed1/new/gaussian_noise_L2": [
+      "52632e13e29749bf7f48fc34ca302ac9c8efd7326068622f76b1f5bc4337f73c",
+      "47854ce3d911182cf7e3852f251170fb8f79843c50c6b843878403303616ae65",
+      828
+    ],
+    "dtd/promptsrc/seed1/new/gaussian_noise_L3": [
+      "71e68eebb105460c0ed43d904f8c67fef5cd20666d1a5df8274367f5fd2e5d7d",
+      "2a75ff90510ef1bfacd0115ea03e66b6e93d8ca4d7090592fafbba0a16dbe29e",
+      828
+    ],
+    "dtd/promptsrc/seed2/base/gamma_darkening_L2": [
+      "2d786dde29c7310d6a20f05bcaf4d33e39d387e17b719bcc9c27184519737002",
+      "937e4ccb1393f1bc38414147a51be4b37f06ef28d4e29ddd5723bcb42bf1904b",
+      864
+    ],
+    "dtd/promptsrc/seed2/base/gamma_darkening_L3": [
+      "df8712bb8ca1806836875ecb5c8121702eb88ea8c27292898a4c94614014e774",
+      "08d4ec1c654ed8c6d4089a370991d765e1a3834b2eec834141daa10d9e879a58",
+      864
+    ],
+    "dtd/promptsrc/seed2/base/gaussian_blur_L2": [
+      "d65721b5e96a6dc8e55a6b3d906eff50240b5323788c46fd485fd2ddc4aa92bb",
+      "f93234a4a297a07dcde66cfb4c0af8b6fbb6683b755f9e83f00bcc80055abfeb",
+      864
+    ],
+    "dtd/promptsrc/seed2/base/gaussian_blur_L3": [
+      "99b7b539fbc5ad936134f89e19203a2af7ff0d0fcea75c48307e9a27bcf99420",
+      "63e9506d91ac92de20a2ada3c659d5db01835ac1eba7f3da23f7f36d261cff9e",
+      864
+    ],
+    "dtd/promptsrc/seed2/base/gaussian_noise_L2": [
+      "d88736bebaaef90781dc53cff7da9b7fa4d44795de0627007167e0f5ea13a74f",
+      "0cfeec5c9e7f21884eba0a1046a6b24035148f39480497a7a6e94155af48e49e",
+      864
+    ],
+    "dtd/promptsrc/seed2/base/gaussian_noise_L3": [
+      "810a1a15cc56b4a47fdb7f60c19666a8f16b8eb6baff82a833e2c770ad870dd1",
+      "2ecb013d2e9b4d222212cdd4aee910cd1749ab241b985557b3e261f545543ca8",
+      864
+    ],
+    "dtd/promptsrc/seed2/new/gamma_darkening_L2": [
+      "0a95cba980582e54445e0af631b6b1772dc8f4b9f040acfcf769ffcdd7e66633",
+      "623a5ca3aeb44d26f9ef45703452d9114cc142f397744f4915e79109623d1400",
+      828
+    ],
+    "dtd/promptsrc/seed2/new/gamma_darkening_L3": [
+      "6002a60007f0296bb56aad23a4ec50c008b4a6bbf8ac7d0fd702ea897d41edc8",
+      "5a21a4b6aed2b6e0b13d3d6408aadf9da88d4af10357e8c0cd31b03f7ccb2453",
+      828
+    ],
+    "dtd/promptsrc/seed2/new/gaussian_blur_L2": [
+      "a57a5f1fe9eb8e15863e8674317faa4eea6ddff463ab4441b115e0d474678812",
+      "5641463a8b25c35fdc442136f5b5d3a7101c32ae06a5c79a3d20f6c2ffbebcbe",
+      828
+    ],
+    "dtd/promptsrc/seed2/new/gaussian_blur_L3": [
+      "1af60c6980de00d790c9ec4844e9607e6dc8cffd617c01fca9c66f1589f773fe",
+      "aad329c1166506da207dd6dd3ac7398d6f5b1972975ffd3283aeeca338745923",
+      828
+    ],
+    "dtd/promptsrc/seed2/new/gaussian_noise_L2": [
+      "4dab03ff50032d461615aaac699f605224a8f705feb5c2fed5abfd7dbf155f4c",
+      "cbeb1096a3115e0adf510beecfb2fc512ca567b07d72d688f92990d1273a5f8b",
+      828
+    ],
+    "dtd/promptsrc/seed2/new/gaussian_noise_L3": [
+      "3d94b4c6ca1f6af081ffbd894217c98f32b2ab550ec614fccb9ceaf6ce45c324",
+      "8d33da91f158ccda64719340662f2392398fd8f28f743ba626138889100b6898",
+      828
+    ],
+    "dtd/promptsrc/seed3/base/gamma_darkening_L2": [
+      "06bb965118e4e4beb69241f67f2780e105518b9b200e0c10a077d7a24d737843",
+      "29dd05010f85ecc1fb16719b46d4dc2895e8b05648c2958eb7c002f70b3313dd",
+      864
+    ],
+    "dtd/promptsrc/seed3/base/gamma_darkening_L3": [
+      "278814b23708cbb3a4a461c3fef0b193e9fdd1dc6dccaaec3a71cdc91fdbd389",
+      "f34267c1f4b39453272c72950b380c5d0f34f3d95acc514be6edcb94750a82df",
+      864
+    ],
+    "dtd/promptsrc/seed3/base/gaussian_blur_L2": [
+      "2e4260116e29ac1ed3c68015fd6ed06c0f5b3129ab17ebdb091d43bda5d11958",
+      "0fcc95a2cc1038d4770af60e18e118042824b109cc7ae1a73fba68d7ae792a6c",
+      864
+    ],
+    "dtd/promptsrc/seed3/base/gaussian_blur_L3": [
+      "3471e31ac5dd4b814ce080a5993c12e54e46d53431b6db203e0f5eb46b5d5d69",
+      "c79a8fa3d09bad024ba2a8c4780217e56b07f52126397e60da04db416e68ccb0",
+      864
+    ],
+    "dtd/promptsrc/seed3/base/gaussian_noise_L2": [
+      "aa466760c7a9695d5ce10192d54fb005dbe793989ab3dd704b982fee761c28f7",
+      "dfbd0d56b125d89768ff8872364af76a6687da7bb3a1d2f87782a6163ef19b75",
+      864
+    ],
+    "dtd/promptsrc/seed3/base/gaussian_noise_L3": [
+      "d9342ab5348238f2f383e7f85aa45313656bd02bd750cec853db59a4c6a3aca5",
+      "16197a6ebf3cd659ca6dc89d388bccc909b05b21d265566784d51888cfa16253",
+      864
+    ],
+    "dtd/promptsrc/seed3/new/gamma_darkening_L2": [
+      "450302b370481650400758206c70509e546a8278a76f5c561a00449cba8ed67b",
+      "94de23d820d4989c0cbe29e41c5284a342da9d95750f066ab7039043529ed5eb",
+      828
+    ],
+    "dtd/promptsrc/seed3/new/gamma_darkening_L3": [
+      "26c3e595f1532f7a671dd0ec45d1003ec09f3d2d9cdd3d754f88a4499942e7c1",
+      "3275c03649a0961e8049cb353c036c594ab523fa84e5b46c3b384d78ecb04a26",
+      828
+    ],
+    "dtd/promptsrc/seed3/new/gaussian_blur_L2": [
+      "16401d1a2643ed017dcaa00f407ab187dda6fb234f7c85cbf0a26d66d18f4ed3",
+      "c144fbc97a9a79065b53f30c67a59de8509df1d70f45888fe04a90e10bcfe6c5",
+      828
+    ],
+    "dtd/promptsrc/seed3/new/gaussian_blur_L3": [
+      "caeecc0c045ce9159c9606fedd823ca5158ce7f99c125e0edd070822850df757",
+      "f9f07e5877b666b48f4caae52d71d95280139f2d8e27cc9723f0f8a512fd815a",
+      828
+    ],
+    "dtd/promptsrc/seed3/new/gaussian_noise_L2": [
+      "07fc432922b39f69c88d6faecd063f6aebc6100a1289374d7cd021aa802a6761",
+      "4acc1e255c714a43085b95f50c5cc4d286a1954792dfa9a6317456fa19a9f3ad",
+      828
+    ],
+    "dtd/promptsrc/seed3/new/gaussian_noise_L3": [
+      "1f2ecc07e05a016efc41a69c51fc4358617392986255fbbf88e21003391c69ea",
+      "2844b7a7a280636efb4d3f9cc23f97a6ace369425e5a567dccc3696fa729dbc9",
+      828
+    ],
+    "dtd/tcpt/seed1/base/gamma_darkening_L2": [
+      "51fe48ea2a1492f9d0c4440cb93b6d14a9ca8e244ea7c89b8f2d5c36b2469fb2",
+      "5f59fab3db09ff1c1a3e2b8024fca53ea38cc58ff44c52708d4fac4f45db1e2c",
+      864
+    ],
+    "dtd/tcpt/seed1/base/gamma_darkening_L3": [
+      "47b8a99cfe00b08495ae866fdb7a5ea6f0448f529fd0123a15f57ef63e0dd7fc",
+      "e6792827a95dfb291c7d0b0f94f3d470b361f57457805e6c65532fc744718f92",
+      864
+    ],
+    "dtd/tcpt/seed1/base/gaussian_blur_L2": [
+      "5cd2ca979a1a4850396639cd520028bac0943efee1ffd6ae8df1a6db958d37ad",
+      "682eb96b11152cd2ba71f43efbaa4013214a48ac8975f060e9533027c964016b",
+      864
+    ],
+    "dtd/tcpt/seed1/base/gaussian_blur_L3": [
+      "9f37c6f4e40d0e242052d724f5aec1fb33ee79c537202144bc212ce2129df7aa",
+      "654b5e141b8b5e8f66e7332d2127f054036e6c246548f0fe460b4ffed3d32a9b",
+      864
+    ],
+    "dtd/tcpt/seed1/base/gaussian_noise_L2": [
+      "8847c00a8d1045cb028d9327c7a7a8002c0cb9a770f492b4aa152e1338ac8776",
+      "8c69ed9e3e10589b308d8ede3b2b05aa452720e8d04f876b7c8a8bb4d3040572",
+      864
+    ],
+    "dtd/tcpt/seed1/base/gaussian_noise_L3": [
+      "324b4f16f67379b013d774a61be352683924f92ec39a55f0a2ee492a83bd19b0",
+      "f44eda787753516f467e6f088d1202002fac479543e7fe0e0cfb698146e8c440",
+      864
+    ],
+    "dtd/tcpt/seed1/new/gamma_darkening_L2": [
+      "12aaa528541277e45a75d7974938b2dccb97f7bef0da775983c1f8c326fc32a0",
+      "ab9b928b4592ae32293723665cdf783e362d6cda387af71fd46023b286a832c9",
+      828
+    ],
+    "dtd/tcpt/seed1/new/gamma_darkening_L3": [
+      "a781c0635deac24d11d58b6d480188160aba5248e0ec3176854e6e1d19ca1a17",
+      "7193ee2a3d56ad4e2dc0aa1f87ee8e5f5d21dc2c862af932ba8ae684302c21f6",
+      828
+    ],
+    "dtd/tcpt/seed1/new/gaussian_blur_L2": [
+      "03ecce973963d33210a55799704f1833e63bdd8c4f9703d47a43b79aa86bc1e6",
+      "15ac4cd4dce1ffbca61d5d645d030e7a6642a52fb75b65b375e6ec3ed3880914",
+      828
+    ],
+    "dtd/tcpt/seed1/new/gaussian_blur_L3": [
+      "0e0c87d41f1adf8cb360636eadcda87ca64807bff244430759ad8f0c2e01329e",
+      "1fd821710cd174560ac1018c683cba22df0ff645ae855b2475a67bab8efd61bc",
+      828
+    ],
+    "dtd/tcpt/seed1/new/gaussian_noise_L2": [
+      "7813935208e943cec8a8b0a158babbd659256df5d2478ece1f44276244043e9a",
+      "56815aab4707e3ad17d07fb2a2123bb33b43d0b2956304c200a79fc8d64a38fd",
+      828
+    ],
+    "dtd/tcpt/seed1/new/gaussian_noise_L3": [
+      "f90a1a7df3da90c7c6352a67aa250690f081c89aeb7acf898b72aef167b90efb",
+      "17e0bb0df49ac365eaf0659c9b81beb8acf196d990c5a0b64a257e93c60a9f78",
+      828
+    ],
+    "dtd/tcpt/seed2/base/gamma_darkening_L2": [
+      "eb557bf87f7c383a308248201cd5f5cd53ad2914ca101ce67aaa5fd478e1e174",
+      "4301b59cc416b7dfcfc21289d99cab661b071df62efcad64937eaef66a92d448",
+      864
+    ],
+    "dtd/tcpt/seed2/base/gamma_darkening_L3": [
+      "7b4bafd7a611af30a14d35cdef90773ebd9c55b0a71d83ec97037b39811f8ec4",
+      "a58a820810f46c00d37c502861822fcdab8c9c4062a8c47bb023d94ca88d91ad",
+      864
+    ],
+    "dtd/tcpt/seed2/base/gaussian_blur_L2": [
+      "7a807bb8df9de323c423a64316fb1e7a3b3d63bdb2fc0a8126725b3fc4ae0a45",
+      "7994a358d50d090194a223529ea65a5c993f0dd4132a49cb5b76381fe16c99a6",
+      864
+    ],
+    "dtd/tcpt/seed2/base/gaussian_blur_L3": [
+      "5add712274de19f6dfcc0a29b1aa0277144779eb5ec225310ab1577ba6420fe8",
+      "d7d1abe73defd6d81ae26fae2cdbe4858e3c811210627f898491e45fea8d8a66",
+      864
+    ],
+    "dtd/tcpt/seed2/base/gaussian_noise_L2": [
+      "fe53706af3021c3e72ca3510a72c1b8d5e141d4918e65d6c5d52de8bcc374956",
+      "25e919a5a832cda27fce798e8cdf10a3dcad76ff44703f32aa6627f37ecfcaa4",
+      864
+    ],
+    "dtd/tcpt/seed2/base/gaussian_noise_L3": [
+      "7d71f61b69b1213947d5e67bb082ebc534ce9078ac38d32800d5652d1a1ab0de",
+      "231e1afc2ecc29df5a3336de715a9d220cd50750a1c07c1aaf248e956449e3b5",
+      864
+    ],
+    "dtd/tcpt/seed2/new/gamma_darkening_L2": [
+      "ee627eca38ec11bb213885b7ec78dc1c50e94cc087a5736c76cfc21c95d2506f",
+      "ad2beae4aa3869058e48a18e31987d8d2573ef6478c4b54a6c11ec2df6e45d1c",
+      828
+    ],
+    "dtd/tcpt/seed2/new/gamma_darkening_L3": [
+      "90686aa03053a0e7e4259a0424b58d4d9e1d65d5373a71bb80d8d64f1d64a9a8",
+      "a9914f92bc7b8da4b2123a562d165e429e26311e4324b708bac3b5deca03a6e0",
+      828
+    ],
+    "dtd/tcpt/seed2/new/gaussian_blur_L2": [
+      "91ccf04c175cecbf3c44861615c50188bb8123da50272ade3e5578f0f5a0792a",
+      "89e7e32619259a77c092cf4db89205ce6388cf1b70786cca81de3e3b58d7b6e7",
+      828
+    ],
+    "dtd/tcpt/seed2/new/gaussian_blur_L3": [
+      "93c9b2b1f55bccdbc894a5ae548d33001fae7605a70ecc598e1312bb314d8f11",
+      "40b562edcf3c2a2945a65b081c5be51b0458320ec547ff359492ba1f0d9a6a92",
+      828
+    ],
+    "dtd/tcpt/seed2/new/gaussian_noise_L2": [
+      "7c08645a7cbfcdc054844f6ba886b60a6877b2ced3baad69c97e2a1c386e65d7",
+      "c3ba45d3a061227b24ad87b22a8ebbcae7d76689b606184d06352b675492146e",
+      828
+    ],
+    "dtd/tcpt/seed2/new/gaussian_noise_L3": [
+      "f050a8b3fcdd9c19a1a63760b7c8edc6c06428b23a82d6f58bdcfc26e8a31c87",
+      "a63400a2281f17859419d5a82e502b4eb9fa5ef355c09d42f95b2882c67b8765",
+      828
+    ],
+    "dtd/tcpt/seed3/base/gamma_darkening_L2": [
+      "5ead0e9faf7b4e1c130ee8688a619ffb99bb86bde032733cbf438b18903119d1",
+      "686e7af95eb0f4e7e32f49ce42430e7b1659bc30ae80fe8395a645a60c2ef42e",
+      864
+    ],
+    "dtd/tcpt/seed3/base/gamma_darkening_L3": [
+      "3268f7649b1bc733d7a363064daecc6d820d13a6ef3199dd247dd4d75de7bd18",
+      "9848ddbcf81482644fc491590ce2cf0ea1cb5cb443389249bb028825a5b0e50d",
+      864
+    ],
+    "dtd/tcpt/seed3/base/gaussian_blur_L2": [
+      "6f32f926fc6f3518312a0010f1af6c4e1ae8c06eb73d42572605d68993f4b855",
+      "e95e70d2050a14c85c73166e065e5b0745ba4e6e4e93717772ac86d6e9e92df7",
+      864
+    ],
+    "dtd/tcpt/seed3/base/gaussian_blur_L3": [
+      "22167262d345618c3ad8b0a38f57f59ef69569b45655835042b8267fbd5bc2da",
+      "c68521a1726c335f9b5fb57c80c7e727e9bda64738bf2ef441e1014f536f5ab6",
+      864
+    ],
+    "dtd/tcpt/seed3/base/gaussian_noise_L2": [
+      "89487bd062fb8d16f5a893aef2ca100f79ac2568be0db9fa7a3b24b203ac6712",
+      "79393a976e4efbde81092ee5f0925a0e9956924f4a2da4e3e655924eda416413",
+      864
+    ],
+    "dtd/tcpt/seed3/base/gaussian_noise_L3": [
+      "b823030e1148cb0c5ae4a1c53f94e77a5dbcd7bfec424367f4f3cc0aabe2b153",
+      "202b0b1b6aebc120f836b051dd44a7c86e7a338321ce046fddf423f055602bdc",
+      864
+    ],
+    "dtd/tcpt/seed3/new/gamma_darkening_L2": [
+      "f9f4d1af541f07763c2d51ca01ac9b4092edc2ecd7e2bc279fc6e7f1002e60e5",
+      "29cafecdc358c9b268534643424712c218e6094d808df3bc76c7ce99bc5d64e1",
+      828
+    ],
+    "dtd/tcpt/seed3/new/gamma_darkening_L3": [
+      "aef9711e7d242eab3a3f03cd6880aa13cf3ff4aa4c0d24e80f79cab56587124f",
+      "40445d50b73d0b0c13334a894e2baaba60679fcb96ffee3b70169fbc77571e8c",
+      828
+    ],
+    "dtd/tcpt/seed3/new/gaussian_blur_L2": [
+      "b666f4a94de149a9d71e116fac913ac8ae45a66073ddf3bfdf7657084fb52b42",
+      "64fd2aff323c1aa2150c46c1636415ba72dd4b90106e5d87c0486887590ed160",
+      828
+    ],
+    "dtd/tcpt/seed3/new/gaussian_blur_L3": [
+      "0bb250837a2960e5614dacdd7123835b85a41d8c759e2fa456d1fd9febb5ec8c",
+      "ae27049f08f6b1bc008e6e05ede37488db18c945374be784ff639cc9b074ac3b",
+      828
+    ],
+    "dtd/tcpt/seed3/new/gaussian_noise_L2": [
+      "7ca38aace1d03f94982d4787fcf9f1a57a9825251057cb193e6d1aa08fd74dd8",
+      "04e94af6fd573b61f646e5cd2288de39d921396eac6e929a259ae275a73cdb32",
+      828
+    ],
+    "dtd/tcpt/seed3/new/gaussian_noise_L3": [
+      "52431b3be3e4173072be87d5c21c5aed4c0c056a59145dd70f66a2137bdf4489",
+      "8cf0bc8ae0749abbca0478db0a56f0839439260d63f86e23a0f135e1e769fa4a",
+      828
+    ],
+    "oxford_flowers/clip/seed1/base/clean_L0": [
+      "68a17682722f53eb2c80a946645276bd31bf7df34652a4521783e4f3e65eb632",
+      "d2372523f27986dbef59ceb2e39b8eb1cdb63ed2d93f59094000c1f287ef17c4",
+      1053
+    ],
+    "oxford_flowers/clip/seed1/base/gamma_darkening_L2": [
+      "e54886404ea5abd4d9bea906092779222a168ae40e144ac79814fb97db472c91",
+      "cdced015179aedcaf1832846fb2fdb732e4057e1bca616481753294a279a492d",
+      1053
+    ],
+    "oxford_flowers/clip/seed1/base/gamma_darkening_L3": [
+      "52dc0e5b7611af0856f7d9d6f4f632a6ee3228599c32f7111014086381432e63",
+      "d71d600c3a56bda35761898bc73a071dce849ece799e0984a4a7ed1e014228bf",
+      1053
+    ],
+    "oxford_flowers/clip/seed1/base/gaussian_blur_L2": [
+      "81f8d308b0f4016fd12d02114ef70f82e6bc9bed5a4adf1a87c8d2cfbc823841",
+      "713d9fe2075ce67896270f5ef5d6caecbca76e6087f5b300ad4441c861fe8f9c",
+      1053
+    ],
+    "oxford_flowers/clip/seed1/base/gaussian_blur_L3": [
+      "17c7092a6405bae11246b1d95d2bf3560091bbd32e0e2b5f280a59f9fa3cd00d",
+      "f73c0846a368c4bdbd0567d9e84ffa056fae7bb55205fb569ddc00a68e8b303d",
+      1053
+    ],
+    "oxford_flowers/clip/seed1/base/gaussian_noise_L2": [
+      "4286bea2e48c4d52aacf86985723ba0c62834f165f6c1e849f1c91f0409717f0",
+      "59a8af471d943113b0a45e457a95f6353c92ffc8097df244750816692dbfd70b",
+      1053
+    ],
+    "oxford_flowers/clip/seed1/base/gaussian_noise_L3": [
+      "23c6bfa4bb9135ab0dabdee80e64d152ebba3fe3fe3504e8ac258ed8d05d0528",
+      "10bf103817b4d998f0138f05ba8b773425e60e843045c7114d29eebbea835e7a",
+      1053
+    ],
+    "oxford_flowers/clip/seed1/new/clean_L0": [
+      "8fd9bc734d668c02de080966b1ff670ae3c607d2d485fda770da46e14ec83ea1",
+      "0259ebe3de162f5ec70b7b92b0849edd45a8e8c5a8b632343ac383bf066611f8",
+      1410
+    ],
+    "oxford_flowers/clip/seed1/new/gamma_darkening_L2": [
+      "92edc4c6c372b16f955dc00d89326336f019f8cf504d85bb5fcf926c6a370330",
+      "c03f823af0327556c9aec8cbda49e2bce15c2253806b02041bb70e0df0bd57e7",
+      1410
+    ],
+    "oxford_flowers/clip/seed1/new/gamma_darkening_L3": [
+      "16c00bcadc31b9eb7f1681a1e029e69fe288254f28fff4d430868555881e5740",
+      "4d90a85c28eb4d0f1bd41d97a195ea836c1aa41af795acc09520538b2a47598a",
+      1410
+    ],
+    "oxford_flowers/clip/seed1/new/gaussian_blur_L2": [
+      "20eb32e2eccc053b81c90080001eda3ff987e8dcb8425734c2ad9011cf7af767",
+      "3dff319bb40bbd6920aedc6a8228b314a18bc252a4178aefa2998dca6bfbb3b8",
+      1410
+    ],
+    "oxford_flowers/clip/seed1/new/gaussian_blur_L3": [
+      "1dd3a6879dffd2fadea4378dc1761b309a7a44160ab0f8db431bf120c27a1938",
+      "920a66ab1c2c6870619889a9e4c63bb86b49384bc75fabd7910abf5fc84d0f8b",
+      1410
+    ],
+    "oxford_flowers/clip/seed1/new/gaussian_noise_L2": [
+      "1e74352678d032e105e1406b16ef56d993a7a97b816bdc926cbde1344f70131b",
+      "c8e56aa728b39bc3a5583d97ad654f4032bbf40a3bed8545f1753b164f372e23",
+      1410
+    ],
+    "oxford_flowers/clip/seed1/new/gaussian_noise_L3": [
+      "ffb08a42455232aa2251a975fb742bbfb5aa771ef3fa1e64d0c76a7f96e7d0e2",
+      "118772470198e7055714b0789ca1e53b80f3b196a6fce8486f42a4458ac1d9ca",
+      1410
+    ],
+    "oxford_flowers/maple/seed1/base/gamma_darkening_L2": [
+      "acae0207865007393e60f95c8e944f6d3c590af6370a1050744f0b5fa7a4963a",
+      "63222350f7de3e85749d7df34ea7a81094aaad44beba9e54f3d44fa2eea744b7",
+      1053
+    ],
+    "oxford_flowers/maple/seed1/base/gamma_darkening_L3": [
+      "e6555f0a138f38357242492ec55f02ef42ecf3769e3a25473896578c091a1b1b",
+      "faff7be6f438d95c440c756b8913356b84c19698fd8a560e29667b9290882fa2",
+      1053
+    ],
+    "oxford_flowers/maple/seed1/base/gaussian_blur_L2": [
+      "4975866ef1a1982ac1adcc00bcc7469a8735889877057870a74d2444743a5c1f",
+      "1d7f2f9402dc2292affd2e038f21d11c8c4f5f58c4f1c6b43d0c62f9fb322b98",
+      1053
+    ],
+    "oxford_flowers/maple/seed1/base/gaussian_blur_L3": [
+      "c77feee33fe54853075ceb4de315294a0c056f3fed8473fe4a1d74c078b9fa20",
+      "ff02177f8a1ca386b9cc4414e6063e991937fbc3dd8532dea59f412e6698a746",
+      1053
+    ],
+    "oxford_flowers/maple/seed1/base/gaussian_noise_L2": [
+      "9f249307895e90bf6170de282367b59406393ed1b948837b17ba8cb42374b41e",
+      "f8a14de9ee7d257ecf6abbb258c3135f9c84b40a44d0b4ae7a692f916560712f",
+      1053
+    ],
+    "oxford_flowers/maple/seed1/base/gaussian_noise_L3": [
+      "134d6097d1a6ae2dc1a24abb336ce864f8dde51c5b1f0cb31a7304e4f99c30c2",
+      "8db9dad028078b132927d4494ddb26857d946e091318990f01afc428ea0bff80",
+      1053
+    ],
+    "oxford_flowers/maple/seed1/new/gamma_darkening_L2": [
+      "4750ee69c3e3480a35371c9e76b9c105c29289ae153e04d574ce7077d7badc17",
+      "d98d4c347b22379c0beaf69e9a0f344caf1215475b7195af2fe201fbdbb064c0",
+      1410
+    ],
+    "oxford_flowers/maple/seed1/new/gamma_darkening_L3": [
+      "3afd8b35ab63ed937c64fe4f83c66c20636d789791dc111cfff2484cbf97a923",
+      "e3832af5da6e5fc3f71f11472b014a228653971e122345f51e1a1ea0caefd4f3",
+      1410
+    ],
+    "oxford_flowers/maple/seed1/new/gaussian_blur_L2": [
+      "5c88f148b6606bf9cc907807cedd7de243f4db0eee12b7a11d196f7b4759f9b4",
+      "a4cd1e24503636842731d0157efe9280818e6cdfeeb374a2049ae7e0a02b3c27",
+      1410
+    ],
+    "oxford_flowers/maple/seed1/new/gaussian_blur_L3": [
+      "7c86ab96df1223ee12e6fbc8e3e365e304e1a9cdd2a73e0caa5f15a971cc6848",
+      "e93f28ef3267f11060d17b4fb02aaf44bfd6c7156340090402b77e6146c11a4a",
+      1410
+    ],
+    "oxford_flowers/maple/seed1/new/gaussian_noise_L2": [
+      "9ec247c7c2b6bafe597b82a06f1adab18055c264d7f160e5c016f809133b466c",
+      "f9eba8d3cdb28c6681f4ab556667d8d70fd96a92f64a0a7a3481dcff6b5cb096",
+      1410
+    ],
+    "oxford_flowers/maple/seed1/new/gaussian_noise_L3": [
+      "1e3cf6db32eba4a2eb69063641fd2fd5c2856223f4287474299d1c507cae4cce",
+      "026db4cac7979b5644420a105eff7ea135a707d0af938ddf5a0e53fdf71283f2",
+      1410
+    ],
+    "oxford_flowers/maple/seed2/base/gamma_darkening_L2": [
+      "ccdc065725f80e72cf54db7e131923454db0f28247cfa765a2d3118086d9ac0b",
+      "7c694fbaff7f0d9aeb2d40d47c485823745e70d11be7fdff4c027322b524a398",
+      1053
+    ],
+    "oxford_flowers/maple/seed2/base/gamma_darkening_L3": [
+      "b0fbaacc41d40f4fc7a325774df2dad33ce00935c7507047325b98e2a16918d1",
+      "d0f487f4acd4064113ca5108b5805539e5cfb316d96704f5d72afe8fa245b9bd",
+      1053
+    ],
+    "oxford_flowers/maple/seed2/base/gaussian_blur_L2": [
+      "fbf53febb599011eec8f0257afc19e8bcf9bc98f32e42eeb4daaa82607d91df7",
+      "cf31c0dddee109ab25caa0895be614f7eab4fcefbd403bc481831dff2539c51a",
+      1053
+    ],
+    "oxford_flowers/maple/seed2/base/gaussian_blur_L3": [
+      "9128e56b5675567d7e69c7d9f8ae4aa3393dac9b08b076452b3aca9cce062f33",
+      "5414945b61a9c7c85ee48202f1abc1b0f3c7a42b2d9fa029051c220f46ff44a8",
+      1053
+    ],
+    "oxford_flowers/maple/seed2/base/gaussian_noise_L2": [
+      "08c69d1f01ec49be134ee3c3d5c4cde553b36fade0718d424af79ee6378b564c",
+      "b2c8c377c6eb73179fbb7ca2bb3cd57eb8afab73e0d1ae0c25489faff0f01bde",
+      1053
+    ],
+    "oxford_flowers/maple/seed2/base/gaussian_noise_L3": [
+      "bdd3d5d1a498516529b969a7450ab850f27b331735bf4b7af850909b3671e395",
+      "3adcb27bacabac8a1fffe247f0965cddaa182e152fcf6450599f052182df2715",
+      1053
+    ],
+    "oxford_flowers/maple/seed2/new/gamma_darkening_L2": [
+      "65d948dacf52c8e468bf1b4864a8e867ccf901e358bc8fc4cbe094416150621c",
+      "f9ca40229fd1d695da2c89c2c49c42b2312d33a42a0576319b8a13a615d87f7e",
+      1410
+    ],
+    "oxford_flowers/maple/seed2/new/gamma_darkening_L3": [
+      "0641fb2c22f50267b5b3cff12616894e59f9358bc1c5849fbaa286ca269957f0",
+      "119cc488298cb10e9fc4403f78a80bae5e36fa4ecbc98fb3b16c57655acf3d6b",
+      1410
+    ],
+    "oxford_flowers/maple/seed2/new/gaussian_blur_L2": [
+      "15b1b067e8663e665dc7f2a11716f8003779541b344957cee9139cc8d4798c76",
+      "202330efb3de7a2365c34ea100cda169f6792728aab61ad1f1b39651f5ac02eb",
+      1410
+    ],
+    "oxford_flowers/maple/seed2/new/gaussian_blur_L3": [
+      "42eacb6c280e2c45b635112d20ab0183f1fa4aa65fff0c751b027f65b074fb47",
+      "cb603d5153f0e87dbcf7cbe2c9a8fe6e489a8091aa4e636c783e7528e0c6b64a",
+      1410
+    ],
+    "oxford_flowers/maple/seed2/new/gaussian_noise_L2": [
+      "ce8bd42d657b704df47a39ec0f1417cc9627f8329312b7d2f3d09b3af43d4717",
+      "e80b3d8dfaf1a23543a44817d6f44a0d162f3e0836cca6f59daf697f635002d3",
+      1410
+    ],
+    "oxford_flowers/maple/seed2/new/gaussian_noise_L3": [
+      "6215dd56eeed6aa3a6e3dfe78312361922cecd6f3357b6adbd4a6ff14623169a",
+      "cd6a3578c897fe11a0cc1ef8fa2c81cb7144d8d7df7576d674517c00ed114807",
+      1410
+    ],
+    "oxford_flowers/maple/seed3/base/gamma_darkening_L2": [
+      "8ee6e5d479950011d2f8ef7f61d90df4355c3fc4313024b3dccb55c184605932",
+      "9fb7983f3f9a7f5c8047548216702a01d5db5397fd578c1adb930d6af3ce37a8",
+      1053
+    ],
+    "oxford_flowers/maple/seed3/base/gamma_darkening_L3": [
+      "a921ba4af60dbcbf7f4eadabc72fbed7f5c0fc879320d899c566a8f9d6174c59",
+      "687d55c0403bffc583eff0677d68fcc4263269bcdaeb54f1092b86ff2cf7bb5c",
+      1053
+    ],
+    "oxford_flowers/maple/seed3/base/gaussian_blur_L2": [
+      "bad42c8bda9e8352209c3692e769f4cd1dc014498b2c25b4090de1e0c9db0e37",
+      "5e3a4f0c5fdd098402501d9844377729248a528e6eb937d2043f9ca402837357",
+      1053
+    ],
+    "oxford_flowers/maple/seed3/base/gaussian_blur_L3": [
+      "2112189d9f0cf88aa00aefa8be152595797881f92958875ea0a7b538cff73a8c",
+      "e0fbe2794cd5acb0df182d74d289b56fb7f42243e6c220d886aa762dabfd3e90",
+      1053
+    ],
+    "oxford_flowers/maple/seed3/base/gaussian_noise_L2": [
+      "010f07a30b0d65f193398da02c687bad31af56cdf2a22f76d5c2761219fe48db",
+      "a3c08ada99731a2f1d467f519937a9a829b9458e8f05d6e567a3b52f460bab51",
+      1053
+    ],
+    "oxford_flowers/maple/seed3/base/gaussian_noise_L3": [
+      "c6c39b8c84c8872979895dd7cfecc0ca6d228479831ac200a18d1d3eb807dc3c",
+      "2c07e459f5761f16d82dfd15a0eb26f7b487f170d5f1db0aed007c1520409492",
+      1053
+    ],
+    "oxford_flowers/maple/seed3/new/gamma_darkening_L2": [
+      "b37a295c1fd9ee026dc04d785822b7928636f1ec505eb7a5d72248cbe89c1b34",
+      "1a5b0ffd9616ece5f668c0384ebab82c7a6a8c09df908debc7580499874c1817",
+      1410
+    ],
+    "oxford_flowers/maple/seed3/new/gamma_darkening_L3": [
+      "a2c2458b1a457ab7ec3169adfb05e352391865905f859506060075a6f121c86d",
+      "34126b951e90e9f96b1e30d5826619f424bfecf8e6067c728353d8937ee9d171",
+      1410
+    ],
+    "oxford_flowers/maple/seed3/new/gaussian_blur_L2": [
+      "dab17c71526d962050fe3fa49771d8b403d79b631b7cf284d33fe2cb3c515afe",
+      "85fd79b810254035f9b166461d1a2d642ac18b23f6f18d41901d5f4d145715c5",
+      1410
+    ],
+    "oxford_flowers/maple/seed3/new/gaussian_blur_L3": [
+      "dc599c69657ddbed7c472900f49ea93b4ba774ed7f32365c3d073e6181da81f9",
+      "4e5b7f9e460aa14dc49905c405f0838156d1db5617ddd39f7e72cb51b4effb63",
+      1410
+    ],
+    "oxford_flowers/maple/seed3/new/gaussian_noise_L2": [
+      "7881cf5c8dde2ba9014c051a4984a99c1d14c48c33fc8b9276b57d0fe0def72c",
+      "c7df9555d14cb7b6909744dece3cc5765c0d22fe5ea8785cc37773d78485fd0d",
+      1410
+    ],
+    "oxford_flowers/maple/seed3/new/gaussian_noise_L3": [
+      "38cd882a3dad2b34ce3e0dffbaa0ea6707d100d46a3258ad581a82fc60dbeb92",
+      "2283dc88f0158953e0b3c0ec254a9423b10a366860e627dcb02f6cd3c87acd89",
+      1410
+    ],
+    "oxford_flowers/promptsrc/seed1/base/gamma_darkening_L2": [
+      "6ac4817a03ca9849335c552e75ea6f3389c0227d021c8a5a7cf0bb4922e52eba",
+      "b622e5764c9285fe2b2c241f0b000cc1d708407f370cfce43cc5397d6aeab03f",
+      1053
+    ],
+    "oxford_flowers/promptsrc/seed1/base/gamma_darkening_L3": [
+      "66ca8bcc0c60136066eb9ce51c571c64efc9ea68588bd482b93dee0dfa94592e",
+      "8e52a387573dd9c9a65a4aeae173634fd21e9a644fe69042d4c8f0a2fa58fc04",
+      1053
+    ],
+    "oxford_flowers/promptsrc/seed1/base/gaussian_blur_L2": [
+      "25069c2070765613120d796839dfb4171d702523d2b4ab0fb29c8d3f66264598",
+      "67a92994fe8b4244ab985061c35d6e31e71fc1ee0252ecb7e9572401be972437",
+      1053
+    ],
+    "oxford_flowers/promptsrc/seed1/base/gaussian_blur_L3": [
+      "ea46486150c84181aeb9522d64d5e033559299ba8f34e0174cc9140ce75757f4",
+      "af34ebf7c49edf7c1246ad4b2f7894cb6f8faee1666462ed5de201eb071283c8",
+      1053
+    ],
+    "oxford_flowers/promptsrc/seed1/base/gaussian_noise_L2": [
+      "a3a4d112da3f8b6f1724d45145de8a3f96c090d8d8d5c698cf2d7c000280593c",
+      "8069b457888e97efd74e2afb7610ffd822fd2739701ddd27a547d3c6583aea1e",
+      1053
+    ],
+    "oxford_flowers/promptsrc/seed1/base/gaussian_noise_L3": [
+      "51fb43a8faba56231d77c2fc4fd2a4f70e841f34151595f56249805cae22679b",
+      "dc7b259f8b31935fcb93df10bfe1fa7560901fa74845db7c7ebca3c049e65fca",
+      1053
+    ],
+    "oxford_flowers/promptsrc/seed1/new/gamma_darkening_L2": [
+      "3ee09c90bbd9bd4723ccfd1d44b94602bbb44e3439553bfc29f84cb9352eab16",
+      "2ab9d7ef6fc387e9871a5740565dba9b3e422646a8cfe8692b5dfb254fddd8c1",
+      1410
+    ],
+    "oxford_flowers/promptsrc/seed1/new/gamma_darkening_L3": [
+      "e60e4d2011061d515f0414008116b1ab361ffa562bb18c1dc393d7613885616c",
+      "66a9fffbee3951d134b1c4cfba6de810ea6d46d9bdd8aa91be5d5a9a17ec7b08",
+      1410
+    ],
+    "oxford_flowers/promptsrc/seed1/new/gaussian_blur_L2": [
+      "ff717db2488c8ba015f50ecd3912299e8785a55f83aca629f13db4a58d70908e",
+      "378047cf374c34fea31860e450224df119c1b7501355d4d429cc4013c60291c1",
+      1410
+    ],
+    "oxford_flowers/promptsrc/seed1/new/gaussian_blur_L3": [
+      "36244a61090fc56188f1f91087922227f133234551eb32701c50181cce1caf96",
+      "ac1a9e2a94f8144fdac5ec46e25e24e53ebd3b777178c8ea8a732c7c23d30bdb",
+      1410
+    ],
+    "oxford_flowers/promptsrc/seed1/new/gaussian_noise_L2": [
+      "6a76d3261c67050c413f624f20755b9e03ef9291cee3ba40e7dedc8defee7b9d",
+      "177495a5d6c6df94bd5d522f581a9a8faea6e94535f13b1fcab49668b9c1bd82",
+      1410
+    ],
+    "oxford_flowers/promptsrc/seed1/new/gaussian_noise_L3": [
+      "8aa54dee567a4af0f4e9f11761de83ec871805d93ccb0605a561456e3247db61",
+      "fbab2170ba71cdd34b5f90324a52717a5ae5ae0407ef45a7bfea5ccf0408d444",
+      1410
+    ],
+    "oxford_flowers/promptsrc/seed2/base/gamma_darkening_L2": [
+      "e715e67ea4a9055f94d3859ceacece0715a7f15083e4ae0510cdbb190045a3cd",
+      "82ef9a7661dd31596c281a96da37116ce13438b476eab217152e0e664ecbe274",
+      1053
+    ],
+    "oxford_flowers/promptsrc/seed2/base/gamma_darkening_L3": [
+      "36bf63fd469f5268e0c3a99cd22a24aaf10a39af8f266d0564505e28cd772903",
+      "18e2185dd4f35f2aba12d6e8fa0e61fc29859824546d1305313c2bb21001446c",
+      1053
+    ],
+    "oxford_flowers/promptsrc/seed2/base/gaussian_blur_L2": [
+      "a568500603ad582ab071501e087e738d6096325fa4bb48a28ededcd4474b640c",
+      "ce6f6f3195ff48b17c0abaf1505d3ff75dd449cf5ac04f0e1c24086a9925e89d",
+      1053
+    ],
+    "oxford_flowers/promptsrc/seed2/base/gaussian_blur_L3": [
+      "125607356263f7c7d545546d644de2ac53b39ef86f7fc1ae864cc6354aa8d0c7",
+      "d5d337d75aee5639bd89d1fd1b019250eb4f0dc9405e3814c3d0bee1c729f038",
+      1053
+    ],
+    "oxford_flowers/promptsrc/seed2/base/gaussian_noise_L2": [
+      "d5f8dbb7b3593612bbbdc1f912f6fe61cfd9df93305705969d61f0941df6f71e",
+      "17600f778e10bc10009b7fbc07f2f29509c677071fdccb9de38a3271ecf42b0e",
+      1053
+    ],
+    "oxford_flowers/promptsrc/seed2/base/gaussian_noise_L3": [
+      "7035afeddec9c64c5420994fe759b858c549aa17b33c3c2e965c918b030ee776",
+      "85c8ba751d6699f11677083bea45f8d1d943ae72386d486921616673cef8d0a6",
+      1053
+    ],
+    "oxford_flowers/promptsrc/seed2/new/gamma_darkening_L2": [
+      "40041b59a8b152f4cbb1f58199d8cf889f1712ffaa1b54e87b3335489a000ab6",
+      "6318fc0daa58da21fa68a53daeedc1d6783a049daf8e223eb3abf18801bbca4e",
+      1410
+    ],
+    "oxford_flowers/promptsrc/seed2/new/gamma_darkening_L3": [
+      "2dfe86479b5788eed25ad5e57be4b38c22e3c266ff2479a1e670e508b304a68b",
+      "f28ae3b257753a8e44aa28adcab0744fbe7177668aee1ddaae6a9362ca37d56d",
+      1410
+    ],
+    "oxford_flowers/promptsrc/seed2/new/gaussian_blur_L2": [
+      "3837f147644103405054c0958b68e736626ee5d627d90424d77d14a3eda884bf",
+      "5761606bcda20326287efbd6a2a744ac07c533368e0d7ec67eebd7b0c91b8662",
+      1410
+    ],
+    "oxford_flowers/promptsrc/seed2/new/gaussian_blur_L3": [
+      "22161465b9909c2066ff46203b00abef2a0b567f1be8230b98ff354ff329d623",
+      "2a0ab2bbacd78c415b9bead4164139b2196e59d703d49a5d9e58395af7274b50",
+      1410
+    ],
+    "oxford_flowers/promptsrc/seed2/new/gaussian_noise_L2": [
+      "29b58574ad5cb5507485777a96f481b40ac67bb34f583a76292afaaf1a0e06e4",
+      "5a693ebe9841ed8607832109d9d85711aaaa1abe7063dfcdae1fda12ae39175d",
+      1410
+    ],
+    "oxford_flowers/promptsrc/seed2/new/gaussian_noise_L3": [
+      "a5c1f0ce984b1d0cb0c097cdea7f3b2526c3535068ad9348c01e206e948111fc",
+      "6ee4e5d1d93350f6bce3c78c1cdc67143c6abbb4ad91884d16df131e3dc5fad3",
+      1410
+    ],
+    "oxford_flowers/promptsrc/seed3/base/gamma_darkening_L2": [
+      "ba60a78b0fcb8e373475db50c38bcf0b799d4a960c6c30f7c87b2f84b02dbe4a",
+      "4be778ef9d5d5ecf6b6a4567b45ca62b5581dde3874f5c3d72c0f14a90b10ab7",
+      1053
+    ],
+    "oxford_flowers/promptsrc/seed3/base/gamma_darkening_L3": [
+      "e27e2b4845c6a792cb9613683f506fd39adb6aa04cff5436be13cb27dfa48714",
+      "6bb475cfd93a453bd89f8719712cccf91380afdc3ce0fc5e8a6d8c64c62213fa",
+      1053
+    ],
+    "oxford_flowers/promptsrc/seed3/base/gaussian_blur_L2": [
+      "a0541f0a9791549df8703148fd6fdead9c11082fe1a07034a7bde7d0adc9fe07",
+      "44c9478e0db0389d69c3798742f1830e2e5183542d86d30e67fafb4e105b5b88",
+      1053
+    ],
+    "oxford_flowers/promptsrc/seed3/base/gaussian_blur_L3": [
+      "7541dffc5764c15c98565cd52c614cca5ad0fe4997be345b56f44a598822f1bb",
+      "72e686ab76a2ad06ce8991bd0a00d0908bc585954f4ef2da765673cce7dce8da",
+      1053
+    ],
+    "oxford_flowers/promptsrc/seed3/base/gaussian_noise_L2": [
+      "ea8d64edce8d497b30e64981728bc46c3c5bf767974cc4776dd15cba108e5ebc",
+      "8c6167161d12b7bc780d6a37bd462a6a2c809b871e1912b60a36cbf984bb8599",
+      1053
+    ],
+    "oxford_flowers/promptsrc/seed3/base/gaussian_noise_L3": [
+      "369372469f00faf5c8b8b8ec20db45ee1c5eff0e31bd74b9fec1d79ec3e83328",
+      "3f71e4e1349d5be1089d4d7712d54759079f7577acc24c1dc67673762e4d3fd9",
+      1053
+    ],
+    "oxford_flowers/promptsrc/seed3/new/gamma_darkening_L2": [
+      "c7eda292b5bd3a8326901cfe5db07f98cab7ba336b8c4e8cc963f58baedd57f4",
+      "d87114a30c5ffb5a19f2a94b2f75c8c25e2f86dd993948660523fb05aee52891",
+      1410
+    ],
+    "oxford_flowers/promptsrc/seed3/new/gamma_darkening_L3": [
+      "d01c432056e846a53804c3979b4132a17999f3b8adfb083285f374f76f878d77",
+      "1137ba34e445e847e0f0cf1b85357f6bff7dacee83bca769586ab51d561f6691",
+      1410
+    ],
+    "oxford_flowers/promptsrc/seed3/new/gaussian_blur_L2": [
+      "a0a49f38eefcc4acdf923dcd78bce97a37e22bfd5b4164bcb40dadae8d4af7af",
+      "3a3ac75ff54f774be26e38343e8b3e383dc23f4490d64ebf92669bec3cc8fcaa",
+      1410
+    ],
+    "oxford_flowers/promptsrc/seed3/new/gaussian_blur_L3": [
+      "f9ed9a9613a9766779063070c95c689d1dcb64e2f6e428dcc8ccfd55c7d2180d",
+      "f16c8d50ede66200a0d154d8873f4ec74f8d70cdac3402d40efd74939cf4adba",
+      1410
+    ],
+    "oxford_flowers/promptsrc/seed3/new/gaussian_noise_L2": [
+      "6271d4d84980a0089cbfea5d6b404a7acb2b620a4f0414e2e18458676f0daac1",
+      "f73a923fd3ff34ba64fc41db5a9a26eb096459b71b37efaba9aabdd5760b9189",
+      1410
+    ],
+    "oxford_flowers/promptsrc/seed3/new/gaussian_noise_L3": [
+      "0a10a891494de228fb25c9ca16b7715f24c0ad0e3be1454bdded0c50bba834d2",
+      "cfc9d0945612ffd9bc2fd569cc9aa20bdb58c8d53224fd691758ca082ab26a32",
+      1410
+    ],
+    "oxford_flowers/tcpt/seed1/base/gamma_darkening_L2": [
+      "c265b983f351ba5dddf3c0037614a395a4519d8cd4889c3b46bb7da17ef083a1",
+      "91c71b75cadc9c5db4d0d4bec3f5c6f8e449799e8aff29eb38dec70e2bc25bd0",
+      1053
+    ],
+    "oxford_flowers/tcpt/seed1/base/gamma_darkening_L3": [
+      "04ce62f598b626e1ceff9794aaabd7e6233e317e184dc395aecb08af4ea3c3ac",
+      "b315e49503ae108f55d948f20eb74b1e9fa1f80f9b89e12687a4d4c787028e8f",
+      1053
+    ],
+    "oxford_flowers/tcpt/seed1/base/gaussian_blur_L2": [
+      "a8ae6e5ab871472ede703ba41a4b5324917d7d4902d4ed8445710a9a710cc6cf",
+      "528e99972e56d2a0875258afc88c411560d53acc9f698dd08db52b58a9dd0acc",
+      1053
+    ],
+    "oxford_flowers/tcpt/seed1/base/gaussian_blur_L3": [
+      "13ba2f24fc150680c3c06aad91170aaeaa9dc6ad0b48145eab0e7475de75e081",
+      "f1f1efd17cf3c876c4d68aefc67f537223f7e6b5d48e7895b8272318c0e5a563",
+      1053
+    ],
+    "oxford_flowers/tcpt/seed1/base/gaussian_noise_L2": [
+      "1d46b8240b84c7e9e37d25c95af6fcc51122a93ca25d067b968ee5ea63367a30",
+      "93bab2f41a9cdbec35f9a657ca31d65420fb34a43becaf70cc1b57f46912a859",
+      1053
+    ],
+    "oxford_flowers/tcpt/seed1/base/gaussian_noise_L3": [
+      "26e74ba8f48f85abd6194dce91bd0179b6948319a99cd5415cac967783f75f9a",
+      "d54ceceacb7ba24c7df6dffde680de6c16e38a5be84a191b0ef9af54f486feaf",
+      1053
+    ],
+    "oxford_flowers/tcpt/seed1/new/gamma_darkening_L2": [
+      "63d64a7c00853c274e2e255d726dd96ffb1d70f59791b4a7faa89cb1980c9538",
+      "5013b6f9ed6d3f1519ee43b163ed434568e2b230339e324d62a0dbfc593b3940",
+      1410
+    ],
+    "oxford_flowers/tcpt/seed1/new/gamma_darkening_L3": [
+      "da09416d87f7a969009f0015da93441cfc72ddac37a93966e83d873a24728f48",
+      "d30aa565c2d472147062c972dfc7c62da700e3b14ffa1a5026089ed6c9222da9",
+      1410
+    ],
+    "oxford_flowers/tcpt/seed1/new/gaussian_blur_L2": [
+      "a24301b83ffc308c922fdfdb8dc9a1fc93037cd86decee3465fa2e37b9ff24c3",
+      "b25a6d86fc0db80b4b6acb308d883ea466e8325f61f179a4db08d10ee44ba564",
+      1410
+    ],
+    "oxford_flowers/tcpt/seed1/new/gaussian_blur_L3": [
+      "82f09918c5c6421495cbaae19296d26b6e052439613842e297af779a6d179cbf",
+      "0a797178260455229f2e2b0ec805019f66d74226a6ab587c75a74ced2ef3a591",
+      1410
+    ],
+    "oxford_flowers/tcpt/seed1/new/gaussian_noise_L2": [
+      "fd347ca6008daf1a1b3cbecf01bda03e1b5962947db4b74978da7446bd64bb99",
+      "ab23d1881f22e24384f66f3c3497add5178d3679c4014ee6e5c450b2d44e7dab",
+      1410
+    ],
+    "oxford_flowers/tcpt/seed1/new/gaussian_noise_L3": [
+      "823d83f819dcd324ae10f0860bf68dc1e903480df1d9e364821334cbc6242950",
+      "278c3fc0da29928bdf6edcb850a24b0f3d94ce9d168e5aaaf688ade2d85d5586",
+      1410
+    ],
+    "oxford_flowers/tcpt/seed2/base/gamma_darkening_L2": [
+      "2df93f1a40d6a0839b12c36ab8d1e51b301c0f15d3c479bca4e0c40047dc6ef2",
+      "16a55a5f84cb7efae409073b48d8c3d86e5a77813c6cf99607205ae6037eb466",
+      1053
+    ],
+    "oxford_flowers/tcpt/seed2/base/gamma_darkening_L3": [
+      "2610438f97ffed6a6bbf6568f08622dc7f75d34bb02ba5b523d341a25e3bf510",
+      "9d2e569b03cdf746a8cbeabd17dd58e579e8069f9afbc101b6cdc06ba914e5e6",
+      1053
+    ],
+    "oxford_flowers/tcpt/seed2/base/gaussian_blur_L2": [
+      "38b7bde3190ff808bd776d5c32e1f200c762e8121265075420ec5d088293aaa0",
+      "fd2962a64508f020c787368092071683b2f9b6e03a15ccf1bb09f55dc2195b4f",
+      1053
+    ],
+    "oxford_flowers/tcpt/seed2/base/gaussian_blur_L3": [
+      "c600d2d00ccebbd945f721b6853d634d0352e55eebe3b8d7d00cc88d6bc82812",
+      "9044df10252b03f0e48945d54a744f018dd4486242218c023544d7dfd890c952",
+      1053
+    ],
+    "oxford_flowers/tcpt/seed2/base/gaussian_noise_L2": [
+      "15edc1227cdcb1ff531cd77a259fe1703eb0cc6c50845bcdebf7205f3c00cc74",
+      "06d6dd2f0dfe528836fbcd5aa115295bab5cd0fb52a94b9853ec26e2f649145d",
+      1053
+    ],
+    "oxford_flowers/tcpt/seed2/base/gaussian_noise_L3": [
+      "6a25287c268c1b69f5f72633ddbcabe8b4cf14c4ae70b37be280ce3656a503f3",
+      "5e3a64c26b054f4f2ba553aa599589d123d34511bb798248b339aac89aaabbd6",
+      1053
+    ],
+    "oxford_flowers/tcpt/seed2/new/gamma_darkening_L2": [
+      "f3441f53dd71778e235227367dab6b587bf6a860d07e55d1b9a8ae493cabdcd6",
+      "9f400f63546fb4397afd09baea119841d2fdc4ec8fa2a9772ed53dba418a14fe",
+      1410
+    ],
+    "oxford_flowers/tcpt/seed2/new/gamma_darkening_L3": [
+      "c734921e244122f706e1fd4ed29ec859dba3bb97806c4cc05251ce8ad6331a2e",
+      "e335a6635f285892c8755cd027dba43e3d4b26298fe5d57306ac8395dc8728a3",
+      1410
+    ],
+    "oxford_flowers/tcpt/seed2/new/gaussian_blur_L2": [
+      "b569780dacde3b3857b2c7bbbda90d04a1c4063628c717433b95cdab6c39bea9",
+      "3a38735c99d473159c5da2f1952f70a2efa354cfa1af2ffbee118162d0163487",
+      1410
+    ],
+    "oxford_flowers/tcpt/seed2/new/gaussian_blur_L3": [
+      "bf600641e7d0e71dd378d7dcac5498adcf0657482e71ef7c6f20054ae7c7399f",
+      "8abd9e16794b5b2d03860267d8524bad9a2c6a0e32a3e585243aabccae47ecb4",
+      1410
+    ],
+    "oxford_flowers/tcpt/seed2/new/gaussian_noise_L2": [
+      "f594a9b2806c818cbf257dd0cf8701150398f988c94dde461d1a92fe8ecf5a7c",
+      "3ea11ce5731c0dc10a53c2e1786d181e1a31a9cd58369bfdfc5f81d4b009d3d0",
+      1410
+    ],
+    "oxford_flowers/tcpt/seed2/new/gaussian_noise_L3": [
+      "d0ed0de8e6528a828347c4f0e5eed49241190361c18dc0960e2709a7e9067c2a",
+      "7991364ce59753ce3d09e000b8fa3401cf08b73a63f6bd7b919e49279c823581",
+      1410
+    ],
+    "oxford_flowers/tcpt/seed3/base/gamma_darkening_L2": [
+      "e5e2dec74d881b11c33c5a975c5ff3930d08182540317f58a409a94b4af5303d",
+      "1ce10a54a508e07158adf4ab71363de0366d1da3b621d25921efeac8bd3fbb85",
+      1053
+    ],
+    "oxford_flowers/tcpt/seed3/base/gamma_darkening_L3": [
+      "b0aeb8ce146322280fc77f137f320364c4a56a8a11da49c3ee6ef40f4b96e36b",
+      "203f2fbee49bfa4fa3d2fce4429462ff282fbe81ee7eeecfa0588ff1fcf58486",
+      1053
+    ],
+    "oxford_flowers/tcpt/seed3/base/gaussian_blur_L2": [
+      "8d70b6495c9e617944f69906bc38a1d78f09c5cbb114502c878fb2dd9b097dc4",
+      "bb15f1771f1bdce816c9f76021c80a5a1f2a072f692901dfe64bd8dcee29a806",
+      1053
+    ],
+    "oxford_flowers/tcpt/seed3/base/gaussian_blur_L3": [
+      "a0c203108061c93b72bf2ce98d427900fe0e760c61fa2e104a8dfd7cb7658036",
+      "6980e3634037009860e358a8169c8ad021224cc3d7373ed204b62398be66495e",
+      1053
+    ],
+    "oxford_flowers/tcpt/seed3/base/gaussian_noise_L2": [
+      "6c34a2de3d18609e6ca159e9f5d93e8c354d4167e5648d6d413ded65ba06b9bc",
+      "a043b4387d6e3c0ced446fc57d7354509b70639b0c6152e324d9127430fc2584",
+      1053
+    ],
+    "oxford_flowers/tcpt/seed3/base/gaussian_noise_L3": [
+      "a7fbcf74e709347d49d1ed2c2cd265e06e9d86d5c2d9a8aefd41e8839165a601",
+      "cc02129b6898da4a9f717992752fd25a50c5906a01aff225d5dcb983c6419534",
+      1053
+    ],
+    "oxford_flowers/tcpt/seed3/new/gamma_darkening_L2": [
+      "566520fbb12b057b40b645fc26d6ac3c0bac5be57b1bf9efe31611cc7c2e78d9",
+      "a10c3d57d586a9ad4a23600768eb7002b5e2f320ee848d918dfe15bab62dbe5b",
+      1410
+    ],
+    "oxford_flowers/tcpt/seed3/new/gamma_darkening_L3": [
+      "32755567c929b212e1a2f4d80b64a83f0c00ae91d3339e4072fee0e063c16767",
+      "545b907709f25ff8a3c0bf653dc41b2c77349db21e1b02b3d92cae1c88d9c868",
+      1410
+    ],
+    "oxford_flowers/tcpt/seed3/new/gaussian_blur_L2": [
+      "21e42a8c2026686809e5182912b29bdb0edf074b427d7d3a019e0ee7a7eecdf4",
+      "6d1c34a849d8362bd853d26daa49e8d90354f9a976252f6de181258d78ed1a1e",
+      1410
+    ],
+    "oxford_flowers/tcpt/seed3/new/gaussian_blur_L3": [
+      "fff9e02f4cd016cea6bdca899393637c7dc5f9cbd1dbce47ed47735c05c7a322",
+      "e85885297fb168237ccf6404dcd8f58de2ef63bb2fc974151a8749383d6d8997",
+      1410
+    ],
+    "oxford_flowers/tcpt/seed3/new/gaussian_noise_L2": [
+      "9886e312c9e170dd2c2d9b37c673c0238551f523bb376a49e900fdd000fa3754",
+      "550e4f05cc4c82e2bf75ee0ad98a0fbe113b6e57cf13481dc5b097861f608a10",
+      1410
+    ],
+    "oxford_flowers/tcpt/seed3/new/gaussian_noise_L3": [
+      "f616a9763d6d629319786a6d095434a54973a4116d2a58618746074d5666c633",
+      "0b5c643d24e159fc92db03a3ef5bd10dabc4d8c1e758a72626ba06958f3db850",
+      1410
+    ]
+  }
+}
