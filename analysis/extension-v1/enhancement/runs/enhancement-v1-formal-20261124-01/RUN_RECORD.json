@@ -1,0 +1,68 @@
+{
+  "commit": "504eeeeae1a9d357eabf4b726c0d459b182189df",
+  "scope": "full_enhanced_only",
+  "batch_size": 100,
+  "expected_exports": 240,
+  "reference_manifest_sha256": "1fd2de7eb05b5b78293177441680730c53cdad1be13069a5de959b8959f9f03c",
+  "formal_inputs_sha256": "6ee5082231cd8f92adf3ef5435c357a0256bee9a37198ca1fc9a9eac7686b63f",
+  "protocol_sha256": "3d869d46ab0b75a6a1e5535227685edd4a1c8e9cc18912428363c71edadca8fe",
+  "frozen_code_commit": "23261793e4cfcab95ab82d4c23687c255c7d3c5a",
+  "stage3_record_commit": "750428396c581f34768bb0465020ce4fb5066c1d",
+  "runtime_fingerprint": {
+    "device": "cuda:0",
+    "gpu_name": "NVIDIA GeForce RTX 4090 D",
+    "drivers": [
+      [
+        "0",
+        " NVIDIA GeForce RTX 4090 D",
+        " 595.71.05"
+      ]
+    ],
+    "cuda_runtime": "12.1",
+    "cudnn": 90100,
+    "python": "3.10.22",
+    "dependencies": {
+      "torch": "2.4.1",
+      "torchvision": "0.19.1",
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "Pillow": "10.4.0",
+      "ftfy": "6.1.1",
+      "opencv-python-headless": "4.11.0.86",
+      "PyYAML": "6.0.3",
+      "regex": "2026.9.29",
+      "tabulate": "0.10.0",
+      "tqdm": "4.70.1",
+      "wilds": "1.2.2",
+      "tensorboard": "2.18.0",
+      "gdown": "6.5.1",
+      "future": "1.0.0"
+    },
+    "runtime_imports": {
+      "cv2": "4.11.0",
+      "scipy": "1.13.1",
+      "torchvision": "0.19.1+cu121"
+    }
+  },
+  "started_at_utc": "2026-11-24T12:16:52.288769+00:00",
+  "passed": true,
+  "exports": 240,
+  "prediction_rows": 249300,
+  "unique_enhanced_inputs": 24930,
+  "finished_at_utc": "2026-11-24T13:09:44.778866+00:00",
+  "manifest_sha256": "a75432b3f57615a0e2faad6c1ae02a9bc1d33b450a875e942240cacf92a083fb",
+  "verified_files": 1205,
+  "records": 249300,
+  "max_metric_discrepancy": 1.3855583347321954e-13,
+  "model_group_initialization_seconds": 134.02634231653064,
+  "quality_records": 24930,
+  "locally_recomputed_quality_cases": 24,
+  "local_platform_quality_pixel_differences": [],
+  "max_quality_sample_discrepancy": 7.93809462606987e-15,
+  "run_id": "enhancement-v1-formal-20261124-01",
+  "quality_manifest_sha256": "f26568edbf1b95b333113f95e0d62d29c62f3cd6a041ae7f79c65c3ca434a1db",
+  "archive_bytes": 66830729,
+  "archive_sha256": "66588d4d9f8729255f0a45595531df9a5a34c1d7af9b750756022559197e516e",
+  "transfer_parts": 3,
+  "backup_relative_path": "env/stage4-backups/enhancement-v1-formal-20261124-01/enhancement-v1-formal-20261124-01.tar.gz"
+}

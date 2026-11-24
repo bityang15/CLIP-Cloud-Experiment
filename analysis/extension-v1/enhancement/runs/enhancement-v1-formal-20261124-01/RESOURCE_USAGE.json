@@ -1,0 +1,24 @@
+{
+  "formal_attempts": [
+    {
+      "log": "enhancement-v1-formal-20261124-01.attempt-01.exit",
+      "exit": 0,
+      "seconds": 3191
+    }
+  ],
+  "formal_wall_seconds": 3191,
+  "cpu_quality_wall_seconds": 758,
+  "peak_torch_allocated_gib": 0.9702939987182617,
+  "peak_torch_reserved_gib": 1.52734375,
+  "peak_initialization_allocated_gib": 0.8243265151977539,
+  "sampled_board_peak_mib": 1998,
+  "gpu_sample_count": 305,
+  "loop_seconds": 2866.2827309295535,
+  "export_wall_seconds": 2994.6904909685254,
+  "prediction_bytes": 19712124,
+  "run_id": "enhancement-v1-formal-20261124-01",
+  "runtime_commit": "504eeeeae1a9d357eabf4b726c0d459b182189df",
+  "model_group_initialization_seconds": 134.02634231653064,
+  "expanded_run_and_quality_bytes": 172658834,
+  "archive_bytes": 66830729
+}
