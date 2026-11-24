@@ -34,6 +34,7 @@ mkdir -p "$TRANSFER"
 首次运行使用新 `RUN_ID` 和新日志文件。正式入口执行一次完整前置检查，再通过历史 `restored_model` 和 `ExperimentMixin.test` 生成 Enhanced logits。旧推理和退化源码仍由历史目录提供。
 
 ```bash
+test ! -e "$TRANSFER/$RUN_ID.attempt-01.log"
 "$PYTHON" -B "$DIR/formal.py" run --commit "$COMMIT" --history "$HISTORY" \
   --reference "$REFERENCE" --device cuda:0 --run-id "$RUN_ID" \
   2>&1 | tee "$TRANSFER/$RUN_ID.attempt-01.log"
